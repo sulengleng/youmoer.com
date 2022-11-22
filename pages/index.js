@@ -71,11 +71,11 @@ export default function Home() {
               <span className="text-gray-400 dark:text-gray-400">
                 Hi 👋, I'm{" "}
               </span>
-              Rishi Mohan!
+              Qiyue Wu!
             </h2>
             <div className="post-content">
               <ul className="!mb-0">
-                <li>Designer, front-end engineer, entrepreneur</li>
+                <li>Student, Creator, Designer</li>
                 <li>
                   Worked at{" "}
                   <Link href="https://bigbinary.com" target="_blank">
