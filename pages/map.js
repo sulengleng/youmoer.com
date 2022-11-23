@@ -5,27 +5,29 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Travel Map – Rishi Mohan"
+        title="旅行地点"
         description="I've created this page to visualize all the locations I've been so far."
         openGraph={{
-          site_name: "Travel Map – Rishi Mohan",
-          title: "Travel Map – Rishi Mohan",
+          site_name: "旅行地点",
+          title: "旅行地点",
           description:
             "I've created this page to visualize all the locations I've been so far.",
         }}
         twitter={{
-          handle: "@thelifeofrishi",
-          site: "@thelifeofrishi",
+          handle: "@yeyouchuan",
+          site: "@yeyouchuan",
           cardType: "summary_large_image",
         }}
       />
 
       <div className="flex items-start justify-center w-full mb-10 overflow-hidden max-h-[60vh] md:max-h-[50vh]">
-        <iframe
-          src="https://www.google.com/maps/d/u/0/embed?mid=1_yNkyfqV1g9kKRz0el2r46viCfw7RBXj"
-          width="100%"
-          height="600"
-        ></iframe>
+        <iframe 
+          width="100%" 
+          height="450" 
+          frameborder="0" 
+          title="Felt Map" 
+          src="https://felt.com/embed/map/Untitled-Map-iFgSYPGyQgKKsXIqIOKmvA?lat=34.848678&lon=91.865855&zoom=3.401">]
+        </iframe>
       </div>
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
