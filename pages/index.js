@@ -71,34 +71,24 @@ export default function Home() {
               <span className="text-gray-400 dark:text-gray-400">
                 Hi 👋, I'm{" "}
               </span>
-              Qiyue Wu!
+              夜游船!
             </h2>
             <div className="post-content">
               <ul className="!mb-0">
-                <li>Student, Creator, Designer</li>
+                <li>🧠对精心设计的东西情有独钟</li>
+                <li>🤖克拉克、莱姆、阿西莫夫</li>
+                <li>🎸独立、另类、经典摇滚</li>
+                <li>📺喜欢动漫、美英剧</li>
+                <li>🏸喜欢羽毛球、排球</li>
+                <li>⌨️IM英本学生</li>
                 <li>
-                  Worked at{" "}
-                  <Link href="https://bigbinary.com" target="_blank">
-                    BigBinary
-                  </Link>
-                  ,{" "}
-                  <Link href="https://instahyre.com" target="_blank">
-                    Instahyre
-                  </Link>
-                </li>
-                <li>Love to travel, explore and capture life</li>
-                <li>
-                  Kinda active on Twitter{" "}
+                  在即刻上比较活跃{" "}
                   <Link
-                    href="https://twitter.com/thelifeofrishi"
+                    https://okjk.co/DNyx7A"
                     target="_blank"
                   >
-                    @thelifeofrishi
+                    @夜游船
                   </Link>
-                </li>
-                <li>
-                  Currently building{" "}
-                  <Link href="https://pika.style">Pika.style</Link> in side
                 </li>
               </ul>
             </div>
