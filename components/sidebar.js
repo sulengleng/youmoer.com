@@ -80,13 +80,13 @@ export default function Sidebar() {
     },
     {
       title: "Twitter",
-      url: `https://twitter.com/${process.env.twitter}`,
+      url: `https://twitter.com/yeyouchuan`,
       icon: <TwitterLogo size={16} />,
       external: true,
     },
 
     {
-      title: "yeyouchuan@gmail.com",
+      title: "Gmail",
       url: `mailto:yeyouchuan@gmail.com`,
       icon: <At size={16} />,
       external: false,
