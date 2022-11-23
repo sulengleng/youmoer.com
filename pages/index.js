@@ -81,6 +81,7 @@ export default function Home() {
                 <li>📺喜欢动漫、美英剧</li>
                 <li>🏸喜欢羽毛球、排球</li>
                 <li>⌨️IM英本学生</li>
+                </br>
                 <p>
                   在即刻上比较活跃{" "}
                   <Link
