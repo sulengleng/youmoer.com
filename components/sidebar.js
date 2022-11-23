@@ -26,31 +26,31 @@ export default function Sidebar() {
 
   const LINKS = [
     {
-      title: "Home",
+      title: "主页",
       url: "/",
       icon: <House size={16} />,
       active: pathname === "/",
     },
     {
-      title: "Blog",
+      title: "博客",
       url: "/blog",
       icon: <Note size={16} />,
       active: pathname.includes("/blog"),
     },
     {
-      title: "Side Projects",
+      title: "项目",
       url: "/projects",
       icon: <BracketsCurly size={16} />,
       active: pathname.includes("/projects"),
     },
     {
-      title: "Experiments",
+      title: "实验室",
       url: "/experiments",
       icon: <Flask size={16} />,
       active: pathname.includes("/experiments"),
     },
     {
-      title: "Travel Map",
+      title: "旅行",
       url: "/map",
       icon: <Compass size={16} />,
       active: pathname === "/map",
@@ -63,7 +63,7 @@ export default function Sidebar() {
       external: true,
     },
     {
-      title: "Resume",
+      title: "简历",
       url: "https://peerlist.io/rishimohan",
       icon: <IdentificationCard size={16} />,
       active: false,
@@ -74,7 +74,7 @@ export default function Sidebar() {
   const SOCIAL = [
     {
       title: "Github",
-      url: `https://github.com/rishimohan`,
+      url: `https://github.com/yeyouchuan`,
       icon: <GithubLogo size={16} />,
       external: true,
     },
@@ -84,16 +84,10 @@ export default function Sidebar() {
       icon: <TwitterLogo size={16} />,
       external: true,
     },
-    {
-      title: "Instagram",
-      url: `https://instagram.com/${process.env.instagram}`,
-      icon: <InstagramLogo size={16} />,
-      external: true,
-    },
 
     {
-      title: "hi@rishimohan.me",
-      url: `mailto:hi@rishimohan.me`,
+      title: "yeyouchuan@gmail.com",
+      url: `mailto:yeyouchuan@gmail.com`,
       icon: <At size={16} />,
       external: false,
     },
