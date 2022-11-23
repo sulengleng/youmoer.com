@@ -9,3 +9,5 @@ excerpt: 夜游船2022年年度总结
 ---
 
 你好，我是夜游船！
+这是我2022年的年终终结
+2021 started with me being in Jodhpur. For the last 4 years, I've been spending New Year's eve in different places.
