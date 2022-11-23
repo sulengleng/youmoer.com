@@ -84,7 +84,7 @@ export default function Home() {
                 <li>
                   在即刻上比较活跃{" "}
                   <Link
-                    "https://okjk.co/DNyx7A"
+                    href="https://okjk.co/DNyx7A"
                     target="_blank"
                   >
                   @夜游船
