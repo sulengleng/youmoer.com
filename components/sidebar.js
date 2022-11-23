@@ -57,14 +57,14 @@ export default function Sidebar() {
     },
     {
       title: "Newsletter",
-      url: "https://thelifeofrishi.substack.com",
+      url: "https://yeyouchuan.zhubai.love",
       icon: <Newspaper size={16} />,
       active: false,
       external: true,
     },
     {
       title: "简历",
-      url: "https://peerlist.io/rishimohan",
+      url: "https://yeyouchuan.top/resume",
       icon: <IdentificationCard size={16} />,
       active: false,
       external: true,
