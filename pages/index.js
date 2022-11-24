@@ -18,8 +18,8 @@ const TIMELINE = [
 
 const IMAGES = [
   {
-    src: "/images/pages/rishi-goa-yellow.jpg",
-    place: "Goa",
+    src: "/images/pages/Statue-and-Dove.jfif",
+    place: "Bristol",
     className: "rotate-[-2deg]",
   },
   {
