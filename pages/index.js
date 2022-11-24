@@ -33,8 +33,8 @@ const IMAGES = [
     className: "rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-goa.JPG",
-    place: "Goa",
+    src: "/images/pages/pine-and-stone.jfif",
+    place: "Suzhou",
     className: "rotate-[2deg]",
   }
 ];
