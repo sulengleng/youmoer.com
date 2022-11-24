@@ -23,8 +23,8 @@ const IMAGES = [
     className: "rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-holi-rishikesh.JPG",
-    place: "Rishikesh",
+    src: "/images/pages/building.jfif",
+    place: "York",
     className: "rotate-[2deg]",
   },
   {
