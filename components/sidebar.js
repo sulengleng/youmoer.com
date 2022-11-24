@@ -58,7 +58,7 @@ export default function Sidebar() {
     {
       title: "音乐",
       url: "https://www.last.fm/zh/user/Alan-Wu",
-      icon: <Music size={16} />,
+      icon: <MediaDevices size={16} />,
       active: false,
       external: true,
     },
