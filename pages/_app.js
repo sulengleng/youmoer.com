@@ -25,8 +25,8 @@ function MyApp({ Component, pageProps }) {
           />
         </Head>
         <DefaultSeo
-          title="Hi, I'm Rishi Mohan!"
-          description="I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants."
+          title="你好，我是夜游船!"
+          description="我是学生、创造者、设计师"
           canonical={canonicalUrl}
           openGraph={{
             site_name: "你好，我是夜游船!",
