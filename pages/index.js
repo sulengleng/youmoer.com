@@ -23,7 +23,7 @@ const IMAGES = [
     className: "rotate-[-2deg]",
   },
   {
-    src: "/images/pages/building.jfif",
+    src: "/images/pages/Street.jfif",
     place: "York",
     className: "rotate-[2deg]",
   },
