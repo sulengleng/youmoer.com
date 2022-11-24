@@ -10,7 +10,7 @@ import {useRouter} from "next/router";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const canonicalUrl = (
-    `https://rishimohan.me` + (router.asPath === "/" ? "" : router.asPath)
+    `https://yeyouchuan.me` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
 
   return (
@@ -29,22 +29,22 @@ function MyApp({ Component, pageProps }) {
           description="I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants."
           canonical={canonicalUrl}
           openGraph={{
-            site_name: "Hi, I'm Rishi Mohan!",
-            title: "Hi, I'm Rishi Mohan!",
+            site_name: "你好，我是夜游船!",
+            title: "你好，我是夜游船!",
             description:
-              "I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.",
+              "我是学生、创造者、设计师",
             images: [
               {
-                url: "https://rishimohan.me/images/site/meta.jpg",
+                url: "https://files.catbox.moe/hdr5ve.png",
                 width: 800,
                 height: 600,
-                alt: "Kizie for Twitter",
+                alt: "yeyouchuan for Jike",
               },
             ],
           }}
           twitter={{
-            handle: "@thelifeofrishi",
-            site: "@thelifeofrishi",
+            handle: "@yeyouchuan",
+            site: "@yeyouchuan",
             cardType: "summary_large_image",
           }}
           additionalLinkTags={[
