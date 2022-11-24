@@ -108,7 +108,7 @@ export default function Home() {
         <ContentWrapper width="520px" className="mt-10 dark:border-gray-800">
           <h2 className="font-bold text-lg flex items-center">
             <Camera size={20} className="mr-2 opacity-40" />
-            Some photos from recent trips
+            最近一些值得记录的照片
           </h2>
         </ContentWrapper>
 
@@ -147,7 +147,7 @@ export default function Home() {
         <ContentWrapper width="520px" className="mt-16 mb-4">
           <h2 className="font-bold text-lg flex items-center">
             <Star size={20} className="mr-2 opacity-40" />
-            Connecting dots backwards
+            最近的一些动向
           </h2>
         </ContentWrapper>
 
