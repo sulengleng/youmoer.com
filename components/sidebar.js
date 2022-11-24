@@ -56,6 +56,13 @@ export default function Sidebar() {
       active: pathname === "/map",
     },
     {
+      title: "音乐",
+      url: "https://www.last.fm/zh/user/Alan-Wu",
+      icon: <Music size={16} />,
+      active: false,
+      external: true,
+    },
+    {
       title: "Newsletter",
       url: "https://yeyouchuan.zhubai.love",
       icon: <Newspaper size={16} />,
