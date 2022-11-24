@@ -5,13 +5,13 @@ import { motion } from 'framer-motion'
 
 const TIMELINE = [
   {
-    date: 'Nov 12, 2022',
-    title: 'Pika crossed $1K in monthly recurring revenue',
+    date: 'Nov 24, 2022',
+    title: '个人网站开始上线',
     description: '9 months into the building Pika, it is my first side-project to cross such big milestone'
   },
   {
-    date: 'Jan 02, 2022',
-    title: 'Launched Pika.style as an open-source project',
+    date: 'Sep 28, 2022',
+    title: '开始大学学习',
     description: 'Build this small tool to save my time designing better screenshots'
   },
 ]
