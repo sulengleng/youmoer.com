@@ -14,7 +14,7 @@ import {
   TwitterLogo,
   InstagramLogo,
   GithubLogo,
-  MediaDevices,
+  Note,
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
@@ -59,7 +59,7 @@ export default function Sidebar() {
     {
       title: "音乐",
       url: "https://www.last.fm/zh/user/Alan-Wu",
-      icon: <MediaDevices size={16} />,
+      icon: <Note size={16} />,
       active: false,
       external: true,
     },
