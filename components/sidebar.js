@@ -13,7 +13,7 @@ import {
   ArrowSquareOut,
   At,
   TwitterLogo,
-  InstagramLogo,
+  FigmaLogo,
   GithubLogo,
 } from "phosphor-react";
 import clsx from 'clsx'
@@ -92,7 +92,12 @@ export default function Sidebar() {
       icon: <TwitterLogo size={16} />,
       external: true,
     },
-
+    {
+      title: "Figma",
+      url: 'httpa://figma.com/yeyouchuan',
+      icon: <FigmaLogo size={16} />,
+      external: true,
+    },
     {
       title: "Gmail",
       url: `mailto:yeyouchuan@gmail.com`,
