@@ -2,7 +2,6 @@ import clsx from "clsx";
 import Link from "next/link";
 import { MapPin, ArrowCircleRight, Camera, Star } from "phosphor-react";
 import { motion } from 'framer-motion'
-import ProjectTile from "../components/tiles/projectTile";
 
 
 const TIMELINE = [
@@ -137,7 +136,7 @@ export default function Home() {
           ))}
         </ContentWrapper>
       </motion.div>
-      
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{
