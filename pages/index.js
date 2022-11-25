@@ -137,28 +137,7 @@ export default function Home() {
           ))}
         </ContentWrapper>
       </motion.div>
-
-      <ul className={util.list}>
-            <ProjectTile
-              image="compound"
-              title="Compound"
-              content="This is where I work and spent the last few years"
-              type="Design · Full-time"
-              date="2020-06-01"
-              url="https://withcompound.com"
-            />
-            <ProjectTile
-              image="f2s"
-              title="Form2Shape"
-              content={
-                "A graphic editor & library inspired by historically significant designs"
-              }
-              type="React · Side Project"
-              date="2020-05-20"
-              url="https://form2shape.com/"
-            />
-        </ul>
-
+      
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{
