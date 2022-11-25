@@ -2,6 +2,7 @@ import {useState} from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import {
+  MusicNotes,
   Newspaper,
   IdentificationCard,
   House,
@@ -58,7 +59,7 @@ export default function Sidebar() {
     {
       title: "音乐",
       url: "https://www.last.fm/zh/user/Alan-Wu",
-      icon: <Note size={16} />,
+      icon: <MusicNotes size={16} />,
       active: false,
       external: true,
     },
