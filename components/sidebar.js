@@ -14,7 +14,7 @@ import {
   TwitterLogo,
   InstagramLogo,
   GithubLogo,
-  Headphone,
+  Headphone
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
