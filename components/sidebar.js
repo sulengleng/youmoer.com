@@ -72,7 +72,7 @@ export default function Sidebar() {
     },
     {
       title: "简历",
-      url: "https://yeyouchuan.top/resume",
+      url: "https://qiyue.read.cv",
       icon: <IdentificationCard size={16} />,
       active: false,
       external: true,
@@ -94,7 +94,7 @@ export default function Sidebar() {
     },
     {
       title: "Figma",
-      url: 'httpa://figma.com/yeyouchuan',
+      url: 'httpa://figma.com/@AlanWu',
       icon: <FigmaLogo size={16} />,
       external: true,
     },
