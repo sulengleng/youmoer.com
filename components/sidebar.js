@@ -51,13 +51,13 @@ export default function Sidebar() {
       active: pathname.includes("/experiments"),
     },
     {
-      title: "旅行",
+      title: "旅行车",
       url: "/map",
       icon: <Compass size={16} />,
       active: pathname === "/map",
     },
     {
-      title: "音乐",
+      title: "唱片库",
       url: "/music",
       icon: <MusicNotes size={16} />,
       active: pathname === "/music",
