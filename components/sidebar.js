@@ -58,10 +58,9 @@ export default function Sidebar() {
     },
     {
       title: "音乐",
-      url: "https://www.last.fm/zh/user/Alan-Wu",
+      url: "/music",
       icon: <MusicNotes size={16} />,
-      active: false,
-      external: true,
+      active: pathname === "/music",
     },
     {
       title: "Newsletter",
