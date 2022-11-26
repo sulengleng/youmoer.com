@@ -94,7 +94,7 @@ export default function Sidebar() {
     },
     {
       title: "Figma",
-      url: 'httpa://figma.com/',
+      url: 'https://figma.com/@AlanWu',
       icon: <FigmaLogo size={16} />,
       external: true,
     },
