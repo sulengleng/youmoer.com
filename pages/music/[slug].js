@@ -1,7 +1,7 @@
 import {useRouter} from 'next/router';
 import { getPostBySlug, getAllPosts } from "pages/api/music";
 import md2html from "lib/md2html";
-import { MusicList, PostContent } from 'components';
+import { BlogList, PostContent } from 'components';
 import { NextSeo } from "next-seo";
 
 export default function Post({ allPosts, post, morePosts, preview }) {
@@ -34,7 +34,7 @@ export default function Post({ allPosts, post, morePosts, preview }) {
           cardType: "summary_large_image",
         }}
       />
-      <MusicList data={allPosts} activeSlug={post?.slug} />
+      <BlogList data={allPosts} activeSlug={post?.slug} />
       <PostContent post={post} />
     </div>
   );

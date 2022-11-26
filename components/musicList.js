@@ -4,7 +4,7 @@ import {
   ArrowSquareOut,
 } from "phosphor-react";
 
-export default function MusicList({ data, activeSlug }) {
+export default function BlogList({ data, activeSlug }) {
   return (
     <div
       className={clsx(
