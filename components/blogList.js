@@ -26,7 +26,7 @@ export default function BlogList({ data, activeSlug }) {
               key={post.slug}
               className="border-gray-200/50 dark:border-gray-800/50 p-[5px] border-b"
             >
-              <Link href={`/music/${post.slug}`}>
+              <Link href={`/blog/${post.slug}`}>
                 <article
                   className={clsx(
                     "rounded-lg flex flex-col text-sm w-full py-[10px] px-3 transition-all duration-150 ease-in-out  dark:text-white",
