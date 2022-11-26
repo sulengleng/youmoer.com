@@ -18,7 +18,7 @@ export default function BlogList({ data, activeSlug }) {
         )}
       >
         <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
-          Blog
+          List
         </div>
         <div className="h-[calc(100vhh-24px)] overflow-auto">
           {data?.map((post) => (
