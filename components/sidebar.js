@@ -94,10 +94,9 @@ export default function Sidebar() {
     },
     {
       title: "Figma",
-      url: 'httpa://figma.com/@AlanWu',
+      url: 'httpa://figma.com/',
       icon: <FigmaLogo size={16} />,
       external: true,
-      active: false,
     },
     {
       title: "Gmail",
