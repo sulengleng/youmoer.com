@@ -1,4 +1,4 @@
-import {MusicList} from 'components'
+import {BlogList} from 'components'
 import {getAllPosts} from "pages/api/music"
 import {NextSeo} from "next-seo";
 
