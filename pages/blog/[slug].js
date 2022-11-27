@@ -13,24 +13,24 @@ export default function Post({ allPosts, post, morePosts, preview }) {
   return (
     <div className="flex w-full">
       <NextSeo
-        title={`${post.title} - Rishi Mohan`}
+        title={`${post.title} - 夜游船`}
         description={post.excerpt || post.content.slice(0, 200) || ""}
         openGraph={{
-          site_name: `${post.title} - Rishi Mohan`,
-          title: `${post.title} - Rishi Mohan`,
+          site_name: `${post.title} - 夜游船`,
+          title: `${post.title} - 夜游船`,
           description: post.excerpt || post.content.slice(0, 200) || "",
           images: [
             {
               url: post.ogImage ?? "https://rishimohan.vercel.app/images/site/meta.jpg",
               width: 800,
               height: 600,
-              alt: "Kizie for Twitter",
+              alt: "夜游船 for Twitter",
             },
           ],
         }}
         twitter={{
-          handle: "@thelifeofrishi",
-          site: "@thelifeofrishi",
+          handle: "@yeyouchuan",
+          site: "@yeyouchuan",
           cardType: "summary_large_image",
         }}
       />
