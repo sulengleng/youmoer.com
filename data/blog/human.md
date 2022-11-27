@@ -11,3 +11,4 @@ excerpt: "The more I love humanity in general, the less I love man in particular
 
 ---
 
+The more I love humanity in general, the less I love man in particular
