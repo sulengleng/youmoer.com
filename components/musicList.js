@@ -20,7 +20,7 @@ export default function MusicList({ allPosts, activeSlug }) {
         )}
       >
         <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
-          Side Projects
+          list
         </div>
         {allPosts?.map((post) => (
           <div

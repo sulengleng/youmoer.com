@@ -2,7 +2,7 @@ import {MusicList} from 'components'
 import {getAllPosts} from "pages/api/music"
 import {NextSeo} from "next-seo";
 
-export default function Blog({ allPosts }) {
+export default function Home({ allPosts }) {
   return (
     <>
       <NextSeo
