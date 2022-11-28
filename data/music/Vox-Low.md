@@ -2,7 +2,7 @@
 date: 2022-11-27 20:27:00 +0000
 slug: Vox-Low
 title: "Vox Low · Vow Low"
-tech: ["法国", "后摇", "Alternative rock"]
+tech: ["法国", "后摇", "另类摇滚"]
 icon: https://files.catbox.moe/ibe9j9.png
 ---
 
