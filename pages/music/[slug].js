@@ -4,7 +4,7 @@ import md2html from "lib/md2html";
 import { MusicList, WorkContent } from 'components';
 import { NextSeo } from "next-seo";
 
-export default function Post({ allPosts, post, morePosts, preview }) {
+export default function Post({ allPosts, post }) {
   const router = useRouter();
 
   if (!router.isFallback && !post?.slug) {
