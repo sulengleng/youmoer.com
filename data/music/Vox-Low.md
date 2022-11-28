@@ -5,7 +5,6 @@ slug: Vox-Low
 title: "Vox Low · Vow Low"
 web: "https://yeyouchuan.top"
 tech: ["法国", "后摇"]
-icon: "/images/musics/Vow-Low.png"
 
 ---
 
