@@ -5,6 +5,7 @@ const DATA_DIR = [
   "./data/blog",
   "./data/projects",
   "./pages/experiments",
+  "./pages/music",
 ];
 const ASSETS_DIR = [
   "./public/images/experiments",
@@ -12,6 +13,7 @@ const ASSETS_DIR = [
   "./public/images/site",
   "./public/images/work",
   "./public/images/posts",
+  "./public/images/musics",
 ];
 const FILES_TO_DELETE = ["./pages/map.js"];
 
