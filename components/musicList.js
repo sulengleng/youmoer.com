@@ -27,7 +27,7 @@ export default function MusicList({ allPosts, activeSlug }) {
             key={post.slug}
             className="border-gray-200/50 dark:border-gray-800/50 p-[5px] border-b"
           >
-            <Link href={`/projects/${post.slug}`}>
+            <Link href={`/music/${post.slug}`}>
               <article
                 className={clsx(
                   "rounded-lg flex items-center text-sm w-full py-[10px] px-3 transition-all duration-150 ease-in-out  dark:text-white",
