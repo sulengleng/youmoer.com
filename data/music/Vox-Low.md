@@ -1,11 +1,9 @@
 ---
-
-date: 2022-11-27 19:27:00 +0000
+date: 2022-11-27 20:27:00 +0000
 slug: Vox-Low
 title: "Vox Low · Vow Low"
-tech: ["法国", "后摇"]
+tech: ["法国", "后摇", "Alternative rock"]
 icon: https://files.catbox.moe/ibe9j9.png
-
 ---
 
 ![](https://files.catbox.moe/74hr05.png)
