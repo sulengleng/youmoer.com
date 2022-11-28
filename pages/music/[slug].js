@@ -1,11 +1,12 @@
 import {useRouter} from 'next/router';
 import { getPostBySlug, getAllPosts } from "pages/api/music";
 import md2html from "lib/md2html";
-import { MusicList, PostContent } from 'components';
+import { MusicList, MusicContent } from 'components';
 import { NextSeo } from "next-seo";
 
 export default function Post({ allPosts, post, morePosts, preview }) {
   const router = useRouter();
+
   if (!router.isFallback && !post?.slug) {
     return <div>Error</div>;
   }
@@ -35,7 +36,7 @@ export default function Post({ allPosts, post, morePosts, preview }) {
         }}
       />
       <MusicList data={allPosts} activeSlug={post?.slug} />
-      <PostContent post={post} />
+      <MusicContent post={post} />
     </div>
   );
 }
@@ -50,7 +51,7 @@ export async function getStaticProps({ params }) {
     "excerpt",
     "content",
     "link",
-    "ogImage"
+    "icon"
   ]);
 
   const post = getPostBySlug(params.slug, [
@@ -61,7 +62,10 @@ export async function getStaticProps({ params }) {
     "content",
     "excerpt",
     "link",
-    "ogImage"
+    "tech",
+    "web",
+    "ios",
+    "icon"
   ]);
 
   const content = await md2html(post.content || post.excerpt || "");
@@ -78,22 +82,12 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "image",
-    "excerpt",
-    "content",
-    "ogImage",
-  ]);
   const posts = getAllPosts(["slug"]);
 
   return {
     paths: posts.map((post) => {
       return {
         params: {
-          allPosts,
           slug: post.slug,
         },
       };

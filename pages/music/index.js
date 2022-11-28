@@ -2,7 +2,7 @@ import {MusicList} from 'components'
 import {getAllPosts} from "pages/api/music"
 import {NextSeo} from "next-seo";
 
-export default function Blog({ allPosts }) {
+export default function Home({ allPosts }) {
   return (
     <>
       <NextSeo
@@ -34,7 +34,8 @@ export async function getStaticProps() {
     "author",
     "image",
     "excerpt",
-    "external"
+    "icon",
+    "content"
   ]);
 
   return {
