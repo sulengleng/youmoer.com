@@ -1,8 +1,9 @@
 ---
 
+date: 2022-11-27 19:27:00 +0000
 slug: Vox-Low
 title: "Vox Low · Vow Low"
-experpt: "Vow Low，法国后摇乐队"
+web: "https://yeyouchuan.top"
 tech: ["法国", "后摇"]
 icon: "/images/musics/Vow-Low.png"
 
