@@ -39,9 +39,9 @@ export default function Sidebar() {
       active: pathname.includes("/blog"),
     },
     {
-      title: "项目",
+      title: "唱片库",
       url: "/projects",
-      icon: <BracketsCurly size={16} />,
+      icon: <MusicNotes size={16} />,
       active: pathname.includes("/projects"),
     },
     {
@@ -55,12 +55,6 @@ export default function Sidebar() {
       url: "/map",
       icon: <Compass size={16} />,
       active: pathname === "/map",
-    },
-    {
-      title: "唱片库",
-      url: "/music",
-      icon: <MusicNotes size={16} />,
-      active: pathname === "/music",
     },
     {
       title: "Newsletter",
