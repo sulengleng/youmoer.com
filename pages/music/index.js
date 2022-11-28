@@ -21,7 +21,7 @@ export default function Home({ allPosts }) {
         }}
       />
 
-      <MusicList data={allPosts} />
+      <MusicList allPosts={allPosts} />
     </>
   );
 }

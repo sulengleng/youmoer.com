@@ -35,7 +35,7 @@ export default function Post({ allPosts, post }) {
           cardType: "summary_large_image",
         }}
       />
-      <MusicList data={allPosts} activeSlug={post?.slug} />
+      <MusicList allPosts={allPosts} activeSlug={post?.slug} />
       <MusicContent post={post} />
     </div>
   );
