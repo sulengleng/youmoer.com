@@ -4,6 +4,7 @@ date: 2022-11-27 19:27:00 +0000
 slug: Vox-Low
 title: "Vox Low · Vow Low"
 tech: ["法国", "后摇"]
+icon: /iamges/musics/Vox-Low.png
 
 ---
 
