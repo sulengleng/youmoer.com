@@ -6,6 +6,7 @@ import { NextSeo } from "next-seo";
 
 export default function Post({ allPosts, post, morePosts, preview }) {
   const router = useRouter();
+
   if (!router.isFallback && !post?.slug) {
     return <div>Error</div>;
   }
@@ -50,7 +51,6 @@ export async function getStaticProps({ params }) {
     "excerpt",
     "content",
     "link",
-    "ogImage",
     "icon"
   ]);
 
@@ -62,8 +62,10 @@ export async function getStaticProps({ params }) {
     "content",
     "excerpt",
     "link",
-    "icon",
-    "type",
+    "tech",
+    "web",
+    "ios",
+    "icon"
   ]);
 
   const content = await md2html(post.content || post.excerpt || "");
@@ -80,23 +82,12 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "image",
-    "excerpt",
-    "content",
-    "ogImage",
-    "icon"
-  ]);
   const posts = getAllPosts(["slug"]);
 
   return {
     paths: posts.map((post) => {
       return {
         params: {
-          allPosts,
           slug: post.slug,
         },
       };
