@@ -3,7 +3,6 @@
 date: 2022-11-27 19:27:00 +0000
 slug: Vox-Low
 title: "Vox Low · Vow Low"
-web: "https://yeyouchuan.top"
 tech: ["法国", "后摇"]
 
 ---
