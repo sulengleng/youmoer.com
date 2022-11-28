@@ -35,7 +35,7 @@ export default function Post({ allPosts, post, morePosts, preview }) {
         }}
       />
       <MusicList data={allPosts} activeSlug={post?.slug} />
-      <PostContent post={post} />
+      <WorkContent post={post} />
     </div>
   );
 }
