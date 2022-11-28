@@ -1,7 +1,7 @@
 import {useRouter} from 'next/router';
 import { getPostBySlug, getAllPosts } from "pages/api/music";
 import md2html from "lib/md2html";
-import { MusicList, PostContent } from 'components';
+import { MusicList, WorkContent } from 'components';
 import { NextSeo } from "next-seo";
 
 export default function Post({ allPosts, post, morePosts, preview }) {
