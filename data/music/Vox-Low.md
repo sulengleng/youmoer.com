@@ -1,10 +1,10 @@
 ---
 
-layout: post
+slug: Vox Low · Vow Low
 title: "Vox Low · Vow Low"
 date: 2022-11-27 18:47:20 +0000
-categories: music, Alternative
 experpt: "Vow Low，法国后摇乐队"
+tech: ["法国", "后摇"]
 icon: "/images/musics/Vow-Low.png"
 
 ---
