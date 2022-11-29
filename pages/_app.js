@@ -76,9 +76,6 @@ function MyApp({ Component, pageProps }) {
           ]}
         />
 
-          <Component {...pageProps} />
-          <Analytics />
-
         {process.env.NODE_ENV == "production" ? (
           // Analytics Script
           <Script
@@ -94,6 +91,9 @@ function MyApp({ Component, pageProps }) {
         <MainLayout>
           <Component {...pageProps} />
         </MainLayout>
+        
+        <Component {...pageProps} />
+          <Analytics />
       </>
     </ThemeProvider>
   );
