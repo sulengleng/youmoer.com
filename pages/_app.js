@@ -9,19 +9,17 @@ import {useRouter} from "next/router";
 import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  const canonicalUrl = (
+    `https://yeyouchuan.me` + (router.asPath === "/" ? "" : router.asPath)
+  ).split("?")[0];
+
   return (
     <>
       <Component {...pageProps} />
       <Analytics />
     </>
   );
-}
-
-function MyApp({ Component, pageProps }) {
-  const router = useRouter();
-  const canonicalUrl = (
-    `https://yeyouchuan.me` + (router.asPath === "/" ? "" : router.asPath)
-  ).split("?")[0];
 
   return (
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
