@@ -92,10 +92,7 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </MainLayout>
       </>
-        <Component {...pageProps} />
-        <Analytics />
     </ThemeProvider>
-    
   );
 }
 
