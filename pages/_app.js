@@ -91,11 +91,11 @@ function MyApp({ Component, pageProps }) {
         <MainLayout>
           <Component {...pageProps} />
         </MainLayout>
-        
-        <Component {...pageProps} />
-          <Analytics />
       </>
+        <Component {...pageProps} />
+        <Analytics />
     </ThemeProvider>
+    
   );
 }
 
