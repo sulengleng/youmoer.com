@@ -88,14 +88,11 @@ function MyApp({ Component, pageProps }) {
           ""
         )}
 
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-
         <MainLayout>
           <Component {...pageProps} />
         </MainLayout>
+        <Component {...pageProps} />
+        <Analytics />
       </>
     </ThemeProvider>
   );
