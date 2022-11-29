@@ -6,7 +6,6 @@ import {DefaultSeo} from "next-seo";
 import Head from "next/head";
 import Script from "next/script";
 import {useRouter} from "next/router";
-import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
