@@ -15,13 +15,6 @@ function MyApp({ Component, pageProps }) {
   ).split("?")[0];
 
   return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
-
-  return (
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
       <>
         <Head>
@@ -94,6 +87,11 @@ function MyApp({ Component, pageProps }) {
         ) : (
           ""
         )}
+
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
 
         <MainLayout>
           <Component {...pageProps} />
