@@ -1,5 +1,5 @@
 ---
-date: 2022-11-19 22:20:00 +0000
+date: 2022-11-29 22:20:00 +0000
 slug: Parachutes
 title: "Parachutes · Coldplay"
 tech: ["英伦", "Britpop"]
