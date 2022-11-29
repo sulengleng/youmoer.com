@@ -30,7 +30,7 @@ const IMAGES = [
   },
   {
     src: "/images/pages/dali.jfif",
-    place: "Triund",
+    place: "Dali",
     className: "rotate-[-2deg]",
   },
   {
