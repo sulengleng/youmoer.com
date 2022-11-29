@@ -29,7 +29,7 @@ const IMAGES = [
     className: "rotate-[2deg]",
   },
   {
-    src: "/images/pages/rishi-triund.JPG",
+    src: "/images/pages/dali.jfif",
     place: "Triund",
     className: "rotate-[-2deg]",
   },
