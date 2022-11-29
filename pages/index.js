@@ -19,22 +19,22 @@ const TIMELINE = [
 
 const IMAGES = [
   {
-    src: "/images/pages/Statue-and-Dove.jfif",
+    src: "/images/pages/Statue-and-Dove.png",
     place: "Bristol",
     className: "rotate-[-2deg]",
   },
   {
-    src: "/images/pages/Street.jfif",
+    src: "/images/pages/Street.png",
     place: "York",
     className: "rotate-[2deg]",
   },
   {
-    src: "/images/pages/dali.jfif",
+    src: "/images/pages/dali.png",
     place: "Dali",
     className: "rotate-[-2deg]",
   },
   {
-    src: "/images/pages/pine-and-stone.jfif",
+    src: "/images/pages/pine-and-stone.png",
     place: "Suzhou",
     className: "rotate-[2deg]",
   }
