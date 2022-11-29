@@ -17,6 +17,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
       <>
+        <Component {...pageProps} />
+        <Analytics />
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -91,8 +93,6 @@ function MyApp({ Component, pageProps }) {
         <MainLayout>
           <Component {...pageProps} />
         </MainLayout>
-        <Component {...pageProps} />
-        <Analytics />
       </>
     </ThemeProvider>
   );
