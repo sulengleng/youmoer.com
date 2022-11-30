@@ -92,6 +92,9 @@ export default function Home() {
                   @夜游船
                   </Link>
                 </p>
+                <h2>
+                  封面短语
+                </h2>
               </ul>
             </div>
           </div>
