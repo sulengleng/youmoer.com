@@ -109,8 +109,8 @@ export default function Home() {
         }}
       >
         <ContentWrapper width="520px" className="ml-64 dark:border-gray-800">
-          <h2 className="font-bold text-lg flex items-center sm:text-left md:text-center">
-          <Article size={20} className="mr-2 opacity-40" />
+          <h2 className="font-bold text-lg flex items-center">
+          <Article size={20} className="mr-2 opacity-40 sm:text-left md:text-center" />
             封面短语
           </h2>
         </ContentWrapper>
