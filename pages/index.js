@@ -64,7 +64,7 @@ export default function Home() {
         }}
       >
         <ContentWrapper
-          width="520px"
+          width="700px"
           className="mx-auto relative grid grid-cols-1 gap-10 mt-10 md:mt-20"
         >
           <div className="">
