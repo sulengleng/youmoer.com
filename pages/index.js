@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { MapPin, ArrowCircleRight, Camera, Star } from "phosphor-react";
+import { MapPin, ArrowCircleRight, Camera, Star, Article} from "phosphor-react";
 import { motion } from 'framer-motion'
 
 
@@ -108,7 +108,7 @@ export default function Home() {
       >
         <ContentWrapper width="520px" className="mt-10 dark:border-gray-800">
           <h2 className="font-bold text-lg flex items-center">
-          <Camera size={20} className="mr-2 opacity-40" />
+          <Article size={20} className="mr-2 opacity-40" />
             封面短语
           </h2>
         </ContentWrapper>
