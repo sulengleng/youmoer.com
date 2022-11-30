@@ -127,7 +127,7 @@ export default function Home() {
             </div>
           </div>
 
-        <ContentWrapper width="520px" className="mt-10 dark:border-gray-800">
+        <ContentWrapper width="520px" className="ml-64 dark:border-gray-800">
           <h2 className="font-bold text-lg flex items-center">
             <Camera size={20} className="mr-2 opacity-40" />
             最近一些值得记录的照片
@@ -166,7 +166,7 @@ export default function Home() {
           transition: { duration: 0.35, delay: 0.4 },
         }}
       >
-        <ContentWrapper width="520px" className="mt-16 mb-4">
+        <ContentWrapper width="520px" className="ml-64 mb-4">
           <h2 className="font-bold text-lg flex items-center">
             <Star size={20} className="mr-2 opacity-40" />
             最近的一些动向
