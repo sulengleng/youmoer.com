@@ -40,7 +40,7 @@ export default function MusicList({ allPosts, activeSlug }) {
                   <img
                     src={post?.icon}
                     alt={post.title}
-                    className="w-6 h-6 rounded-lg shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:border-gray-800"
+                    className="w-6 h-6 rounded-lg border-dashed shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:border-gray-800"
                   />
                 ) : (
                   <div className="flex items-center justify-center w-6 h-6 text-lg font-bold text-white bg-black border border-gray-100 rounded-full dark:border-gray-800">
