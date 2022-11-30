@@ -113,7 +113,7 @@ export default function Home() {
           </h2>
           <br></br>
           <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-            <div class="md:flex">
+            <div class="md:flex basis-1/2">
               <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
             </div>
