@@ -24,8 +24,6 @@ function MyApp({ Component, pageProps }) {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
             rel="stylesheet">
           </link>
-          <Component {...pageProps} />
-          <Analytics />
         </Head>
         <DefaultSeo
           title="你好，我是夜游船!"
