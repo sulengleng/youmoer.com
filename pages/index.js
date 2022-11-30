@@ -177,7 +177,7 @@ export default function Home() {
         </ContentWrapper>
 
         <ContentWrapper
-          width="520px"
+          width="700px"
           className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
         >
           <div className="relative pl-8">
