@@ -74,8 +74,8 @@ export default function Home() {
               </span>
               夜游船!
             </h2>
-            <div className="post-content" width="700px">
-              <ul className="!mb-0">
+            <div className="post-content">
+              <ul className="" width="700px">
                 <li>🧠对精心设计的东西情有独钟</li>
                 <li>🤖克拉克、莱姆、阿西莫夫</li>
                 <li>🎸独立、另类、经典摇滚</li>
