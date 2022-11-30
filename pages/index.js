@@ -176,6 +176,8 @@ export default function Home() {
           </h2>
         </ContentWrapper>
 
+        <br></br>
+
         <ContentWrapper
           width="700px"
           className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
