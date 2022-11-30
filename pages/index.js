@@ -108,7 +108,7 @@ export default function Home() {
           transition: { duration: 0.35, delay: 0.3 },
         }}
       >
-        <ContentWrapper width="520px" className="ml-auto dark:border-gray-800">
+        <ContentWrapper width="700px" className="ml-auto dark:border-gray-800">
           <h2 className="font-bold text-lg flex items-center">
           <Article size={20} className="mr-2 opacity-40" />
             封面短语
@@ -132,7 +132,7 @@ export default function Home() {
         <br></br>
         <br></br>
 
-        <ContentWrapper width="520px" className="ml-auto dark:border-gray-800 sm:text-left">
+        <ContentWrapper width="700px" className="ml-auto dark:border-gray-800 sm:text-left">
           <h2 className="font-bold text-lg flex items-center">
             <Camera size={20} className="mr-2 opacity-40" />
             最近一些值得记录的照片
@@ -171,7 +171,7 @@ export default function Home() {
           transition: { duration: 0.35, delay: 0.4 },
         }}
       >
-        <ContentWrapper width="520px" className="ml-auto mb-4 sm:text-left">
+        <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
           <h2 className="font-bold text-lg flex items-center">
             <Star size={20} className="mr-2 opacity-40" />
             最近的一些动向
