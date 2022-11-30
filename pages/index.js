@@ -106,7 +106,7 @@ export default function Home() {
           transition: { duration: 0.35, delay: 0.3 },
         }}
       >
-        <ContentWrapper width="520px" className="ml-56 dark:border-gray-800">
+        <ContentWrapper width="520px" className="ml-60 dark:border-gray-800">
           <h2 className="font-bold text-lg flex items-center">
           <Article size={20} className="mr-2 opacity-40" />
             封面短语
