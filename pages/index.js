@@ -112,24 +112,14 @@ export default function Home() {
             封面短语
           </h2>
           <br></br>
-          <div class="quote--container">
-            <p className="italic text-left text-base">
-              每个人都要做好自己的事。比如我自己的事就是<a class="underline decoration-indigo-500">写作</a>，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。
-            </p>
-            <br></br>
-            <p className="italic">
-             —— S.A.阿列克谢耶维奇
-            </p>
-          </div>
-            <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
             <div class="md:flex">
               <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/building.jpg" alt="Modern building architecture"></img>
             </div>
               <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accomodation for your team</a>
-              < p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">写作</div>
+              < p class="mt-2 text-slate-500">每个人都要做好自己的事。比如我自己的事就是<a class="underline decoration-indigo-500">写作</a>，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。</p>
               </div>
             </div>
           </div>
