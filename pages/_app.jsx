@@ -76,17 +76,10 @@ function MyApp({ Component, pageProps }) {
           ]}
         />
 
-        {process.env.NODE_ENV == "production" ? (
-          // Analytics Script
-          <Script
-            src="https://api.pirsch.io/pirsch.js"
-            id="pirschjs"
-            data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
-            strategy="afterInteractive"
-          />
-        ) : (
-          ""
-        )}
+        <Analytics>
+          <Component {...pageProps} />
+          <Analytics />
+        </Analytics>
 
         <MainLayout>
           <Component {...pageProps} />
