@@ -117,7 +117,7 @@ export default function Home() {
 
         <br></br>
 
-        <div class="max-w-md mx-auto flex justify-center bg-[#166b41] rounded-xl shadow-md overflow-hidden md:auto sm:auto">
+        <div class="max-w-md mx-auto flex justify-center bg-[#166b41] rounded-xl shadow-md overflow-hidden md:w-auto sm:w-auto">
             <div class="md:flex">
               <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
