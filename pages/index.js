@@ -98,6 +98,8 @@ export default function Home() {
         </ContentWrapper>
       </motion.div>
 
+      <br></br>
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{
