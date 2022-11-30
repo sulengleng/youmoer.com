@@ -112,7 +112,7 @@ export default function Home() {
             封面短语
           </h2>
           <br></br>
-          <div class="!max-w-[960px]  bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div class="!max-w-[960px]  bg-white rounded-xl shadow-md overflow-hidden">
             <div class="md:flex">
               <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
