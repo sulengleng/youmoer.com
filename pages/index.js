@@ -114,7 +114,7 @@ export default function Home() {
           <br></br>
           <div class="quote--container">
             <p className="italic text-left text-base">
-              每个人都要做好自己的事。比如我自己的事就是写作，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，应该做好自己的事。
+              每个人都要做好自己的事。比如我自己的事就是<a class="underline decoration-indigo-500">写作</a>，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。
             </p>
             <br></br>
             <p className="italic">
