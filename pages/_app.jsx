@@ -17,17 +17,15 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
       <>
-        <Component {...pageProps} />
-        <Analytics />
-      </>
-      <>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
-            rel="stylesheet"
-          />
+            rel="stylesheet">
+          </link>
+          <Component {...pageProps} />
+          <Analytics />
         </Head>
         <DefaultSeo
           title="你好，我是夜游船!"
