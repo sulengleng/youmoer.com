@@ -128,6 +128,7 @@ export default function Home() {
         </div>
 
         <br></br>
+        <br></br>
 
         <ContentWrapper width="520px" className="ml-64 dark:border-gray-800">
           <h2 className="font-bold text-lg flex items-center">
