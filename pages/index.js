@@ -125,7 +125,9 @@ export default function Home() {
               < p class="mt-2 text-slate-500">每个人都要做好自己的事。比如我自己的事就是<a class="underline decoration-indigo-500">写作</a>，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。</p>
               </div>
             </div>
-          </div>
+        </div>
+
+        <br></br>
 
         <ContentWrapper width="520px" className="ml-64 dark:border-gray-800">
           <h2 className="font-bold text-lg flex items-center">
