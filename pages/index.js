@@ -118,7 +118,7 @@ export default function Home() {
         <br></br>
 
         <div class="snap-mandatory snap-x">
-          <div class="max-w-md mx-auto flex justify-center bg-[#821c20] rounded-xl shadow-md overflow-hidden md:max-w-2xl snap-center">
+          <div class="mx-auto flex justify-center bg-[#821c20] rounded-xl shadow-md overflow-hidden md:max-w-2xl snap-center">
             <div class="md:flex">
               <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
@@ -129,9 +129,20 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div class="mx-auto flex justify-center bg-[#821c20] rounded-xl shadow-md overflow-hidden md:max-w-2xl snap-center">
+            <div class="md:flex">
+              <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
+              </div>
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-[#166b41] font-semibold">胡适</div>
+                <p class="mt-2 text-white">「这种情形是不会长久的。」朋友，你错了。除非你和我不许他长久，他是会长久的；「这种事要有人做。」朋友，你又错了。你应该说，「我不做，等谁去做？」</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="snap-y snap-mandatory h-screen overflow-scroll">
+        <div class="snap-y snap-mandatory overflow-scroll">
           <div class="snap-start bg-amber-200 w-screen h-screen flex items-center justify-center text-8xl">1</div>
           <div class="snap-start bg-teal-200 w-screen  h-screen flex items-center justify-center text-8xl">2</div>
           <div class="snap-start bg-cyan-200 w-screen h-screen flex items-center justify-center text-8xl">3</div>
