@@ -8,7 +8,7 @@ const TIMELINE = [
   {
     date: 'Nov 23, 2022',
     title: '个人网站开始上线',
-    description: '也欢迎你来我之前的数字花园 [yeyochua](https://yeyouchuan.top)'
+    description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top'
   },
   {
     date: 'Sep 28, 2022',
