@@ -13,3 +13,13 @@ title: "冬聚闲置市集"
 - 帮助创作者建立个人网站（永久售后，交个朋友）
 - [Refactoring UI](https://www.refactoringui.com/) 个人笔记，关于这本书，请去官网支持正版（你也可以在官网得到本书的前两章）
 - 五张关于创作者产品的介绍图
+
+## 在之前市集上的收获展示
+
+「警惕语言 小心文字 专注行动」贴纸 - 来自粒仔
+![](https://files.catbox.moe/mnqkyg.png)
+
+实体赛博鸽 - 来自阿露
+![](https://files.catbox.moe/kqy9s8.png)
+
+散步卡片 - 来自 Tony Yet 和鲍勃
