@@ -129,17 +129,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="mx-auto md:max-w-2xl flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center">
-            <div class="md:flex">
-              <div class="md:shrink-0">
-                <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
-              </div>
-              <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-[#166b41] font-semibold">胡适</div>
-                <p class="mt-2 text-white">「这种情形是不会长久的。」朋友，你错了。除非你和我不许他长久，他是会长久的；「这种事要有人做。」朋友，你又错了。你应该说，「我不做，等谁去做？」</p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <br></br>
