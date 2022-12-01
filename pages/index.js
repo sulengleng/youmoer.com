@@ -118,7 +118,7 @@ export default function Home() {
         <br></br>
 
         <div class="snap-mandatory snap-x">
-          <div class="flex justify-center bg-[#821c20] rounded-xl shadow-md overflow-hidden md:max-w-2xl snap-center">
+          <div class="flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center">
             <div class="md:flex">
               <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
@@ -129,7 +129,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="flex justify-center bg-[#821c20] rounded-xl shadow-md overflow-hidden md:max-w-2xl snap-center">
+          <div class="flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center">
             <div class="md:flex">
               <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
