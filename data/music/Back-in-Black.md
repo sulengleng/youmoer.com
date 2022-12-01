@@ -12,7 +12,7 @@ icon: https://files.catbox.moe/ic8v2r.png
 
 在 1978 年的《Powerage》和 1979 年的《Highway to Hell》大获成功后，来自澳大利亚 AC/DC 终于走上了正轨。
 
-但是一个噩耗很快使乐队落到了低谷：1980 年 2 月，主唱 Bon Scott 喝酒去世。
+但是一个噩耗很快使乐队落到了低谷：1980 年 2 月，主唱 Bon Scott 因酗酒去世。
 
 对比同年另一个因喝酒去世的而失去乐队核心人物 John Bonham 而解散的 Led Zeppelin，AC/DC 没有因此而消沉，仅仅过去5个月，他们携新主唱 Brian Johnson 和新专辑 Back in Black 强势回归，从此开始了他们摇滚生涯长达30余年的下半场。 
 
