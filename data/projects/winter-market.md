@@ -16,10 +16,11 @@ title: "冬聚闲置市集"
 
 ## 在之前市集上的收获展示
 
-「警惕语言 小心文字 专注行动」贴纸 - 来自粒仔
+### 「警惕语言 小心文字 专注行动」贴纸 - 来自粒仔
 ![](https://files.catbox.moe/mnqkyg.png)
 
-实体赛博鸽 - 来自阿露
+### 实体赛博鸽 - 来自阿露
 ![](https://files.catbox.moe/kqy9s8.png)
 
-散步卡片 - 来自 Tony Yet 和鲍勃
+### 《散步练习》卡片 - 来自 Tony Yet 和鲍勃
+![](https://files.catbox.moe/gkonk0.png)
