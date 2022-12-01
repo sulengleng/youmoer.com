@@ -26,7 +26,7 @@ export default function Home() {
           height="450" 
           frameborder="0" 
           title="Felt Map" 
-          src="https://felt.com/embed/map/Untitled-Map-iFgSYPGyQgKKsXIqIOKmvA?lat=34.848678&lon=91.865855&zoom=3.401">]
+          src="https://felt.com/embed/map/Untitled-Map-iFgSYPGyQgKKsXIqIOKmvA?lat=34.848678&lon=91.865855&zoom=3.401">
         </iframe>
       </div>
 
