@@ -66,6 +66,10 @@ export default function MusicContent({ post }) {
           ""
         )}
       </div>
+      <div
+        dangerouslySetInnerHTML={{ __html: post?.content }}
+        className="inline-block mx-auto post-content"
+      />
       {post?.site ? (
         <iframe 
           allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
@@ -78,10 +82,6 @@ export default function MusicContent({ post }) {
       ) : (
         ""
       )}
-      <div
-        dangerouslySetInnerHTML={{ __html: post?.content }}
-        className="inline-block mx-auto post-content"
-      />
     </motion.div>
   );
 }
