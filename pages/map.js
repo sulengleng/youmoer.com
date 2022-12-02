@@ -33,7 +33,7 @@ export default function Home() {
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
         <h2 className="mb-6 text-4xl font-bold md:text-5xl">旅行车</h2>
         <div className="post-content">
-          <p className="text-lg text-gray-500">
+          <p className="text-lg text-gray-500 pt-6">
             欢迎来到我的旅行车，我创建了这个页面来记录我去过的地方。
           </p>
           <p>
