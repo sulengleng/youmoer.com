@@ -37,7 +37,7 @@ export default function Home() {
             欢迎来到我的旅行车，我创建了这个页面来记录我去过的地方。
           </p>
           <p>
-            你可以点击地图上的点来查看我去过的地方。也可以点击 <button class="rounded-full text-green-800">Open Map</button> 按钮来获得更多的信息。
+            你可以点击地图上的点来查看我去过的地方。也可以点击 <button class="rounded-full text-green-800 after:content-['【'] before:content-['】']">Open Map</button> 按钮来获得更多的信息。
           </p>
         </div>
       </article>
