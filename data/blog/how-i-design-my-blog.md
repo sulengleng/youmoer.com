@@ -16,3 +16,4 @@ excerpt: 我的网站折腾历史是从2021年底开始的，那段时期被我�
 
 当时正是国内 newsletter 刚刚起步的阶段，现在我们能看到的那些最优秀的 newsletter 创作者刚刚开始尝试各种可能。于是我顺理成章的转到了 newsletter 写作，开设了[夜游船渡口](https://yeyouchuan.zhubai.love)来更好的帮助我分发文章，在写作 newsletter 的过程中，我开始思考写作对我的意义和对读者的意义，我在[Vol.2 夜游船渡口](https://www.yeyouchuan.me/blog/yeyouchuan-duko)中讨论了这一点
 
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/%E9%86%9C%E5%A5%B4%E5%85%92/1455271984"></iframe>
