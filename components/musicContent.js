@@ -66,7 +66,7 @@ export default function MusicContent({ post }) {
           ""
         )}
       </div>
-      {post?.tech ? (
+      {post?.site ? (
         <iframe 
           allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
           frameborder="0" 
