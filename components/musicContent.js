@@ -66,7 +66,7 @@ export default function MusicContent({ post }) {
           ""
         )}
       </div>
-      <div>
+      <div className="flex justify-center items-center space-x-5 max-w-[620px] w-full mt-5 mb-10">
         {post?.site ? (
           <iframe 
             allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
