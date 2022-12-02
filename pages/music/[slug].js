@@ -65,8 +65,7 @@ export async function getStaticProps({ params }) {
     "tech",
     "web",
     "ios",
-    "icon",
-    "site"
+    "icon"
   ]);
 
   const content = await md2html(post.content || post.excerpt || "");
