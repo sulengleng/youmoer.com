@@ -35,17 +35,11 @@ export default function Home() {
         <div className="post-content">
           <p className="text-lg text-gray-500">
             我喜欢旅行，我去过中国的大部分城市，
-            也在欧洲旅行过一段时间，去过土耳其、奥地利、匈牙利、捷克、芬兰
+            也在欧洲旅行过一段时间，去过土耳其、奥地利、匈牙利、捷克、芬兰...
             现在在英国一边旅行一边学习。
           </p>
           <p>
-            The other aspect of travelling that I love is capturing moments, and
-            that helped me up my photography game a bit. You can head over to my{" "}
-            <a href="https://instagram.com/thelifeofrishi">Instagram</a> or{" "}
-            <a href="http://unsplash.com/@rishi">Unsplash</a> to check some of
-            the photos I've taken while exploring beautiful destinations. Lakes,
-            the mountains, greenery and the clouds in the sky, scenes that you
-            don't get to see on a regular day is what I like to capture.
+            我希望在旅行中记录我拍的照片，也希望写我在旅行中的感受。
           </p>
           <p>
             我创建了这个页面来记录我去过的所有地方。
