@@ -34,13 +34,9 @@ export default function Home() {
         <h2 className="mb-6 text-4xl font-bold md:text-5xl">The Wanderland!</h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
-            I didn't know I would love travelling so much until back in 2017
-            December when I first decided to do a solo to Udaipur. It was my
-            first time out alone and god I felt scared but excited at the same
-            time. After that trip to Udaipur I realized how travelling can add
-            to your life in terms of knowledge, meeting new people and
-            perspective. You meet people, talk to them and share experiences,
-            cultures, ideas which is a big thing.
+            我喜欢旅行，我去过中国的大部分城市，
+            也在欧洲旅行过一段时间，去过土耳其、奥地利、匈牙利、捷克、芬兰
+            现在在英国一边旅行一边学习。
           </p>
           <p>
             The other aspect of travelling that I love is capturing moments, and
@@ -52,8 +48,7 @@ export default function Home() {
             don't get to see on a regular day is what I like to capture.
           </p>
           <p>
-            I've created this page to visualize all the locations I've been so
-            far.
+            我创建了这个页面来记录我去过的所有地方。
           </p>
         </div>
       </article>
