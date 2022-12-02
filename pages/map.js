@@ -34,9 +34,7 @@ export default function Home() {
         <h2 className="mb-6 text-4xl font-bold md:text-5xl">The Wanderland!</h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
-            我喜欢旅行，我去过中国的大部分城市，
-            也在欧洲旅行过一段时间，去过土耳其、奥地利、匈牙利、捷克、芬兰...
-            现在在英国一边旅行一边学习。
+            我喜欢旅行，我去过中国的大部分城市，也在欧洲旅行过一段时间，去过土耳其、奥地利、匈牙利、捷克、芬兰... 现在在英国一边旅行一边学习。
           </p>
           <p>
             我希望在旅行中记录我拍的照片，也希望写我在旅行中的感受。
