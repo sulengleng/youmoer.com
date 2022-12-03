@@ -88,7 +88,7 @@ export default function Home() {
                   <Link
                     href="https://okjk.co/DNyx7A"
                     target="_blank"
-                    className="text-yellow-100 hover:text-[#ffe411] dark:text-yellow-50"
+                    className="text-yellow-100 hover:text-[#ffe411]"
                   >
                     @夜游船
                   </Link>
@@ -99,7 +99,7 @@ export default function Home() {
                   <Link 
                     href="https://github.com/rishimohan" 
                     target="_blank" 
-                    className="text-blue-100 hover:text-[#5196ec] dark:text-blue-50"
+                    className="text-blue-100 hover:text-[#5196ec]"
                   >
                     @rishimohan
                   </Link> 
@@ -137,7 +137,7 @@ export default function Home() {
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
               </div>
               <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-600 font-semibold">S.A.阿列克谢耶维奇</div>
+                <div class="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">S.A.阿列克谢耶维奇</div>
                 <p class="mt-2 text-white">每个人都要做好自己的事。比如我自己的事就是写作，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。</p>
               </div>
             </div>
