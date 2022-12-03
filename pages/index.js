@@ -231,6 +231,7 @@ export default function Home() {
           </ContentWrapper>
 
           <br></br>
+          <br></br>
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
             <h2 className="font-bold text-lg flex items-center">
@@ -241,7 +242,7 @@ export default function Home() {
 
           <br></br>
 
-          <fieldset className="border dark:border-gray-800 mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl shadow-lg overflow-hidden p-4 bg-gray-50 dark:bg-gray-900">
+          <fieldset className="border dark:border-gray-800 mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl overflow-hidden p-4 bg-gray-50 dark:bg-gray-900">
           <div class="">
             <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
             <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
