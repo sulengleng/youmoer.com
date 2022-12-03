@@ -235,6 +235,8 @@ export default function Home() {
       <fieldset className="mx-auto md:max-w-2xl flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
         <h3>Published status</h3>
 
+        <br></br>
+
         <input id="draft" class="peer/draft" type="radio" name="status" checked />
         <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
 
