@@ -13,3 +13,5 @@ icon: https://files.catbox.moe/ibe9j9.png
 > 来自法国的后摇乐队，音乐风格和惘闻一样清冷，推荐专辑里的《Now We're Ready to Spend》和《You Are a Slave》，贝斯很强。
 >
 > 不知道《Rides Alone》为什么给我听出了中国武侠风哈哈哈哈~
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/vox-low/1330967229"></iframe>

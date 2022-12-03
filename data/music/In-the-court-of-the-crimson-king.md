@@ -19,3 +19,5 @@ King Crimson 的专辑运用的技术不在我的知识范围内，非常厉害�
 这也曾是我从经典摇滚往其他流派拓展时听的第一张专辑，比 Pink Floyd 和 Genesis 听的还要早，当时没仔细听，当下再听给我极大震撼！
 
 我认为听古典乐的朋友也能听这张摇滚专辑😂，电子琴、萨克斯和吉他之间很好的结合，给人的感受非常棒。
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/in-the-court-of-the-crimson-king-expanded-edition/918534711"></iframe>

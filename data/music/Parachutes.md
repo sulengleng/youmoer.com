@@ -15,3 +15,5 @@ icon: https://files.catbox.moe/a0revg.png
 >  《Yellow》估计是所有喜欢 Coldplay 的乐迷的启蒙之作了，推荐！
 >
 >  虽然看着 Coldplay 从一支摇滚乐队变成一支流行乐队，而且 Ghost Stories 后面的专辑非常不好。但是不可否认的是，前几张专辑的光芒不会因此被遮盖。
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/parachutes/1122782080"></iframe>

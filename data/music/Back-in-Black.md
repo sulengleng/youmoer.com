@@ -41,3 +41,5 @@ icon: https://files.catbox.moe/ic8v2r.png
 在《Back In Black》的歌词里面，死去的 Bon Scott 仿佛只是打了个盹，只是像往常一样烂醉一宿但是总是准点参加排练。我特别欣赏乐手们这样纪念战友的形式，我也知道战友去世的的时候乐队成员心都碎了，也考虑解散这个他们奋斗已久的乐队。最后还是Bon的父亲出面一锤定音：AC/DC是我儿子毕生的心血，希望你们能走下去。这一走就是三十余年直到今天。
 
 > It's a long way to the top，if you wanna rock&roll
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/back-in-black/574050396"></iframe>
