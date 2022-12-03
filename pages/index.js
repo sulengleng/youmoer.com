@@ -232,7 +232,7 @@ export default function Home() {
 
       <br></br>
 
-      <fieldset className="mx-auto max-w-[85%] md:max-w-[60%] flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
+      <fieldset className="mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
         <div class="">
           <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
           <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
