@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { MapPin, ArrowCircleRight, Camera, Star, Article} from "phosphor-react";
+import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut} from "phosphor-react";
 import { motion } from 'framer-motion'
 
 
@@ -197,8 +197,18 @@ export default function Home() {
                   />
                 </div>
                 <p className="opacity-40 text-xs">{item.date}</p>
-                <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base">
-                  {item.title}
+                
+                <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
+                  <span className="">{item.title}</span>
+                  {item?.link ? (
+                    <Link href={item.link} target="_blank">
+                      <span className="inline-block ml-1 opacity-80">
+                        <ArrowSquareOut size={12} />
+                      </span>
+                    </Link>
+                  ) : (
+                    ""
+                  )}
                 </h3>
                 <p className="opacity-60 text-sm">{item.description}</p>
               </div>
