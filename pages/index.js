@@ -70,7 +70,7 @@ export default function Home() {
           <div className="">
             <h2 className="mb-6 text-3xl font-black md:text-4xl dark:text-white">
               <span className="text-gray-400 dark:text-gray-400">
-                Hi 👋, I'm{" "}
+                Hi 👋, 我是{" "}
               </span>
               夜游船!
             </h2>
