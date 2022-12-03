@@ -232,7 +232,7 @@ export default function Home() {
 
       <br></br>
 
-      <fieldset className="mx-auto flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
+      <fieldset className="mx-auto md:max-w-3xl flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
         <h3>Published status</h3>
 
         <br></br>
