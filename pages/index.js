@@ -245,34 +245,15 @@ export default function Home() {
           <fieldset className="border dark:border-gray-800 mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl overflow-hidden p-4 bg-gray-50 dark:bg-gray-900">
             <div class="">
               <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
-              <label for="unlike" class="peer-checked/unlike:text-sky-500 rounded-lg">&nbsp;💔不喜欢&nbsp;</label>
+              <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
 
               <input id="like" class="peer/like" type="radio" name="status" />
-              <label for="like" class="peer-checked/like:text-red-500 rounded-lg">&nbsp;💓喜欢&nbsp;</label>
+              <label for="like" class="peer-checked/like:text-red-500">&nbsp;💓喜欢&nbsp;</label>
 
-              <div class="hidden peer-checked/unlike:block" width="700px">欢迎下次再来，因为网站还会变得更好</div>
-              <div class="hidden peer-checked/like:block" width="700px">谢谢喜欢，如果你也喜欢我的文字的话，可以订阅我的&nbsp;<Link href="https://yeyochuan.zhubai.love" target="_blank" className="hover:text-[#3b818c] dark:hover:text-[#3b818c]">newsletter</Link></div>
+              <div class="hidden peer-checked/unlike:block pt-6" width="700px">欢迎下次再来，因为网站还会变得更好</div>
+              <div class="hidden peer-checked/like:block pt-6" width="700px">谢谢喜欢，如果你也喜欢我的文字的话，可以订阅我的&nbsp;<Link href="https://yeyochuan.zhubai.love" target="_blank" className="hover:text-[#3b818c] dark:hover:text-[#3b818c]">newsletter</Link></div>
             </div>
           </fieldset>
-        
-          <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400">
-              <li class="mr-2">
-                  <a href="#" class="inline-block py-3 px-4 text-white bg-blue-600 rounded-lg active" aria-current="page">Tab 1</a>
-              </li>
-              <li class="mr-2">
-                  <a href="#"  class="inline-block py-3 px-4 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">Tab 2</a>
-              </li>
-              <li class="mr-2">
-                  <a href="#" class="inline-block py-3 px-4 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">Tab 3</a>
-              </li>
-              <li class="mr-2">
-                  <a href="#" class="inline-block py-3 px-4 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">Tab 4</a>
-              </li>
-              <li>
-                  <a class="inline-block py-3 px-4 text-gray-400 cursor-not-allowed dark:text-gray-500">Tab 5</a>
-              </li>
-          </ul>
-
         </motion.div>
       </div>
     </body>
