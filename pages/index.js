@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut} from "phosphor-react";
+import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut, ThumbsUp} from "phosphor-react";
 import { motion } from 'framer-motion'
 
 
@@ -229,11 +229,19 @@ export default function Home() {
               ))}
             </div>
           </ContentWrapper>
-        </motion.div>
 
-        <br></br>
+          <br></br>
 
-        <fieldset className="mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
+            <h2 className="font-bold text-lg flex items-center">
+              <ThumbsUp size={20} className="mr-2 opacity-40" />
+              你喜欢这个个人网站吗？
+            </h2>
+          </ContentWrapper>
+
+          <br></br>
+
+          <fieldset className="border dark:border-gray-800 mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl shadow-lg overflow-hidden p-4 bg-gray-50 dark:bg-gray-900">
           <div class="">
             <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
             <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
@@ -244,9 +252,8 @@ export default function Home() {
             <div class="hidden peer-checked/unlike:block" width="700px">欢迎下次再来，因为网站还会变得更好</div>
             <div class="hidden peer-checked/like:block" width="700px">谢谢喜欢，如果你也喜欢我的文字的话，可以订阅我的&nbsp;<Link href="https://yeyochuan.zhubai.love" target="_blank" className="hover:text-[#3b818c] dark:hover:text-[#3b818c]">newsletter</Link></div>
           </div>
-
         </fieldset>
-
+        </motion.div>
       </div>
     </body>
   );
