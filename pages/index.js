@@ -232,7 +232,7 @@ export default function Home() {
 
       <br></br>
 
-      <fieldset className="mx-auto md:max-w-2xl flex rounded-xl shadow-lg overflow-hidden p-4 bg-slate-600">
+      <fieldset className="mx-auto md:max-w-2xl flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
         <h3>Published status</h3>
 
         <input id="draft" class="peer/draft" type="radio" name="status" checked />
