@@ -239,10 +239,10 @@ export default function Home() {
         
         <div class="">
           <input id="draft" class="peer/draft" type="radio" name="status" checked />
-          <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
+          <label for="draft" class="peer-checked/draft:text-sky-500">&nbsp;Draft&nbsp;</label>
 
           <input id="published" class="peer/published" type="radio" name="status" />
-          <label for="published" class="peer-checked/published:text-sky-500">Published</label>
+          <label for="published" class="peer-checked/published:text-sky-500">&nbsp;Published&nbsp;</label>
 
           <div class="hidden peer-checked/draft:block" width="700px">Drafts are only visible to administrators.</div>
           <div class="hidden peer-checked/published:block" width="700px">Your post will be publicly visible on your site.</div>
