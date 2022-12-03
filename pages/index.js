@@ -239,10 +239,10 @@ export default function Home() {
             <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
 
             <input id="like" class="peer/like" type="radio" name="status" />
-            <label for="like" class="peer-checked/like:text-sky-500">&nbsp;💓喜欢&nbsp;</label>
+            <label for="like" class="peer-checked/like:text-red-500">&nbsp;💓喜欢&nbsp;</label>
 
             <div class="hidden peer-checked/unlike:block" width="700px">欢迎下次再来，因为网站还会变得更好</div>
-            <div class="hidden peer-checked/like:block" width="700px">谢谢喜欢，如果你也喜欢我的文字的话，可以订阅我的&nbsp;<Link href="https://yeyochuan.zhubai.love" target="_blank">newsletter</Link></div>
+            <div class="hidden peer-checked/like:block" width="700px">谢谢喜欢，如果你也喜欢我的文字的话，可以订阅我的&nbsp;<Link href="https://yeyochuan.zhubai.love" target="_blank" className="hover:text-[#3b818c] dark:hover:text-[#3b818c]">newsletter</Link></div>
           </div>
 
         </fieldset>
