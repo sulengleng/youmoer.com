@@ -94,7 +94,11 @@ export default function Home() {
                 </p>
                 <br />
                 <p>
-                  最后要感谢<Link href="https://github.com/rishimohan" target="_blank">@rishimohan</Link>给我提供的模板和一些细节上的帮助
+                  最后要感谢 
+                    <Link href="https://github.com/rishimohan" target="_blank">
+                      @rishimohan
+                    </Link> 
+                  给我提供的模板和一些细节上的帮助
                 </p>
               </ul>
             </div>
