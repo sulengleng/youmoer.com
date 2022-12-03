@@ -241,10 +241,11 @@ export default function Home() {
         <input id="published" class="peer/published" type="radio" name="status" />
         <label for="published" class="peer-checked/published:text-sky-500">Published</label>
 
-        <br></br>
+        <div className="mx-auto">
+          <div class="hidden peer-checked/draft:block" width="700px">Drafts are only visible to administrators.</div>
+          <div class="hidden peer-checked/published:block" width="700px">Your post will be publicly visible on your site.</div>
+        </div>
 
-        <div class="hidden peer-checked/draft:block" width="700px">Drafts are only visible to administrators.</div>
-        <div class="hidden peer-checked/published:block" width="700px">Your post will be publicly visible on your site.</div>
       </fieldset>
 
     </div>
