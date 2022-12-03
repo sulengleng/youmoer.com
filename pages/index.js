@@ -232,7 +232,7 @@ export default function Home() {
 
       <br></br>
 
-      <fieldset>
+      <fieldset className="mx-auto md:max-w-2xl flex justify-center rounded-xl shadow-lg overflow-hidden">
         <legend>Published status</legend>
 
         <input id="draft" class="peer/draft" type="radio" name="status" checked />
@@ -244,7 +244,7 @@ export default function Home() {
         <div class="hidden peer-checked/draft:block">Drafts are only visible to administrators.</div>
         <div class="hidden peer-checked/published:block">Your post will be publicly visible on your site.</div>
       </fieldset>
-      
+
     </div>
   );
 }
