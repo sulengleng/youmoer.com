@@ -244,10 +244,10 @@ export default function Home() {
 
           <fieldset className="border dark:border-gray-800 mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl overflow-hidden p-4 bg-gray-50 dark:bg-gray-900">
           <div class="">
-            <input id="unlike" class="peer/unlike" type="checkbox" name="status" checked />
+            <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
             <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
 
-            <input id="like" class="peer/like" type="checkbox" name="status" />
+            <input id="like" class="peer/like" type="radio" name="status" />
             <label for="like" class="peer-checked/like:text-red-500">&nbsp;💓喜欢&nbsp;</label>
 
             <div class="hidden peer-checked/unlike:block" width="700px">欢迎下次再来，因为网站还会变得更好</div>
