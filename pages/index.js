@@ -237,7 +237,7 @@ export default function Home() {
 
         <br></br>
         
-        <div class="flex flex-col">
+        <div class="">
           <input id="draft" class="peer/draft" type="radio" name="status" checked />
           <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
 
