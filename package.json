@@ -31,6 +31,7 @@
     "rehype-prism-plus": "^1.1.1",
     "remark": "^14.0.1",
     "remark-code-extra": "^1.0.1",
+    "remark-directive": "^2.0.1",
     "remark-html": "^15.0.0",
     "remark-oembed": "^1.2.2",
     "sass": "^1.56.1",
