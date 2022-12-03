@@ -233,19 +233,19 @@ export default function Home() {
       <br></br>
 
       <fieldset className="mx-auto md:max-w-2xl flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
-        <h3>Published status&nbsp;</h3>
+        <h3>看完网站，你觉得如何：&nbsp;</h3>
 
         <br></br>
         
         <div class="">
-          <input id="draft" class="peer/draft" type="radio" name="status" checked />
-          <label for="draft" class="peer-checked/draft:text-sky-500">&nbsp;Draft&nbsp;</label>
+          <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
+          <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
 
-          <input id="published" class="peer/published" type="radio" name="status" />
-          <label for="published" class="peer-checked/published:text-sky-500">&nbsp;Published&nbsp;</label>
+          <input id="like" class="peer/like" type="radio" name="status" />
+          <label for="like" class="peer-checked/like:text-sky-500">&nbsp;💓喜欢&nbsp;</label>
 
-          <div class="hidden peer-checked/draft:block" width="700px">Drafts are only visible to administrators.</div>
-          <div class="hidden peer-checked/published:block" width="700px">Your post will be publicly visible on your site.</div>
+          <div class="hidden peer-checked/unlike:block" width="700px">欢迎下次再来，因为网站还会变得更好</div>
+          <div class="hidden peer-checked/like:block" width="700px">谢谢喜欢，如果你也喜欢我的文字的话，可以订阅我的&nbsp;<Link href="https://yeyochuan.zhubai.love" target="_blank">newsletter</Link></div>
         </div>
 
       </fieldset>
