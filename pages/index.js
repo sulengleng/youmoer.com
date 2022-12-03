@@ -130,7 +130,7 @@ export default function Home() {
 
         <br></br>
 
-        <div class="snap-mandatory snap-x sm:max-w-fit">
+        <div class="snap-mandatory snap-x">
           <div class="mx-auto md:max-w-2xl flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center">
             <div class="md:flex">
               <div class="md:shrink-0">
