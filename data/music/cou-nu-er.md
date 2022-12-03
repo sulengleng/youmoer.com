@@ -14,7 +14,7 @@ icon: https://files.catbox.moe/4oxz6p.png
 
 《醜奴兒》是草东没有派对的第一张专辑，我也不确定是不是最后一张😢，具体原因可以看我的[这篇文章](https://boatneck-utensil-a82.notion.site/561691cd0fab47fc9f0bc6405c00614a)。
 
-::applemusic[醜奴兒]{%E9%86%9C%E5%A5%B4%E5%85%92/1455271984}
+
 
 
 
