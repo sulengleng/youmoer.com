@@ -238,15 +238,11 @@ export default function Home() {
         <br></br>
         
         <div class="flex flex-col">
-          <div>
-            <input id="draft" class="peer/draft" type="radio" name="status" checked />
-            <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
-          </div>
-          
-          <div>
-            <input id="published" class="peer/published" type="radio" name="status" />
-            <label for="published" class="peer-checked/published:text-sky-500">Published</label>
-          </div>
+          <input id="draft" class="peer/draft" type="radio" name="status" checked />
+          <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
+
+          <input id="published" class="peer/published" type="radio" name="status" />
+          <label for="published" class="peer-checked/published:text-sky-500">Published</label>
 
           <div class="hidden peer-checked/draft:block" width="700px">Drafts are only visible to administrators.</div>
           <div class="hidden peer-checked/published:block" width="700px">Your post will be publicly visible on your site.</div>
