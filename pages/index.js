@@ -232,22 +232,26 @@ export default function Home() {
 
       <br></br>
 
-      <fieldset className="mx-auto md:max-w-2xl flex flex-col rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
+      <fieldset className="mx-auto md:max-w-2xl flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
         <h3>Published status</h3>
 
         <br></br>
         
         <div class="flex flex-col">
-          <input id="draft" class="peer/draft" type="radio" name="status" checked />
-          <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
-
-          <input id="published" class="peer/published" type="radio" name="status" />
-          <label for="published" class="peer-checked/published:text-sky-500">Published</label>
+          <div>
+            <input id="draft" class="peer/draft" type="radio" name="status" checked />
+            <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
+          </div>
+          
+          <div>
+            <input id="published" class="peer/published" type="radio" name="status" />
+            <label for="published" class="peer-checked/published:text-sky-500">Published</label>
+          </div>
 
           <div class="hidden peer-checked/draft:block" width="700px">Drafts are only visible to administrators.</div>
           <div class="hidden peer-checked/published:block" width="700px">Your post will be publicly visible on your site.</div>
         </div>
-        
+
       </fieldset>
 
     </div>
