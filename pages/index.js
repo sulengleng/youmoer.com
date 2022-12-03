@@ -223,8 +223,8 @@ export default function Home() {
           width="700px"
           className="mx-auto relative grid grid-cols-1 gap-10 mt-10 md:mt-20"
         >
-        <p className="">
-        最后要感谢<link href="https://github.com/rishimohan"> @rishimohan </link>给我提供的模板和一些细节上的帮助，我在此基础上做了一些功能性上的修改，融合了一些自己的想法。
+        <p className="" width="700px">
+        最后要感谢<link href="https://github.com/rishimohan" target="_blank"> @rishimohan </link>给我提供的模板和一些细节上的帮助，我在此基础上做了一些功能性上的修改，融合了一些自己的想法。
         </p>
       </ContentWrapper>
     </div>
