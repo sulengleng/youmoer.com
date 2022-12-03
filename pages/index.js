@@ -232,7 +232,7 @@ export default function Home() {
 
       <br></br>
 
-      <fieldset className="mx-auto max-w-[80%] md:max-w-[80%] flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
+      <fieldset className="mx-auto max-w-[85%] md:max-w-[80%] flex rounded-xl shadow-lg overflow-hidden p-4 bg-[#171717]">
         <h3>看完网站，你觉得如何：&nbsp;</h3>
 
         <br></br>
