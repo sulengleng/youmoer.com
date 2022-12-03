@@ -237,7 +237,7 @@ export default function Home() {
 
         <br></br>
         
-        <div class="">
+        <div class="p-4">
           <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
           <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
 
