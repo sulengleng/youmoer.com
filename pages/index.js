@@ -88,17 +88,21 @@ export default function Home() {
                   <Link
                     href="https://okjk.co/DNyx7A"
                     target="_blank"
+                    className="text-slate-400 hover:text-[#ffe411]"
                   >
                     @夜游船
                   </Link>
                 </p>
                 <br />
                 <p>
-                  最后要感谢&nbsp;
-                    <Link href="https://github.com/rishimohan" target="_blank" className="text-slate-400 hover:text-[#5196ec]">
-                      @rishimohan
-                    </Link> 
-                    &nbsp;给我提供的模板和一些细节上的帮助
+                  最后要感谢{" "}给我提供的模板和一些细节上的帮助
+                  <Link 
+                    href="https://github.com/rishimohan" 
+                    target="_blank" 
+                    className="text-slate-400 hover:text-[#5196ec]"
+                  >
+                    @rishimohan
+                  </Link> 
                 </p>
               </ul>
             </div>
