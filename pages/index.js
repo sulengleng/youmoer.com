@@ -88,7 +88,7 @@ export default function Home() {
                   <Link
                     href="https://okjk.co/DNyx7A"
                     target="_blank"
-                    className="text-slate-500 hover:text-[#ffe411] dark:text=slate-400"
+                    className="text-yellow-100 hover:text-[#ffe411] dark:text=yellow-50"
                   >
                     @夜游船
                   </Link>
@@ -99,7 +99,7 @@ export default function Home() {
                   <Link 
                     href="https://github.com/rishimohan" 
                     target="_blank" 
-                    className="text-slate-500 hover:text-[#5196ec] dark:text=slate-400"
+                    className="text-blue-100 hover:text-[#5196ec] dark:text=blue-50"
                   >
                     @rishimohan
                   </Link> 
