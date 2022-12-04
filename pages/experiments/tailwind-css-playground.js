@@ -1,3 +1,9 @@
+import { useState } from "react";
+import Link from "next/link";
+import { ArrowIcon } from "lib/icons";
+import { NextSeo } from "next-seo";
+
+return (
 <div class="snap-mandatory snap-x">
 <div class="max-w-[80%] mx-auto md:max-w-2xl flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
   <div class="md:flex">
@@ -11,3 +17,4 @@
   </div>
 </div>
 </div>
+);
