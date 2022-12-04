@@ -6,7 +6,7 @@ import { NextSeo } from "next-seo";
 export default function Experiments() {
 return (
     <div className="flex-col pt-8">
-        <div class="snap-mandatory snap-x lg:max-w-[60%] max-w-[80%] bg-gradient-to-tr from-red-500 to-purple-400">
+        <div class="snap-mandatory snap-x max-w-[80%] bg-gradient-to-tr from-red-500 to-purple-400">
             <div class="mix-blend-overlay max-w-[80%] mx-auto md:max-w-2xl flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
             <div class="md:flex">
                 <div class="md:shrink-0">
