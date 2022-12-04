@@ -28,6 +28,11 @@ export default function Experiments() {
       title: "Tailwind CSS Playground",
       url: "/experiments/tailwind-css-playground",
       description: "A playground for Tailwind CSS",
+    },
+    {
+      title: "Homepage Lab",
+      url: "/experiments/homepage-lab",
+      description: "A homepage lab for my personal website",
     }
     // {
     //   title: "Coming Soon",
