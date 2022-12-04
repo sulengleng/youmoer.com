@@ -27,16 +27,16 @@ function MyApp({ Component, pageProps }) {
         </Head>
         <DefaultSeo
           title="你好，我是夜游船!"
-          description="我是学生、创造者、设计师"
+          description="一名还在路上创造者，喜欢创造有设计感的东西。"
           canonical={canonicalUrl}
           openGraph={{
             site_name: "你好，我是夜游船!",
             title: "你好，我是夜游船!",
             description:
-              "我是学生、创造者、设计师",
+              "一名还在路上创造者，喜欢创造有设计感的东西",
             images: [
               {
-                url: "https://files.catbox.moe/hdr5ve.png",
+                url: "https://s2.loli.net/2022/12/04/qLoTp9HYdbaN4mF.png",
                 width: 800,
                 height: 600,
                 alt: "yeyouchuan for Jike",
