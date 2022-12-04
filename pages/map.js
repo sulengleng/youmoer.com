@@ -38,30 +38,32 @@ export default function Home() {
           </p>
           <div>
             你可以点击地图上的点来查看我去过的地方。也可以点击&nbsp;
-            <button 
-              type="button" 
+            <a 
               href="https://felt.com/map/Places-Ive-Traveled-So-Far-iFgSYPGyQgKKsXIqIOKmvA" 
-              target="_blank" 
-              class="
-                text-white 
-                bg-gradient-to-r 
-                from-lime-700 via-lime-800 to-lime-900 
-                hover:bg-gradient-to-br 
-                focus:ring-4 
-                focus:outline-none 
-                focus:ring-lime-600 
-                dark:focus:ring-lime-900 
-                font-medium 
-                rounded-md 
-                text-sm 
-                px-2.5 
-                py-1 
-                text-center 
-                mr-0.5 
-                mb-0.5"
-              >
-              Open Map &gt;
-            </button>
+              target="_blank" >
+              <button 
+                type="button" 
+                class="
+                  text-white 
+                  bg-gradient-to-r 
+                  from-lime-700 via-lime-800 to-lime-900 
+                  hover:bg-gradient-to-br 
+                  focus:ring-4 
+                  focus:outline-none 
+                  focus:ring-lime-600 
+                  dark:focus:ring-lime-900 
+                  font-medium 
+                  rounded-md 
+                  text-sm 
+                  px-2.5 
+                  py-1 
+                  text-center 
+                  mr-0.5 
+                  mb-0.5"
+                >
+                Open Map &gt;
+              </button>
+            </a>
             &nbsp;按钮来获得更多的信息。
           </div>
         </div>
