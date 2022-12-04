@@ -24,6 +24,11 @@ export default function Experiments() {
       url: "/experiments/modal",
       description: "A very basic modal component in React",
     },
+    {
+      title: "Tailwind CSS Playground",
+      url: "/experiments/tailwind-css-playground",
+      description: "A playground for Tailwind CSS",
+    }
     // {
     //   title: "Coming Soon",
     //   url: "/experiments",
@@ -34,11 +39,11 @@ export default function Experiments() {
 
   return <>
     <NextSeo
-      title="Design & Code Explorations - Rishi Mohan"
+      title="设计和代码实验室 - 夜游船"
       description="A collection of design and code experiments, a college where student are ideas. Would the ideas graduate? Let's find out!"
       openGraph={{
-        site_name: "Hi, I'm Rishi Mohan!",
-        title: "Design and Code Explorations - Rishi Mohan",
+        site_name: "Hi, 我是夜游船！",
+        title: "设计和代码实验室 - 夜游船",
         description:
           "A collection of design and code experiments, a college where student are ideas. Would the ideas graduate? Let's find out!",
       }}
