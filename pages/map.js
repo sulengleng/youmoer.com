@@ -39,11 +39,26 @@ export default function Home() {
           <div>
             你可以点击地图上的点来查看我去过的地方。也可以点击 
             <button 
-              class="relative inline-flex items-center justify-center p-0.5 mb-0.5 mr-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-              <span class="relative px-2.5 py-1 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                Green to blue
-              </span>
-            </button> 
+              type="button" 
+              class="
+                text-white 
+                bg-gradient-to-r 
+                from-lime-600 via-lime-700 to-lime-800 
+                hover:bg-gradient-to-br 
+                focus:ring-4 
+                focus:outline-none 
+                focus:ring-lime-500 
+                dark:focus:ring-lime-900 
+                font-medium 
+                rounded-lg 
+                text-sm 
+                px-2.5 
+                py-1 
+                text-center 
+                mr-0.5 
+                mb-0.5">
+              Green
+            </button>
             按钮来获得更多的信息。
           </div>
         </div>
