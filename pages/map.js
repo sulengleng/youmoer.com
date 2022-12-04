@@ -43,11 +43,11 @@ export default function Home() {
               class="
                 text-white 
                 bg-gradient-to-r 
-                from-lime-600 via-lime-700 to-lime-800 
+                from-lime-700 via-lime-800 to-lime-900 
                 hover:bg-gradient-to-br 
                 focus:ring-4 
                 focus:outline-none 
-                focus:ring-lime-500 
+                focus:ring-lime-600 
                 dark:focus:ring-lime-900 
                 font-medium 
                 rounded-lg 
@@ -56,7 +56,8 @@ export default function Home() {
                 py-1 
                 text-center 
                 mr-0.5 
-                mb-0.5">
+                mb-0.5"
+              >
               Green
             </button>
             按钮来获得更多的信息。
