@@ -41,6 +41,7 @@ export default function Home() {
             <button 
               type="button" 
               href="https://felt.com/map/Places-Ive-Traveled-So-Far-iFgSYPGyQgKKsXIqIOKmvA" 
+              target="_blank" 
               class="
                 text-white 
                 bg-gradient-to-r 
