@@ -51,7 +51,7 @@ export default function Home() {
                 focus:ring-lime-600 
                 dark:focus:ring-lime-900 
                 font-medium 
-                rounded-lg 
+                rounded-md 
                 text-sm 
                 px-2.5 
                 py-1 
