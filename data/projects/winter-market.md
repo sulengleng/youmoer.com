@@ -14,8 +14,8 @@ title: "冬聚闲置市集"
   - 限量三个人
   - ￥10
 
-- [Refactoring UI](https://www.refactoringui.com/) 个人笔记，关于这本书，请去官网支持正版（你也可以在官网得到本书的前两章）
-  - ￥10
+- [Refactoring UI](https://www.refactoringui.com/)，关于这本书，你可以在官网得到本书的前两章，可以先试看一下
+  - ￥15
 
 - 五张关于创作者产品的介绍图
   - ￥10
