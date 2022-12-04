@@ -52,7 +52,7 @@ export default function Home() {
                   focus:outline-none 
                   focus:ring-lime-600 
                   dark:focus:ring-lime-900 
-                  font-medium 
+                  font-semibold
                   rounded-md 
                   text-sm 
                   px-2.5 
