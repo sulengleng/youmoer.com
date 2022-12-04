@@ -40,6 +40,7 @@ export default function Home() {
             你可以点击地图上的点来查看我去过的地方。也可以点击&nbsp;
             <button 
               type="button" 
+              href="https://felt.com/map/Places-Ive-Traveled-So-Far-iFgSYPGyQgKKsXIqIOKmvA" 
               class="
                 text-white 
                 bg-gradient-to-r 
