@@ -25,7 +25,7 @@ export default function Home() {
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
         <h2 className="mb-6 text-4xl font-bold md:text-5xl pt-14">仿生人夜游船(2022批次)使用手册</h2>
         <div className="post-content">
-            
+            <P className="text-[#6868ac]">年度颜色</P>
         </div>
       </article>
     </>
