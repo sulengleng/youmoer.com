@@ -19,6 +19,11 @@ return (
             </div>
             </div>
         </div>
+        <div class="min-h-screen flex flex-col justify-center items-center">
+            <div class="relative w-full max-w-2xl h-auto bg-blue-500 rounded-xl bg-texture bg-cover bg-center bg-blend-color-burn">
+                <h1 class="p-8 max-w-2xl text-8xl font-black uppercase text-white transform -rotate-6 mix-blend-overlay">Tailwind css is super cool!</h1>
+            </div>
+        </div>
     </div>
 );
 }
