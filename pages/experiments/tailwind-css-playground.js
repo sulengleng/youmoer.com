@@ -6,8 +6,8 @@ import { NextSeo } from "next-seo";
 export default function Experiments() {
 return (
     <div className="flex-col">
-        <div class="snap-mandatory snap-x pt-6">
-            <div class="max-w-[80%] mx-auto md:max-w-2xl flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
+        <div class="snap-mandatory snap-x bg-gradient-to-tr from-red-500 to-purple-400">
+            <div class="mix-blend-overlay max-w-[80%] mx-auto md:max-w-2xl flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
             <div class="md:flex">
                 <div class="md:shrink-0">
                     <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
