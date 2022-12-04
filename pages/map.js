@@ -37,7 +37,7 @@ export default function Home() {
             欢迎来到我的旅行车，我创建了这个页面来记录我去过的地方。
           </p>
           <div>
-            你可以点击地图上的点来查看我去过的地方。也可以点击 
+            你可以点击地图上的点来查看我去过的地方。也可以点击&nbsp;
             <button 
               type="button" 
               class="
@@ -58,9 +58,9 @@ export default function Home() {
                 mr-0.5 
                 mb-0.5"
               >
-              Green
+              Open Map &gt;
             </button>
-            按钮来获得更多的信息。
+            &nbsp;按钮来获得更多的信息。
           </div>
         </div>
       </article>
