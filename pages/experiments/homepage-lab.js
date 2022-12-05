@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut, ThumbsUp} from "phosphor-react";
+import {} from "phosphor-react";
 import { motion } from 'framer-motion'
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
                 borderRadius: "100%"
             }}
         >
-            <div class="min-h-screen">
+            <div class="">
                 <div class="w-59 h-59 bg-blue-500 rounded-xl">
                 </div>
             </div>
