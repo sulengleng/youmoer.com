@@ -18,7 +18,9 @@ title: "冬聚闲置市集"
 
 - 个人网站完全代码模板
 - 永久售后，我自己网站的更新功能也会提醒你
-  - 关于这个，可以看看这几天的 [Change log](https://www.notion.so/02f007a3a09c45baa192e55d916c3be8)
+
+—>关于这个，可以看看这几天的 [Change log](https://www.notion.so/02f007a3a09c45baa192e55d916c3be8)
+
 - 获得一个有趣的朋友
 - 网站代码是组件化的，可以随意组合
 
