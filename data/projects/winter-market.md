@@ -24,7 +24,7 @@ title: "冬聚闲置市集"
 
 #### [Refactoring UI](https://www.refactoringui.com/)，关于这本书，你可以在官网得到本书的前两章，可以先试看一下
 
-￥15 ‘原价 149 美元’ 你能得到：
+￥15 ~~原价 149 美元~~ 你能得到：
 
 - [Refactoring UI](https://www.refactoringui.com/) 整本书的 pdf
 - 配合书的三个视频文件
