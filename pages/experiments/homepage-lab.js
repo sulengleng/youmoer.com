@@ -31,7 +31,7 @@ export default function Home() {
             }}
         >
             <div class="">
-                <div class="justify-center w-48 h-48 bg-blue-500 rounded-xl">
+                <div class="items-center w-48 h-48 bg-blue-500 rounded-xl">
                 </div>
             </div>
         </motion.div>

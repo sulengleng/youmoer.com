@@ -33,6 +33,11 @@ export default function Experiments() {
       title: "Homepage Lab",
       url: "/experiments/homepage-lab",
       description: "A homepage lab for my personal website",
+    },
+    {
+      title: "Notion import API Test",
+      url: "/experiments/notion-import-api-test",
+      description: "A test for Notion import API",
     }
     // {
     //   title: "Coming Soon",
