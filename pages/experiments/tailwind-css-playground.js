@@ -2,6 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowIcon } from "lib/icons";
 import { NextSeo } from "next-seo";
+import { motion } from "framer-motion";
 
 export default function Experiments() {
 return (

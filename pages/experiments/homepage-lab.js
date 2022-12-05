@@ -22,6 +22,19 @@ export default function Home() {
                 </div>
             </motion.div>
         </div>
+        <motion.div
+            whileHover={{ scale: 1.2, rotate: 90 }}
+            whileTap={{
+                scale: 0.8,
+                rotate: -90,
+                borderRadius: "100%"
+            }}
+        >
+            <div class="min-h-screen flex flex-col items-center pt-4">
+                <div class="relative w-full max-w-2xl h-auto bg-blue-500 rounded-xl bg-texture bg-cover bg-center bg-blend-color-burn">
+                </div>
+            </div>
+        </motion.div>
     </body>
     );
 }
