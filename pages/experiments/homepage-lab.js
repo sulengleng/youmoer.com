@@ -30,7 +30,7 @@ export default function Home() {
                 borderRadius: "100%"
             }}
         >
-            <div class="">
+            <div class="justify-center">
                 <div class="w-48 h-48 bg-blue-500 rounded-xl">
                 </div>
             </div>
