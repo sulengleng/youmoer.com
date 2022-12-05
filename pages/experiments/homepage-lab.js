@@ -30,7 +30,7 @@ export default function Home() {
                 borderRadius: "100%"
             }}
         >
-            <div class="min-h-screen flex flex-col items-center pt-4">
+            <div class="min-h-screen flex flex-col pt-4">
                 <div class="relative w-59 h-59 bg-blue-500 rounded-xl">
                 </div>
             </div>
