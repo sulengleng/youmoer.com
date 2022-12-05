@@ -6,8 +6,7 @@ const notion = new Client({
 
 ;(async() => {
     const res = await notion.databases.query({
-        datebase_id: "9b5e911262dd4899b8857992f19b3d99",
-        view_id: "08102145f0f648fb927d7cf338d13845",
+        database_id: "9b5e911262dd4899b8857992f19b3d99",
         filter: {
             property: "Name",
             text: {
