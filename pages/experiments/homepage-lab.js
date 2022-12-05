@@ -31,7 +31,7 @@ export default function Home() {
             }}
         >
             <div class="">
-                <div class="w-59 h-59 bg-blue-500 rounded-xl">
+                <div class="w-10 h-10 bg-blue-500 rounded-xl">
                 </div>
             </div>
         </motion.div>
