@@ -2,7 +2,7 @@ const { Client } = require("@notionhq/client")
 
 export default function NotionImportApiTest({ list }) {
   return (
-    <ul className={list()}>
+    <ul className="">
       <NotionCard
         title={item.properties.Name.title[0].plain_text}
         url={item.properties.URL.url}
