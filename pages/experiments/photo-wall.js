@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { MapPin,} from "phosphor-react";
+import { MapPin, Compass } from "phosphor-react";
 import { motion } from 'framer-motion'
 
 const IMAGES = [
@@ -8,6 +8,11 @@ const IMAGES = [
       src: "/images/pages/Statue-and-Dove.png",
       place: "Bristol",
       className: "rotate-[0deg]",
+    },
+    {
+      src: "https://files.catbox.moe/23b07j.png", 
+      note: "This is a test",
+      className: "rotate-[0deg]", 
     },
     {
       src: "/images/pages/Street.png",
@@ -65,8 +70,8 @@ export default function Photo() {
                     loading="lazy"
                     />
                     <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white/90 backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                    <MapPin size={14} className="mr-1" />
-                    {item?.place}
+                    <Compass size={14} className="mr-1" />
+                    {item?.place}{item?.note}
                     </div>
                 </div>
                 ))}
