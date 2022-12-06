@@ -10,15 +10,15 @@ const IMAGES = [
       className: "rotate-[0deg]",
     },
     {
-      src: "https://files.catbox.moe/23b07j.png", 
-      note: "This is a test",
-      className: "rotate-[0deg]", 
-    },
-    {
       src: "/images/pages/Street.png",
       place: "York",
       className: "rotate-[0deg]",
     },
+    {
+        src: "https://files.catbox.moe/23b07j.png", 
+        note: "This is a test",
+        className: "rotate-[0deg]", 
+      },
     {
       src: "/images/pages/dali.png",
       place: "Dali",
@@ -71,7 +71,7 @@ export default function Photo() {
                     />
                     <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white/90 backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
                     <Compass size={14} className="mr-1" />
-                    {item?.place}{item?.note}
+                    {item?.place}&nbsp;{item?.note}
                     </div>
                 </div>
                 ))}
