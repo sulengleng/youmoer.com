@@ -39,6 +39,11 @@ export default function Experiments() {
       url: "/experiments/notion-import-api-test",
       description: "A test for Notion import API",
     },
+    {
+      title: "Photo Wall",
+      url: "/experiments/photo-wall",
+      description: "A photo wall with CSS Grid",
+    },
     // {
     //   title: "Coming Soon",
     //   url: "/experiments",
