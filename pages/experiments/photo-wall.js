@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut, ThumbsUp} from "phosphor-react";
+import { MapPin,} from "phosphor-react";
 import { motion } from 'framer-motion'
 
 const IMAGES = [
