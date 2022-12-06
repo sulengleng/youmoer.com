@@ -1,9 +1,28 @@
+import { List } from "phosphor-react"
 const { Client } = require("@notionhq/client")
+import Link from "next/link"
+import classnames from "classnames";
+
+const LIST = [
+  {
+    title: "properties.Name",
+    url: "properties.URL",
+    tags: "properties.Tags",
+  },
+];
 
 export default function NotionImportApiTest({ list }) {
   return (
-    <ul className="">
-      <p>asdihowad</p>
+    <ul className="relative">
+      {LIST?.map((item) => (
+            <Link
+              title={item.properties.Name.title[0].plain_text}
+              url={item.properties.URL.url}
+              tags={item.properties.Tags.multi_select}
+              show={item.properties.Use.checkbox}
+            >
+              </Link>
+          ))}
   </ul>
   )
 }

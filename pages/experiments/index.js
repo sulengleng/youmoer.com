@@ -38,7 +38,7 @@ export default function Experiments() {
       title: "Notion import API Test",
       url: "/experiments/notion-import-api-test",
       description: "A test for Notion import API",
-    }
+    },
     // {
     //   title: "Coming Soon",
     //   url: "/experiments",
