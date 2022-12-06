@@ -45,9 +45,9 @@ export default function Experiments() {
       description: "A photo wall with CSS Grid",
     },
     {
-      title: "Spotify Poster Design",
-      url: "/experiments/spotify-poster-design",
-      description: "A poster design for Spotify",
+      title: "Anyway.Now",
+      url: "/experiments/anyway-now",
+      description: "A simple website for Anyway.Now",
     }
     // {
     //   title: "Coming Soon",

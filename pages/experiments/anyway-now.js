@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <body className="selection:bg-red-600 selection:text-white bg-white">
+        <body className="selection:bg-red-600 selection:text-white">
             <div className="border-8 border-red-600">
                 <h1 className="font-sans text-3xl font-bold	tracking-wide pl-14 py-8">Anyway.Now · 安妮薇看看</h1>
-                <div className="px-6 py-2 mx-auto max-w-[90%] justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')]">
+                <div className="px-6 py-2 mx-auto max-w-[90%] justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')]">
                     即日起《<a className="font-bold">Anyway.News 安妮薇时报</a>》正式更名为 《<a className="font-bold">Anyway.Now 安妮薇看看</a>》，服务内容不变，特此通知~
                 </div>
                 <div className="px-6 divide-y divide-dotted divide-gray-300">
@@ -60,7 +60,7 @@ export default function Home() {
                         <p className="px-8 my-2 flex-auto text-sm text-gray-600">今天才看到这篇老文，研究本身甚至是来自 2019 年的，但让我挺长见识，学者 Geoff Boeing 用工具提取了各个城市的道路方向性然后做了可视化的汇总，北京毫无疑问是横平竖直，而数据告诉我上海其实也不像印象中那么「歪歪扭扭」~</p>
                         <a className="px-8 py-6 text-red-600 font-extrabold">2周前</a>
                         </div>
-                        <img src="https://s.anw.red/news/1669101369.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-32"/>
+                        <img src="https://s.anw.red/news/1669101369.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-32 mr-4"/>
                     </div>
                     <div className="flex flex-col">
                         <Link href="https://www.learnui.design/blog/ios-design-guidelines-templates.html" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">iOS 16 设计规范细节的插图解读</Link>
