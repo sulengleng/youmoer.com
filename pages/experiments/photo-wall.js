@@ -53,6 +53,26 @@ const IMAGES = [
         src: "https://freight.cargo.site/w/700/q/75/i/d6083f7c46651c6677ca623ff08e5e58a0baad0e1cf62702c8b3e75b014eace1/NZ_old_11.jpg",
         note: "This is a test",
         className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/58359082152476db5375d2bcef45d904b90fe6b1aacd46cf42aa2aa3ecc72a7a/savedbyadeer2.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/141a574346a10e043178154891a3561714097028013d5910137c72bd674e9ee0/oman_old2.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/51421528853e490957ad03ac58cb4e3340b287c758ff63763d61f2911e643342/bentonite.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/57193ca2ea9bfc3f89f6b13b407efc415638a9342eec2f64351af0f65b3d92fc/Arco_Iris_3R6A7906.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
     }
   ];
   
