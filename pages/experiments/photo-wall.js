@@ -35,7 +35,7 @@ const IMAGES = [
         className: "rotate-[0deg]",
     },
     {
-        src: "https://freight.cargo.site/w/700/q/75/i/15b75ddcb51f4749fd5d9f7e44fda6175dee3d66a491272b35b89060190a107d/Idriveatnight.jpg",
+        src: "https://freight.cargo.site/w/700/q/75/i/3fd0f0325429b7b3b8e4334e516b25d8e048291ee9daedf634c9e0255f3b06a4/NZ_old_13b-2.jpg",
         note: "This is a test",
         className: "rotate-[0deg]",
     },
