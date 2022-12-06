@@ -5,18 +5,18 @@ import classnames from "classnames";
 
 const LIST = [
   {
-    title: "properties.Name",
+    title: "properties.Title.title[0].plain_text",
     url: "properties.URL",
     tags: "properties.Tags",
   },
 ];
 
-export default function NotionImportApiTest({ list }) {
+export default function NotionImportApiTest() {
   return (
     <ul className="relative">
       {LIST?.map((item) => (
             <Link
-              title={item.properties.Name.title[0].plain_text}
+              title={item.properties.Title.title[0].plain_text}
               url={item.properties.URL.url}
               tags={item.properties.Tags.multi_select}
               show={item.properties.Use.checkbox}
