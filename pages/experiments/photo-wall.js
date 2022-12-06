@@ -66,7 +66,7 @@ export default function Photo() {
                     <img
                     src={item?.src}
                     alt={item?.place}
-                    className="rounded-[9px]"
+                    className="rounded-[9px] w-full"
                     loading="lazy"
                     />
                     <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white/90 backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
