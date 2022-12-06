@@ -20,14 +20,14 @@ export default function Anyway() {
                     </div>
                     <div className="flex flex-col basis-11/12">
                         <Link href="https://music.apple.com/cn/replay" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">Apple 这个浓眉大眼的家伙也做年度总结了</Link>
-                        <p className="px-10 my-2 flex-auto text-sm text-gray-600">年底各大音乐应用都会总结了过去一年最喜爱的音乐，今年 Spotify 的 Wrapped 早早发出了！不过展示层面不再有什么创意，分享的海报也大同小异了，倒是 Apple 今年也开始做专页了~</p>
+                        <p className="px-10 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">年底各大音乐应用都会总结了过去一年最喜爱的音乐，今年 Spotify 的 Wrapped 早早发出了！不过展示层面不再有什么创意，分享的海报也大同小异了，倒是 Apple 今年也开始做专页了~</p>
                         <a className="px-10 py-6 text-red-600 font-extrabold">4天前</a>
                     </div>
                     </div>
                     <div className="py-6 flex flex-row divide-x divide-dotted divide-gray-300">
                     <div className="flex flex-col basis-10/12">
                         <Link href="https://sspai.com/post/73349" className="flex-auto px-8 font-bold hover:text-red-600 hover:underline underline-offset-4">语言选单设计完全指南</Link>
-                        <p className="px-8 my-2 flex-auto text-sm text-gray-600">这篇译文翻译自 Smashing Magazine，具有他们网站典型的风格——基于各种不同案例把一个元素掰开揉碎，仔细地讲，如果你有这种方面的设计需求，可以偷懒减少很多「找竞品」的步骤~</p>
+                        <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">这篇译文翻译自 Smashing Magazine，具有他们网站典型的风格——基于各种不同案例把一个元素掰开揉碎，仔细地讲，如果你有这种方面的设计需求，可以偷懒减少很多「找竞品」的步骤~</p>
                         <a className="px-8 py-6 text-red-600 font-extrabold">5天前</a>
                     </div>
                     <div className="flex flex-col">
@@ -47,7 +47,7 @@ export default function Anyway() {
                     <div className="flex flex-row">
                         <div className="flex flex-col basis-10/12">
                         <Link href="https://zhuanlan.zhihu.com/p/577643205" className="flex-auto px-8 font-bold hover:text-red-600 hover:underline underline-offset-4">用伦敦地铁的标准绘制深圳与香港的轨道交通线路图</Link>
-                        <p className="px-8 my-2 flex-auto text-sm text-gray-600">这应该是我见过的最专业的一份「民间」设计里，不只是简简单单用伦敦地铁的线路图风格重绘，而是从历史沿革、实际问题、现场环境等各个方面着手，做了一次严谨、真实的设计需求，值得一看~</p>
+                        <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">这应该是我见过的最专业的一份「民间」设计里，不只是简简单单用伦敦地铁的线路图风格重绘，而是从历史沿革、实际问题、现场环境等各个方面着手，做了一次严谨、真实的设计需求，值得一看~</p>
                         <a className="px-8 py-6 text-red-600 font-extrabold">1周前</a>
                         </div>
                         <img src="https://s.anw.red/news/hk-sz-map-in-tfl-style.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-32"/>
@@ -57,7 +57,7 @@ export default function Anyway() {
                     <div className="flex flex-row">
                         <div className="flex flex-col basis-10/12">
                         <Link href="https://geoffboeing.com/2019/09/urban-street-network-orientation/" className="flex-auto px-8 font-bold hover:text-red-600 hover:underline underline-offset-4">各大城市的道路「规律性」可视化数据展示</Link>
-                        <p className="px-8 my-2 flex-auto text-sm text-gray-600">今天才看到这篇老文，研究本身甚至是来自 2019 年的，但让我挺长见识，学者 Geoff Boeing 用工具提取了各个城市的道路方向性然后做了可视化的汇总，北京毫无疑问是横平竖直，而数据告诉我上海其实也不像印象中那么「歪歪扭扭」~</p>
+                        <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">今天才看到这篇老文，研究本身甚至是来自 2019 年的，但让我挺长见识，学者 Geoff Boeing 用工具提取了各个城市的道路方向性然后做了可视化的汇总，北京毫无疑问是横平竖直，而数据告诉我上海其实也不像印象中那么「歪歪扭扭」~</p>
                         <a className="px-8 py-6 text-red-600 font-extrabold">2周前</a>
                         </div>
                         <img src="https://s.anw.red/news/1669101369.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-32 mr-4"/>
