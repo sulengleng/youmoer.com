@@ -2,17 +2,28 @@ import clsx from "clsx";
 import Link from "next/link";
 import {} from "phosphor-react";
 import { motion } from 'framer-motion'
+import {SpinnerIcon, ArrowIcon} from "lib/icons"
+import classnames from "classnames";
+
 
 export default function Home() {
     return (
-      <body className="selection:bg-[#3b818c]">
+    <body className="selection:bg-[#3b818c]">
+        <Link
+            href="/experiments"
+            className={classnames(
+            "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center"
+            )}>
+
+            <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
+        </Link>
         <div className="pb-20">
-          <motion.div
+        <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{
-              opacity: 1,
-              y: 0,
-              transition: { duration: 0.35, delay: 0.2 },
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.35, delay: 0.2 },
             }}
             >
                 <div>
