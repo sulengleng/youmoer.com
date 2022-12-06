@@ -54,7 +54,7 @@ export default function Photo() {
                 transition: { duration: 0.35, delay: 0.3 },
             }}
             >
-            <ContentWrapper className="gap-8 columns-3">
+            <ContentWrapper className="gap-8 columns-3 space-y-6">
                 {IMAGES?.map((item) => (
                 <div
                     key={item.src}
@@ -66,7 +66,7 @@ export default function Photo() {
                     <img
                     src={item?.src}
                     alt={item?.place}
-                    className="rounded-[9px] w-full columns-3"
+                    className="rounded-[9px] w-full"
                     loading="lazy"
                     />
                     <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white/90 backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
