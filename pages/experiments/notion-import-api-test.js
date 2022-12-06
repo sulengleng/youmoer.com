@@ -3,11 +3,7 @@ const { Client } = require("@notionhq/client")
 export default function NotionImportApiTest({ list }) {
   return (
     <ul className="">
-      <li
-        title={item.properties.Name.title[0].plain_text}
-        url={item.properties.URL.url}
-        tags={item.properties.Tags.multi_select}
-      />
+      <p>asdihowad</p>
   </ul>
   )
 }
