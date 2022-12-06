@@ -7,22 +7,22 @@ const IMAGES = [
     {
       src: "/images/pages/Statue-and-Dove.png",
       place: "Bristol",
-      className: "rotate-[-2deg]",
+      className: "rotate-[0deg]",
     },
     {
       src: "/images/pages/Street.png",
       place: "York",
-      className: "rotate-[2deg]",
+      className: "rotate-[0deg]",
     },
     {
       src: "/images/pages/dali.png",
       place: "Dali",
-      className: "rotate-[-2deg]",
+      className: "rotate-[0deg]",
     },
     {
       src: "/images/pages/pine-and-stone.png",
       place: "Suzhou",
-      className: "rotate-[2deg]",
+      className: "rotate-[0deg]",
     }
   ];
   
