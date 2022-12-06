@@ -5,15 +5,25 @@ const notion = new Client({
 })
 
 ;(async() => {
-    const res = await notion.databases.query({
+    const response = await notion.databases.query({
         database_id: "9b5e911262dd4899b8857992f19b3d99",
         filter: {
-            property: "Name",
-            text: {
-                contains: "DEX"
-            }
-        }
-    })
+            and: [
+              {
+                property: "Show",
+                checkbox: {
+                  equals: true,
+                },
+              },
+            ],
+          },
+          sorts: [
+            {
+              property: "Name",
+              direction: "ascending",
+            },
+          ],
+        })
 
-    console.log(res)
+    console.log(response.results)
 })()
