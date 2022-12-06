@@ -2,6 +2,9 @@ import clsx from "clsx";
 import Link from "next/link";
 import { MapPin, Compass } from "phosphor-react";
 import { motion } from 'framer-motion'
+import { ArrowIcon } from "lib/icons";
+import classnames from "classnames";
+
 
 const IMAGES = [
     {
@@ -110,38 +113,48 @@ const IMAGES = [
 
 export default function Photo() {
   return (
-    <div className="pb-20">
-        <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.35, delay: 0.3 },
-            }}
-            >
-            <ContentWrapper className="gap-6 columns-3 space-y-6 pt-6">
-                {IMAGES?.map((item) => (
-                <div
-                    key={item.src}
-                    className={clsx(
-                    item?.className,
-                    "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
-                    )}
+    <body>
+        <Link
+            href="/experiments"
+            className={classnames(
+            "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center"
+            )}>
+
+            <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
+        </Link> 
+        <div className="pb-20">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0.35, delay: 0.3 },
+                }}
                 >
-                    <img
-                    src={item?.src}
-                    alt={item?.place}
-                    className="rounded-[9px] w-full"
-                    loading="lazy"
-                    />
-                    <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                    <Compass size={14} className="mr-1" />
-                    {item?.place }{item?.note}
+                <ContentWrapper className="gap-6 columns-3 space-y-6 pt-6">
+                    {IMAGES?.map((item) => (
+                    <div
+                        key={item.src}
+                        className={clsx(
+                        item?.className,
+                        "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
+                        )}
+                    >
+                        <img
+                        src={item?.src}
+                        alt={item?.place}
+                        className="rounded-[9px] w-full"
+                        loading="lazy"
+                        />
+                        <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                        <Compass size={14} className="mr-1" />
+                        {item?.place }{item?.note}
+                        </div>
                     </div>
-                </div>
-                ))}
-            </ContentWrapper>
-        </motion.div>
-    </div>
+                    ))}
+                </ContentWrapper>
+            </motion.div>
+        </div>
+    </body>
     )
 }
