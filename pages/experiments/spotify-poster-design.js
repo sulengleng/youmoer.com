@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Poster() {
+export default function Home() {
     return (
         <body className="selection:bg-red-600 selection:text-white">
             <div className="border-8 border-red-600">
