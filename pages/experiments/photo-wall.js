@@ -38,6 +38,21 @@ const IMAGES = [
         src: "https://freight.cargo.site/w/700/q/75/i/15b75ddcb51f4749fd5d9f7e44fda6175dee3d66a491272b35b89060190a107d/Idriveatnight.jpg",
         note: "This is a test",
         className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/192b532492b000698a037d2bb788e757c120bef2f9bdf347b237605e81f33256/39-2.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/15b75ddcb51f4749fd5d9f7e44fda6175dee3d66a491272b35b89060190a107d/Idriveatnight.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/d6083f7c46651c6677ca623ff08e5e58a0baad0e1cf62702c8b3e75b014eace1/NZ_old_11.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
     }
   ];
   
