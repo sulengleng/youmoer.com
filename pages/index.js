@@ -170,7 +170,7 @@ export default function Home() {
                   className="rounded-[9px]"
                   loading="lazy"
                 />
-                <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
                   <MapPin size={14} className="mr-1" />
                   {item?.place}
                 </div>
