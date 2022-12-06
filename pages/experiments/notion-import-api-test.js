@@ -1,17 +1,19 @@
 const { Client } = require("@notionhq/client")
 
-export default function NotionImportApiTest() {
-  <ul className={list()}>
-  {list?.map((item) => (
-    <StackTile
-      key={item.id}
-      title={item.properties.Name.title[0].plain_text}
-      url={item.properties.URL.url}
-      tags={item.properties.Tags.multi_select}
-    />
-  ))}
-</ul>
+export default function NotionImportApiTest({ list }) {
+  return (
+    <ul className={list()}>
+    {list?.map((item) => (
+      <list
+        title={item.properties.Name.title[0].plain_text}
+        url={item.properties.URL.url}
+        tags={item.properties.Tags.multi_select}
+      />
+    ))}
+  </ul>
+  )
 }
+
 
 export async function getStaticProps() {
   const notion = new Client({
@@ -21,28 +23,27 @@ export async function getStaticProps() {
   const response = await notion.databases.query({
       database_id: "9b5e911262dd4899b8857992f19b3d99",
       filter: {
-          and: [
-            {
-              property: "Show",
-              checkbox: {
-                equals: true,
-              },
-            },
-          ],
-        },
-        sorts: [
+        and: [
           {
-            property: "Name",
-            direction: "ascending",
+            property: "Show",
+            checkbox: {
+              equals: true,
+            },
           },
         ],
-      })
-
-      return {
-        props: {
-          list: response.results,
+      },
+      sorts: [
+        {
+          property: "Name",
+          direction: "ascending",
         },
-        revalidate: 60,
-      }
+      ],
+    })
+
+    return {
+      props: {
+        list: response.results,
+      },
+      revalidate: 60,
     }
-    
+  }
