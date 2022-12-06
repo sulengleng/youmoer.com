@@ -4,7 +4,7 @@ export default function NotionImportApiTest({ list }) {
   return (
     <ul className={list()}>
     {list?.map((item) => (
-      <list
+      <NotionCard
         title={item.properties.Name.title[0].plain_text}
         url={item.properties.URL.url}
         tags={item.properties.Tags.multi_select}
