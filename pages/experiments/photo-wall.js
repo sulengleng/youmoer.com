@@ -15,7 +15,7 @@ const IMAGES = [
         className: "rotate-[0deg]",
     },
     {
-        src: "https://files.catbox.moe/23b07j.png", 
+        src: "https://freight.cargo.site/w/700/q/75/i/2c3331eb50046e2cec996da41bdd9faea821942569d0e2da90c1c4d6178a5170/1559_6.jpg", 
         note: "This is a test",
         className: "rotate-[0deg]", 
       },
