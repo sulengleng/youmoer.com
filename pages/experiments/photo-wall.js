@@ -117,7 +117,7 @@ export default function Photo() {
         <Link
             href="/experiments"
             className={classnames(
-            "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center"
+            "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center ml-2 mt-6"
             )}>
 
             <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
