@@ -125,7 +125,7 @@ export default function Photo() {
                     key={item.src}
                     className={clsx(
                     item?.className,
-                    "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
+                    "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
                     )}
                 >
                     <img
