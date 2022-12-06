@@ -44,6 +44,11 @@ export default function Experiments() {
       url: "/experiments/photo-wall",
       description: "A photo wall with CSS Grid",
     },
+    {
+      title: "Spotify Poster Design",
+      url: "/experiments/spotify-poster-design",
+      description: "A poster design for Spotify",
+    }
     // {
     //   title: "Coming Soon",
     //   url: "/experiments",
