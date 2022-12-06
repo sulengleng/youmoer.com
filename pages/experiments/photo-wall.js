@@ -73,6 +73,16 @@ const IMAGES = [
         src: "https://freight.cargo.site/w/700/q/75/i/57193ca2ea9bfc3f89f6b13b407efc415638a9342eec2f64351af0f65b3d92fc/Arco_Iris_3R6A7906.jpg",
         note: "This is a test",
         className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/1e7c183e0076704e14b47b2e2018363de936b9c647a9d1820b7a973fd8b94187/cascading_pigments.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/ce9e50bec0f9f94d578dbdfdb752c372329890fc9f50a5e6d3a1bb056fea2056/Magma_33_3R6A3885.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
     }
   ];
   
