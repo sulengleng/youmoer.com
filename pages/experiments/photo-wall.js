@@ -114,7 +114,7 @@ export default function Photo() {
                 transition: { duration: 0.35, delay: 0.3 },
             }}
             >
-            <ContentWrapper className="gap-6 columns-4 space-y-6">
+            <ContentWrapper className="gap-6 columns-4 space-y-6 pt-6">
                 {IMAGES?.map((item) => (
                 <div
                     key={item.src}
