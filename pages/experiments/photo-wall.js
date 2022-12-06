@@ -83,6 +83,11 @@ const IMAGES = [
         src: "https://freight.cargo.site/w/700/q/75/i/ce9e50bec0f9f94d578dbdfdb752c372329890fc9f50a5e6d3a1bb056fea2056/Magma_33_3R6A3885.jpg",
         note: "This is a test",
         className: "rotate-[0deg]",
+    },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/5a425b4a5402f4ad286236c441ee1543e2ffbb873cd42cbc7ab9feda43fef73c/Mex_2001_7-2.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
     }
   ];
   
