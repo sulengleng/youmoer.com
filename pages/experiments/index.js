@@ -48,6 +48,11 @@ export default function Experiments() {
       title: "Anyway.Now",
       url: "/experiments/anyway-now",
       description: "A simple website for Anyway.Now",
+    },
+    {
+      title: "Product Overview",
+      url: "/experiments/product-overview",
+      description: "A product overview page with CSS Grid",
     }
     // {
     //   title: "Coming Soon",
