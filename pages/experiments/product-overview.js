@@ -3,7 +3,7 @@ import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 
 const product = {
-  name: 'Yangzi 的手工书衣和布包',
+  name: 'Yangzi的手工书衣和布包',
   price: '￥69-￥188',
   href: 'https://app.milanote.com/1OMuNx1E7dIady/new-board?p=RJrISeoPfIl',
   breadcrumbs: [
