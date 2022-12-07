@@ -9,7 +9,7 @@ export default function Anyway() {
                     即日起《<a className="font-bold">Anyway.News 安妮薇时报</a>》正式更名为 《<a className="font-bold">Anyway.Now 安妮薇看看</a>》，服务内容不变，特此通知~
                 </div>
                 <div className="px-6 divide-y divide-dotted divide-gray-300">
-                    <div className="py-6 flex flex-col md:flex-row divide-x divide-dotted divide-gray-300">
+                    <div className="py-6 flex flex-col md:flex-row divide-x divide-none md:divide-dotted divide-gray-300">
                         <div className="flex flex-col">
                             <Link href="https://www.geekpark.net/news/293302" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">创办 Apple 之后，沃兹尼亚克在做什么？</Link>
                             <a className="px-10 py-6 text-red-600 font-extrabold">15小时前</a>
@@ -24,7 +24,7 @@ export default function Anyway() {
                             <a className="px-10 py-6 text-red-600 font-extrabold">4天前</a>
                         </div>
                     </div>
-                    <div className="py-6 flex flex-col md:flex-row divide-x divide-dotted divide-gray-300">
+                    <div className="py-6 flex flex-col md:flex-row divide-x divide-none md:divide-dotted divide-gray-300">
                         <div className="flex flex-col basis-10/12">
                             <Link href="https://sspai.com/post/73349" className="flex-auto px-8 font-bold hover:text-red-600 hover:underline underline-offset-4">语言选单设计完全指南</Link>
                             <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">这篇译文翻译自 Smashing Magazine，具有他们网站典型的风格——基于各种不同案例把一个元素掰开揉碎，仔细地讲，如果你有这种方面的设计需求，可以偷懒减少很多「找竞品」的步骤~</p>
@@ -39,7 +39,7 @@ export default function Anyway() {
                             <a className="px-10 py-6 text-red-600 font-extrabold">7天前</a>
                         </div>
                     </div>
-                    <div className="py-6 flex flex-col md:flex-row divide-x divide-dotted divide-gray-300">
+                    <div className="py-6 flex flex-col md:flex-row divide-x divide-none md:divide-dotted divide-gray-300">
                         <div className="flex flex-col">
                             <Link href="https://www.bilibili.com/video/BV1C8411j7pu" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">配饭视频: 德鲁伊的神秘符号？聊聊凯尔特艺术</Link>
                             <a className="px-10 py-6 text-red-600 font-extrabold">1周前</a>
@@ -53,7 +53,7 @@ export default function Anyway() {
                             <img src="https://s.anw.red/news/hk-sz-map-in-tfl-style.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-auto md:h-32"/>
                         </div>
                     </div>
-                    <div className="py-6 flex flex-col md:flex-row divide-x divide-dotted divide-gray-300">
+                    <div className="py-6 flex flex-col md:flex-row divide-x divide-none md:divide-dotted divide-gray-300">
                         <div className="flex flex-col md:flex-row">
                             <div className="flex flex-col basis-10/12">
                             <Link href="https://geoffboeing.com/2019/09/urban-street-network-orientation/" className="flex-auto px-8 font-bold hover:text-red-600 hover:underline underline-offset-4">各大城市的道路「规律性」可视化数据展示</Link>
