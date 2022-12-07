@@ -3,35 +3,35 @@ import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 
 const product = {
-  name: 'Basic Tee 6-Pack',
-  price: '$192',
-  href: '#',
+  name: 'Yangzi 的手工书衣和布包',
+  price: '￥69-￥188',
+  href: 'https://app.milanote.com/1OMuNx1E7dIady/new-board?p=RJrISeoPfIl',
   breadcrumbs: [
-    { id: 1, name: 'Men', href: '#' },
-    { id: 2, name: 'Clothing', href: '#' },
+    { id: 1, name: 'Yangzi的个人网站', href: '#' },
+    { id: 2, name: '商品', href: '#' },
   ],
   images: [
     {
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
-      alt: 'Two each of gray, white, and black shirts laying flat.',
+      src: 'https://mmbiz.qpic.cn/mmbiz_jpg/NXHqbSXGcnlFpBYmSSEUIibyAUHicFCM57vaRk6ibKqlMcsodmp5J6ciahSgB1Sg355ny73xqnLcmdTvetmJjuuCDA/640',
+      alt: 'EchoKid 手工书衣',
     },
     {
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg',
-      alt: 'Model wearing plain black basic tee.',
+      src: 'https://s2.loli.net/2022/12/08/7lPXZ6KnzEWdUj1.png',
+      alt: 'EchoKid Pin 布包',
     },
     {
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg',
-      alt: 'Model wearing plain gray basic tee.',
+      src: 'https://s2.loli.net/2022/12/08/iZCmw6kIhzOSTEo.png',
+      alt: 'EchoKid Pin 布包',
     },
     {
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
-      alt: 'Model wearing plain white basic tee.',
+      src: 'https://app.milanote.com/media/p/images/1P1H1t1Ho7Ud6b/Xnc/pin%E5%B8%83%E5%8C%85-4.jpg?w=800&v=2&elementId=1P1H1t1Ho7Ud6b',
+      alt: 'EchoKid Pin 布包',
     },
   ],
   colors: [
-    { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400' },
-    { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-400' },
-    { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900' },
+    { name: '红色款', class: 'bg-[#df1e3d]', selectedClass: 'ring-gray-400' },
+    { name: '蓝色款', class: 'bg-[#02188f]', selectedClass: 'ring-gray-400' },
+    { name: '绿色款', class: 'bg-[#027669]', selectedClass: 'ring-gray-900' },
   ],
   sizes: [
     { name: 'XXS', inStock: false },
