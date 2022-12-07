@@ -4,11 +4,11 @@ export default function Anyway() {
     return (
         <body className="selection:bg-red-600 selection:text-white w-full">
             <div className="border-8 border-red-600">
-                <h1 className="font-sans text-3xl font-bold	tracking-wide pl-14 py-8">Anyway.Now · 安妮薇看看</h1>
+                <h1 className="font-sans text-3xl font-bold	tracking-wide md:pl-14 pl-8 py-8">Anyway.Now · 安妮薇看看</h1>
                 <div className="px-6 py-2 mx-auto max-w-[90%] justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
                     即日起《<a className="font-bold">Anyway.News 安妮薇时报</a>》正式更名为 《<a className="font-bold">Anyway.Now 安妮薇看看</a>》，服务内容不变，特此通知~
                 </div>
-                <div className="px-6 divide-y divide-none md:divide-dotted divide-gray-300">
+                <div className="px-6 divide-y divide-dotted divide-gray-300">
                     <div className="py-6 flex flex-col md:flex-row divide-x divide-none md:divide-dotted divide-gray-300">
                         <div className="flex flex-col">
                             <Link href="https://www.geekpark.net/news/293302" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">创办 Apple 之后，沃兹尼亚克在做什么？</Link>
@@ -63,7 +63,7 @@ export default function Anyway() {
                             <img src="https://s.anw.red/news/1669101369.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-auto md:h-32 mr-4"/>
                         </div>
                         <div className="flex flex-col">
-                            <Link href="https://www.learnui.design/blog/ios-design-guidelines-templates.html" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">iOS 16 设计规范细节的插图解读</Link>
+                            <Link href="https://www.learnui.design/blog/ios-design-guidelines-templates.html" className="flex-auto mt-6 md:mt-0 px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">iOS 16 设计规范细节的插图解读</Link>
                             <a className="px-10 py-6 text-red-600 font-extrabold">2周前</a>
                         </div>
                     </div>
