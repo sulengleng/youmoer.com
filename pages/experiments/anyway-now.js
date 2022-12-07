@@ -44,7 +44,7 @@ export default function Anyway() {
                             <Link href="https://www.bilibili.com/video/BV1C8411j7pu" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">配饭视频: 德鲁伊的神秘符号？聊聊凯尔特艺术</Link>
                             <a className="px-10 py-6 text-red-600 font-extrabold">1周前</a>
                         </div>
-                        <div className="flex flex-row">
+                        <div className="flex flex-col md:flex-row">
                             <div className="flex flex-col basis-10/12">
                             <Link href="https://zhuanlan.zhihu.com/p/577643205" className="flex-auto px-8 font-bold hover:text-red-600 hover:underline underline-offset-4">用伦敦地铁的标准绘制深圳与香港的轨道交通线路图</Link>
                             <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">这应该是我见过的最专业的一份「民间」设计里，不只是简简单单用伦敦地铁的线路图风格重绘，而是从历史沿革、实际问题、现场环境等各个方面着手，做了一次严谨、真实的设计需求，值得一看~</p>
@@ -54,7 +54,7 @@ export default function Anyway() {
                         </div>
                     </div>
                     <div className="py-6 flex flex-col md:flex-row divide-x divide-dotted divide-gray-300">
-                        <div className="flex flex-row">
+                        <div className="flex flex-col md:flex-row">
                             <div className="flex flex-col basis-10/12">
                             <Link href="https://geoffboeing.com/2019/09/urban-street-network-orientation/" className="flex-auto px-8 font-bold hover:text-red-600 hover:underline underline-offset-4">各大城市的道路「规律性」可视化数据展示</Link>
                             <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">今天才看到这篇老文，研究本身甚至是来自 2019 年的，但让我挺长见识，学者 Geoff Boeing 用工具提取了各个城市的道路方向性然后做了可视化的汇总，北京毫无疑问是横平竖直，而数据告诉我上海其实也不像印象中那么「歪歪扭扭」~</p>
