@@ -50,7 +50,7 @@ export default function Anyway() {
                             <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">这应该是我见过的最专业的一份「民间」设计里，不只是简简单单用伦敦地铁的线路图风格重绘，而是从历史沿革、实际问题、现场环境等各个方面着手，做了一次严谨、真实的设计需求，值得一看~</p>
                             <a className="px-8 py-6 text-red-600 font-extrabold">1周前</a>
                             </div>
-                            <img src="https://s.anw.red/news/hk-sz-map-in-tfl-style.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-auto md:h-32"/>
+                            <img src="https://s.anw.red/news/hk-sz-map-in-tfl-style.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-auto md:h-32 mr-4"/>
                         </div>
                     </div>
                     <div className="py-6 flex flex-col md:flex-row divide-x divide-none md:divide-dotted divide-gray-300">
