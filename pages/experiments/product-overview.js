@@ -31,7 +31,8 @@ const product = {
   colors: [
     { name: '红色款', class: 'bg-[#df1e3d]', selectedClass: 'ring-gray-400' },
     { name: '蓝色款', class: 'bg-[#02188f]', selectedClass: 'ring-gray-400' },
-    { name: '绿色款', class: 'bg-[#027669]', selectedClass: 'ring-gray-900' },
+    { name: '绿色款', class: 'bg-[#027669]', selectedClass: 'ring-gray-400' },
+    { name: '橙色款', class: 'bg-[#df3f1d]', selectedClass: 'ring-gray-400' },
   ],
   sizes: [
     { name: 'XXS', inStock: false },
@@ -44,15 +45,15 @@ const product = {
     { name: '3XL', inStock: true },
   ],
   description:
-    'The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: "Black". Need to add an extra pop of color to your outfit? Our white tee has you covered.',
+    '拼布包，灵感还来源于打满补丁的百衲衣，用各色零碎的布料拼接而成。也因整件衣服织料色彩互相交错形如水田，而得名水田衣。是旧时僧人为表苦修，破除对穿着的贪求。',
   highlights: [
-    'Hand cut and sewn locally',
-    'Dyed with our proprietary colors',
-    'Pre-washed & pre-shrunk',
-    'Ultra-soft 100% cotton',
+    '手工拼接',
+    '拼图般的设计感',
+    '牢固耐用',
+    '多种颜色可选',
   ],
   details:
-    'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
+    '使用特殊布料无缝拼接而成，日常生活中可以用来装书、笔记本、手机、钱包等，也可以用来装礼物送给朋友。拼图般的设计感，让你的生活充满乐趣。',
 }
 const reviews = { href: '#', average: 4, totalCount: 117 }
 
@@ -139,12 +140,12 @@ export default function Example() {
 
           {/* Options */}
           <div className="mt-4 lg:row-span-3 lg:mt-0">
-            <h2 className="sr-only">Product information</h2>
+            <h2 className="sr-only">商品信息</h2>
             <p className="text-3xl tracking-tight text-gray-900">{product.price}</p>
 
             {/* Reviews */}
             <div className="mt-6">
-              <h3 className="sr-only">Reviews</h3>
+              <h3 className="sr-only">评论</h3>
               <div className="flex items-center">
                 <div className="flex items-center">
                   {[0, 1, 2, 3, 4].map((rating) => (
@@ -160,7 +161,7 @@ export default function Example() {
                 </div>
                 <p className="sr-only">{reviews.average} out of 5 stars</p>
                 <a href={reviews.href} className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
-                  {reviews.totalCount} reviews
+                  {reviews.totalCount} 评论
                 </a>
               </div>
             </div>
@@ -168,10 +169,10 @@ export default function Example() {
             <form className="mt-10">
               {/* Colors */}
               <div>
-                <h3 className="text-sm font-medium text-gray-900">Color</h3>
+                <h3 className="text-sm font-medium text-gray-900">颜色</h3>
 
                 <RadioGroup value={selectedColor} onChange={setSelectedColor} className="mt-4">
-                  <RadioGroup.Label className="sr-only"> Choose a color </RadioGroup.Label>
+                  <RadioGroup.Label className="sr-only"> 选择你喜欢的颜色 </RadioGroup.Label>
                   <div className="flex items-center space-x-3">
                     {product.colors.map((color) => (
                       <RadioGroup.Option
@@ -206,14 +207,14 @@ export default function Example() {
               {/* Sizes */}
               <div className="mt-10">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-sm font-medium text-gray-900">Size</h3>
+                  <h3 className="text-sm font-medium text-gray-900">大小</h3>
                   <a href="#" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
                     Size guide
                   </a>
                 </div>
 
                 <RadioGroup value={selectedSize} onChange={setSelectedSize} className="mt-4">
-                  <RadioGroup.Label className="sr-only"> Choose a size </RadioGroup.Label>
+                  <RadioGroup.Label className="sr-only"> 选择你喜欢的大小 </RadioGroup.Label>
                   <div className="grid grid-cols-4 gap-4 sm:grid-cols-8 lg:grid-cols-4">
                     {product.sizes.map((size) => (
                       <RadioGroup.Option
@@ -269,7 +270,7 @@ export default function Example() {
                 type="submit"
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
-                Add to bag
+                购买
               </button>
             </form>
           </div>
@@ -277,7 +278,7 @@ export default function Example() {
           <div className="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pb-16 lg:pr-8">
             {/* Description and details */}
             <div>
-              <h3 className="sr-only">Description</h3>
+              <h3 className="sr-only">介绍</h3>
 
               <div className="space-y-6">
                 <p className="text-base text-gray-900">{product.description}</p>
@@ -285,7 +286,7 @@ export default function Example() {
             </div>
 
             <div className="mt-10">
-              <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
+              <h3 className="text-sm font-medium text-gray-900">优点</h3>
 
               <div className="mt-4">
                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
@@ -299,7 +300,7 @@ export default function Example() {
             </div>
 
             <div className="mt-10">
-              <h2 className="text-sm font-medium text-gray-900">Details</h2>
+              <h2 className="text-sm font-medium text-gray-900">细节</h2>
 
               <div className="mt-4 space-y-6">
                 <p className="text-sm text-gray-600">{product.details}</p>
