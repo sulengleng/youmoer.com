@@ -4,7 +4,6 @@ import { ArrowIcon } from "lib/icons";
 import { NextSeo } from "next-seo";
 import { motion } from "framer-motion";
 import classnames from "classnames";
-import 'flowbite';
 
 
 export default function Experiments() {
