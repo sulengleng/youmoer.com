@@ -50,7 +50,7 @@ export default function Anyway() {
                             <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">这应该是我见过的最专业的一份「民间」设计里，不只是简简单单用伦敦地铁的线路图风格重绘，而是从历史沿革、实际问题、现场环境等各个方面着手，做了一次严谨、真实的设计需求，值得一看~</p>
                             <a className="px-8 py-6 text-red-600 font-extrabold">1周前</a>
                             </div>
-                            <img src="https://s.anw.red/news/hk-sz-map-in-tfl-style.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-32"/>
+                            <img src="https://s.anw.red/news/hk-sz-map-in-tfl-style.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-auto md:h-32"/>
                         </div>
                     </div>
                     <div className="py-6 flex flex-col md:flex-row divide-x divide-dotted divide-gray-300">
@@ -60,7 +60,7 @@ export default function Anyway() {
                             <p className="px-8 my-2 flex-auto text-sm text-gray-600 dark:text-gray-300">今天才看到这篇老文，研究本身甚至是来自 2019 年的，但让我挺长见识，学者 Geoff Boeing 用工具提取了各个城市的道路方向性然后做了可视化的汇总，北京毫无疑问是横平竖直，而数据告诉我上海其实也不像印象中那么「歪歪扭扭」~</p>
                             <a className="px-8 py-6 text-red-600 font-extrabold">2周前</a>
                             </div>
-                            <img src="https://s.anw.red/news/1669101369.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-32 mr-4"/>
+                            <img src="https://s.anw.red/news/1669101369.jpg!/both/800x450/quality/78/progressive/true/ignore-error/true" className="rounded-sm h-auto md:h-32 mr-4"/>
                         </div>
                         <div className="flex flex-col">
                             <Link href="https://www.learnui.design/blog/ios-design-guidelines-templates.html" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">iOS 16 设计规范细节的插图解读</Link>
