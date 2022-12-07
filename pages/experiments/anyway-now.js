@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Anyway() {
     return (
-        <body className="selection:bg-red-600 selection:text-white">
-            <div className="border-8 border-red-600 w-full">
+        <body className="selection:bg-red-600 selection:text-white w-full">
+            <div className="border-8 border-red-600">
                 <h1 className="font-sans text-3xl font-bold	tracking-wide pl-14 py-8">Anyway.Now · 安妮薇看看</h1>
                 <div className="px-6 py-2 mx-auto max-w-[90%] justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
                     即日起《<a className="font-bold">Anyway.News 安妮薇时报</a>》正式更名为 《<a className="font-bold">Anyway.Now 安妮薇看看</a>》，服务内容不变，特此通知~
