@@ -9,7 +9,7 @@ export default function Anyway() {
                     即日起《<a className="font-bold">Anyway.News 安妮薇时报</a>》正式更名为 《<a className="font-bold">Anyway.Now 安妮薇看看</a>》，服务内容不变，特此通知~
                 </div>
                 <div className="px-6 divide-y divide-dotted divide-gray-300">
-                    <div className="py-6 flex flex-row divide-x divide-dotted divide-gray-300">
+                    <div className="py-6 flex flex-auto md:flex-row divide-x divide-dotted divide-gray-300">
                     <div className="flex flex-col">
                         <Link href="https://www.geekpark.net/news/293302" className="flex-auto px-10 font-bold hover:text-red-600 hover:underline underline-offset-4">创办 Apple 之后，沃兹尼亚克在做什么？</Link>
                         <a className="px-10 py-6 text-red-600 font-extrabold">15小时前</a>
