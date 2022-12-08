@@ -38,7 +38,7 @@ return (
                 </div>
             </div>  
         </div>
-        <div class="h-100 w-100">
+        <div class="p-6">
             <motion.div
                 animate={{ 
                     x: 20,
@@ -54,7 +54,7 @@ return (
                     stiffness: 60,
                 }}
             >
-                <div class="justify-center h-64 w-64 rounded-md bg-blue-600">
+                <div class="flex flex-col items-center justify-center h-64 w-64 rounded-md bg-blue-600">
                 </div>
             </motion.div>
         </div>
