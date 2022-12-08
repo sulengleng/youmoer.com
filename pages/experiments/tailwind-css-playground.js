@@ -38,7 +38,7 @@ return (
             </div>  
             <motion.div
                 animate={{ 
-                    x: 500,
+                    x: 400,
                     opacity: 0.2,
                  }}
                 initial={{
@@ -46,7 +46,7 @@ return (
                 }}
                 transition={{
                     type: "spring",
-                    stiffness: 260,
+                    stiffness: 120,
                 }}
             >
                 <div class="h-64 w-64 rounded-md bg-blue-600">
