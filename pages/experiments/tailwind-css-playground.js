@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, react } from "react";
 import Link from "next/link";
 import { ArrowIcon } from "lib/icons";
 import { NextSeo } from "next-seo";
 import { motion } from "framer-motion";
 import classnames from "classnames";
+import { Container } from "postcss";
 
 
 export default function Experiments() {
@@ -37,24 +38,26 @@ return (
                 </div>
             </div>  
         </div>
-        <motion.div
-            animate={{ 
-                x: 20,
-                opacity: 0.2,
-                rotate: 360,
+        <Container class="h-100 w-100">
+            <motion.div
+                animate={{ 
+                    x: 20,
+                    opacity: 0.2,
+                    rotate: 360,
+                    }}
+                initial={{
+                    opacity: 1,
+                    x: 0,
                 }}
-            initial={{
-                opacity: 1,
-                x: 0,
-            }}
-            transition={{
-                type: "spring",
-                stiffness: 60,
-            }}
-        >
-            <div class="justify-left h-64 w-64 rounded-md bg-blue-600">
-            </div>
-        </motion.div>
+                transition={{
+                    type: "spring",
+                    stiffness: 60,
+                }}
+            >
+                <div class="justify-left h-64 w-64 rounded-md bg-blue-600">
+                </div>
+            </motion.div>
+        </Container>
     </body>
 );
 }
