@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import classnames from "classnames";
 import { Container } from "postcss";
 
+const container = new Container();
+
 
 export default function Experiments() {
 return (
