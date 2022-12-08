@@ -41,7 +41,7 @@ return (
             animate={{ 
                 x: 200,
                 opacity: 0.2,
-                rotate: 360,
+                rotate: 30,
                 }}
             initial={{
                 opacity: 1,
