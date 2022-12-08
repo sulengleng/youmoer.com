@@ -52,7 +52,7 @@ return (
                 stiffness: 60,
             }}
         >
-            <div class="h-64 w-64 rounded-md bg-blue-600">
+            <div class="justify-left h-64 w-64 rounded-md bg-blue-600">
             </div>
         </motion.div>
     </body>
