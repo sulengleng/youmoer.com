@@ -57,7 +57,7 @@ return (
                 <div class="justify-center h-64 w-64 rounded-md bg-blue-600">
                 </div>
             </motion.div>
-        </Container>
+        </div>
     </body>
 );
 }
