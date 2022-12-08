@@ -44,6 +44,7 @@ return (
                  }}
                 initial={{
                     opacity: 1,
+                    x: 0,
                 }}
                 transition={{
                     type: "spring",
