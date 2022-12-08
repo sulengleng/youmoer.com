@@ -6,8 +6,6 @@ import { motion } from "framer-motion";
 import classnames from "classnames";
 import { Container } from "postcss";
 
-const container = new Container();
-
 
 export default function Experiments() {
 return (
@@ -40,7 +38,7 @@ return (
                 </div>
             </div>  
         </div>
-        <Container class="h-100 w-100">
+        <div class="h-100 w-100">
             <motion.div
                 animate={{ 
                     x: 20,
@@ -56,7 +54,7 @@ return (
                     stiffness: 60,
                 }}
             >
-                <div class="justify-left h-64 w-64 rounded-md bg-blue-600">
+                <div class="justify-center h-64 w-64 rounded-md bg-blue-600">
                 </div>
             </motion.div>
         </Container>
