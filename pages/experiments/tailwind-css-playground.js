@@ -39,9 +39,9 @@ return (
         </div>
         <motion.div
             animate={{ 
-                x: 200,
+                x: 20,
                 opacity: 0.2,
-                rotate: 30,
+                rotate: 360,
                 }}
             initial={{
                 opacity: 1,
