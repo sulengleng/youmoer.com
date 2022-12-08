@@ -36,25 +36,25 @@ return (
                     <h1 class="p-8 max-w-2xl text-8xl font-black uppercase text-white transform -rotate-6 mix-blend-overlay">Tailwind css is super cool!</h1>
                 </div>
             </div>  
-            <motion.div
-                animate={{ 
-                    x: 200,
-                    opacity: 0.2,
-                    rotate: 360,
-                 }}
-                initial={{
-                    opacity: 1,
-                    x: 0,
-                }}
-                transition={{
-                    type: "spring",
-                    stiffness: 60,
-                }}
-            >
-                <div class="h-64 w-64 rounded-md bg-blue-600">
-                </div>
-            </motion.div>
         </div>
+        <motion.div
+            animate={{ 
+                x: 200,
+                opacity: 0.2,
+                rotate: 360,
+                }}
+            initial={{
+                opacity: 1,
+                x: 0,
+            }}
+            transition={{
+                type: "spring",
+                stiffness: 60,
+            }}
+        >
+            <div class="h-64 w-64 rounded-md bg-blue-600">
+            </div>
+        </motion.div>
     </body>
 );
 }
