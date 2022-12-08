@@ -41,7 +41,7 @@ return (
         <div class="p-6">
             <motion.div
                 animate={{ 
-                    x: 20,
+                    x: 100,
                     opacity: 0.2,
                     }}
                 initial={{
