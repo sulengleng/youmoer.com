@@ -39,7 +39,11 @@ return (
             <motion.div
                 animate={{ 
                     x: 750,
+                    opacity: 0.2,
                  }}
+                initial={{
+                    opacity: 1,
+                }}
             >
                 <div class="h-64 w-64 rounded-md bg-blue-600">
                 </div>
