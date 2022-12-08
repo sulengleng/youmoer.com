@@ -44,6 +44,10 @@ return (
                 initial={{
                     opacity: 1,
                 }}
+                transition={{
+                    type: "spring",
+                    stiffness: 260,
+                }}
             >
                 <div class="h-64 w-64 rounded-md bg-blue-600">
                 </div>
