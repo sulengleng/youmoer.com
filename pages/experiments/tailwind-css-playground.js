@@ -46,7 +46,7 @@ return (
                 }}
                 transition={{
                     type: "spring",
-                    stiffness: 120,
+                    stiffness: 60,
                 }}
             >
                 <div class="h-64 w-64 rounded-md bg-blue-600">
