@@ -41,7 +41,7 @@ return (
         <div class="p-6">
             <motion.div
                 animate={{ 
-                    x: 100,
+                    x: 300,
                     opacity: 0.2,
                     }}
                 initial={{
@@ -50,7 +50,7 @@ return (
                 }}
                 transition={{
                     type: "spring",
-                    stiffness: 60,
+                    stiffness: 15,
                 }}
             >
                 <div class="flex flex-col items-center justify-center h-64 w-64 rounded-md bg-blue-600">
