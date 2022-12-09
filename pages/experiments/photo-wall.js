@@ -138,6 +138,7 @@ export default function Photo() {
                     whileTap={{
                         scale: 0.95,
                     }}
+                    drag
                 >
                     <ContentWrapper className="gap-6 columns-3 space-y-6 pt-6">
                         {IMAGES?.map((item) => (
