@@ -139,10 +139,10 @@ export default function Home() {
             }}
             drag
             dragConstraints={{
-              left: 15,
-              right: 15,
-              top: 15,
-              bottom: 15,
+              left: 10,
+              right: 10,
+              top: 10,
+              bottom: 10,
             }}
             >
             <div class="snap-mandatory snap-x">
