@@ -130,39 +130,36 @@ export default function Photo() {
                     y: 0,
                     transition: { duration: 0.35, delay: 0.3 },
                 }}
+                whileHover={{ 
+                    scale: 1.05,
+                 }}
+                whileTap={{
+                    scale: 0.95,
+                }}
+                drag
                 >
-                <motion.div
-                    whileHover={{ 
-                        scale: 1.05,
-                     }}
-                    whileTap={{
-                        scale: 0.95,
-                    }}
-                    drag
-                >
-                    <ContentWrapper className="gap-6 columns-3 space-y-6 pt-6">
-                        {IMAGES?.map((item) => (
-                        <div
-                            key={item.src}
-                            className={clsx(
-                            item?.className,
-                            "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
-                            )}
-                        >
-                            <img
-                            src={item?.src}
-                            alt={item?.place}
-                            className="rounded-[9px] w-full"
-                            loading="lazy"
-                            />
-                            <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                            <Compass size={14} className="mr-1" />
-                            {item?.place }{item?.note}
-                            </div>
+                <ContentWrapper className="gap-6 columns-3 space-y-6 pt-6">
+                    {IMAGES?.map((item) => (
+                    <div
+                        key={item.src}
+                        className={clsx(
+                        item?.className,
+                        "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
+                        )}
+                    >
+                        <img
+                        src={item?.src}
+                        alt={item?.place}
+                        className="rounded-[9px] w-full"
+                        loading="lazy"
+                        />
+                        <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                        <Compass size={14} className="mr-1" />
+                        {item?.place }{item?.note}
                         </div>
-                        ))}
-                    </ContentWrapper>
-                </motion.div>
+                    </div>
+                    ))}
+                </ContentWrapper>
             </motion.div>
         </div>
     </body>
