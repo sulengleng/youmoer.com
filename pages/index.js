@@ -138,6 +138,12 @@ export default function Home() {
                 scale: 0.95,
             }}
             drag
+            dragConstraints={{
+              left: 30,
+              right: 30,
+              top: 50,
+              bottom: 50,
+            }}
             >
             <div class="snap-mandatory snap-x">
               <div class="max-w-[80%] mx-auto md:max-w-[70%] flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
