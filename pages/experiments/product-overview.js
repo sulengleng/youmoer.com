@@ -12,7 +12,7 @@ const product = {
   ],
   images: [
     {
-      src: 'https://mmbiz.qpic.cn/mmbiz_jpg/NXHqbSXGcnlFpBYmSSEUIibyAUHicFCM57vaRk6ibKqlMcsodmp5J6ciahSgB1Sg355ny73xqnLcmdTvetmJjuuCDA/640',
+      src: 'https://app.milanote.com/media/p/images/1P1H1t1Ho7Ud6e/1ni/pin%E5%B8%83%E5%8C%85-7%E6%8B%B7%E8%B4%9D.jpg?w=800&v=2&elementId=1P1H1t1Ho7Ud6e',
       alt: 'EchoKid 手工书衣',
     },
     {
