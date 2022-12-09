@@ -125,7 +125,7 @@ export default function Home() {
           <ContentWrapper width="700px" className="ml-auto dark:border-gray-800">
             <h2 className="font-bold text-lg flex items-center">
             <Article size={20} className="mr-2 opacity-40" />
-              封面短语
+              封面短语（不喜欢向下丢！）
             </h2>
           </ContentWrapper>
 
@@ -142,7 +142,7 @@ export default function Home() {
               left: 10,
               right: 50,
               top: 0,
-              bottom: 500,
+              bottom: 1000,
             }}
             >
             <div class="snap-mandatory snap-x">
