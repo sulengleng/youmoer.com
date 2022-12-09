@@ -130,14 +130,7 @@ export default function Photo() {
                     y: 0,
                     transition: { duration: 0.35, delay: 0.3 },
                 }}
-                whileHover={{ 
-                    scale: 1.05,
-                 }}
-                whileTap={{
-                    scale: 0.95,
-                }}
-                drag
-                >
+            >
                 <ContentWrapper className="gap-6 columns-3 space-y-6 pt-6">
                     {IMAGES?.map((item) => (
                     <div
