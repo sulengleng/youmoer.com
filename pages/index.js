@@ -142,7 +142,7 @@ export default function Home() {
               left: 10,
               right: 50,
               top: 0,
-              bottom: 1000,
+              bottom: 1200,
             }}
             >
             <div class="snap-mandatory snap-x">
