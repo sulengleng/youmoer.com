@@ -38,26 +38,7 @@ return (
                 </div>
             </div>  
         </div>
-        <div className="p-6">
-            <motion.div
-                animate={{ 
-                    x: 300,
-                    opacity: 0.2,
-                    }}
-                initial={{
-                    opacity: 1,
-                    x: 0,
-                }}
-                transition={{
-                    type: "spring",
-                    stiffness: 15,
-                }}
-            >
-                <div className="flex flex-col items-center justify-center h-48 w-48 rounded-md bg-blue-600">
-                </div>
-            </motion.div>
-        </div>
-        <div className="p-6 h-64 w-64 bg-gradient-to-r from-purple-400 to-purple-700 justify-center items-center pl-10 rounded-lg">
+        <div className="p-6 h-84 w-84 bg-gradient-to-r from-purple-400 to-purple-700 justify-center items-center ml-12 rounded-lg">
             <motion.div
                 whileHover={{
                     scale: 1.2,
