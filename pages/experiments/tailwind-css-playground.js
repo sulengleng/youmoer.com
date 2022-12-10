@@ -53,7 +53,7 @@ return (
                                 borderRadius: "100%",
                             }}
                         >
-                            <div className="flex flex-col items-center justify-center h-48 w-48 rounded-lg bg-blue-600">
+                            <div className="flex flex-col items-center justify-center h-48 w-48 rounded-lg bg-pink-500">
                             </div>
                         </motion.div>
                     </div>
