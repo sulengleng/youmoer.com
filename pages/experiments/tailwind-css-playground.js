@@ -57,6 +57,19 @@ return (
                 </div>
             </motion.div>
         </div>
+        <div class="p-6">
+            <motion.div
+                animate={{
+                    scale: [1, 1.4, 0.4, 1.4, 1],
+                }}
+                transition={{
+                    duration: 2,
+                }}
+            >
+                <div class="flex flex-col items-center justify-center h-64 w-64 rounded-md bg-blue-600">
+                </div>
+            </motion.div>
+        </div>
     </body>
 );
 }
