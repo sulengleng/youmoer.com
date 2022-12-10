@@ -9,7 +9,7 @@ import { Container } from "postcss";
 
 export default function Experiments() {
 return (
-    <body>
+    <body className={overflow-x-hidden}>
         <Link
                 href="/experiments"
                 className={classnames(
