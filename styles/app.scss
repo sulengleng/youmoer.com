@@ -10,3 +10,12 @@ body {
 iframe {
   @apply rounded-md;
 }
+
+canvas {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+canvas::-webkit-scrollbar {
+  display: none;
+}
