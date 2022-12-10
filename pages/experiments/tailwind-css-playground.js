@@ -58,7 +58,7 @@ return (
                         </motion.div>
                     </div>
                     <div className="p-8">
-                        <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">ChatGPT</div>
+                        <div className="uppercase tracking-wide text-sm text-pink-500 dark:text-pink-400 font-semibold">ChatGPT</div>
                         <p className="mt-2 text-white">旋转跳跃，山月风卷，一场空中的狂欢。林鸟鱼花空中相随，像一道万紫千红的风景。云歌鱼跳月星日水，如梦如幻，不真实却又真实。山雪石石自在自由，令人心旷神怡。无限自在花鸟林间，让人快乐欢喜。</p>
                     </div>
                 </div>
