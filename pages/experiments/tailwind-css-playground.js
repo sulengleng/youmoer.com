@@ -38,7 +38,7 @@ return (
                 </div>
             </div>
             <div className="pt-8 snap-mandatory snap-x">
-                <div className="max-w-[80%] mx-auto md:max-w-2xl flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
+                <div className="max-w-[80%] mx-auto md:max-w-2xl flex justify-center bg-gradient-to-r from-purple-400 to-purple-700 rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
                 <div className="md:flex">
                     <div className="md:shrink-0">
                         <motion.div
@@ -64,23 +64,6 @@ return (
                 </div>
                 </div>
             </div>
-        </div>
-        <div className="p-6 h-48 w-48 bg-gradient-to-r from-purple-400 to-purple-700 ml-12 rounded-lg">
-            <motion.div
-                whileHover={{
-                    scale: 1.2,
-                    rotate: 90,
-                    delay: 0.5,
-                }}
-                whileTap={{
-                    scale: 0.8,
-                    rotate: -90,
-                    borderRadius: "100%",
-                }}
-            >
-                <div className="flex flex-col items-center justify-center h-48 w-48 rounded-lg bg-blue-600">
-                </div>
-            </motion.div>
         </div>
     </body>
 );
