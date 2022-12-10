@@ -58,8 +58,8 @@ return (
                         </motion.div>
                     </div>
                     <div className="p-8">
-                        <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">S.A.阿列克谢耶维奇</div>
-                        <p className="mt-2 text-white">每个人都要做好自己的事。比如我自己的事就是写作，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。</p>
+                        <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">ChatGPT</div>
+                        <p className="mt-2 text-white">旋转，旋转，世界在旋转。<br></br> 星辰旋转，日月绕行。<br></br>地球自转，海洋涌动。<br></br>天空翻滚，云彩旋转。</p>
                     </div>
                 </div>
                 </div>
