@@ -27,10 +27,10 @@ export default function Home() {
             }}
             >
                 <div className="container w-auto h-80 overflow-x-auto scroll-smooth snap-x">
-                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt={music}></img>
-                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt={music}></img>
-                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt={music}></img>
-                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt={music}></img>
+                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="this is a music"></img>
+                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
+                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
+                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt="music"></img>
                 </div>
             </motion.div>
         </div>
