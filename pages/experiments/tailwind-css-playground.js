@@ -57,7 +57,7 @@ return (
                 </div>
             </motion.div>
         </div>
-        <div className="p-6 h-64 w-64 bg-red-500 justify-center items-center">
+        <div className="p-6 h-64 w-64 bg-gradient-to-r from-purple-400 to-purple-700 justify-center items-center pl-10 rounded-lg">
             <motion.div
                 whileHover={{
                     scale: 1.2,
