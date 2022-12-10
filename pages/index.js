@@ -125,7 +125,7 @@ export default function Home() {
           <ContentWrapper width="700px" className="ml-auto dark:border-gray-800">
             <h2 className="font-bold text-lg flex items-center">
             <Article size={20} className="mr-2 opacity-40" />
-              封面短语（不喜欢向下丢！）
+              封面短语
             </h2>
           </ContentWrapper>
 
@@ -139,21 +139,21 @@ export default function Home() {
             }}
             drag
             dragConstraints={{
-              left: 10,
-              right: 10,
+              left: 5,
+              right: 5,
               top: 10,
               bottom: 10,
             }}
             >
-            <div class="snap-mandatory snap-x">
-              <div class="max-w-[80%] mx-auto md:max-w-[70%] flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
-                <div class="md:flex">
-                  <div class="md:shrink-0">
-                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
+            <div className="snap-mandatory snap-x">
+              <div className="max-w-[80%] mx-auto md:max-w-[70%] flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
+                <div className="md:flex">
+                  <div className="md:shrink-0">
+                    <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
                   </div>
-                  <div class="p-8">
-                    <div class="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">S.A.阿列克谢耶维奇</div>
-                    <p class="mt-2 text-white">每个人都要做好自己的事。比如我自己的事就是写作，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。</p>
+                  <div className="p-8">
+                    <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">S.A.阿列克谢耶维奇</div>
+                    <p className="mt-2 text-white">每个人都要做好自己的事。比如我自己的事就是写作，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。</p>
                   </div>
                 </div>
               </div>
