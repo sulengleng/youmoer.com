@@ -26,8 +26,8 @@ export default function Home() {
             transition: { duration: 0.35, delay: 0.2 },
             }}
             >
-                <div className="container w-1/2 h-64 overflow-x-scroll scroll-smooth snap-x flex flex-row space-x-4">
-                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="this is a music"></img>
+                <div className="container max-w-[80%] mx-auto md:max-w-[70%] h-80 overflow-x-scroll scroll-smooth snap-x flex flex-row space-x-4 items-center">
+                    <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
                     <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
                     <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
                     <img className="rounded-lg scroll-ml-6 max-h-64 snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt="music"></img>

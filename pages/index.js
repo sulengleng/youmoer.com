@@ -149,7 +149,7 @@ export default function Home() {
               <div className="max-w-[80%] mx-auto md:max-w-[70%] flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
                 <div className="md:flex">
                   <div className="md:shrink-0">
-                    <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="Modern building architecture"></img>
+                    <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="S.A"></img>
                   </div>
                   <div className="p-8">
                     <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">S.A.阿列克谢耶维奇</div>
