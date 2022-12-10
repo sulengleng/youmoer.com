@@ -57,7 +57,7 @@ return (
                 </div>
             </motion.div>
         </div>
-        <div className="p-6 h-48 w-48">
+        <div className="p-6 h-64 w-64 bg-red-500">
             <motion.div
                 whileHover={{
                     scale: 1.2,
