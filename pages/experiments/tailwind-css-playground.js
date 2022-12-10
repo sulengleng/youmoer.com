@@ -42,6 +42,9 @@ return (
                 <div className="md:flex">
                     <div className="md:shrink-0">
                         <motion.div
+                            initial={{
+                                borderRadius: "50%",
+                            }}
                             whileHover={{
                                 scale: 0.8,
                                 rotate: 90,
