@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply dark:text-white dark:bg-[#121212];
+  @apply dark:text-white dark:bg-[#121212] dark:[color-scheme:dark];
   font-family: 'HarmonyOS_Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'HarmonyOS_Sans', sans-serif;
 }
 
