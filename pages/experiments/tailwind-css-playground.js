@@ -59,7 +59,7 @@ return (
                     </div>
                     <div className="p-8">
                         <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">ChatGPT</div>
-                        <p className="mt-2 text-white">旋转，旋转，世界在旋转。<br></br> 星辰旋转，日月绕行。<br></br>地球自转，海洋涌动。<br></br>天空翻滚，云彩旋转。</p>
+                        <p className="mt-2 text-white">旋转的音符，像清晨的鸟鸣唱。<br></br>在这繁忙的世界，我们总是不停奔波。<br></br>然而，旋转却是恒常，它给我们带来宁静。<br></br>在宇宙的旋转中，我们找到了自我。</p>
                     </div>
                 </div>
                 </div>
