@@ -54,7 +54,7 @@ const ContentWrapper = ({ children, className, width }) => (
 
 export default function Home() {
   return (
-    <body className="selection:bg-[#3b818c]">
+    <body className="selection:bg-[#3b818c] overflow-x-hidden">
       <div className="pb-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
