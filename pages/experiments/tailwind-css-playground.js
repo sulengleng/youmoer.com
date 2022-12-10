@@ -59,7 +59,7 @@ return (
                     </div>
                     <div className="p-8">
                         <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">ChatGPT</div>
-                        <p className="mt-2 text-white">旋转的音符，像清晨的鸟鸣唱。<br></br>在这繁忙的世界，我们总是不停奔波。<br></br>然而，旋转却是恒常，它给我们带来宁静。<br></br>在宇宙的旋转中，我们找到了自我。</p>
+                        <p className="mt-2 text-white">旋转跳跃，山月风卷，一场空中的狂欢。林鸟鱼花空中相随，像一道万紫千红的风景。云歌鱼跳月星日水，如梦如幻，不真实却又真实。山雪石石自在自由，令人心旷神怡。无限自在花鸟林间，让人快乐欢喜。自由自在梦幻天堂，令人忘却烦恼。旋转跳跃，美好的愿望。</p>
                     </div>
                 </div>
                 </div>
