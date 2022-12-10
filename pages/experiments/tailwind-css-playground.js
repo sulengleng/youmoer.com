@@ -43,6 +43,7 @@ return (
                 whileHover={{
                     scale: 1.2,
                     rotate: 90,
+                    delay: 0.5,
                 }}
                 whileTap={{
                     scale: 0.8,
