@@ -26,26 +26,14 @@ export default function Home() {
             transition: { duration: 0.35, delay: 0.2 },
             }}
             >
-                <div>
-                    <p>
-                        test
-                    </p>
+                <div className="container w-full h-80 overflow-x-auto scroll-smooth snap-x">
+                    <img className="rounded-lg scroll-ml-6 snap-center shadow-md" alt="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png"></img>
+                    <img className="rounded-lg scroll-ml-6 snap-center shadow-md" alt="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png"></img>
+                    <img className="rounded-lg scroll-ml-6 snap-center shadow-md" alt="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png"></img>
+                    <img className="rounded-lg scroll-ml-6 snap-center shadow-md" alt="https://files.catbox.moe/wjnod2.png"></img>
                 </div>
             </motion.div>
         </div>
-        <motion.div
-            whileHover={{ scale: 1.2, rotate: 90 }}
-            whileTap={{
-                scale: 0.8,
-                rotate: -90,
-                borderRadius: "100%"
-            }}
-        >
-            <div class="">
-                <div class="items-center w-48 h-48 bg-blue-500 rounded-xl">
-                </div>
-            </div>
-        </motion.div>
     </body>
     );
 }
