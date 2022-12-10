@@ -43,7 +43,7 @@ return (
                     <div className="md:shrink-0">
                         <motion.div
                             whileHover={{
-                                scale: 1.2,
+                                scale: 0.8,
                                 rotate: 90,
                                 delay: 0.5,
                             }}
