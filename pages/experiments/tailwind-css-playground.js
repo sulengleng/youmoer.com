@@ -60,7 +60,7 @@ return (
         <div class="p-6">
             <motion.div
                 animate={{
-                    scale: [1, 1.4, 1.4, 1, 0.4, 1],
+                    scale: [1, 1.4, 1.4, 1, 1],
                 }}
                 transition={{
                     duration: 2,
