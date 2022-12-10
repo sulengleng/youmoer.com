@@ -38,7 +38,7 @@ return (
                 </div>
             </div>  
         </div>
-        <div className="p-6 h-84 w-84 bg-gradient-to-r from-purple-400 to-purple-700 justify-center items-center ml-12 rounded-lg">
+        <div className="p-6 h-80 w-80 bg-gradient-to-r from-purple-400 to-purple-700 justify-center items-center ml-12 rounded-lg">
             <motion.div
                 whileHover={{
                     scale: 1.2,
