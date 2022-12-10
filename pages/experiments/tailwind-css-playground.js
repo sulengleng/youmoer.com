@@ -57,7 +57,7 @@ return (
                 </div>
             </motion.div>
         </div>
-        <div class="p-6">
+        <div class="p-6 h-48 w-48">
             <motion.div
                 animate={{
                     scale: [1, 1.4, 1.4, 1, 1],
