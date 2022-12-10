@@ -57,7 +57,7 @@ return (
                 </div>
             </motion.div>
         </div>
-        <div className="p-6 h-64 w-64 bg-red-500">
+        <div className="p-6 h-64 w-64 bg-red-500 justify-center items-center">
             <motion.div
                 whileHover={{
                     scale: 1.2,
@@ -69,7 +69,7 @@ return (
                     borderRadius: "100%",
                 }}
             >
-                <div className="flex flex-col items-center justify-center h-48 w-48 rounded-md bg-blue-600">
+                <div className="flex flex-col items-center justify-center h-48 w-48 rounded-lg bg-blue-600">
                 </div>
             </motion.div>
         </div>
