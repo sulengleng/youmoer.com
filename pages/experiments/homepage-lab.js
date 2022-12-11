@@ -34,7 +34,7 @@ export default function Home() {
                     <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/4oxz6p.png" alt="music"></img>
                     <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/7zwwqu.png" alt="music"></img>
                     <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
-                    <img className="mr-6 rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
+                    <img className="pr-10 rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                 </div>
             </motion.div>
         </div>
