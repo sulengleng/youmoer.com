@@ -94,6 +94,48 @@ export default function Home() {
               </div>
           </ContentWrapper>
 
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
+              <h2 className="font-bold text-lg flex items-center">
+                  <Star size={20} className="mr-2 opacity-40" />
+                  Philosophy
+              </h2>
+          </ContentWrapper>
+
+          <br/>
+
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
+              <h2 className="font-bold text-lg flex items-center">
+                  <Star size={20} className="mr-2 opacity-40" />
+                  Personal System
+              </h2>
+          </ContentWrapper>
+
+          <br/>
+
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
+              <h2 className="font-bold text-lg flex items-center">
+                  <Star size={20} className="mr-2 opacity-40" />
+                  Work
+              </h2>
+          </ContentWrapper>
+
+          <br/>
+
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
+              <h2 className="font-bold text-lg flex items-center">
+                  <Star size={20} className="mr-2 opacity-40" />
+                  Social
+              </h2>
+          </ContentWrapper>
+
+          <br/>
+
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
+              <h2 className="font-bold text-lg flex items-center">
+                  <Star size={20} className="mr-2 opacity-40" />
+                  What I see and hear
+              </h2>
+          </ContentWrapper>
         <div className="post-content">
             <a className="text-[#6868ac]">年度颜色</a>
         </div>
