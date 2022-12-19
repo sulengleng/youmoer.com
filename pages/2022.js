@@ -94,6 +94,8 @@ export default function Home() {
               </div>
           </ContentWrapper>
 
+          <br/>
+
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
                   <Star size={20} className="mr-2 opacity-40" />
