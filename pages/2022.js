@@ -1,8 +1,16 @@
 import clsx from "clsx";
 import Link from "next/link";
-import Head from "next/head";
 import {NextSeo} from "next-seo";
-import {ArrowCircleRight, ArrowSquareOut, Star} from "phosphor-react";
+import {
+    ArrowCircleRight,
+    ArrowSquareOut,
+    Star,
+    AndroidLogo,
+    Barbell,
+    ShareNetwork,
+    CloudMoon,
+    SpotifyLogo,
+} from "phosphor-react";
 
 const TIMELINE = [
     {
@@ -98,7 +106,7 @@ export default function Home() {
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
-                  <Star size={20} className="mr-2 opacity-40" />
+                  <CloudMoon size={20} className="mr-2 opacity-40" />
                   Philosophy
               </h2>
           </ContentWrapper>
@@ -107,7 +115,7 @@ export default function Home() {
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
-                  <Star size={20} className="mr-2 opacity-40" />
+                  <AndroidLogo size={20} className="mr-2 opacity-40" />
                   Personal System
               </h2>
           </ContentWrapper>
@@ -116,7 +124,7 @@ export default function Home() {
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
-                  <Star size={20} className="mr-2 opacity-40" />
+                  <Barbell size={20} className="mr-2 opacity-40" />
                   Work
               </h2>
           </ContentWrapper>
@@ -125,7 +133,7 @@ export default function Home() {
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
-                  <Star size={20} className="mr-2 opacity-40" />
+                  <ShareNetwork size={20} className="mr-2 opacity-40" />
                   Social
               </h2>
           </ContentWrapper>
@@ -134,13 +142,10 @@ export default function Home() {
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
-                  <Star size={20} className="mr-2 opacity-40" />
+                  <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
           </ContentWrapper>
-        <div className="post-content">
-            <a className="text-[#6868ac]">年度颜色</a>
-        </div>
       </article>
     </>
   );
