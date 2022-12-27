@@ -53,6 +53,11 @@ export default function Experiments() {
       title: "Product Overview",
       url: "/experiments/product-overview",
       description: "A product overview page with CSS Grid",
+    },
+    {
+      title: "Project Filter",
+      url: "/experiments/project-filter",
+      description: "A project filter page with CSS Grid",
     }
     // {
     //   title: "Coming Soon",
