@@ -1,8 +1,8 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Transition } from '@headlessui/react'
-import {X, Funnel, Minus, Plus, SquaresFour, Compass} from 'phosphor-react'
-import {motion} from "framer-motion";
-import clsx from "clsx";
+import {X, Funnel, Minus, Plus, SquaresFour,} from 'phosphor-react'
+import ProductPhoto from "../../components/product-photo";
+import { products } from "../../data/products";
 
 const subCategories = [
     { name: '綾井海荷（OC）', href: '#' },
@@ -29,45 +29,6 @@ const filters = [
         ],
     },
 ]
-
-const IMAGES = [
-    {
-        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2f9d219e-a589-4b5b-8769-375b53ad3427/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T180047Z&X-Amz-Expires=86400&X-Amz-Signature=f8b3e1100a021026c27bafe83d5e548428c8d144447b6029bcd83a3c899eab57&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
-        note: "娑丽丝",
-        className: "rotate-[0deg]",
-        label: "AFK IP部平面设计",
-    },
-    {
-        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee2d7576-0c1a-48ed-a2a5-e6e7e14b1d8b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T182219Z&X-Amz-Expires=86400&X-Amz-Signature=b45d5adc3f3f6f927cd8bbb8937405c6a2092a4df62ed09e0ce62f4362a64d69&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
-        note: "艾伦",
-        className: "rotate-[0deg]",
-        label: "AFK IP部平面设计",
-    },
-    {
-        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a51668d3-dbbb-434d-8a39-6b0729ffb7f6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T182337Z&X-Amz-Expires=86400&X-Amz-Signature=da95a7337e6c14df7899e5ca9978c20a7d3003105ad5feeef9bbc39c0945fe46&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
-        note: "猎魔人",
-        className: "rotate-[0deg]",
-        label: "AFK IP部平面设计",
-    },
-    {
-        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3767f49b-afcd-4cae-926b-3ca525611f35/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T182331Z&X-Amz-Expires=86400&X-Amz-Signature=171db3491914208a04cf8a3269856ef9b065e3c6b1b44167074520b128719e43&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
-        note: "塔尼",
-        className: "rotate-[0deg]",
-        label: "AFK IP部平面设计",
-    }
-]
-
-const ContentWrapper = ({ children, className, width }) => (
-    <div
-        style={{ maxWidth: `${width || '100%'}`}}
-        className={clsx(
-            "w-full px-5 mx-auto relative",
-            className
-        )}
-    >
-        {children}
-    </div>
-);
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -263,41 +224,9 @@ export default function Example() {
                             {/* Product grid */}
                             <div className="lg:col-span-3">
                                 {/* Replace with your content */}
-                                <body>
-                                <div className="pb-20">
-                                    <motion.div
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{
-                                            opacity: 1,
-                                            y: 0,
-                                            transition: { duration: 0.35, delay: 0.3 },
-                                        }}
-                                    >
-                                        <ContentWrapper className="gap-6 columns-2 space-y-6 pt-6">
-                                            {IMAGES?.map((item) => (
-                                                <div
-                                                    key={item.src}
-                                                    className={clsx(
-                                                        item?.className,
-                                                        "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
-                                                    )}
-                                                >
-                                                    <img
-                                                        src={item?.src}
-                                                        alt={item?.place}
-                                                        className="rounded-[9px] w-full"
-                                                        loading="lazy"
-                                                    />
-                                                    <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                                                        <Compass size={14} className="mr-1" />
-                                                        {item?.place }{item?.note}
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </ContentWrapper>
-                                    </motion.div>
-                                </div>
-                                </body>
+                                {products.map((product) => (
+                                    <ProductPhoto products={products} />
+                                ))}
                                 {/* /End replace */}
                             </div>
                         </div>
