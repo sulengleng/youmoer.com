@@ -17,7 +17,7 @@ const ContentWrapper = ({ children, className, width }) => (
 );
 
 const ProductPhoto = (props) => {
-    const { src, note, category, className } = props;
+    const { src, note, category, className } = props.products;
         return (
             <body>
                 <div className="pb-20">
