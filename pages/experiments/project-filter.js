@@ -79,7 +79,7 @@ export default function Example() {
                                             onClick={() => setMobileFiltersOpen(false)}
                                         >
                                             <span className="sr-only">Close menu</span>
-                                            <X size={6} aria-hidden="true" />
+                                            <X size={16} aria-hidden="true" />
                                         </button>
                                     </div>
 
@@ -147,7 +147,7 @@ export default function Example() {
 
                 <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6">
-                        <h1 className="text-4xl font-bold tracking-tight text-gray-900">New Arrivals</h1>
+                        <h1 className="text-4xl font-bold tracking-tight text-gray-900">我的作品</h1>
 
                         <div className="flex items-center">
                             <Menu as="div" className="relative inline-block text-left">
@@ -202,7 +202,7 @@ export default function Example() {
                                 className="-m-2 ml-4 p-2 text-gray-400 hover:text-gray-500 sm:ml-6 lg:hidden"
                                 onClick={() => setMobileFiltersOpen(true)}
                             >
-                                <span className="sr-only">Filters</span>
+                                <span className="sr-only">筛选</span>
                                 <Funnel className="h-5 w-5" aria-hidden="true" />
                             </button>
                         </div>
