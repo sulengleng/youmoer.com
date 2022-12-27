@@ -33,7 +33,7 @@ const ProductPhoto = (props) => {
                                 key={src}
                                 className={clsx(
                                     className,
-                                    "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
+                                    "relative max-w-48 border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
                                 )}
                             >
                                 <img
