@@ -39,7 +39,7 @@ const ProductPhoto = (props) => {
                                 <img
                                     src={src}
                                     alt={note}
-                                    className="rounded-[9px] w-48"
+                                    className="rounded-[9px] w-full"
                                     loading="lazy"
                                 />
                                 <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
