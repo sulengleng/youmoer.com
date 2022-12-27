@@ -37,8 +37,18 @@ const IMAGES = [
         className: "rotate-[0deg]",
     },
     {
-        src: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee2d7576-0c1a-48ed-a2a5-e6e7e14b1d8b%2FUntitled.png?id=3241c272-775c-482e-864c-cb58b37f0ad7&table=block&spaceId=cad959fb-e7fd-4703-9f2e-c36baa5f9924&width=2000&userId=cfba1cd5-090f-4024-b10f-2d3c6536637b&cache=v2",
+        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee2d7576-0c1a-48ed-a2a5-e6e7e14b1d8b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T182219Z&X-Amz-Expires=86400&X-Amz-Signature=b45d5adc3f3f6f927cd8bbb8937405c6a2092a4df62ed09e0ce62f4362a64d69&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
         note: "艾伦",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a51668d3-dbbb-434d-8a39-6b0729ffb7f6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T182337Z&X-Amz-Expires=86400&X-Amz-Signature=da95a7337e6c14df7899e5ca9978c20a7d3003105ad5feeef9bbc39c0945fe46&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
+        note: "猎魔人",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3767f49b-afcd-4cae-926b-3ca525611f35/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T182331Z&X-Amz-Expires=86400&X-Amz-Signature=171db3491914208a04cf8a3269856ef9b065e3c6b1b44167074520b128719e43&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
+        note: "塔尼",
         className: "rotate-[0deg]",
     }
 ]
