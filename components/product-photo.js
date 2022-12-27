@@ -2,7 +2,6 @@ import {react} from "react";
 import clsx from "clsx";
 import {motion} from "framer-motion";
 import {Compass} from "phosphor-react";
-import {products} from "../data/products";
 
 const ContentWrapper = ({ children, className, width }) => (
     <div
@@ -29,7 +28,7 @@ const ProductPhoto = (props) => {
                             transition: { duration: 0.35, delay: 0.3 },
                         }}
                     >
-                        <ContentWrapper className="gap-6 columns-2 space-y-6 pt-6">
+                        <ContentWrapper className="gap-4 columns-2 space-y-4 pt-4">
                             <div
                                 key={src}
                                 className={clsx(
