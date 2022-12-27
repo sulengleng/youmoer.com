@@ -38,7 +38,7 @@ export default function Example() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
     return (
-        <div className="bg-white">
+        <div className="bg-white dark:bg-[#111111]">
             <div>
                 {/* Mobile filter dialog */}
                 <Transition.Root show={mobileFiltersOpen} as={Fragment}>
@@ -65,12 +65,12 @@ export default function Example() {
                                 leaveFrom="translate-x-0"
                                 leaveTo="translate-x-full"
                             >
-                                <Dialog.Panel className="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl">
+                                <Dialog.Panel className="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white dark:bg-[#111111] py-4 pb-12 shadow-xl">
                                     <div className="flex items-center justify-between px-4">
-                                        <h2 className="text-lg font-medium text-gray-900">筛选</h2>
+                                        <h2 className="text-lg font-medium text-gray-900 dark:text-gray-50">筛选</h2>
                                         <button
                                             type="button"
-                                            className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-gray-400"
+                                            className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white dark:bg-[#111111] p-2 text-gray-400"
                                             onClick={() => setMobileFiltersOpen(false)}
                                         >
                                             <span className="sr-only">Close menu</span>
@@ -81,7 +81,7 @@ export default function Example() {
                                     {/* Filters */}
                                     <form className="mt-4 border-t border-gray-200">
                                         <h3 className="sr-only">Categories</h3>
-                                        <ul role="list" className="px-2 py-3 font-medium text-gray-900">
+                                        <ul role="list" className="px-2 py-3 font-medium text-gray-900 dark:text-gray-50">
                                             {subCategories.map((category) => (
                                                 <li key={category.name}>
                                                     <a href={category.href} className="block px-2 py-3">
@@ -96,8 +96,8 @@ export default function Example() {
                                                 {({ open }) => (
                                                     <>
                                                         <h3 className="-mx-2 -my-3 flow-root">
-                                                            <Disclosure.Button className="flex w-full items-center justify-between bg-white px-2 py-3 text-gray-400 hover:text-gray-500">
-                                                                <span className="font-medium text-gray-900">{section.name}</span>
+                                                            <Disclosure.Button className="flex w-full items-center justify-between bg-white dark:bg-[#111111] px-2 py-3 text-gray-400 hover:text-gray-500">
+                                                                <span className="font-medium text-gray-900 dark:text-gray-50">{section.name}</span>
                                                                 <span className="ml-6 flex items-center">
                                   {open ? (
                                       <Minus className="h-5 w-5" aria-hidden="true" />
@@ -121,7 +121,7 @@ export default function Example() {
                                                                         />
                                                                         <label
                                                                             htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
-                                                                            className="ml-3 min-w-0 flex-1 text-gray-500"
+                                                                            className="ml-3 min-w-0 flex-1 text-gray-500 dark:text-gray-50"
                                                                         >
                                                                             {option.label}
                                                                         </label>
@@ -142,16 +142,16 @@ export default function Example() {
 
                 <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6">
-                        <h1 className="text-4xl font-bold tracking-tight text-gray-900">我的作品</h1>
+                        <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-50">我的作品</h1>
 
                         <div className="flex items-center">
-                            <button type="button" className="-m-2 ml-5 p-2 text-gray-400 hover:text-gray-500 sm:ml-7">
+                            <button type="button" className="-m-2 ml-5 p-2 text-gray-400 hover:text-gray-500 dark:text-gray-50 dark:hover:text-white sm:ml-7">
                                 <span className="sr-only">View grid</span>
                                 <SquaresFour className="h-5 w-5" aria-hidden="true" />
                             </button>
                             <button
                                 type="button"
-                                className="-m-2 ml-4 p-2 text-gray-400 hover:text-gray-500 sm:ml-6 lg:hidden"
+                                className="-m-2 ml-4 p-2 text-gray-400 hover:text-gray-500 dark:text-gray-50 dark:hover:text-white sm:ml-6 lg:hidden"
                                 onClick={() => setMobileFiltersOpen(true)}
                             >
                                 <span className="sr-only">Filters</span>
@@ -169,7 +169,7 @@ export default function Example() {
                             {/* Filters */}
                             <form className="hidden lg:block">
                                 <h3 className="sr-only">Categories</h3>
-                                <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900">
+                                <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium text-gray-900 dark:text-gray-50">
                                     {subCategories.map((category) => (
                                         <li key={category.name}>
                                             <a href={category.href}>{category.name}</a>
@@ -182,8 +182,8 @@ export default function Example() {
                                         {({ open }) => (
                                             <>
                                                 <h3 className="-my-3 flow-root">
-                                                    <Disclosure.Button className="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500">
-                                                        <span className="font-medium text-gray-900">{section.name}</span>
+                                                    <Disclosure.Button className="flex w-full items-center justify-between bg-white dark:bg-[#111111] py-3 text-sm text-gray-400 hover:text-gray-500 dark:text-gray-50 dark:hover:text-white">
+                                                        <span className="font-medium text-gray-900 dark:text-gray-50">{section.name}</span>
                                                         <span className="ml-6 flex items-center">
                               {open ? (
                                   <Minus className="h-5 w-5" aria-hidden="true" />
@@ -207,7 +207,7 @@ export default function Example() {
                                                                 />
                                                                 <label
                                                                     htmlFor={`filter-${section.id}-${optionIdx}`}
-                                                                    className="ml-3 text-sm text-gray-600"
+                                                                    className="ml-3 text-sm text-gray-600 dark:text-gray-50"
                                                                 >
                                                                     {option.label}
                                                                 </label>
