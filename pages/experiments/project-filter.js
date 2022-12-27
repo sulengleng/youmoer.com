@@ -1,6 +1,8 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Transition } from '@headlessui/react'
-import { X, Funnel, Minus, Plus, SquaresFour} from 'phosphor-react'
+import {X, Funnel, Minus, Plus, SquaresFour, Compass} from 'phosphor-react'
+import {motion} from "framer-motion";
+import clsx from "clsx";
 
 const subCategories = [
     { name: '綾井海荷（OC）', href: '#' },
@@ -27,6 +29,31 @@ const filters = [
         ],
     },
 ]
+
+const IMAGES = [
+    {
+        src: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2f9d219e-a589-4b5b-8769-375b53ad3427/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221227T180047Z&X-Amz-Expires=86400&X-Amz-Signature=f8b3e1100a021026c27bafe83d5e548428c8d144447b6029bcd83a3c899eab57&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject",
+        note: "娑丽丝",
+        className: "rotate-[0deg]",
+    },
+    {
+        src: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fee2d7576-0c1a-48ed-a2a5-e6e7e14b1d8b%2FUntitled.png?id=3241c272-775c-482e-864c-cb58b37f0ad7&table=block&spaceId=cad959fb-e7fd-4703-9f2e-c36baa5f9924&width=2000&userId=cfba1cd5-090f-4024-b10f-2d3c6536637b&cache=v2",
+        note: "艾伦",
+        className: "rotate-[0deg]",
+    }
+]
+
+const ContentWrapper = ({ children, className, width }) => (
+    <div
+        style={{ maxWidth: `${width || '100%'}`}}
+        className={clsx(
+            "w-full px-5 mx-auto relative",
+            className
+        )}
+    >
+        {children}
+    </div>
+);
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -222,7 +249,41 @@ export default function Example() {
                             {/* Product grid */}
                             <div className="lg:col-span-3">
                                 {/* Replace with your content */}
-                                <div className="h-96 rounded-lg border-4 border-dashed border-gray-200 lg:h-full" />
+                                <body>
+                                <div className="pb-20">
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{
+                                            opacity: 1,
+                                            y: 0,
+                                            transition: { duration: 0.35, delay: 0.3 },
+                                        }}
+                                    >
+                                        <ContentWrapper className="gap-6 columns-2 space-y-6 pt-6">
+                                            {IMAGES?.map((item) => (
+                                                <div
+                                                    key={item.src}
+                                                    className={clsx(
+                                                        item?.className,
+                                                        "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
+                                                    )}
+                                                >
+                                                    <img
+                                                        src={item?.src}
+                                                        alt={item?.place}
+                                                        className="rounded-[9px] w-full"
+                                                        loading="lazy"
+                                                    />
+                                                    <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                                                        <Compass size={14} className="mr-1" />
+                                                        {item?.place }{item?.note}
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </ContentWrapper>
+                                    </motion.div>
+                                </div>
+                                </body>
                                 {/* /End replace */}
                             </div>
                         </div>
