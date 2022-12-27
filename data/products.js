@@ -28,4 +28,9 @@ export const products = [
         note: "This is a test",
         className: "rotate-[0deg]",
     },
+    {
+        src: "https://freight.cargo.site/w/700/q/75/i/1354d80ef77c6084c3b39e6674ac70cee16ad803352e4fb366d41b4c2b4aad35/2337_4.jpg",
+        note: "This is a test",
+        className: "rotate-[0deg]",
+    },
 ];
