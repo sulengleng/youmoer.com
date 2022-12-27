@@ -225,7 +225,7 @@ export default function Example() {
                             <div className="lg:col-span-3">
                                 {/* Replace with your content */}
                                 {products.map((product) => (
-                                    <ProductPhoto products={products} />
+                                    <ProductPhoto product={product} />
                                 ))}
                                 {/* /End replace */}
                             </div>

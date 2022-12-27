@@ -17,7 +17,7 @@ const ContentWrapper = ({ children, className, width }) => (
 );
 
 const ProductPhoto = (props) => {
-    const { src, note, category, className } = props.products;
+    const { src, note, category, className } = props.product
         return (
             <body>
                 <div className="pb-20">
@@ -29,7 +29,7 @@ const ProductPhoto = (props) => {
                             transition: { duration: 0.35, delay: 0.3 },
                         }}
                     >
-                        <ContentWrapper className="gap-6 columns-3 space-y-6 pt-6">
+                        <ContentWrapper className="gap-6 columns-2 space-y-6 pt-6">
                             <div
                                 key={src}
                                 className={clsx(
