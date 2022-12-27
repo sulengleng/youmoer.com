@@ -28,7 +28,7 @@ const ProductPhoto = (props) => {
                             transition: { duration: 0.35, delay: 0.3 },
                         }}
                     >
-                        <ContentWrapper className="gap-2 columns-1 pt-2">
+                        <ContentWrapper className="gap-1 columns-1 pt-1">
                             <div
                                 key={src}
                                 className={clsx(
