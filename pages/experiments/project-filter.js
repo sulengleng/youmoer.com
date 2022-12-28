@@ -220,7 +220,7 @@ export default function Example() {
                                                                     defaultValue={option.value}
                                                                     type="checkbox"
                                                                     defaultChecked={option.checked}
-                                                                    checked={selectedLabel.includes(option.label)}
+                                                                    checked={selectedLabel.includes(option.value)}
                                                                     onChange={(e) => onchangeLabel(label, e.target.checked)}
                                                                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                 />
