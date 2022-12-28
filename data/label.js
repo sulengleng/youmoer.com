@@ -1,4 +1,4 @@
-export const label = [
+export const labelList = [
     {
         id: 'Work',
         name: '一点打工实录',
@@ -17,6 +17,6 @@ export const label = [
     },
 ]
 
-export const labelTitle = label.map(options => options.label)
+export const labelTitle = options.map(options => options.label)
   
 

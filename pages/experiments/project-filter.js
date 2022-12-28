@@ -5,7 +5,7 @@ import ProductPhoto from "../../components/product-photo";
 import { products } from "../../data/products";
 import {getVisiibleProduct} from "../../services/product.queries";
 import { labelTitle} from "../../data/label";
-import { label} from "../../data/label";
+import { labelList } from "../../data/label";
 
 const subCategories = [
     { name: '綾井海荷（OC）', href: '#' },
@@ -107,7 +107,7 @@ export default function Example() {
                                             ))}
                                         </ul>
 
-                                        {label.map((section) => (
+                                        {labelList.map((section) => (
                                             <Disclosure as="div" key={section.id} className="border-t border-gray-200 px-4 py-6">
                                                 {({ open }) => (
                                                     <>
@@ -137,8 +137,8 @@ export default function Example() {
                                                                             defaultValue={option.value}
                                                                             type="checkbox"
                                                                             defaultChecked={option.checked}
-                                                                            checked={selectedLabel.includes(labelTitle)}
-                                                                            onChange={(e) => onchangeLabel(label, e.target.checked)}
+                                                                            checked={selectedLabel.includes(options)}
+                                                                            onChange={(e) => onchangeLabel(options, e.target.checked)}
                                                                             className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                         />
                                                                         <label
@@ -199,7 +199,7 @@ export default function Example() {
                                     ))}
                                 </ul>
 
-                                {label.map((section, selectedLabel, onchangeLabel) => (
+                                {labelList.map((section, selectedLabel, onchangeLabel) => (
                                     <Disclosure as="div"
                                                 key={section.id}
                                                 className="border-b border-gray-200 py-6"
@@ -226,7 +226,7 @@ export default function Example() {
                                                     onchangeLabel={onchangeLabelHandler}
                                                 >
                                                     <div className="space-y-4">
-                                                        {section.options.map((option, optionIdx) => (
+                                                        {labelTitle.map((option, optionIdx) => (
                                                             <div key={option.value} className="flex items-center">
                                                                 <input
                                                                     id={`filter-${section.id}-${optionIdx}`}
@@ -234,8 +234,8 @@ export default function Example() {
                                                                     defaultValue={option.value}
                                                                     type="checkbox"
                                                                     defaultChecked={option.checked}
-                                                                    checked={selectedLabel.includes(labelTitle)}
-                                                                    onChange={(e) => onchangeLabel(label, e.target.checked)}
+                                                                    checked={selectedLabel.includes(options)}
+                                                                    onChange={(e) => onchangeLabel(options, e.target.checked)}
                                                                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                 />
                                                                 <label
