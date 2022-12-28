@@ -28,7 +28,7 @@ const ProductPhoto = (props) => {
                             transition: { duration: 0.35, delay: 0.3 },
                         }}
                     >
-                        <ContentWrapper className="columns-auto gap-8">
+                        <ContentWrapper className="grid grid-cols-4 gap-4">
                             <div
                                 key={src}
                                 className={clsx(
