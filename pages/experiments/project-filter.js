@@ -3,6 +3,7 @@ import { Dialog, Disclosure, Transition } from '@headlessui/react'
 import {X, Funnel, Minus, Plus, SquaresFour,} from 'phosphor-react'
 import ProductPhoto from "../../components/product-photo";
 import { products } from "../../data/products";
+import {getVisiibleProduct} from "../../services/product.queries";
 
 const subCategories = [
     { name: '綾井海荷（OC）', href: '#' },
@@ -36,6 +37,17 @@ function classNames(...classes) {
 
 export default function Example() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
+    const [selectedLabel, setSelectedLabel] = useState([])
+    const onchangeLabelHandler = (label, isChecked) => {
+        isChecked
+            ? setSelectedLabel((prevLabel) => [...prevLabel, label])
+            : setSelectedLabel(
+                selectedLabel.filter(
+                    lab => lab !== label
+                )
+            )
+    }
+    const products = getVisiibleProduct(selectedLabel)
 
     return (
         <div className="bg-white dark:bg-[#111111]">
@@ -177,20 +189,25 @@ export default function Example() {
                                     ))}
                                 </ul>
 
-                                {filters.map((section) => (
-                                    <Disclosure as="div" key={section.id} className="border-b border-gray-200 py-6">
+                                {filters.map((section, selectedLabel, onchangeLabel) => (
+                                    <Disclosure as="div"
+                                                key={section.id}
+                                                className="border-b border-gray-200 py-6"
+                                                selectedLabel={selectedLabel}
+                                                onchangeLabel={onchangeLabelHandler}
+                                    >
                                         {({ open }) => (
                                             <>
                                                 <h3 className="-my-3 flow-root">
                                                     <Disclosure.Button className="flex w-full items-center justify-between bg-white dark:bg-[#111111] py-3 text-sm text-gray-400 hover:text-gray-500 dark:text-gray-50 dark:hover:text-white">
                                                         <span className="font-medium text-gray-900 dark:text-gray-50">{section.name}</span>
                                                         <span className="ml-6 flex items-center">
-                              {open ? (
-                                  <Minus className="h-5 w-5" aria-hidden="true" />
-                              ) : (
-                                  <Plus className="h-5 w-5" aria-hidden="true" />
-                              )}
-                            </span>
+                                                          {open ? (
+                                                              <Minus className="h-5 w-5" aria-hidden="true" />
+                                                          ) : (
+                                                              <Plus className="h-5 w-5" aria-hidden="true" />
+                                                          )}
+                                                        </span>
                                                     </Disclosure.Button>
                                                 </h3>
                                                 <Disclosure.Panel className="pt-6">
@@ -203,6 +220,8 @@ export default function Example() {
                                                                     defaultValue={option.value}
                                                                     type="checkbox"
                                                                     defaultChecked={option.checked}
+                                                                    checked={selectedLabel.includes(option.label)}
+                                                                    onChange={(e) => onchangeLabel(label, e.target.checked)}
                                                                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                 />
                                                                 <label
