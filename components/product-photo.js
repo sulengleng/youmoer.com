@@ -28,12 +28,12 @@ const ProductPhoto = (props) => {
                             transition: { duration: 0.35, delay: 0.3 },
                         }}
                     >
-                        <ContentWrapper className="grid grid-cols-4 gap-4">
+                        <ContentWrapper className="grid grid-cols-2 gap-4">
                             <div
                                 key={src}
                                 className={clsx(
                                     className,
-                                    "relative max-w-48 border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
+                                    "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
                                 )}
                             >
                                 <img
