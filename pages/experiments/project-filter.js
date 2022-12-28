@@ -107,7 +107,7 @@ export default function Example() {
                                             ))}
                                         </ul>
 
-                                        {filters.map((section) => (
+                                        {label.map((section) => (
                                             <Disclosure as="div" key={section.id} className="border-t border-gray-200 px-4 py-6">
                                                 {({ open }) => (
                                                     <>
@@ -123,7 +123,11 @@ export default function Example() {
                                                                 </span>
                                                             </Disclosure.Button>
                                                         </h3>
-                                                        <Disclosure.Panel className="pt-6">
+                                                        <Disclosure.Panel
+                                                            className="pt-6"
+                                                            selectedLabel={selectedLabel}
+                                                            onchangeLabel={onchangeLabelHandler}
+                                                        >
                                                             <div className="space-y-6">
                                                                 {section.options.map((option, optionIdx) => (
                                                                     <div key={option.value} className="flex items-center">
@@ -133,6 +137,8 @@ export default function Example() {
                                                                             defaultValue={option.value}
                                                                             type="checkbox"
                                                                             defaultChecked={option.checked}
+                                                                            checked={selectedLabel.includes(options)}
+                                                                            onChange={(e) => onchangeLabel(label, e.target.checked)}
                                                                             className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                         />
                                                                         <label
@@ -228,7 +234,7 @@ export default function Example() {
                                                                     defaultValue={option.value}
                                                                     type="checkbox"
                                                                     defaultChecked={option.checked}
-                                                                    checked={selectedLabel.includes(option.checked)}
+                                                                    checked={selectedLabel.includes(options)}
                                                                     onChange={(e) => onchangeLabel(label, e.target.checked)}
                                                                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                 />
