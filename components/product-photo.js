@@ -5,7 +5,7 @@ import {Compass} from "phosphor-react";
 
 const ContentWrapper = ({ children, className, width }) => (
     <div
-        style={{ maxWidth: `${width || '80%'}`}}
+        style={{ maxWidth: `${width || '100%'}`}}
         className={clsx(
             "w-full px-5 mx-auto relative",
             className
@@ -19,7 +19,7 @@ const ProductPhoto = (props) => {
     const { src, note, category, className } = props.product
         return (
             <body>
-                <div className="pb-20">
+                <div className="pb-6">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{
