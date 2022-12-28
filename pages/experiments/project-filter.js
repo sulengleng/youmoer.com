@@ -4,6 +4,7 @@ import {X, Funnel, Minus, Plus, SquaresFour,} from 'phosphor-react'
 import ProductPhoto from "../../components/product-photo";
 import { products } from "../../data/products";
 import {getVisiibleProduct} from "../../services/product.queries";
+import { labelTitle} from "../../data/label";
 
 const subCategories = [
     { name: '綾井海荷（OC）', href: '#' },
@@ -191,7 +192,7 @@ export default function Example() {
                                     ))}
                                 </ul>
 
-                                {filters.map((section, selectedLabel, onchangeLabel) => (
+                                {label.map((section, selectedLabel, onchangeLabel) => (
                                     <Disclosure as="div"
                                                 key={section.id}
                                                 className="border-b border-gray-200 py-6"
