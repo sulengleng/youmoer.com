@@ -38,7 +38,7 @@ function classNames(...classes) {
 export default function Example() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
-    const [selectedLabel, setSelectedLabel] = useState([''])
+    const [selectedLabel, setSelectedLabel] = useState('')
     const onchangeLabelHandler = (label, isChecked) => {
         isChecked
             ? setSelectedLabel((prevLabel) => [...prevLabel, label])
