@@ -35,10 +35,11 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
+
 export default function Example() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
-    const [selectedLabel, setSelectedLabel] = useState('')
+    const [selectedLabel, setSelectedLabel] = useState([])
     const onchangeLabelHandler = (label, isChecked) => {
         isChecked
             ? setSelectedLabel((prevLabel) => [...prevLabel, label])
@@ -211,7 +212,11 @@ export default function Example() {
                                                         </span>
                                                     </Disclosure.Button>
                                                 </h3>
-                                                <Disclosure.Panel className="pt-6">
+                                                <Disclosure.Panel
+                                                    className="pt-6"
+                                                    selectedLabel={selectedLabel}
+                                                    onchangeLabel={onchangeLabelHandler}
+                                                >
                                                     <div className="space-y-4">
                                                         {section.options.map((option, optionIdx) => (
                                                             <div key={option.value} className="flex items-center">
