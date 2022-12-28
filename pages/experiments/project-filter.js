@@ -3,8 +3,6 @@ import { Dialog, Disclosure, Transition } from '@headlessui/react'
 import {X, Funnel, Minus, Plus, SquaresFour,} from 'phosphor-react'
 import ProductPhoto from "../../components/product-photo";
 import { products } from "../../data/products";
-import { category } from "../../data/products";
-import { project } from "../../data/products";
 
 const subCategories = (project) => {
     set(
@@ -86,10 +84,10 @@ export default function Example() {
                                     <form className="mt-4 border-t border-gray-200">
                                         <h3 className="sr-only">Categories</h3>
                                         <ul role="list" className="px-2 py-3 font-medium text-gray-900 dark:text-gray-50">
-                                            {subCategories.map((category) => (
-                                                <li key={category.name}>
-                                                    <a href={category.href} className="block px-2 py-3">
-                                                        {category.name}
+                                            {subCategories.map((project) => (
+                                                <li key={project}>
+                                                    <a href="https://yeyouchuan.me" className="block px-2 py-3">
+                                                        {project}
                                                     </a>
                                                 </li>
                                             ))}
