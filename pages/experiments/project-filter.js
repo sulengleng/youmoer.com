@@ -222,7 +222,7 @@ export default function Example() {
                             </form>
 
                             {/* Product grid */}
-                            <div className="col-start-2 col-span-2">
+                            <div className="col-start-2 col-span-4">
                                 {/* Replace with your content */}
                                 {products.map((product) => (
                                     <ProductPhoto product={product} />
