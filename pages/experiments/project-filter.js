@@ -5,6 +5,7 @@ import ProductPhoto from "../../components/product-photo";
 import { products } from "../../data/products";
 import {getVisiibleProduct} from "../../services/product.queries";
 import { labelTitle} from "../../data/label";
+import { label} from "../../data/label";
 
 const subCategories = [
     { name: '綾井海荷（OC）', href: '#' },
