@@ -5,7 +5,7 @@ import {Compass} from "phosphor-react";
 
 const ContentWrapper = ({ children, className, width }) => (
     <div
-        style={{ maxWidth: `${width || '100%'}`}}
+        style={{ maxWidth: `${width || '80%'}`}}
         className={clsx(
             "w-full px-5 mx-auto relative",
             className
