@@ -3,14 +3,18 @@ import { Dialog, Disclosure, Transition } from '@headlessui/react'
 import {X, Funnel, Minus, Plus, SquaresFour,} from 'phosphor-react'
 import ProductPhoto from "../../components/product-photo";
 import { products } from "../../data/products";
+import { category } from "../../data/products";
+import { project } from "../../data/products";
 
-const subCategories = [
-    { name: '綾井海荷（OC）', href: '#' },
-    { name: '澤木海生（OC）', href: '#' },
-    { name: '科搜研', href: '#' },
-    { name: '特摄', href: '#' },
-    { name: '其他同人', href: '#' },
-]
+const subCategories = (project) => {
+    set(
+        products.filter((products) => {
+            return products.project === project;
+        })
+    );
+};
+
+
 const filters = [
     {
         id: 'Work',
@@ -99,12 +103,12 @@ export default function Example() {
                                                             <Disclosure.Button className="flex w-full items-center justify-between bg-white dark:bg-[#111111] px-2 py-3 text-gray-400 hover:text-gray-500">
                                                                 <span className="font-medium text-gray-900 dark:text-gray-50">{section.name}</span>
                                                                 <span className="ml-6 flex items-center">
-                                  {open ? (
-                                      <Minus className="h-5 w-5" aria-hidden="true" />
-                                  ) : (
-                                      <Plus className="h-5 w-5" aria-hidden="true" />
-                                  )}
-                                </span>
+                                                                  {open ? (
+                                                                      <Minus className="h-5 w-5" aria-hidden="true" />
+                                                                  ) : (
+                                                                      <Plus className="h-5 w-5" aria-hidden="true" />
+                                                                  )}
+                                                                </span>
                                                             </Disclosure.Button>
                                                         </h3>
                                                         <Disclosure.Panel className="pt-6">
