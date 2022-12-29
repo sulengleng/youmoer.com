@@ -115,7 +115,7 @@ export default function Project() {
                                 'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
                             )}
                         >
-                            <ContentWrapper className="gap-10 columns-1 space-y-6 pt-6 md:columns-3">
+                            <ContentWrapper className="gap-10 columns-1 space-y-6 pt-6 md:columns-2">
                                 {posts.map((item) => (
                                     <div
                                         key={item.src}
