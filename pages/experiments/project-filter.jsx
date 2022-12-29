@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { Tab } from '@headlessui/react'
+import clsx from "clsx";
+import {Compass} from "phosphor-react";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -9,50 +11,26 @@ export default function Example() {
     let [categories] = useState({
         Recent: [
             {
-                id: 1,
-                title: 'Does drinking coffee make you smarter?',
-                date: '5h ago',
-                commentCount: 5,
-                shareCount: 2,
-            },
-            {
-                id: 2,
-                title: "So you've bought coffee... now what?",
-                date: '2h ago',
-                commentCount: 3,
-                shareCount: 2,
+                src: "https://s2.loli.net/2022/12/28/sWV5Pf74vtypSzN.png",
+                note: "娑丽丝",
+                label: "AFK IP部平面设计",
+                className: "rotate-[0deg]",
             },
         ],
         Popular: [
             {
-                id: 1,
-                title: 'Is tech making coffee better or worse?',
-                date: 'Jan 7',
-                commentCount: 29,
-                shareCount: 16,
-            },
-            {
-                id: 2,
-                title: 'The most innovative things happening in coffee',
-                date: 'Mar 19',
-                commentCount: 24,
-                shareCount: 12,
+                src: "https://s2.loli.net/2022/12/28/YWM7rcb3NH6AZgh.png",
+                note: "夏疾风",
+                label: "曲名Redesign",
+                className: "rotate-[0deg]",
             },
         ],
         Trending: [
             {
-                id: 1,
-                title: 'Ask Me Anything: 10 answers to your questions about coffee',
-                date: '2d ago',
-                commentCount: 9,
-                shareCount: 5,
-            },
-            {
-                id: 2,
-                title: "The worst advice we've ever heard about coffee",
-                date: '4d ago',
-                commentCount: 1,
-                shareCount: 2,
+                src: "https://s2.loli.net/2022/12/28/BQ7s5l9Joi24tdx.png",
+                note: "Have a Date with Romance",
+                label: "以闪亮之名 发行平面设计",
+                className: "rotate-[0deg]",
             },
         ],
     })
@@ -87,34 +65,28 @@ export default function Example() {
                                 'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
                             )}
                         >
-                            <ul>
-                                {posts.map((post) => (
-                                    <li
-                                        key={post.id}
-                                        className="relative rounded-md p-3 hover:bg-gray-100"
+                            <ContentWrapper className="gap-6 columns-1 space-y-6 pt-6 md:columns-3">
+                                {posts.map((item) => (
+                                    <div
+                                        key={item.src}
+                                        className={clsx(
+                                            item?.className,
+                                            "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 drop-shadow-xl"
+                                        )}
                                     >
-                                        <h3 className="text-sm font-medium leading-5">
-                                            {post.title}
-                                        </h3>
-
-                                        <ul className="mt-1 flex space-x-1 text-xs font-normal leading-4 text-gray-500">
-                                            <li>{post.date}</li>
-                                            <li>&middot;</li>
-                                            <li>{post.commentCount} comments</li>
-                                            <li>&middot;</li>
-                                            <li>{post.shareCount} shares</li>
-                                        </ul>
-
-                                        <a
-                                            href="#"
-                                            className={classNames(
-                                                'absolute inset-0 rounded-md',
-                                                'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2'
-                                            )}
+                                        <img
+                                            src={item?.src}
+                                            alt={item?.note}
+                                            className="rounded-[9px] w-full"
+                                            loading="lazy"
                                         />
-                                    </li>
+                                        <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-25 hover:bg-opacity-60 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                                            <Compass size={14} className="mr-1" />
+                                            {item?.note}
+                                        </div>
+                                    </div>
                                 ))}
-                            </ul>
+                            </ContentWrapper>
                         </Tab.Panel>
                     ))}
                 </Tab.Panels>
