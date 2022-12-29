@@ -137,8 +137,7 @@ export default function Example() {
                                                                             defaultValue={option.value}
                                                                             type="checkbox"
                                                                             defaultChecked={option.checked}
-                                                                            checked={selectedLabel.includes(options)}
-                                                                            onChange={(e) => onchangeLabel(options, e.target.checked)}
+                                                                            onChange={(e) => onchangeLabel(labelTitle, e.target.checked)}
                                                                             className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                         />
                                                                         <label
@@ -234,8 +233,7 @@ export default function Example() {
                                                                     defaultValue={option.value}
                                                                     type="checkbox"
                                                                     defaultChecked={option.checked}
-                                                                    checked={selectedLabel.includes(options)}
-                                                                    onChange={(e) => onchangeLabel(options, e.target.checked)}
+                                                                    onChange={(e) => onchangeLabel(labelTitle, e.target.checked)}
                                                                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                                                 />
                                                                 <label
