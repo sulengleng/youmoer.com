@@ -8,7 +8,6 @@ import Script from "next/script";
 import {useRouter} from "next/router";
 import { Analytics } from '@vercel/analytics/react';
 
-const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
