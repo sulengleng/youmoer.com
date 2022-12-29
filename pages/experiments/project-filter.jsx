@@ -7,7 +7,19 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+const ContentWrapper = ({ children, className, width }) => (
+    <div
+        style={{ maxWidth: `${width || '100%'}`}}
+        className={clsx(
+            "w-full px-5 mx-auto relative",
+            className
+        )}
+    >
+        {children}
+    </div>
+);
+
+export default function Project() {
     let [categories] = useState({
         Recent: [
             {
