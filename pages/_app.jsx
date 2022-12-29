@@ -7,6 +7,9 @@ import Head from "next/head";
 import Script from "next/script";
 import {useRouter} from "next/router";
 import { Analytics } from '@vercel/analytics/react';
+import { QueryClient, QueryClientProvider} from "react-query";
+
+const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -48,38 +51,16 @@ function MyApp({ Component, pageProps }) {
             site: "@yeyouchuan",
             cardType: "summary_large_image",
           }}
-          additionalLinkTags={[
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-ipad-retina-152x152.png",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-ipad-76x76.png",
-              sizes: "60x60",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-ipad-retina-152x152.png",
-              sizes: "144x144",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-iphone-60x60.png",
-              sizes: "60x60",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-iphone-retina-120x120.png",
-              sizes: "114x114",
-            },
-          ]}
         />
 
         <Analytics>
           <Component {...pageProps} />
           <Analytics />
         </Analytics>
+
+        <QueryClientProvider client={QueryClient}>
+          <component {...pageProps}/>
+        </QueryClientProvider>
 
         <MainLayout>
           <Component {...pageProps} />
