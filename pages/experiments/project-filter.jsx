@@ -28,6 +28,36 @@ export default function Project() {
                 label: "AFK IP部平面设计",
                 className: "rotate-[0deg]",
             },
+            {
+                src: "https://s2.loli.net/2022/12/29/iex3dqLDu9AV7Bp.png",
+                note: "猎魔人",
+                label: "AFK IP部平面设计",
+                className: "rotate-[0deg]",
+            },
+            {
+                src: "https://s2.loli.net/2022/12/29/VCNMmU6iwakX8GK.png",
+                note: "艾伦",
+                label: "AFK IP部平面设计",
+                className: "rotate-[0deg]",
+            },
+            {
+                src: "https://s2.loli.net/2022/12/29/xkvlWczm78VbNR9.png",
+                note: "塔尼",
+                label: "AFK IP部平面设计",
+                className: "rotate-[0deg]",
+            },
+            {
+                src: "https://s2.loli.net/2022/12/29/cp8e5sna9IuMHAh.png",
+                note: "幻海奇航",
+                label: "AFK IP部平面设计",
+                className: "rotate-[0deg]",
+            },
+            {
+                src: "https://s2.loli.net/2022/12/29/hgX92DjOIvFbZQn.png",
+                note: "艾伦",
+                label: "AFK IP部平面设计",
+                className: "rotate-[0deg]",
+            },
         ],
         曲名Redesign: [
             {
