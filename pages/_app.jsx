@@ -7,7 +7,6 @@ import Head from "next/head";
 import Script from "next/script";
 import {useRouter} from "next/router";
 import { Analytics } from '@vercel/analytics/react';
-import { QueryClient, QueryClientProvider} from "react-query";
 
 const queryClient = new QueryClient();
 
@@ -57,10 +56,6 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
           <Analytics />
         </Analytics>
-
-        <QueryClientProvider client={QueryClient}>
-          <component {...pageProps}/>
-        </QueryClientProvider>
 
         <MainLayout>
           <Component {...pageProps} />
