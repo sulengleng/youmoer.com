@@ -12,7 +12,7 @@ export default function Player() {
         <div className="player mt-6">
             <div className="max-w-md mx-auto bg-gradient-to-r from-black via-[#041c0c] to-[#062a13] rounded-xl shadow-md overflow-hidden md:max-w-sm">
                 <div className="flex">
-                    <div className="relative md:shrink-0 h-48 w-48 md:place-items-center">
+                    <div className="relative h-48 w-48 md:place-items-center">
                         <div className="absolute items-center">
                             {isPlaying ? (
                                 <PauseCircle size={48} className="opacity-50"  color="#f6f5f6" onClick={togglePlay} />
