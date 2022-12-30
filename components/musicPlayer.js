@@ -20,7 +20,7 @@ export default function Player() {
                                 <PlayCircle size={76} className="opacity-50 place-self-center"  color="#f6f5f6" onClick={togglePlay} />
                             )}
                         </div>
-                        <img className="h-20 w-full object-cover md:h-full md:w-36" src="https://files.catbox.moe/9i0d2g.png"
+                        <img className="h-20 w-full object-cover md:h-full md:w-20 rounded-md pl-4" src="https://files.catbox.moe/9i0d2g.png"
                              alt="Music cover" />
                     </div>
                     <div className="p-8">
