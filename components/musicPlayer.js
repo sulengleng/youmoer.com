@@ -10,26 +10,37 @@ export default function Player() {
     }
     return (
         <div className="player mt-6">
-            <div className="max-w-[80%] mx-auto bg-gradient-to-r from-black via-[#041c0c] to-[#062a13] rounded-xl shadow-md overflow-hidden md:max-w-sm">
+            <div className="mx-auto max-w-[80%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
                 <div className="flex">
-                    <div className="relative h-20 w-48 md:place-items-center">
+                    <div className="items-center">
+                        <a className="text-white"></a>
+                    </div>
+                    <div className="relative md:place-items-center">
                         <div className="absolute items-center">
                             {isPlaying ? (
-                                <PauseCircle size={48} className="opacity-50"  color="#f6f5f6" onClick={togglePlay} />
+                                <PauseCircle size="{48}" className="opacity-50" color="#f6f5f6" onClick="{togglePlay}"/>
                             ) : (
-                                <PlayCircle size={48} className="opacity-50"  color="#f6f5f6" onClick={togglePlay} />
+                                <PlayCircle size="{48}" className="opacity-50" color="#f6f5f6" onClick="{togglePlay}"/>
                             )}
                         </div>
-                        <img className="h-full w-full object-cover md:h-full md:w-48 p-6 rounded-md" src="https://files.catbox.moe/9i0d2g.png"
-                             alt="Music cover" />
+                        <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
+                             src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                     </div>
-                    <div className="py-8 px-3">
-                        <div className="uppercase tracking-wide text-sm text-gray-500 font-medium">万能青年旅店
+                    <div className="place-self-center py-6 px-3">
+                        <div className="flex">
+                          <span className="flex h-3 w-3">
+                            <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                          </span>
+                            <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">now playing</div>
                         </div>
-                        <a href="#" className="block mt-1 text-lg leading-tight font-semibold text-white hover:underline">十万嬉皮</a>
+                        <div href="#"
+                             className="mt-1 block text-lg font-semibold leading-tight text-white hover:underline">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     );
 }
