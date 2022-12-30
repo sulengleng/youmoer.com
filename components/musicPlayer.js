@@ -9,7 +9,7 @@ export default function Player() {
         setIsPlaying(!isPlaying);
     }
     return (
-        <div className="player">
+        <div className="player pt-6">
             <div className="max-w-md mx-auto bg-gradient-to-r from-black via-[#041c0c] to-[#062a13] rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                 <div className="md:flex">
                     <div className="md:shrink-0 h-20 w-20 place-self-center">
