@@ -58,7 +58,12 @@ export default function Experiments() {
       title: "Project Filter",
       url: "/experiments/project-filter",
       description: "A project filter page with CSS Grid",
-    }
+    },
+    {
+        title: "Audio Player",
+        url: "/experiments/music-player",
+        description: "A music player with React",
+    },
     // {
     //   title: "Coming Soon",
     //   url: "/experiments",
