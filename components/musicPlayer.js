@@ -18,9 +18,9 @@ export default function Player() {
                     <div className="relative md:place-items-center">
                         <div className="absolute items-center">
                             {isPlaying ? (
-                                <PauseCircle size={48} className="opacity-50 pl-10" color="#f6f5f6" onClick={togglePlay}/>
+                                <PauseCircle size={48} className="opacity-50 ml-10" color="#f6f5f6" onClick={togglePlay}/>
                             ) : (
-                                <PlayCircle size={48} className="opacity-50 pl-10" color="#f6f5f6" onClick={togglePlay}/>
+                                <PlayCircle size={48} className="opacity-50 ml-10" color="#f6f5f6" onClick={togglePlay}/>
                             )}
                         </div>
                         <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
