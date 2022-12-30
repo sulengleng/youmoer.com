@@ -1,6 +1,6 @@
 import {react} from "react";
 import {audios} from "../data/audioData";
-import { Play } from "react-feather";
+import { Play } from "phosphor-react";
 
 export default function Player({Songs}) {
     return (
