@@ -13,11 +13,13 @@ export default function Player() {
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                 <div className="md:flex">
                     <div className="md:shrink-0">
-                        {isPlaying ? (
-                            <PauseCircle size={28} className="place-items-center" onClick={togglePlay} />
-                        ) : (
-                            <PlayCircle size={28} className="place-items-center" onClick={togglePlay} />
-                        )}
+                        <div className="absolute">
+                            {isPlaying ? (
+                                <PauseCircle size={28} className="place-items-center" onClick={togglePlay} />
+                            ) : (
+                                <PlayCircle size={28} className="place-items-center" onClick={togglePlay} />
+                            )}
+                        </div>
                         <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/9i0d2g.png"
                              alt="Modern building architecture" />
                     </div>
