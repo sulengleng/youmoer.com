@@ -34,8 +34,8 @@ export default function Player() {
                           </span>
                             <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">now playing</div>
                         </div>
-                        <div href="#"
-                             className="mt-1 block text-lg font-semibold leading-tight text-white hover:underline">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
+                        <div
+                            className="mt-1 block text-lg font-semibold leading-tight text-white hover:underline">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
                         </div>
                     </div>
                 </div>
