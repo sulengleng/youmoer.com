@@ -1,5 +1,5 @@
 import {audios} from "../../data/audioData";
-import { Player } from "../../components/musicPlayer";
+import Player from "../../components/musicPlayer";
 import { useState } from "react";
 
 function Music() {
