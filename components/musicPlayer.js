@@ -13,15 +13,15 @@ export default function Player() {
             <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                 <div className="md:flex">
                     <div className="md:shrink-0">
-                        <div className="absolute place-items-center">
+                        <div className="absolute items-center">
                             {isPlaying ? (
-                                <PauseCircle size={76} onClick={togglePlay} />
+                                <PauseCircle size={76} className="bg-gray-500/20" onClick={togglePlay} />
                             ) : (
-                                <PlayCircle size={76} onClick={togglePlay} />
+                                <PlayCircle size={76} className="bg-gray-500/20" onClick={togglePlay} />
                             )}
                         </div>
-                        <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/9i0d2g.png"
-                             alt="Modern building architecture" />
+                        <img className="h-36 w-full object-cover md:h-full md:w-36" src="https://files.catbox.moe/9i0d2g.png"
+                             alt="Music cover" />
                     </div>
                     <div className="p-8">
                         <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats
