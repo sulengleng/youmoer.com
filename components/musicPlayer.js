@@ -9,7 +9,7 @@ export default function Player() {
         setIsPlaying(!isPlaying);
     }
     return (
-        <div className="player pt-6">
+        <div className="player mt-6">
             <div className="max-w-md mx-auto bg-gradient-to-r from-black via-[#041c0c] to-[#062a13] rounded-xl shadow-md overflow-hidden md:max-w-sm">
                 <div className="flex">
                     <div className="md:shrink-0 h-48 w-48">
@@ -20,7 +20,7 @@ export default function Player() {
                                 <PlayCircle size={48} className="opacity-50"  color="#f6f5f6" onClick={togglePlay} />
                             )}
                         </div>
-                        <img className="h-20 w-full md:place-items-center object-cover md:h-[80%] md:w-full rounded-md pl-4" src="https://files.catbox.moe/9i0d2g.png"
+                        <img className="h-20 w-full md:place-items-center object-cover md:h-[60%] md:w-full rounded-md ml-4" src="https://files.catbox.moe/9i0d2g.png"
                              alt="Music cover" />
                     </div>
                     <div className="p-8">
