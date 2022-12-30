@@ -10,17 +10,17 @@ export default function Player() {
     }
     return (
         <div className="player">
-            <div className="max-w-md mx-auto bg-gradient-to-r from-black to-green-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div className="max-w-md mx-auto bg-gradient-to-r from-black via-[#041c0c] to-[#062a13] rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                 <div className="md:flex">
-                    <div className="md:shrink-0">
-                        <div className="absolute h-36 w-36">
+                    <div className="md:shrink-0 h-20 w-20 place-self-center">
+                        <div className="absolute h-20 w-20 place-items-center">
                             {isPlaying ? (
                                 <PauseCircle size={76} className="opacity-50 place-self-center"  color="#f6f5f6" onClick={togglePlay} />
                             ) : (
                                 <PlayCircle size={76} className="opacity-50 place-self-center"  color="#f6f5f6" onClick={togglePlay} />
                             )}
                         </div>
-                        <img className="h-36 w-full object-cover md:h-full md:w-36" src="https://files.catbox.moe/9i0d2g.png"
+                        <img className="h-20 w-full object-cover md:h-full md:w-36" src="https://files.catbox.moe/9i0d2g.png"
                              alt="Music cover" />
                     </div>
                     <div className="p-8">
