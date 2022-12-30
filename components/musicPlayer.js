@@ -11,6 +11,7 @@ export default function Player() {
                     <div className="md:shrink-0">
                         <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/9i0d2g.png"
                              alt="Modern building architecture" />
+                        <PlayCircle size={28} className="place-items-center" />
                     </div>
                     <div className="p-8">
                         <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats
