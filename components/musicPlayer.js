@@ -1,4 +1,5 @@
 import {react} from "react";
+import {audios} from "../data/audioData";
 
 export default function Player({Songs}) {
     return (
