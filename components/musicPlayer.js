@@ -10,7 +10,7 @@ export default function Player() {
     }
     return (
         <div className="player">
-            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div className="max-w-md mx-auto bg-gradient-to-r from-black to-green-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                 <div className="md:flex">
                     <div className="md:shrink-0">
                         <div className="absolute h-36 w-36">
