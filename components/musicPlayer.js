@@ -1,11 +1,15 @@
 import {react} from "react";
 import {audios} from "../data/audioData";
-import { Play } from "phosphor-react";
+import {
+        PlayCircle,
+        PauseCircle
+        } from "phosphor-react";
 
 export default function Player({Songs}) {
     return (
         <div>
-            <Play size={16} />
+            <PlayCircle size={16} />
+            <PauseCircle size={16} />
         </div>
     );
 }
