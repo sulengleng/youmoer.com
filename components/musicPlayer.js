@@ -23,7 +23,7 @@ export default function Player() {
                         <img className="h-full w-full object-cover md:h-full md:w-48 p-6 rounded-md" src="https://files.catbox.moe/9i0d2g.png"
                              alt="Music cover" />
                     </div>
-                    <div className="p-8">
+                    <div className="py-8 px-3">
                         <div className="uppercase tracking-wide text-sm text-gray-500 font-medium">万能青年旅店
                         </div>
                         <a href="#" className="block mt-1 text-lg leading-tight font-semibold text-white hover:underline">十万嬉皮</a>
