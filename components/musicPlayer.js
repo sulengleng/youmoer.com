@@ -10,7 +10,7 @@ export default function Player() {
     }
     return (
         <div className="player mt-6">
-            <div className="max-w-md mx-auto bg-gradient-to-r from-black via-[#041c0c] to-[#062a13] rounded-xl shadow-md overflow-hidden md:max-w-sm">
+            <div className="max-w-[80%] mx-auto bg-gradient-to-r from-black via-[#041c0c] to-[#062a13] rounded-xl shadow-md overflow-hidden md:max-w-sm">
                 <div className="flex">
                     <div className="relative h-20 w-48 md:place-items-center">
                         <div className="absolute items-center">
