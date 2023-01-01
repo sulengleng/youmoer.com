@@ -2,7 +2,11 @@ import clsx from "clsx";
 import Link from "next/link";
 import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut, ThumbsUp} from "phosphor-react";
 import { motion } from 'framer-motion'
+import { annotate } from 'rough-notation';
 
+const n1 = document.querySelector('strong');
+const a1 = annotate(n1, { type: 'highlight', color: 'yellow', iterations: 1 });
+a1.show();
 
 const TIMELINE = [
   {
@@ -73,7 +77,7 @@ export default function Home() {
                 <span className="text-gray-400 dark:text-gray-400">
                   Hi 👋, 我是{" "}
                 </span>
-                夜游船!
+                <strong>夜游船!</strong>
               </h2>
               <div className="">
                 <ul className="" width="700px">
