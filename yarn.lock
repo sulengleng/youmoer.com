@@ -3518,6 +3518,13 @@
     "broadcast-channel" "^3.4.1"
     "match-sorter" "^6.0.2"
 
+"react-rough-notation@^1.0.3":
+  "integrity" "sha512-hMmyWNZTpPO9QOwj0g1SGgRiPWhJLhQje9ZtpQiAa1h0147oCL5C49OLXEZZYCxfMhXOqYBxSNkbndM09o3hUQ=="
+  "resolved" "https://registry.npmjs.org/react-rough-notation/-/react-rough-notation-1.0.3.tgz"
+  "version" "1.0.3"
+  dependencies:
+    "rough-notation" "^0.5.1"
+
 "react-select@^5.7.0":
   "integrity" "sha512-lJGiMxCa3cqnUr2Jjtg9YHsaytiZqeNOKeibv6WF5zbK/fPegZ1hg3y/9P1RZVLhqBTs0PfqQLKuAACednYGhQ=="
   "resolved" "https://registry.npmjs.org/react-select/-/react-select-5.7.0.tgz"
