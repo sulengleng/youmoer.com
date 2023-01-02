@@ -30,18 +30,18 @@ export default function Player() {
                         {isPlaying ? (
                             <div className="flex">
                               <span className="flex h-3 w-3">
-                                <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-red-600 opacity-75"></span>
-                                <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
-                              </span>
-                                <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">not playing</div>
-                            </div>
-                        ) : (
-                            <div className="flex">
-                              <span className="flex h-3 w-3">
                                 <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
                                 <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
                               </span>
                                 <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">now playing</div>
+                            </div>
+                        ) : (
+                            <div className="flex">
+                              <span className="flex h-3 w-3">
+                                <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-red-600 opacity-75"></span>
+                                <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                              </span>
+                                <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">not playing</div>
                             </div>
                         )}
                         <div
