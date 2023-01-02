@@ -2,19 +2,20 @@ import YouTube, { YouTubeProps } from "react-youtube"
 import { useRef, useState } from "react"
 import { Play, Pause } from "phosphor-react"
 import { motion } from "framer-motion"
+import { react } from "react";
 
 export default function Player() {
     const [isPlaying, setIsPlaying] = useState(false);
     const player = useRef();
 
-    const opts: YouTubeProps["opts"] = {
-        height: "0",
-        width: "0",
-    }
+    const opts: YouTubeProps['opts'] = {
+        height: '0',
+        width: '0',
+    };
 
     const onPlayerReady: YouTubeProps["onReady"] = (event) => {
-        player.current = event.target
-    }
+        player.current = event.target;
+    };
 
     function togglePlaying() {
         setIsPlaying((isPlaying) => {
