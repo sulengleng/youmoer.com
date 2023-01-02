@@ -50,7 +50,7 @@ export default function Player() {
                     </div>
                 </div>
             </div>
-            <audio src="data/audios/shanque.mp3" autoPlay={isPlaying}>
+            <audio controls={true} src="data/audios/shanque.mp3" autoPlay={isPlaying}>
                 <source src="data/audios/shanque.mp3" type="audio/mpeg" />
             </audio>
         </div>
