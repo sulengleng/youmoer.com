@@ -7,15 +7,6 @@ export default function Player() {
     const [isPlaying, setIsPlaying] = useState(false);
     const player = useRef();
 
-    const onPlayerReady: YouTubeProps["onReady"] = (event) => {
-        player.current = event.target
-    }
-
-    const opts: YouTubeProps["opts"] = {
-        height: "0",
-        width: "0",
-    }
-
     function togglePlaying() {
         setIsPlaying((isPlaying) => {
             if (isPlaying) {
@@ -49,8 +40,6 @@ export default function Player() {
                         <div className="hidden absolute">
                             <YouTube
                                 videoId={props.youtubeId}
-                                opts={opts}
-                                onReady={onPlayerReady}
                             />
                         </div>
                         <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
