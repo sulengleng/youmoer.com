@@ -5,20 +5,13 @@ import { motion } from "framer-motion"
 import React from "react"
 import { addPropertyControls, ControlType } from "framer"
 
-export default function MusicPlayer(props) {
+export default function MusicPlayer() {
     const [isPlaying, setIsPlaying] = useState(false)
     const player = useRef()
 
     const onPlayerReady: YouTubeProps["onReady"] = (event) => {
         player.current = event.target
     }
-
-    const opts: YouTubeProps["opts"] = {
-        height: "0",
-        width: "0",
-    }
-
-    const videoId = props.videoId || "dQw4w9 WgXcQ" // Rick Roll
 
     function togglePlaying() {
         setIsPlaying((isPlaying) => {
@@ -46,25 +39,6 @@ export default function MusicPlayer(props) {
                     {isPlaying && <Pause weight="fill" />}
                 </div>
             </motion.div>
-
-            <div className="hidden absolute">
-                <YouTube
-                    videoId={props.videoId}
-                    opts={opts}
-                    onReady={onPlayerReady}
-                />
-            </div>
         </div>
     )
 }
-
-MusicPlayer.defaultProps = {
-    youtubeId: "iN3KsbnQZxU",
-}
-
-addPropertyControls(MusicPlayer, {
-    youtubeId: {
-        type: ControlType.String,
-        title: "Youtube ID",
-    },
-})
