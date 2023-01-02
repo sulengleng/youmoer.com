@@ -1,5 +1,3 @@
-import MusicPlayer from "./music_player";
-
 export default function Player() {
     return (
         <div className="player mt-6 select-none">
