@@ -30,7 +30,7 @@ export default function Player() {
                         <motion.div
                             onClick={togglePlaying}
                             whileTap={{ scale: 0.8 }}
-                            className:"w-24 h-24 flex items-center border-[100px] justify-center bg-white cursor-pointer shadow-md"
+                            style={containerStyles}
                         >
                             <div className="flex items-center border-0 bg-none appearance-none absolute cursor-pointer">
                                 {!isPlaying && <Play weight="fill" />}
@@ -65,4 +65,16 @@ export default function Player() {
 
 MusicPlayer.defaultProps = {
     youtubeId: "iN3KsbnQZxU",
+}
+
+const containerStyles = {
+    width: 24,
+    height: 24,
+    display: "flex",
+    alignItems: "center",
+    borderRadius: "100px",
+    justifyContent: "center",
+    background: "white",
+    cursor: "pointer",
+    boxShadow: "0 0 0 2px rgba(0,0,0,0.2)",
 }
