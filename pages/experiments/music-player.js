@@ -1,4 +1,4 @@
-import MusicPlayer from "./music_player";
+import MusicPlayer from "";
 import {useState} from "react";
 
 export default function Player() {
