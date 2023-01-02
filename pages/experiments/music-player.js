@@ -63,10 +63,6 @@ export default function Player() {
     );
 }
 
-MusicPlayer.defaultProps = {
-    youtubeId: "iN3KsbnQZxU",
-}
-
 const containerStyles = {
     width: 24,
     height: 24,
