@@ -50,13 +50,9 @@ export default function Player() {
                     </div>
                 </div>
             </div>
-            <iframe style="border-radius:12px"
-                    src="https://open.spotify.com/embed/track/6sO7V8oZQ2ExSCWG2oD3ZT?utm_source=generator" width="100%"
-                    height="152" frameBorder="0" allowFullScreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-            >
-            </iframe>
+            <audio autoPlay={isPlaying} controls>
+                <source src="https://server1.indiryuklemp3.org/mp3_files/salaksin-I6hfUKt21R-0.mp3" type="audio/mpeg"/>
+            </audio>
         </div>
     );
 }
