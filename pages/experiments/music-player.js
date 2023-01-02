@@ -51,7 +51,8 @@ export default function Player() {
                 </div>
             </div>
             <audio controls={true} src="data/audios/shanque.mp3" autoPlay={isPlaying}>
-                <source src="data/audios/shanque.flac" type="audio/mpeg" />
+                <source src="data/audios/shanque.mp3" type="audio/mpeg" />
+                <embed height="50" width="100" src="data/audios/shanque.mp3" />
             </audio>
         </div>
     );
