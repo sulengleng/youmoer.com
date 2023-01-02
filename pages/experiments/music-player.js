@@ -27,13 +27,23 @@ export default function Player() {
                              src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                     </div>
                     <div className="place-self-center py-6 px-3">
-                        <div className="flex">
-                          <span className="flex h-3 w-3">
-                            <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
-                            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
-                          </span>
-                            <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">now playing</div>
-                        </div>
+                        {isPlaying ? (
+                            <div className="flex">
+                              <span className="flex h-3 w-3">
+                                <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-red-600 opacity-75"></span>
+                                <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                              </span>
+                                <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">not playing</div>
+                            </div>
+                        ) : (
+                            <div className="flex">
+                              <span className="flex h-3 w-3">
+                                <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                                <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                              </span>
+                                <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">now playing</div>
+                            </div>
+                        )}
                         <div
                             className="mt-1 block text-lg font-semibold leading-tight text-white hover:underline">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
                         </div>
