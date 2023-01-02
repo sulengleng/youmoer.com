@@ -21,7 +21,7 @@ export default function Player() {
                                 <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
                             ) : (
                                 <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
-                                <audio src="data/audio/山雀.mp3" autoPlay={isPlaying} />
+                                <audio src="./data/audio/shanque.mp3" autoPlay={isPlaying} />
                             )}
                         </div>
                         <img className="h-28 w-28 md:h-full md:w-full rounded-md object-cover p-6 md:h-28 md:w-28"
