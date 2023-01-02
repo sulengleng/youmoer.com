@@ -8,10 +8,6 @@ export default function MusicPlayer() {
     const [isPlaying, setIsPlaying] = useState(false)
     const player = useRef()
 
-    const onPlayerReady: YouTubeProps["onReady"] = (event) => {
-        player.current = event.target
-    }
-
     function togglePlaying() {
         setIsPlaying((isPlaying) => {
             if (isPlaying) {
