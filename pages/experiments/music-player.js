@@ -27,7 +27,7 @@ export default function Player() {
                             {isPlaying ? (
                                 <audio src="" />
                             ) : (
-                                <audio src="data\audio\shanque.mp3" autoPlay={isPlaying} />
+                                <audio src="data/audios/shanque.mp3" autoPlay={isPlaying} />
                             )}
                         </div>
                         <img className="h-28 w-28 md:h-full md:w-full rounded-md object-cover p-6 md:h-28 md:w-28"
