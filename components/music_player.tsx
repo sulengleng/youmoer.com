@@ -3,7 +3,6 @@ import { useRef, useState } from "react"
 import { Play, Pause } from "phosphor-react"
 import { motion } from "framer-motion"
 import React from "react"
-import { addPropertyControls } from 'react-inspector'
 
 export default function MusicPlayer(props) {
     const [isPlaying, setIsPlaying] = useState(false)

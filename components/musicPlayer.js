@@ -1,4 +1,3 @@
-import {audios} from "../data/audioData";
 import MusicPlayer from "./music_player";
 
 
@@ -11,6 +10,7 @@ export default function Player() {
                         <a className="text-white"></a>
                     </div>
                     <div className="relative md:place-items-center">
+                        <MusicPlayer />
                         <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
                              src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                     </div>
