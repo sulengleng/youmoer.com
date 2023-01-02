@@ -50,10 +50,13 @@ export default function Player() {
                     </div>
                 </div>
             </div>
-            <audio controls={true} src="https://music.youtube.com/watch?v=OjlPMBxJAus&list=MLPRb_po_CMfdgrf3qZqOGRIS5YaA6KW_5Y2X5p6X6Lev6KGMIg1odHRwIHVwbG9hZGVy" autoPlay={isPlaying}>
-                <source src="https://music.youtube.com/watch?v=OjlPMBxJAus&list=MLPRb_po_CMfdgrf3qZqOGRIS5YaA6KW_5Y2X5p6X6Lev6KGMIg1odHRwIHVwbG9hZGVy" type="audio/mpeg" />
-                <embed height="50" width="100" src="https://music.youtube.com/watch?v=OjlPMBxJAus&list=MLPRb_po_CMfdgrf3qZqOGRIS5YaA6KW_5Y2X5p6X6Lev6KGMIg1odHRwIHVwbG9hZGVy" />
-            </audio>
+            <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/6sO7V8oZQ2ExSCWG2oD3ZT?utm_source=generator" width="100%"
+                    height="152" frameBorder="0" allowFullScreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+            >
+            </iframe>
         </div>
     );
 }
