@@ -10,7 +10,7 @@ export default function Player() {
     }
     return (
         <div className="player mt-6 select-none">
-            <div className="mx-auto max-w-[80%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
+            <div className="mx-auto max-w-[85%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
                 <div className="flex">
                     <div className="items-center">
                         <a className="text-white"></a>
