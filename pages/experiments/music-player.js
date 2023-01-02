@@ -10,7 +10,6 @@ export default function Music() {
     return (
         <div>
             <Player Songs={Songs} />
-            <musicPlayer Songs={Songs} />
         </div>
     );
 }
