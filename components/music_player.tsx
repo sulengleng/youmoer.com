@@ -54,7 +54,3 @@ export default function MusicPlayer(props) {
         </div>
     )
 }
-
-MusicPlayer.defaultProps = {
-    youtubeId: "iN3KsbnQZxU",
-}
