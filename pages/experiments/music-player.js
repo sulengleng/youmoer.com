@@ -1,4 +1,4 @@
-import { react } from "react";
+import {react, useEffect} from "react";
 import { audios } from "data/musicData";
 import { useState } from "react";
 import { Play, Pause } from "phosphor-react";
@@ -8,6 +8,16 @@ export default function Player() {
     const togglePlay = () => {
         setIsPlaying(!isPlaying);
     }
+    const audioElem = useRef();
+
+    useEffect(() => {
+        if (isPlaying) {
+            audioElem.current.play();
+        } else {
+            audioElem.current.pause();
+        }
+    }, [isPlaying]);
+
     return (
         <div className="player mt-6 select-none">
             <div className="mx-auto max-w-[85%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
@@ -24,13 +34,7 @@ export default function Player() {
                             )}
                         </div>
                         <div className="absolute items-center justify-center">
-                            {isPlaying ? (
-                                <audio src="" />
-                            ) : (
-                                <audio autoPlay={isPlaying}>
-                                    <source src="http://music.163.com/song/media/outer/url?id=386844.mp3" type="audio/mpeg"/>
-                                </audio>
-                            )}
+                            <audio autoPlay={isPlaying} className="hidden" src="http://music.163.com/song/media/outer/url?id=386844.mp3" />
                         </div>
                         <img className="h-28 w-28 md:h-full md:w-full rounded-md object-cover p-6 md:h-28 md:w-28"
                              src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
