@@ -6,7 +6,7 @@ import MusicPlayer from "../../components/music_player";
 export default function Music() {
     const [Songs, setSongs] = useState(audios);
     return (
-        <MusicPlayer />
+        <Player Songs={Songs} />
     );
 }
 

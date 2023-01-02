@@ -4,6 +4,7 @@ import {useState} from "react";
 import {Play, Pause} from "phosphor-react";
 import YouTube, { YouTubeProps } from "react-youtube"
 import { motion } from "framer-motion"
+import MusicPlayer from "./music_player";
 
 
 export default function Player() {
@@ -19,13 +20,7 @@ export default function Player() {
                         <a className="text-white"></a>
                     </div>
                     <div className="relative md:place-items-center">
-                        <div className="absolute items-center">
-                            {isPlaying ? (
-                                <Pause size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
-                            ) : (
-                                <Play size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
-                            )}
-                        </div>
+                        <MusicPlayer />
                         <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
                              src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                     </div>
