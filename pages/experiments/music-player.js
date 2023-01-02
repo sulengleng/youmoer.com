@@ -1,26 +1,13 @@
-import YouTube, { YouTubeProps } from "react-youtube"
-import { useRef, useState } from "react"
-import { Play, Pause } from "phosphor-react"
-import { motion } from "framer-motion"
-import { react } from "react";
-import React from "react";
+import {react} from "react";
+import {audios} from "../data/audioData";
+import {useState} from "react";
+import {Play, Pause} from "phosphor-react";
 
 export default function Player() {
     const [isPlaying, setIsPlaying] = useState(false);
-    const player = useRef();
-
-    function togglePlaying() {
-        setIsPlaying((isPlaying) => {
-            if (isPlaying) {
-                player.current.pauseVideo()
-            } else {
-                player.current.playVideo()
-            }
-
-            return !isPlaying
-        })
+    const togglePlay = () => {
+        setIsPlaying(!isPlaying);
     }
-
     return (
         <div className="player mt-6 select-none">
             <div className="mx-auto max-w-[80%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
@@ -29,20 +16,12 @@ export default function Player() {
                         <a className="text-white"></a>
                     </div>
                     <div className="relative md:place-items-center">
-                        <motion.div
-                            onClick={togglePlaying}
-                            whileTap={{ scale: 0.8 }}
-                            style={containerStyles}
-                        >
-                            <div className="flex items-center border-0 bg-none appearance-none absolute cursor-pointer">
-                                {!isPlaying && <Play weight="fill" />}
-                                {isPlaying && <Pause weight="fill" />}
-                            </div>
-                        </motion.div>
-                        <div className="hidden absolute">
-                            <YouTube
-                                videoId="iN3KsbnQZxU"
-                            />
+                        <div className="absolute items-center">
+                            {isPlaying ? (
+                                <Pause size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
+                            ) : (
+                                <Play size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
+                            )}
                         </div>
                         <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
                              src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
@@ -56,23 +35,12 @@ export default function Player() {
                             <div className="ml-2 mb-2 text-sm uppercase leading-3 text-white">now playing</div>
                         </div>
                         <div
-                            className="mt-1 block text-lg font-semibold leading-tight text-white">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
+                            className="mt-1 block text-lg font-semibold leading-tight text-white hover:underline">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    );
-}
 
-const containerStyles = {
-    width: 24,
-    height: 24,
-    display: "flex",
-    alignItems: "center",
-    borderRadius: "100px",
-    justifyContent: "center",
-    background: "white",
-    cursor: "pointer",
-    boxShadow: "0 0 0 2px rgba(0,0,0,0.2)",
+    );
 }
