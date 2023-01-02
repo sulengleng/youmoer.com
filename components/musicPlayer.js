@@ -1,7 +1,10 @@
 import {react} from "react";
 import {audios} from "../data/audioData";
 import {useState} from "react";
-import {PlayCircle, PauseCircle} from "phosphor-react";
+import {Play, Pause} from "phosphor-react";
+import YouTube, { YouTubeProps } from "react-youtube"
+import { motion } from "framer-motion"
+
 
 export default function Player() {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -18,9 +21,9 @@ export default function Player() {
                     <div className="relative md:place-items-center">
                         <div className="absolute items-center">
                             {isPlaying ? (
-                                <PauseCircle size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
+                                <Pause size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
                             ) : (
-                                <PlayCircle size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
+                                <Play size={48} className="opacity-50 ml-8 mt-8" color="#f6f5f6" onClick={togglePlay}/>
                             )}
                         </div>
                         <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
