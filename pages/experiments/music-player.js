@@ -51,7 +51,7 @@ export default function Player() {
                 </div>
             </div>
             <audio autoPlay={isPlaying} controls>
-                <source src="https://1drv.ms/u/s!AhcAPpK7wwnDkxymO6SrwDBnMMJ0?e=bNDUmv?a.mp3" type="audio/mpeg"/>
+                <source src="http://1drv.ms/u/s!AhcAPpK7wwnDkxymO6SrwDBnMMJ0?e=bNDUmv?a.mp3" type="audio/mpeg"/>
             </audio>
         </div>
     );
