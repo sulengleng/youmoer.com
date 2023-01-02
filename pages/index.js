@@ -73,7 +73,7 @@ export default function Home() {
                 <span className="text-gray-400 dark:text-gray-400">
                   Hi 👋, 我是{" "}
                 </span>
-                <RoughNotation type="highlight" show={true} color="#ffd54f">夜游船!</RoughNotation>
+                <RoughNotation type="highlight" show={true} color="#ffd54f" animationDuration={1500}>夜游船!</RoughNotation>
               </h2>
               <div className="">
                 <ul className="" width="700px">
