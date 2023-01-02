@@ -21,6 +21,12 @@ export default function Player() {
                                 <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
                             ) : (
                                 <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
+                            )}
+                        </div>
+                        <div className="absolute items-center justify-center">
+                            {isPlaying ? (
+                                <audio src="" />
+                            ) : (
                                 <audio src="./data/audio/shanque.mp3" autoPlay={isPlaying} />
                             )}
                         </div>
