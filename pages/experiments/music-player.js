@@ -50,9 +50,9 @@ export default function Player() {
                     </div>
                 </div>
             </div>
-            <audio controls={true} src="/data/audios/shanque.mp3" autoPlay={isPlaying}>
-                <source src="/data/audios/shanque.mp3" type="audio/mpeg" />
-                <embed height="50" width="100" src="/data/audios/shanque.mp3" />
+            <audio controls={true} src="https://music.youtube.com/watch?v=OjlPMBxJAus&list=MLPRb_po_CMfdgrf3qZqOGRIS5YaA6KW_5Y2X5p6X6Lev6KGMIg1odHRwIHVwbG9hZGVy" autoPlay={isPlaying}>
+                <source src="https://music.youtube.com/watch?v=OjlPMBxJAus&list=MLPRb_po_CMfdgrf3qZqOGRIS5YaA6KW_5Y2X5p6X6Lev6KGMIg1odHRwIHVwbG9hZGVy" type="audio/mpeg" />
+                <embed height="50" width="100" src="https://music.youtube.com/watch?v=OjlPMBxJAus&list=MLPRb_po_CMfdgrf3qZqOGRIS5YaA6KW_5Y2X5p6X6Lev6KGMIg1odHRwIHVwbG9hZGVy" />
             </audio>
         </div>
     );
