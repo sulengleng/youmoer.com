@@ -39,7 +39,7 @@ export default function Player() {
                         </motion.div>
                         <div className="hidden absolute">
                             <YouTube
-                                videoId={props.youtubeId}
+                                videoId="iN3KsbnQZxU"
                             />
                         </div>
                         <img className="h-full w-full rounded-md object-cover p-6 md:h-28 md:w-28"
