@@ -1,17 +1,8 @@
-import {react} from "react";
 import {audios} from "../data/audioData";
-import {useState} from "react";
-import {Play, Pause} from "phosphor-react";
-import YouTube, { YouTubeProps } from "react-youtube"
-import { motion } from "framer-motion"
 import MusicPlayer from "./music_player";
 
 
 export default function Player() {
-    const [isPlaying, setIsPlaying] = useState(false);
-    const togglePlay = () => {
-        setIsPlaying(!isPlaying);
-    }
     return (
         <div className="player mt-6 select-none">
             <div className="mx-auto max-w-[80%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
