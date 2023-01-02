@@ -17,6 +17,8 @@ export default function MusicPlayer(props) {
         width: "0",
     }
 
+    const videoId = props.videoId || "dQw4w9 WgXcQ" // Rick Roll
+
     function togglePlaying() {
         setIsPlaying((isPlaying) => {
             if (isPlaying) {
@@ -46,7 +48,7 @@ export default function MusicPlayer(props) {
 
             <div className="hidden absolute">
                 <YouTube
-                    videoId={props.youtubeId}
+                    videoId={props.videoId}
                     opts={opts}
                     onReady={onPlayerReady}
                 />
