@@ -7,6 +7,6 @@ import { addPropertyControls } from 'react-inspector'
 export default function Music() {
     const [Songs, setSongs] = useState(audios);
     return (
-        <MusicPlayer />
+        <Player Songs={Songs} />
     );
 }
