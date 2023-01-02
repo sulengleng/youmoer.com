@@ -4,9 +4,10 @@ import { useState } from "react";
 
 
 export default function Music() {
-
+    const [Songs, setSongs] = useState(audios);
     return (
-        <Player />
+        <Player Songs={Songs}
+        />
     );
 }
 
