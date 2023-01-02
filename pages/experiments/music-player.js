@@ -1,7 +1,7 @@
-import {react} from "react";
-import {audios} from "../data/audioData";
-import {useState} from "react";
-import {Play, Pause} from "phosphor-react";
+import { react } from "react";
+import { audios } from "data/musicData";
+import { useState } from "react";
+import { Play, Pause } from "phosphor-react";
 
 export default function Player() {
     const [isPlaying, setIsPlaying] = useState(false);
