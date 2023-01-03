@@ -20,9 +20,9 @@ export default function MusicPlayer() {
         const prevValue = isPlaying;
         setIsPlaying(!prevValue);
         if (!prevValue) {
-            audioPlayer.current.play();
+            audioPlayer.current.playVideo();
         } else {
-            audioPlayer.current.pause();
+            audioPlayer.current.pauseVideo();
         }
     }
 
