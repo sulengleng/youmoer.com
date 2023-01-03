@@ -54,7 +54,6 @@ export default function Home() {
                                     <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
                                          className="w-8 h-8 mt-4 ml-4 rounded-full" alt="jike logo"/>
                                 </div>
-                                <p className="text-sm text-gray-600 ml-6 my-2">对精心设计的东西情有独钟</p>
                                 <div className="flex flex-row space-x-2 mb-4">
                                     <button className="shadow-sm text-sm bg-white w-10 h-10 rounded-full ml-5"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
