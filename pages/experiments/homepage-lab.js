@@ -55,12 +55,12 @@ export default function Home() {
                                          className="w-8 h-8 mt-4 ml-28 rounded-full" alt="jike logo"/>
                                 </div>
                                 <div className="flex flex-row space-x-2 mb-4 mt-4">
-                                    <button className="shadow-sm text-sm bg-white dark:bg-grey-300 w-10 h-10 rounded-full ml-5"
+                                    <div className="shadow-sm text-sm bg-white dark:bg-grey-700 w-10 h-10 rounded-full ml-5"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
-                                    </button>
-                                    <button className="shadow-sm text-sm bg-yellow-300 dark:bg-yellow-400 rounded-full w-60 h-10 mr-4"
+                                    </div>
+                                    <div className="shadow-sm text-sm bg-yellow-300 rounded-full w-60 h-10 mr-4"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">+关注
-                                    </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
