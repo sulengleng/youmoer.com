@@ -40,7 +40,7 @@ export default function Home() {
             transition: { duration: 0.35, delay: 0.2 },
             }}
             >
-                <div className="flex flex-row space-y-4">
+                <div className="flex flex-row space-y-4 space-x-4">
                     <div className="basis-2/7">
                         <div className="ml-4 mt-4">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
@@ -89,7 +89,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-3/7">
-                        <div className="container mt-4 max-w-full mx-auto md:max-w-full h-96 overflow-x-scroll overflow-x-hidden scroll-pl-6 scroll-smooth snap-x flex flex-row space-x-10 items-center bg-gradient-to-r from-gray-700 to-gray-900 rounded-md">
+                        <div className="container max-w-full mx-auto md:max-w-full h-96 overflow-x-scroll overflow-x-hidden scroll-pl-6 scroll-smooth snap-x flex flex-row space-x-10 items-center bg-gradient-to-r from-gray-700 to-gray-900 rounded-md">
                             <img className="ml-10 rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
                             <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
                             <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
@@ -101,7 +101,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-2/7">
-                        <div className="border-2 rounded-md h-96 mt-4 mr-4 "></div>
+                        <div className="border-2 rounded-md h-96 mr-4 "></div>
                     </div>
                 </div>
             </motion.div>
