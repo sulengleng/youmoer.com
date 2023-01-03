@@ -1,6 +1,7 @@
-import {react, useState} from "react";
+import {useState} from "react";
 
 import {Pause, Play} from "phosphor-react";
+import React from "react";
 
 const Player = ({audioElem, isplaying, setisplayingr}) => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -17,9 +18,9 @@ const Player = ({audioElem, isplaying, setisplayingr}) => {
                     <div className="relative md:place-items-center">
                         <div className="absolute items-center justify-center">
                             {isPlaying ? (
-                                <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
+                                <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={PlayPause}/>
                             ) : (
-                                <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
+                                <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={PlayPause}/>
                             )}
                         </div>
                         <img className="h-28 w-28 md:h-full md:w-full rounded-md object-cover p-6 md:h-28 md:w-28"
