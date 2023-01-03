@@ -37,7 +37,7 @@ export default function MusicPlayer() {
                                     <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
                                 )}
                             </div>
-                            <img className="h-28 w-28 md:h-full md:w-full rounded-md object-cover p-6 md:h-28 md:w-28"
+                            <img className="h-28 w-28 md:h-full md:w-full rounded-md object-cover p-6"
                                  src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                         </div>
                         <div className="place-self-center py-6 px-3">
