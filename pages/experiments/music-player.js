@@ -3,8 +3,6 @@ import { useState } from "react";
 import { Play, Pause } from "phosphor-react";
 
 export default function MusicPlayer() {
-    var vid = document.getElementById("myVideo");
-
     const [isPlaying, setIsPlaying] = useState(false);
     const audioElem = useRef();
 
