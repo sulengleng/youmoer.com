@@ -112,15 +112,15 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-3/7">
-                        <div className="container max-w-full mx-auto md:max-w-full h-96 overflow-x-scroll overflow-x-hidden scroll-pl-6 scroll-smooth snap-x flex flex-row space-x-10 items-center bg-gradient-to-r from-gray-700 to-gray-900 rounded-md">
-                            <img className="ml-10 rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
-                            <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
-                            <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
-                            <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt="music"></img>
-                            <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/4oxz6p.png" alt="music"></img>
-                            <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/7zwwqu.png" alt="music"></img>
-                            <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
-                            <img className="pr-10 rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
+                        <div className="container max-w-[90%] mx-auto md:max-w-full h-128 overflow-x-scroll overflow-x-hidden scroll-pl-6 scroll-smooth snap-x flex flex-row items-center bg-gradient-to-r from-gray-700 to-gray-900 rounded-md">
+                            <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
+                            <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
+                            <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
+                            <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt="music"></img>
+                            <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/4oxz6p.png" alt="music"></img>
+                            <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/7zwwqu.png" alt="music"></img>
+                            <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
+                            <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
                     </div>
                     <div className="basis-2/7">
