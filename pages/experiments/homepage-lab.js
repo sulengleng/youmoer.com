@@ -48,17 +48,17 @@ export default function Home() {
                                     <img src="https://files.catbox.moe/5scrti.jpg"
                                          className="mt-4 mx-4 rounded-full h-12 w-12" alt="jike header"/>
                                     <div>
-                                        <a className="mt-5 block text-base font-semibold leading-tight text-black">夜游船</a>
-                                        <Link className="text-gray-600 text-xs" href="https://jike.city/yeyouchuan/">@yeyouchuan</Link>
+                                        <a className="mt-5 block text-base font-semibold leading-tight text-black dark:text-white">夜游船</a>
+                                        <Link className="text-gray-600 dark:text-gray-300 text-xs" href="https://jike.city/yeyouchuan/">@yeyouchuan</Link>
                                     </div>
                                     <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
                                          className="w-8 h-8 mt-4 ml-28 rounded-full" alt="jike logo"/>
                                 </div>
                                 <div className="flex flex-row space-x-2 mb-4 mt-4">
-                                    <button className="shadow-sm text-sm bg-white w-10 h-10 rounded-full ml-5"
+                                    <button className="shadow-sm text-sm bg-white dark:bg-grey-300 w-10 h-10 rounded-full ml-5"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
                                     </button>
-                                    <button className="shadow-sm text-sm bg-yellow-300 rounded-full w-60 h-10 mr-4"
+                                    <button className="shadow-sm text-sm bg-yellow-300 dark:bg-yellow-400 rounded-full w-60 h-10 mr-4"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">+关注
                                     </button>
                                 </div>
