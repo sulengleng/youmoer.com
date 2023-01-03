@@ -42,6 +42,29 @@ export default function Home() {
             >
                 <div className="flex flex-row space-y-4 space-x-4">
                     <div className="basis-2/7">
+                        <div className="jike ml-4">
+                            <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-gray-800">
+                                <div className="flex flex-row">
+                                    <img src="https://files.catbox.moe/5scrti.jpg"
+                                         className="mt-4 mx-4 rounded-full h-12 w-12" alt="jike header"/>
+                                    <div>
+                                        <a className="mt-5 block text-base font-semibold leading-tight text-black">夜游船</a>
+                                        <a className="text-gray-600 text-sm">https://jike.city/yeyouchuan</a>
+                                    </div>
+                                    <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
+                                         className="w-8 h-8 mt-4 ml-4 rounded-full"/>
+                                </div>
+                                <p className="text-sm text-gray-600 ml-6 my-2">对精心设计的东西情有独钟</p>
+                                <div className="flex flex-row space-x-2 mb-4">
+                                    <button className="shadow-sm text-sm bg-white w-10 h-10 rounded-full ml-5"
+                                            src="https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E">🎉
+                                    </button>
+                                    <button className="shadow-sm text-sm bg-yellow-300 rounded-full w-52 h-10 mr-4"
+                                            src="https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E">+关注
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                         <div className="ml-4 mt-4">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
@@ -80,7 +103,7 @@ export default function Home() {
                                                 </div>
                                             )}
                                             <div
-                                                className="mt-1 block text-lg font-semibold leading-tight text-white hover:underline">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
+                                                className="mt-1 block text-lg font-semibold leading-tight text-white">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-400">万能青年旅店</a>
                                             </div>
                                         </div>
                                     </div>
