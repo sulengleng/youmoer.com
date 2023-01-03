@@ -4,20 +4,22 @@ import { useState } from "react";
 import { Play, Pause } from "phosphor-react";
 
 export default function MusicPlayer() {
+    var vid = document.getElementById("myVideo");
+
     const [isPlaying, setIsPlaying] = useState(false);
     const audioElem = useRef();
 
     useEffect(() => {
         if (isPlaying) {
-            audioElem.current.play();
+            MusicPlayer.current.play();
         } else {
-            audioElem.current.pause();
+            MusicPlayer.current.pause();
         }
     }, [isPlaying]);
 
-    const PlayPause = () => {
-        audioElem.current.play();
-    };
+    const togglePlay = () => {
+        setIsPlaying(!isPlaying);
+    }
 
     return (
         <div>
@@ -31,9 +33,9 @@ export default function MusicPlayer() {
                         <div className="relative md:place-items-center">
                             <div className="absolute items-center justify-center">
                                 {isPlaying ? (
-                                    <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={PlayPause}/>
+                                    <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
                                 ) : (
-                                    <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={PlayPause}/>
+                                    <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
                                 )}
                             </div>
                             <img className="h-28 w-28 md:h-full md:w-full rounded-md object-cover p-6 md:h-28 md:w-28"
