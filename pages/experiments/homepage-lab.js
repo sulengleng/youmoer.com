@@ -2,8 +2,6 @@ import clsx from "clsx";
 import Link from "next/link";
 import {Pause, Play} from "phosphor-react";
 import { motion } from 'framer-motion'
-import {SpinnerIcon, ArrowIcon} from "lib/icons"
-import classnames from "classnames";
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 
