@@ -42,7 +42,7 @@ export default function Home() {
             >
                 <div className="flex flex-row space-y-4 space-x-4">
                     <div className="basis-2/7">
-                        <div className="jike ml-4">
+                        <div className="jike ml-4 mt-4">
                             <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-gray-800">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
@@ -59,7 +59,7 @@ export default function Home() {
                                     <button className="shadow-sm text-sm bg-white w-10 h-10 rounded-full ml-5"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
                                     </button>
-                                    <button className="shadow-sm text-sm bg-yellow-300 rounded-full w-52 h-10 mr-4"
+                                    <button className="shadow-sm text-sm bg-yellow-300 rounded-full w-60 h-10 mr-4"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">+关注
                                     </button>
                                 </div>
