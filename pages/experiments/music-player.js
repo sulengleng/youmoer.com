@@ -28,7 +28,7 @@ export default function MusicPlayer() {
 
     return (
         <div>
-            <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+            <YouTube videoId="r6cXfBnxHI4" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
             <div className="player mt-6 select-none">
                 <div className="mx-auto max-w-[85%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
                     <div className="flex">
