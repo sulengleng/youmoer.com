@@ -43,7 +43,7 @@ export default function Home() {
                 <div className="flex md:flex-row flex-col space-y-4 space-x-4">
                     <div className="basis-2/7">
                         <div className="jike ml-4 mt-4">
-                            <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-gray-800">
+                            <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-black">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
                                          className="mt-4 mx-4 rounded-full h-12 w-12" alt="jike header"/>
@@ -59,7 +59,7 @@ export default function Home() {
                                             type="button"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
                                     </button>
-                                    <button className="shadow-sm text-sm font-semibold bg-yellow-300 rounded-full w-60 h-10 mr-4"
+                                    <button className="shadow-sm text-sm text-black font-semibold bg-yellow-300 rounded-full w-60 h-10 mr-4"
                                             type="button"
                                             onClick="location.href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">+关注
                                     </button>
