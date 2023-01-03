@@ -1,10 +1,20 @@
 import React, {useEffect, useRef ,useState} from "react";
 import { Play, Pause } from "phosphor-react";
+import YouTube, { YouTubeProps } from "react-youtube";
 
 export default function MusicPlayer() {
     const [isPlaying, setIsPlaying] = useState(false);
 
     const audioPlayer = useRef();
+
+    const onPlayerReady = (event) => {
+        audioPlayer.current = event.target
+    }
+
+    const opts = {
+        height: "0",
+        width: "0",
+    }
 
     const togglePlayPause = () => {
         const prevValue = isPlaying;
@@ -16,13 +26,9 @@ export default function MusicPlayer() {
         }
     }
 
-    const togglePlay = () => {
-        setIsPlaying(!isPlaying);
-    }
-
     return (
         <div>
-            <audio autoPlay={isPlaying} className="hidden" src="http://music.163.com/song/media/outer/url?id=386844.mp3" ref={audioPlayer} />
+            <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
             <div className="player mt-6 select-none">
                 <div className="mx-auto max-w-[85%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
                     <div className="flex">
@@ -32,9 +38,9 @@ export default function MusicPlayer() {
                         <div className="relative md:place-items-center">
                             <div className="absolute items-center justify-center">
                                 {isPlaying ? (
-                                    <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
+                                    <Pause size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
                                 ) : (
-                                    <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlay}/>
+                                    <Play size={32} className="opacity-50 ml-10 mt-10 md:ml-10 md:mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
                                 )}
                             </div>
                             <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
