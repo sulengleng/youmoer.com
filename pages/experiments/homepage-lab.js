@@ -51,7 +51,7 @@ export default function Home() {
             }}
             >
                 <div className="flex flex-row">
-                    <div className="basis-1/4">
+                    <div className="basis-2/7">
                         <div className="ml-4">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player mt-6 select-none">
@@ -98,7 +98,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="basis-1/2">
+                    <div className="basis-3/7">
                         <div className="container mt-8 max-w-[80%] mx-auto md:max-w-[90%] h-96 overflow-x-scroll overflow-x-hidden scroll-pl-6 scroll-smooth snap-x flex flex-row space-x-10 items-center bg-gradient-to-r from-gray-700 to-gray-900 rounded-md">
                             <img className="ml-10 rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
                             <img className="rounded-lg max-h-56 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
@@ -110,8 +110,8 @@ export default function Home() {
                             <img className="pr-10 rounded-lg max-h-56 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
                     </div>
-                    <div className="basis-1/4">
-                        <div className="border-2 rounded-md"></div>
+                    <div className="basis-2/7">
+                        <div className="border-2 rounded-md h-96"></div>
                     </div>
                 </div>
             </motion.div>
