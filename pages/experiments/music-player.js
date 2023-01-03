@@ -1,18 +1,20 @@
-import React, {react, useEffect, useRef} from "react";
-import { useState } from "react";
+import React, {useEffect, useRef ,useState} from "react";
 import { Play, Pause } from "phosphor-react";
 
 export default function MusicPlayer() {
     const [isPlaying, setIsPlaying] = useState(false);
-    const audioElem = useRef();
 
-    useEffect(() => {
-        if (isPlaying) {
-            MusicPlayer.current.play();
+    const audioPlayer = useRef();
+
+    const togglePlayPause = () => {
+        const prevValue = isPlaying;
+        setIsPlaying(!prevValue);
+        if (!prevValue) {
+            audioPlayer.current.play();
         } else {
-            MusicPlayer.current.pause();
+            audioPlayer.current.pause();
         }
-    }, [isPlaying]);
+    }
 
     const togglePlay = () => {
         setIsPlaying(!isPlaying);
@@ -20,7 +22,7 @@ export default function MusicPlayer() {
 
     return (
         <div>
-            <audio autoPlay={isPlaying} className="hidden" src="http://music.163.com/song/media/outer/url?id=386844.mp3" ref={audioElem} />
+            <audio autoPlay={isPlaying} className="hidden" src="http://music.163.com/song/media/outer/url?id=386844.mp3" ref={audioPlayer} />
             <div className="player mt-6 select-none">
                 <div className="mx-auto max-w-[85%] overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
                     <div className="flex">
