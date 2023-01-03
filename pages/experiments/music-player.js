@@ -1,5 +1,4 @@
 import React, {react, useEffect, useRef} from "react";
-import { audios } from "data/musicData";
 import { useState } from "react";
 import { Play, Pause } from "phosphor-react";
 
