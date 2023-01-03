@@ -114,7 +114,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-3/7">
-                        <div className="container max-w-[90%] mx-auto md:w-112 h-112 overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-gradient-to-r from-gray-700 to-gray-900 rounded-md">
+                        <div className="container max-w-[90%] mx-auto md:w-112 aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-gradient-to-r from-gray-700 to-gray-900 rounded-md">
                             <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
                             <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
                             <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
