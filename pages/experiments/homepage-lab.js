@@ -205,15 +205,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-2/7">
-                        <div className="border-2 rounded-md aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto">
-                            <picture>
-                                <source
-                                    src="https://s2.loli.net/2023/01/04/bhlLmytVwx2OJnZ.png"
-                                    media="(prefers-color-scheme: dark)"
-                                >
-                                </source>
-                                    <img src="https://s2.loli.net/2023/01/04/OA1cXWzPdC4hT8J.png" alt="map"></img>
-                            </picture>
+                        <div className="border-2 rounded-md aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto bg-light-map dark:bg-dark-map">
                         </div>
                     </div>
                 </div>
