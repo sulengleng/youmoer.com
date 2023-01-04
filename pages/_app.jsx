@@ -1,12 +1,14 @@
 import { ThemeProvider } from 'next-themes'
 import "styles/app.scss";
 import "styles/blog.scss";
+import "styles/styles.css";
 import MainLayout from "layouts/main";
 import {DefaultSeo} from "next-seo";
 import Head from "next/head";
 import Script from "next/script";
 import {useRouter} from "next/router";
 import { Analytics } from '@vercel/analytics/react';
+import { Notebook } from "../components/Notebook";
 
 
 function MyApp({ Component, pageProps }) {
@@ -66,3 +68,11 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+export function finalCards() {
+  return (
+      <div className="main">
+        <Notebook />
+      </div>
+  );
+}
