@@ -205,7 +205,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-2/7">
-                        <div className="border-2 rounded-md h-96 md:mr-4 max-w-[90%] md:max-w-full mx-auto"></div>
+                        <div className="border-2 rounded-md h-56 md:mr-4 max-w-[90%] md:max-w-full mx-auto">
+                            <img src="https://s2.loli.net/2023/01/04/OA1cXWzPdC4hT8J.png" alt="map"/>
+                        </div>
                     </div>
                 </div>
             </motion.div>
