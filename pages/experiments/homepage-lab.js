@@ -157,37 +157,39 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div
-                            className="relative max-w-[90%] md:max-w-full mx-auto pt-6 bg-gray-100 rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
-                        >
-                            <div className="bg-gray-100/50 h-8 rounded-t-lg sticky top-0"></div>
-                            <div className="relative pl-8">
-                                <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[20px] top-[5px] absolute"></div>
-                                {TIMELINE?.map((item, index) => (
-                                    <div key={item.title + index} className="mb-10 relative">
-                                        <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px]">
-                                            <ArrowCircleRight
-                                                size={18}
-                                                className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
-                                            />
-                                        </div>
-                                        <p className="opacity-40 text-xs ml-2">{item.date}</p>
+                        <div>
+                            <div className="bg-gray-100/80 dark:bg-gray-900/60 h-8 rounded-t-lg sticky top-0"></div>
+                            <div
+                                className="relative max-w-[90%] md:max-w-full mx-auto pt-6 bg-gray-100 rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
+                            >
+                                <div className="relative pl-8">
+                                    <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[20px] top-[5px] absolute"></div>
+                                    {TIMELINE?.map((item, index) => (
+                                        <div key={item.title + index} className="mb-10 relative">
+                                            <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px]">
+                                                <ArrowCircleRight
+                                                    size={18}
+                                                    className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
+                                                />
+                                            </div>
+                                            <p className="opacity-40 text-xs ml-2">{item.date}</p>
 
-                                        <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
-                                            <span className="ml-2">{item.title}</span>
-                                            {item?.link ? (
-                                                <Link href={item.link} target="_blank">
-                                                    <span className="inline-block ml-1 opacity-80">
-                                                      <ArrowSquareOut size={12} />
-                                                    </span>
-                                                </Link>
-                                            ) : (
-                                                ""
-                                            )}
-                                        </h3>
-                                        <p className="opacity-60 text-sm ml-2">{item.description}</p>
-                                    </div>
-                                ))}
+                                            <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
+                                                <span className="ml-2">{item.title}</span>
+                                                {item?.link ? (
+                                                    <Link href={item.link} target="_blank">
+                                                        <span className="inline-block ml-1 opacity-80">
+                                                          <ArrowSquareOut size={12} />
+                                                        </span>
+                                                    </Link>
+                                                ) : (
+                                                    ""
+                                                )}
+                                            </h3>
+                                            <p className="opacity-60 text-sm ml-2">{item.description}</p>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
