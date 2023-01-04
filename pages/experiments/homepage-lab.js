@@ -87,7 +87,7 @@ export default function Home() {
                 <div className="flex md:flex-row flex-col space-y-4">
                     <div className="basis-2/7">
                         <div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
-                            <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-black drop-shadow-md">
+                            <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-yellow-200 drop-shadow-md">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
                                          className="mt-4 mx-4 rounded-full h-12 w-12" alt="jike header"/>
@@ -114,7 +114,7 @@ export default function Home() {
                         <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
-                                <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] shadow-md md:max-w-sm">
+                                <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
                                     <div className="flex">
                                         <div className="items-center">
                                             <a className="text-white"></a>
