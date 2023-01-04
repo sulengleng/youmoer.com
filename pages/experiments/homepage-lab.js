@@ -206,7 +206,7 @@ export default function Home() {
                     </div>
                     <div className="basis-2/7">
                         <div className="border-2 rounded-md aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto">
-                            <div className="bg-light-map dark:bg-dark-map"></div>
+                            <div className="bg-light-map dark:bg-dark-map h-auto bg-cover bg-center"></div>
                         </div>
                     </div>
                 </div>
