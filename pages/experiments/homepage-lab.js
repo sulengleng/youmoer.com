@@ -86,7 +86,7 @@ export default function Home() {
             >
                 <div className="flex md:flex-row flex-col space-y-4">
                     <div className="basis-2/7">
-                        <div className="jike ml-4 mt-4">
+                        <div className="jike md:ml-4 mt-4">
                             <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-black drop-shadow-md">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
@@ -111,7 +111,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="ml-4 mt-4">
+                        <div className="md:ml-4 mt-4">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
                                 <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
@@ -158,7 +158,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="pt-6 bg-gray-100 md:rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 ml-4 overflow-y-scroll h-96"
+                            className="pt-6 bg-gray-100 md:rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
                         >
                             <div className="bg-gray-100/30 h-20 rounded-t-lg"></div>
                             <div className="relative pl-8">
