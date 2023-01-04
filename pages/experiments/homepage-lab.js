@@ -170,10 +170,10 @@ export default function Home() {
                                                 className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
                                             />
                                         </div>
-                                        <p className="opacity-40 text-xs">{item.date}</p>
+                                        <p className="opacity-40 text-xs ml-1">{item.date}</p>
 
                                         <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
-                                            <span className="">{item.title}</span>
+                                            <span className="ml-1">{item.title}</span>
                                             {item?.link ? (
                                                 <Link href={item.link} target="_blank">
                                                     <span className="inline-block ml-1 opacity-80">
@@ -184,12 +184,13 @@ export default function Home() {
                                                 ""
                                             )}
                                         </h3>
-                                        <p className="opacity-60 text-sm">{item.description}</p>
+                                        <p className="opacity-60 text-sm ml-1">{item.description}</p>
                                     </div>
                                 ))}
                             </div>
                         </div>
                     </div>
+
                     <div className="basis-3/7">
                         <div className="container max-w-[90%] mx-auto md:w-112 aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                             <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
