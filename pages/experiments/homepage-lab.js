@@ -40,7 +40,7 @@ export default function Home() {
             transition: { duration: 0.35, delay: 0.2 },
             }}
             >
-                <div className="flex md:flex-row flex-col space-y-4 space-x-4">
+                <div className="flex md:flex-row flex-col space-y-4">
                     <div className="basis-2/7">
                         <div className="jike ml-4 mt-4">
                             <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-black">
