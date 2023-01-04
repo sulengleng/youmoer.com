@@ -128,7 +128,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+                            className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900 mt-4 ml-4"
                         >
                             <div className="relative pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[10px] top-[5px] absolute"></div>
