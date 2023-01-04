@@ -86,7 +86,7 @@ export default function Home() {
             >
                 <div className="flex md:flex-row flex-col space-y-4">
                     <div className="basis-2/7">
-                        <div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full items-center">
+                        <div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <div className="flex flex-col rounded-lg bg-gray-100 dark:bg-black drop-shadow-md">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
