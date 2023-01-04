@@ -161,10 +161,10 @@ export default function Home() {
                             className="pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900 mt-4 ml-4 overflow-y-scroll h-96"
                         >
                             <div className="relative pl-8">
-                                <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[10px] top-[5px] absolute"></div>
+                                <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[20px] top-[5px] absolute"></div>
                                 {TIMELINE?.map((item, index) => (
                                     <div key={item.title + index} className="mb-10 relative">
-                                        <div className="w-3 h-3 rounded-full absolute left-[-10px] top-[16px]">
+                                        <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px]">
                                             <ArrowCircleRight
                                                 size={18}
                                                 className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
