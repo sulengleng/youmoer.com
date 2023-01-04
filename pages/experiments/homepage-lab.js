@@ -195,7 +195,7 @@ export default function Home() {
                                 className="max-w-[90%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
                                 <div className="md:flex">
                                     <div className="md:shrink-0">
-                                        <img className="h-48 w-full object-cover md:h-full md:w-auto aspect-square"
+                                        <img className="h-48 w-full object-cover md:h-48 md:w-auto aspect-square"
                                              src="https://files.catbox.moe/whnmix.png" alt="S.A"></img>
                                     </div>
                                     <div className="p-8">
