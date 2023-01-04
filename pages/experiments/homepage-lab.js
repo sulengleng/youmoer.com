@@ -158,7 +158,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="max-w-[90%] md:max-w-full mx-auto pt-6 bg-gray-100 rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
+                            className="relative max-w-[90%] md:max-w-full mx-auto pt-6 bg-gray-100 rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
                         >
                             <div className="bg-gray-100/80 h-8 rounded-t-lg fixed top-0 left-0 right-0"></div>
                             <div className="relative pl-8">
