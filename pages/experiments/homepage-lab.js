@@ -160,8 +160,8 @@ export default function Home() {
                         <div
                             className="relative max-w-[90%] md:max-w-full mx-auto bg-gray-100 rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
                         >
-                            <div className="bg-red-100/80 dark:bg-red-900/80 h-8 rounded-t-lg sticky top-0"></div>
-                            <div className="relative pt-6 pl-8">
+                            <div className="bg-gray-200/80 dark:bg-gray-800/80 h-8 rounded-t-lg sticky top-0"></div>
+                            <div className="relative pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[20px] top-[5px] absolute"></div>
                                 {TIMELINE?.map((item, index) => (
                                     <div key={item.title + index} className="mb-10 relative">
