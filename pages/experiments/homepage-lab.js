@@ -111,7 +111,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="md:ml-4 mt-4">
+                        <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
                                 <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-r from-black via-[#083517] to-[#065321] shadow-md md:max-w-sm">
@@ -158,7 +158,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="pt-6 bg-gray-100 rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
+                            className="max-w-[90%] md:max-w-full mx-auto pt-6 bg-gray-100 rounded-lg drop-shadow-md dark:bg-gray-900 mt-4 md:ml-4 overflow-y-scroll h-96"
                         >
                             <div className="bg-gray-100/80 h-8 rounded-t-lg fixed top-0 left-0 right-0"></div>
                             <div className="relative pl-8">
@@ -205,7 +205,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-2/7">
-                        <div className="border-2 rounded-md h-96 mr-4 "></div>
+                        <div className="border-2 rounded-md h-96 md:mr-4 max-w-[90%] md:max-w-full mx-auto"></div>
                     </div>
                 </div>
             </motion.div>
