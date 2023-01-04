@@ -1,5 +1,5 @@
 import { Grid } from "./Grid";
-import { Cards } from "./notebook/Cards";
+import { Cards } from "./Notebook/Cards";
 
 export const Notebook = () => {
     return (

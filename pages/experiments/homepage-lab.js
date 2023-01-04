@@ -5,7 +5,7 @@ import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { finalCards } from "../../components/finalCards";
+import finalCards from "../../components/finalCards";
 
 
 export default function Home() {
