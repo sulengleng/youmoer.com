@@ -158,7 +158,7 @@ export default function Home() {
                                     </div>
                                 ))}
                             </div>
-                        </>
+                        </div>
                     </div>
                     <div className="basis-3/7">
                         <div className="container max-w-[90%] mx-auto md:w-112 aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
