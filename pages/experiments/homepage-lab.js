@@ -205,7 +205,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-2/7">
-                        <div className="border-2 rounded-md aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto bg-light-map dark:bg-dark-map">
+                        <div className="border-2 rounded-md aspect-square h-80 md:mr-4 max-w-[90%] md:max-w-full mx-auto bg-light-map dark:bg-dark-map">
                         </div>
                     </div>
                 </div>
