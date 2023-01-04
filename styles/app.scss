@@ -30,6 +30,8 @@ iframe {
   background-color: #a8bbbf;
 }
 
-:root {
-  color-scheme: dark;
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
 }
