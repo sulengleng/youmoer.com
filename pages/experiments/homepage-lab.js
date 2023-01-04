@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
-import { createRoot, } from "react-dom/client";
 import finalCards from "../_app";
 
 
@@ -75,9 +74,6 @@ export default function Home() {
             audioPlayer.current.pauseVideo();
         }
     }
-
-    const rootElement = document.getElementById("root");
-    const root = createRoot(rootElement);
 
     return (
     <body className="selection:bg-[#3b818c]">
