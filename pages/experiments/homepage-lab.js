@@ -192,7 +192,7 @@ export default function Home() {
                     <div className="basis-3/7">
                         <div className="snap-mandatory snap-x">
                             <div
-                                className="max-w-[80%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
+                                className="max-w-[90%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
                                 <div className="md:flex">
                                     <div className="md:shrink-0">
                                         <img className="h-48 w-full object-cover md:h-full md:w-auto aspect-square"
