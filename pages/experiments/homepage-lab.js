@@ -39,51 +39,6 @@ export default function Home() {
             description: "lalala",
         },
         {
-            date: "Jan 10 2023",
-            title: "The seventh day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 11 2023",
-            title: "The eighth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 12 2023",
-            title: "The ninth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 13 2023",
-            title: "The tenth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 14 2023",
-            title: "The eleventh day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 15 2023",
-            title: "The twelfth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 16 2023",
-            title: "The thirteenth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 17 2023",
-            title: "The fourteenth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 18 2023",
-            title: "The fifteenth day of the new year",
-            description: "lalala",
-        },
-        {
             date: 'Nov 23, 2022',
             title: '个人网站开始上线',
             description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top'
@@ -203,13 +158,13 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900 mt-4 ml-4 overflow-y-scroll h-96"
+                            className="pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900 mt-4 ml-4 overflow-y-scroll h-96"
                         >
                             <div className="relative pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[10px] top-[5px] absolute"></div>
                                 {TIMELINE?.map((item, index) => (
                                     <div key={item.title + index} className="mb-10 relative">
-                                        <div className="w-3 h-3 rounded-full absolute left-[-30px] top-[16px]">
+                                        <div className="w-3 h-3 rounded-full absolute left-[-10px] top-[16px]">
                                             <ArrowCircleRight
                                                 size={18}
                                                 className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
