@@ -87,7 +87,7 @@ export default function Home() {
                 <div className="flex md:flex-row flex-col space-y-4">
                     <div className="basis-2/7">
                         <div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
-                            <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-yellow-200 drop-shadow-md">
+                            <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#a2ab58] dark:to-[#e9d362] drop-shadow-md">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
                                          className="mt-4 mx-4 rounded-full h-12 w-12" alt="jike header"/>
