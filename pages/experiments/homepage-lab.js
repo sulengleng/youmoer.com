@@ -194,7 +194,7 @@ export default function Home() {
                     </div>
 
                     <div className="basis-3/7">
-                        <div className="snap-mandatory snap-x">
+                        <div className="snap-mandatory snap-x mb-4">
                             <div
                                 className="max-w-[90%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
                                 <div className="md:flex">
