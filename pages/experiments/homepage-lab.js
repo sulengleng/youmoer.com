@@ -94,7 +94,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="border md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-80"></div>
+                        <div className="border md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-64"></div>
 
                         <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
