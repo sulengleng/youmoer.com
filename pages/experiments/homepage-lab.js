@@ -5,24 +5,6 @@ import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
-import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
-import { clickComponent} from "../../components/click-component";
-import { afterClickComponent} from "../../components/after-click-component";
-
-function Store({ match }) {
-    let { id } = match.params;
-    const imageHasLoaded = true;
-
-    return (
-        <AnimateSharedLayout type="crossfade">
-            <clickComponent selectedId={id} />
-            <AnimatePresence>
-                {id && imageHasLoaded && <afterClickComponent id={id} key="item" />}
-            </AnimatePresence>
-        </AnimateSharedLayout>
-    );
-}
-
 
 export default function Home() {
     const TIMELINE = [
@@ -237,11 +219,6 @@ export default function Home() {
                         </div>
                         <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto my-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
-                        </div>
-                        <div>
-                            <strictMode>
-                                <Store />
-                            </strictMode>
                         </div>
                     </div>
                 </div>
