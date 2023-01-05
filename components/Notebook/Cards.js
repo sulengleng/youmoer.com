@@ -76,8 +76,6 @@ export const Cards = ({ col, row }) => {
 
     return (
         <Tile
-            captionTop="3D Cards – Framer Motion"
-            captionBot="By Wojciech Dobry"
             col={col}
             row={row}
             ref={ref}

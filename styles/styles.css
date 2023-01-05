@@ -19,7 +19,7 @@
     grid-auto-flow: row dense;
     box-sizing: border-box;
     width: 100%;
-    max-width: 1440px;
+    max-width: 384px;
 }
 
 .tileWrapper {
@@ -51,7 +51,7 @@
 
 .header {
     width: calc(100% - 16px);
-    max-width: 1440px;
+    max-width: 384px;
     height: clamp(400px, 50vmax, 680px);
     display: flex;
     flex-direction: column;
