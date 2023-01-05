@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {ArrowCircleRight, ArrowSquareOut, Pause, Planet, Play} from "phosphor-react";
-import { motion, useCycle, AnimatePresenceP } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
@@ -31,10 +31,7 @@ export default function Home() {
         },
     ]
 
-    const [Animate, cycleCard] = useCycle(
-        { scale: 1.0 },
-        { scale: 1.2 }
-    );
+    const [isOpen, setIsOpen] = useState(false);
 
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -101,10 +98,28 @@ export default function Home() {
                             <div className="basis-1/2">
                                 <motion.div
                                     className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
-                                    onTap={() => cycleCard()}
-                                    animate={animate}
+                                    onClick={() => setIsOpen(!isOpen)}
+                                    layout
+                                    transition={{
+                                        layout: { duration: 0.85 },
+                                        type: "spring",
+                                    }}
                                 >
-                                    <div className="place-self-center"><Planet size={40} /></div>
+                                    <motion.h2 layout: "position">夜游船现在有空，请随时点击联系我~</motion.h2>
+                                    <AnimatePresence>
+                                        {isOpen && (
+                                            <motion.div
+                                                initial={{ opacity: 0 }}
+                                                animate={{ opacity: 1 }}
+                                                transition={{ duration: 0.85 }}
+                                                exit={{ opacity: 0 }}
+                                            >
+                                                <p>这是我的联系方式：</p>
+                                                <p>邮箱：yeyouchuan@gmail.com</p>
+                                                <p>微信：yeyouchuan0928</p>
+                                            </motion.div>
+                                        )}
+                                    </AnimatePresence>
                                 </motion.div>
                             </div>
                             <div className="basis-1/2">
