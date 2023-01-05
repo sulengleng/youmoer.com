@@ -66,7 +66,7 @@
     width: calc(1.2 * var(--f800));
     height: calc(1.2 * var(--f800));
     background-size: calc(1.2 * var(--f800));
-    background: #161616 no-repeat center center;
+    background: #ffffff no-repeat center center;
     vertical-align: middle;
     border-radius: 100%;
     overflow: visible;
