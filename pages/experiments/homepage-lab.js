@@ -96,16 +96,16 @@ export default function Home() {
 
                         <div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-56">
                             <div className="basis-1/2">
-                                <div className="rounded-lg h-48 md:full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]">
+                                <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]">
                                     <a className="text-xs "><Planet size={20} />夜游船最近有空，请随时联系我~</a>
                                 </div>
                             </div>
                             <div className="basis-1/2">
-                                <div className="rounded-lg h-48 md:full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
+                                <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
                             </div>
                         </div>
 
-                        <div className="md:ml-4 max-w-[90%] md:max-w-full mx-auto">
+                        <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
                                 <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
