@@ -12,83 +12,6 @@
     --f200: clamp(10px, 0.5rem, 14px);
 }
 
-@media screen and (max-width: 1280px) {
-    :root {
-        --gridBase: 3;
-        --cellSize: 80px;
-    }
-}
-@media screen and (max-width: 1110px) {
-    :root {
-        --gridBase: 3;
-        --cellSize: 90px;
-    }
-}
-@media screen and (max-width: 720px) {
-    :root {
-        --gridBase: 3;
-        --cellSize: 70px;
-    }
-}
-@media screen and (max-width: 520px) {
-    :root {
-        --gridBase: 1;
-        --cellSize: 280px;
-    }
-}
-
-* {
-    font-size: 1em;
-    margin: 0;
-    padding: 0;
-}
-
-html,
-body {
-    padding: 0;
-    margin: 0;
-    font-size: 2vw;
-    min-width: 320px;
-}
-
-.main {
-    font-family: mainFont, sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #eeeeee;
-    text-align: left;
-    padding: 8px;
-}
-
-h1,
-h2,
-h3 {
-    margin: 0;
-    padding: 0;
-}
-
-h1,
-h3 {
-    font-weight: 300;
-    font-size: var(--f800);
-    line-height: 100%;
-    letter-spacing: -0.01em;
-    font-feature-settings: "tnum" on, "onum" on, "zero" on, "ss03" on, "ss05" on;
-    color: #000000;
-    margin-bottom: 1em;
-}
-
-h2 {
-    font-weight: 800;
-    font-size: var(--f900);
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    font-feature-settings: "tnum" on, "onum" on, "zero" on, "ss03" on, "ss05" on;
-    margin-bottom: 1.5em;
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--cellSize), 1fr));
@@ -142,10 +65,8 @@ h2 {
     margin: 0 0.25em;
     width: calc(1.2 * var(--f800));
     height: calc(1.2 * var(--f800));
-    background: #161616;
     background-size: calc(1.2 * var(--f800));
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: #161616 no-repeat center center;
     vertical-align: middle;
     border-radius: 100%;
     overflow: visible;
@@ -185,10 +106,10 @@ h2 {
 
 .view {
     position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .joystick {
