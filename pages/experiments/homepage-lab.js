@@ -96,10 +96,10 @@ export default function Home() {
 
                         <div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-56">
                             <div className="basis-1/2">
-                                <div className="rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
+                                <div className="rounded-lg drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
                             </div>
                             <div className="basis-1/2">
-                                <div className="rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
+                                <div className="rounded-lg drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
                             </div>
                         </div>
 
