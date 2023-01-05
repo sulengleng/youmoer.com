@@ -222,7 +222,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-2/7">
-                        <div className="invert dark:invert-0 drop-shadow-md">
+                        <div className="invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
                             <StrictMode>
                                 <Notebook />
                             </StrictMode>
