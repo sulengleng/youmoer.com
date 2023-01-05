@@ -105,7 +105,7 @@ export default function Home() {
                                         type: "spring",
                                     }}
                                 >
-                                    <motion.h2 layout: "position">夜游船现在有空，请随时点击联系我~</motion.h2>
+                                    <motion.h2 layout="position">夜游船现在有空，请随时点击联系我~</motion.h2>
                                     <AnimatePresence>
                                         {isOpen && (
                                             <motion.div
