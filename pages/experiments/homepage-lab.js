@@ -94,7 +94,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="border md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-64"></div>
+                        <div className="border md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-56"></div>
 
                         <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
@@ -142,7 +142,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="relative max-w-[90%] md:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-96"
+                            className="relative max-w-[90%] md:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-80"
                         >
                             <div className="relative pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute"></div>
