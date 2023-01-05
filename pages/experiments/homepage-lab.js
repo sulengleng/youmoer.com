@@ -11,39 +11,20 @@ import { Notebook } from "../../components/Notebook";
 export default function Home() {
     const TIMELINE = [
         {
-            date: "Jan 4 2023",
-            title: "The first day of the new year",
-            description: "lalala",
+            date: 'Jan 1, 2023',
+            title: '新的开始',
+            description: '祝所有人新年快乐！',
         },
         {
-            date: "Jan 5 2023",
-            title: "The second day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 6 2023",
-            title: "The third day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 7 2023",
-            title: "The fourth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 8 2023",
-            title: "The fifth day of the new year",
-            description: "lalala",
-        },
-        {
-            date: "Jan 9 2023",
-            title: "The sixth day of the new year",
-            description: "lalala",
+            date: 'Dec 31, 2022',
+            title: '非常快乐的一年!',
+            description: '今年对我来做是非常有意义的一年，感觉个人的边界比以前提升了10倍',
         },
         {
             date: 'Nov 23, 2022',
             title: '个人网站开始上线',
-            description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top'
+            description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top',
+            link: 'https://yeyouchuan.top'
         },
         {
             date: 'Sep 28, 2022',
@@ -112,6 +93,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="border md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto"></div>
 
                         <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
