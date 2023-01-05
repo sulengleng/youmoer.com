@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
-import finalCards from "../_app";
 import { Notebook } from "../../components/Notebook";
 
 
