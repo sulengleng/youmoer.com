@@ -20,6 +20,7 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 384px;
+    margin-right: 16px;
 }
 
 .tileWrapper {
@@ -66,7 +67,7 @@
     width: calc(1.2 * var(--f800));
     height: calc(1.2 * var(--f800));
     background-size: calc(1.2 * var(--f800));
-    background: #ffffff no-repeat center center;
+    background: #161616 no-repeat center center;
     vertical-align: middle;
     border-radius: 100%;
     overflow: visible;
