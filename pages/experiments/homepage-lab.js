@@ -97,7 +97,7 @@ export default function Home() {
                         <div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
                             <div className="basis-1/2">
                                 <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] place-items-center">
-                                    <div className=""><Planet size={20} /></div>
+                                    <div className=""><Planet size={40} /></div>
                                 </div>
                             </div>
                             <div className="basis-1/2">
