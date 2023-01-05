@@ -45,7 +45,7 @@ export const Tile = forwardRef(
                     className="view"
                     ref={ref}
                     style={{
-                        background: dark ? "hsla(0, 0%, 9%, 1)" : "#fafafa",
+                        background: dark ? "hsla(0, 0%, 5%, 1)" : "#fafafa",
                         perspective: perspective ? `${perspectiveDist * 2}px` : "none",
                         touchAction: "none"
                     }}
