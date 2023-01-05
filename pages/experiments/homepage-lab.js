@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {ArrowCircleRight, ArrowSquareOut, Pause, Planet, Play} from "phosphor-react";
-import { motion } from 'framer-motion'
+import { motion, useCycle, AnimatePresenceP } from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
@@ -30,6 +30,11 @@ export default function Home() {
             description: '约克大学 Bsc Interactive Media'
         },
     ]
+
+    const [Animate, cycleCard] = useCycle(
+        { scale: 1.0 },
+        { scale: 1.2 }
+    );
 
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -94,9 +99,13 @@ export default function Home() {
 
                         <div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
                             <div className="basis-1/2">
-                                <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]">
+                                <motion.div
+                                    className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
+                                    onTap={() => cycleCard()}
+                                    animate={animate}
+                                >
                                     <div className="place-self-center"><Planet size={40} /></div>
-                                </div>
+                                </motion.div>
                             </div>
                             <div className="basis-1/2">
                                 <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
