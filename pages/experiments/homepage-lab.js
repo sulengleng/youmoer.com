@@ -5,8 +5,7 @@ import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
-import { letterExpand } from "../../components/letter-expand";
-import { Overlay } from "../../components/overlay";
+import { Letter } from "../../components/Letter";
 
 export default function Home() {
     const TIMELINE = [
@@ -32,16 +31,6 @@ export default function Home() {
             description: '约克大学 Bsc Interactive Media'
         },
     ]
-
-    const [open, setOpen] = useState(false);
-
-    const openModal = () => {
-        setOpen(true);
-    };
-
-    const closeModal = () => {
-        setOpen(false);
-    };
 
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -106,19 +95,7 @@ export default function Home() {
 
                         <div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
                             <div className="basis-1/2">
-                                <motion.div
-                                    className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
-                                    open={openModal}
-                                    >
-                                    信件
-                                </motion.div>
-                                <AnimatePresence>
-                                    {open && (
-                                        <Overlay close={closeModal}>
-                                            <letterExpand close={closeModal}/>
-                                        </Overlay>
-                                    )}
-                                </AnimatePresence>
+                                <Letter />
                             </div>
                             <div className="basis-1/2">
                                 <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
