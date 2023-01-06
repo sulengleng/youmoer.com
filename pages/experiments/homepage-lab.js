@@ -41,6 +41,7 @@ export default function Home() {
 
     const closeModal = () => {
         setOpen(false);
+    };
 
     const [isPlaying, setIsPlaying] = useState(false);
 
