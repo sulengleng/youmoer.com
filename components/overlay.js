@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Overlay = ({ children, close }) => {
+export function Overlay({ children, close }) {
     const variants = {
         open: { backgroundColor: "rgba(0,0,0,0.6)" },
         closed: { backgroundColor: "rgba(0,0,0,0)" },
@@ -21,6 +21,4 @@ const Overlay = ({ children, close }) => {
             {children}
         </motion.div>
     );
-};
-
-export default Overlay;
+}
