@@ -9,7 +9,7 @@ export function Overlay({ children, close }) {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-full flex overflow-y-auto md:overflow-auto"
+            className="overlay"
             backgroundColor="rgba(0,0,0,0.6)"
             onClick={close}
             variants={variants}
