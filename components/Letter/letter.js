@@ -34,7 +34,7 @@ export const Letter = () => {
                                 variants={modalVariants}
                                 onClick={(e) => e.stopPropagation()}
                     >
-                        <div className="prose dark:prose-invert prose-img:rounded-lg bg-white max-w-[360px]">
+                        <div className="prose dark:prose-invert prose-img:rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] max-w-sm md:max-w-[360px] rounded-lg pl-5">
                             <p>见信好， </p>
                             <br/>
                             <p>
