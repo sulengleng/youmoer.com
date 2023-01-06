@@ -35,8 +35,8 @@ export const Letter = () => {
                                 onClick={(e) => e.stopPropagation()}
                     >
                         <div className="pl-5 ml-5">
-                            <a className="uppercase text-lg text-black pt-8">about me</a>
-                            <div className="border border-2 border-black w-10 mt-4"></div>
+                            <a className="uppercase text-lg text-black mt-8">about me</a>
+                            <div className="border border-black w-10 mt-2 mb-2"></div>
                             <p className="font-[]">见信好， </p>
                             <br/>
                             <p>
@@ -59,7 +59,7 @@ export const Letter = () => {
                                 若你打算一走了之，我依旧会在这里欢迎你的下次到来
                             </p>
                             <br/>
-                            <p>By 𝖞𝖊𝖞𝖔𝖚𝖈𝖍𝖚𝖆𝖓</p>
+                            <p className="mb-8">By 𝖞𝖊𝖞𝖔𝖚𝖈𝖍𝖚𝖆𝖓</p>
                         </div>
                     </motion.div>
                 </Overlay>
