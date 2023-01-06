@@ -68,7 +68,7 @@ export default function Home() {
             >
                 <div className="flex md:flex-row flex-col space-y-4">
                     <div className="basis-2/7">
-                        <div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto z-0">
+                        <div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
@@ -98,11 +98,11 @@ export default function Home() {
                                 <Letter />
                             </div>
                             <div className="basis-1/2">
-                                <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
+                                <div className="small-card rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
                             </div>
                         </div>
 
-                        <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto z-0">
+                        <div className="musicPlayer md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
                                 <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
@@ -148,7 +148,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="relative max-w-[90%] md:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-88"
+                            className="timeline relative max-w-[90%] md:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-88"
                         >
                             <div className="relative pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute"></div>
@@ -182,7 +182,7 @@ export default function Home() {
                     </div>
 
                     <div className="basis-3/7">
-                        <div className="snap-mandatory snap-x mb-4">
+                        <div className="card snap-mandatory snap-x mb-4">
                             <div
                                 className="max-w-[90%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
                                 <div className="md:flex">
