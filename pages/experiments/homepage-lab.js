@@ -114,9 +114,9 @@ export default function Home() {
                                 </motion.div>
                                 <AnimatePresence>
                                     {open && (
-                                        <overlay close={closeModal}>
+                                        <Overlay close={closeModal}>
                                             <letterExpand close={closeModal}/>
-                                        </overlay>
+                                        </Overlay>
                                     )}
                                 </AnimatePresence>
                             </div>
