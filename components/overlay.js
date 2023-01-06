@@ -9,7 +9,8 @@ const Overlay = ({ children, close }) => {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 w-full h-full z-100 flex bg-gray-300/60"
+            className="fixed top-0 left-0 w-full h-full z-100 flex"
+            backgroundColor="rgba(0,0,0,0.6)"
             onClick={close}
             variants={variants}
             initial={"closed"}
