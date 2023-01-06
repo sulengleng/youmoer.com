@@ -3,7 +3,7 @@ import { XCircle } from "phosphor-react";
 
 export function letterExpand( close ) {
     return (
-        <div className="min-h-[600px] rounded-md relative bg-white drop-shadow-md flex">
+        <div className="modal">
             <div className="prose dark:prose-invert prose-img:rounded-lg ">
                 <h2>来自夜游船的信件</h2>
                 <p>见信好，

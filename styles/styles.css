@@ -149,6 +149,14 @@
         align-items: flex-start;
         padding: 40px 0px;
     }
+    .modal {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
 }
 
 @media screen and (min-width: 1281px) {
@@ -156,4 +164,13 @@
         justify-content: center;
         align-items: center;
     }
+}
+
+.modal {
+    min-height: 600px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
 }
