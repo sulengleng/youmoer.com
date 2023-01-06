@@ -30,7 +30,7 @@ export const Letter = () => {
         <AnimatePresence>
             {open && (
                 <Overlay close={closeModal} >
-                    <motion.div className="modal"
+                    <motion.div className="modal bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
                                 variants={modalVariants}
                                 onClick={(e) => e.stopPropagation()}
                     >
