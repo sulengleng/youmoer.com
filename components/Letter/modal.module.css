@@ -1,0 +1,31 @@
+.modal {
+    min-height: 600px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+}
+
+@media only screen {
+    .modal {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .modal {
+        width: 80%;
+        height: 80%;
+        max-width: 1800px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 30px;
+    }
+}
