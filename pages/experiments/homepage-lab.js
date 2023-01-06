@@ -110,14 +110,14 @@ export default function Home() {
                                     open={openModal}
                                     >
                                     信件
-                                    <AnimatePresence>
-                                        {open && (
-                                            <overlay close={closeModal}>
-                                                <letterExpand close={closeModal}/>
-                                            </overlay>
-                                        )}
-                                    </AnimatePresence>
                                 </motion.div>
+                                <AnimatePresence>
+                                    {open && (
+                                        <overlay close={closeModal}>
+                                            <letterExpand close={closeModal}/>
+                                        </overlay>
+                                    )}
+                                </AnimatePresence>
                             </div>
                             <div className="basis-1/2">
                                 <div className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
