@@ -102,7 +102,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
+                        <div className="md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto z-0">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
                                 <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
