@@ -21,9 +21,7 @@ export const Letter = () => {
         <Cover open={openModal} />
         <AnimatePresence>
             {open && (
-                <Overlay close={closeModal}>
-                    <letterExpand close={closeModal}/>
-                </Overlay>
+                <letterExpand close={closeModal}/>
             )}
         </AnimatePresence>
         </>
