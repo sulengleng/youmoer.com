@@ -2,7 +2,6 @@
     min-height: 600px;
     border-radius: 20px;
     position: relative;
-    background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
 }
