@@ -2,9 +2,21 @@ import react from 'react'
 import { XCircle } from "phosphor-react";
 
 export function letterExpand( close ) {
+
+    const modalVariants = {
+        open: {
+            opacity: 1,
+            transition: { staggerChildren: 0.5, delayChildren: 0.2 },
+        },
+        closed: { opacity: 0 },
+    };
+
     return (
-        <div className="modal">
-            <div className="prose dark:prose-invert prose-img:rounded-lg ">
+        <motion.div className="modal"
+                    variants={modalVariants}
+                    onClick={(e) => e.stopPropagation()}
+        >
+            <div className="prose dark:prose-invert prose-img:rounded-lg bg-white">
                 <h2>来自夜游船的信件</h2>
                 <p>见信好，
 
@@ -20,6 +32,6 @@ export function letterExpand( close ) {
 
                     By 𝖞𝖊𝖞𝖔𝖚𝖈𝖍𝖚𝖆𝖓</p>
             </div>
-        </div>
+        </motion.div>
     )
 }
