@@ -10,7 +10,7 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
-        "letter-cover": "url('public/images/pages/letter-cover.png')",
+        "letter-cover": "url('https://s2.loli.net/2023/01/07/NDX421Gl8tPBsao.png')",
         "light-map": "url('https://s2.loli.net/2023/01/04/OA1cXWzPdC4hT8J.png')",
         "dark-map": "url('https://s2.loli.net/2023/01/04/bhlLmytVwx2OJnZ.png')",
         texture: 'url(https://thumbs.dreamstime.com/b/%E6%97%A7%E7%99%BD%E5%A2%99-%E6%97%A7%E7%9A%84%E7%99%BD%E5%A2%99%E3%80%81%E7%99%BD%E5%A2%99%E3%80%81%E8%83%8C%E6%99%AF%E5%92%8C%E7%BA%B9%E7%90%86-183179953.jpg)'
