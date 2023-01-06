@@ -36,10 +36,10 @@ export const Letter = () => {
                     >
                         <div className="ml-5">
                             <a className="uppercase text-lg text-black mt-8">about me</a>
-                            <div className="border border-black w-10 mt-2 mb-2"></div>
-                            <p className="font-[]">见信好， </p>
+                            <div className="border border-black w-96 border-gray-700 mt-2 mb-2"></div>
+                            <p className="text-gray-700">见信好， </p>
                             <br/>
-                            <p>
+                            <p className="text-gray-700">
                                 我是夜游船，暂时是国际高中的一名学生
                                 <br/>
                                 专业方向是 Computer Science，立志成为一个不走寻常路的开发者和设计师
