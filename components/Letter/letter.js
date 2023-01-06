@@ -30,12 +30,14 @@ export const Letter = () => {
         <AnimatePresence>
             {open && (
                 <Overlay close={closeModal} >
-                    <motion.div className="bg-white max-w-[130px] md:max-w-[360px] rounded-lg pl-5"
+                    <motion.div className="bg-gray-200 max-w-[130px] md:max-w-[360px] rounded-lg pl-5"
                                 variants={modalVariants}
                                 onClick={(e) => e.stopPropagation()}
                     >
                         <div className="pl-5 ml-5">
-                            <p>见信好， </p>
+                            <a className="uppercase text-lg text-black pt-8">about me</a>
+                            <div className="border border-2 border-black w-10 mt-4"></div>
+                            <p className="font-[]">见信好， </p>
                             <br/>
                             <p>
                                 我是夜游船，暂时是国际高中的一名学生
