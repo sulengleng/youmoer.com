@@ -1,7 +1,7 @@
 import react from 'react'
 import { XCircle } from "phosphor-react";
 
-export function letterExpand() {
+export function letterExpand( close ) {
     return (
         <div className="min-h-[600px] rounded-md relative bg-white drop-shadow-md flex">
             <div className="prose dark:prose-invert prose-img:rounded-lg ">
