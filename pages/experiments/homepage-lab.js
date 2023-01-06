@@ -1,10 +1,12 @@
 import Link from "next/link";
-import {ArrowCircleRight, ArrowSquareOut, Pause, Planet, Play} from "phosphor-react";
+import { ArrowCircleRight, ArrowSquareOut, Pause, Planet, Play } from "phosphor-react";
 import { motion, AnimatePresence } from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
+import { letterExpand } from "../../components/letter-expand";
+import { Overlay } from "../../components/overlay";
 
 export default function Home() {
     const TIMELINE = [
@@ -31,7 +33,14 @@ export default function Home() {
         },
     ]
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [open, setOpen] = useState(false);
+
+    const openModal = () => {
+        setOpen(true);
+    };
+
+    const closeModal = () => {
+        setOpen(false);
 
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -98,26 +107,14 @@ export default function Home() {
                             <div className="basis-1/2">
                                 <motion.div
                                     className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
-                                    onClick={() => setIsOpen(!isOpen)}
-                                    layout
-                                    transition={{
-                                        layout: { duration: 0.85 },
-                                        type: "spring",
-                                    }}
-                                >
-                                    <motion.h2 layout="position">夜游船现在有空，请随时点击联系我~</motion.h2>
+                                    open={openModal}
+                                    >
+                                    信件
                                     <AnimatePresence>
-                                        {isOpen && (
-                                            <motion.div
-                                                initial={{ opacity: 0 }}
-                                                animate={{ opacity: 1 }}
-                                                transition={{ duration: 0.85 }}
-                                                exit={{ opacity: 0 }}
-                                            >
-                                                <p>这是我的联系方式：</p>
-                                                <p>邮箱：yeyouchuan@gmail.com</p>
-                                                <p>微信：yeyouchuan0928</p>
-                                            </motion.div>
+                                        {open && (
+                                            <overlay close={closeModal}>
+                                                <letterExpand close={closeModal}/>
+                                            </overlay>
                                         )}
                                     </AnimatePresence>
                                 </motion.div>
