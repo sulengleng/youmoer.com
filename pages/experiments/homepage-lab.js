@@ -5,7 +5,7 @@ import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
-import { Letter } from "../../components/Letter";
+import { Letter } from "../../components/letter";
 
 export default function Home() {
     const TIMELINE = [
