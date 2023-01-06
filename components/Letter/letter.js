@@ -34,12 +34,11 @@ export const Letter = () => {
                                 variants={modalVariants}
                                 onClick={(e) => e.stopPropagation()}
                     >
-                        <div className="ml-5">
-                            <a className="uppercase text-lg text-black mt-8">about me</a>
-                            <div className="border border-black w-96 border-gray-700 mt-2 mb-2"></div>
-                            <p className="text-gray-700">见信好， </p>
+                        <div className="ml-5 mt-8">
+                            <a className="uppercase text-lg text-black mt-8 underline underline-offset-[12px] decoration-gray-500">about me</a>
+                            <p className="text-gray-500 mt-2">见信好， </p>
                             <br/>
-                            <p className="text-gray-700">
+                            <p className="text-gray-500">
                                 我是夜游船，暂时是国际高中的一名学生
                                 <br/>
                                 专业方向是 Computer Science，立志成为一个不走寻常路的开发者和设计师
