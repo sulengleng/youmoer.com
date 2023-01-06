@@ -2,7 +2,7 @@
     min-height: 200px;
     border-radius: 20px;
     position: relative;
-    background-image: image("../../public/images/pages/letter-cover.png");
+    background-image: image("https://s2.loli.net/2023/01/07/NDX421Gl8tPBsao.png");
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
 }

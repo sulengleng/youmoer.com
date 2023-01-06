@@ -30,7 +30,7 @@ export const Letter = () => {
         <AnimatePresence>
             {open && (
                 <Overlay close={closeModal} >
-                    <motion.div className="modal bg-letter-cover"
+                    <motion.div className="modal"
                                 variants={modalVariants}
                                 onClick={(e) => e.stopPropagation()}
                     >
