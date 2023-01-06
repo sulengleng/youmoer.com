@@ -34,7 +34,7 @@ export const Letter = () => {
                                 variants={modalVariants}
                                 onClick={(e) => e.stopPropagation()}
                     >
-                        <div className="pl-5 ml-5">
+                        <div className="ml-5">
                             <a className="uppercase text-lg text-black mt-8">about me</a>
                             <div className="border border-black w-10 mt-2 mb-2"></div>
                             <p className="font-[]">见信好， </p>
