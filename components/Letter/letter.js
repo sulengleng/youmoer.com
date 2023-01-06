@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { letterExpand } from "./letter-expand";
 import { Overlay } from "./overlay";
 import {AnimatePresence, motion} from "framer-motion";
+import Cover from "./cover";
 
 
 export const Letter = () => {
@@ -17,11 +18,7 @@ export const Letter = () => {
 
     return (
         <>
-        <div
-            className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
-            open={openModal}
-        >
-        </div>
+        <Cover open={openModal} />
         <AnimatePresence>
             {open && (
                 <Overlay close={closeModal}>
