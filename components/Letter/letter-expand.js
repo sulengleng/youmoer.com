@@ -1,7 +1,7 @@
 import react from 'react'
 import { XCircle } from "phosphor-react";
 import { motion } from "framer-motion";
-import "./style.css";
+import "../../styles/styles.css";
 
 export function letterExpand( close ) {
 
