@@ -17,18 +17,13 @@ export const Letter = () => {
     };
 
     return (
-        <>
+        < >
         <Cover open={openModal} />
         <AnimatePresence>
             {open && (
-                <Overlay
-                    key="overlay"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.5 }}
-                    onClick={closeModal}
-                />
+                <Overlay close={closeModal} >
+                    <letterExpand close={closeModal} />
+                </Overlay>
             )}
         </AnimatePresence>
         </>
