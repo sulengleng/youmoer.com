@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { letterExpand } from "./letter-expand";
 import { Overlay } from "./overlay";
 import {AnimatePresence, motion} from "framer-motion";
 import Cover from "./cover";
