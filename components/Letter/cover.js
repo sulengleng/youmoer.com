@@ -16,7 +16,7 @@ export default function Cover ({ open }) {
     }
   return (
     <motion.div
-        className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
+        className="rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] flex flex-col"
         onClick={open}
         onMouseMove={handleMouse}
         style={{ rotateX: rotateX, rotateY: rotateY}}
