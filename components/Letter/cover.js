@@ -25,13 +25,16 @@ export default function Cover ({ open }) {
             onMouseMove={handleMouse}
         >
             <motion.div
-                className="h-44 w-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg"
+                className="h-44 w-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex flex-col"
                 style={{
                     rotateX: rotateX,
                     rotateY: rotateY
                 }}
             >
                 <a className="mt-32 p-8 max-w-sm text-4xl font-black uppercase text-red-800 transform rotate-90">Mail</a>
+                <a className="mt-32 p-8 max-w-sm text-4xl font-black uppercase text-red-800 transform rotate-90">Box</a>
+                <a className="mt-32 p-8 max-w-sm text-4xl font-black uppercase text-red-800 transform rotate-90">Click</a>
+                <a className="mt-32 p-8 max-w-sm text-4xl font-black uppercase text-red-800 transform rotate-90">Me</a>
             </motion.div>
         </motion.div>
     </motion.div>
