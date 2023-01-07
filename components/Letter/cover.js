@@ -21,9 +21,29 @@ export default function Cover ({ open }) {
         onClick={open}
     >
         <motion.div
-            className="h-12 w-12 bg-white rounded-lg"
+            style={{
+                width: 400,
+                height: 400,
+                display: "flex",
+                placeItems: "center",
+                placeContent: "center",
+                borderRadius: 30,
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                perspective: 400
+            }}
             onMouseMove={handleMouse}
-            style={{ rotateX, rotateY }}></motion.div>
+        >
+            <motion.div
+                style={{
+                    width: 150,
+                    height: 150,
+                    borderRadius: 30,
+                    backgroundColor: "#fff",
+                    rotateX: rotateX,
+                    rotateY: rotateY
+                }}
+            />
+        </motion.div>
         <a className="mt-32 p-8 max-w-sm text-4xl font-black uppercase text-red-800 transform -rotate-6">Mail</a>
     </motion.div>
   );
