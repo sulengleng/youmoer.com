@@ -9,7 +9,7 @@ export default function Cover ({ open }) {
         onClick={open}
     >
         <div className="drop-shadow-lg border rounded-full bg-gray-600 w-12 h-4 pt-8 justify-center"></div>
-        <a className="p-8 max-w-2xl text-8xl font-black uppercase text-red-600 transform -rotate-6 mix-blend-overlay">Mail</a>
+        <a className="p-8 max-w-sm text-2xl font-black uppercase text-red-600 transform -rotate-6 mix-blend-overlay">Mail</a>
     </motion.div>
   );
 }
