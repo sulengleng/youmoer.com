@@ -81,7 +81,7 @@ export default function Home() {
         >
             <div className="flex md:flex-row flex-col space-y-4">
                 <div className="basis-2/7">
-                    <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto" style={{rotateX: rotateX, rotateY: rotateY}}>
+                    <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                         <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                             <div className="flex flex-row">
                                 <img src="https://files.catbox.moe/5scrti.jpg"
@@ -111,7 +111,18 @@ export default function Home() {
                             <Letter />
                         </div>
                         <div className="basis-1/2">
-                            <div className="small-card rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"></div>
+                            <div className="small-card rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]">
+                                <motion.div style={{
+                                    width: 150,
+                                    height: 150,
+                                    borderRadius: 30,
+                                    backgroundColor: "#fff",
+                                    rotateX: rotateX,
+                                    rotateY: rotateY
+                                }}>
+
+                                </motion.div>
+                            </div>
                         </div>
                     </div>
 
