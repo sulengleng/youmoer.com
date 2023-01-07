@@ -25,17 +25,15 @@ export default function Cover ({ open }) {
             onMouseMove={handleMouse}
         >
             <motion.div
+                className="h-44 w-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg"
                 style={{
-                    width: 100,
-                    height: 100,
-                    borderRadius: 30,
-                    backgroundColor: "#fff",
                     rotateX: rotateX,
                     rotateY: rotateY
                 }}
-            />
+            >
+                <a className="mt-32 p-8 max-w-sm text-4xl font-black uppercase text-red-800 transform rotate-90">Mail</a>
+            </motion.div>
         </motion.div>
-        <a className="mt-32 p-8 max-w-sm text-4xl font-black uppercase text-red-800 transform -rotate-6">Mail</a>
     </motion.div>
   );
 }
