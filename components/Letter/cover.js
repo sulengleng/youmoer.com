@@ -21,7 +21,7 @@ export default function Cover ({ open }) {
         onClick={open}
     >
         <motion.div
-            className="h-full w-full rounded-lg"
+            className="h-44 w-20 rounded-lg"
             onMouseMove={handleMouse}
         >
             <motion.div
