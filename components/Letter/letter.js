@@ -26,7 +26,7 @@ export const Letter = () => {
 
     return (
         < >
-        <Cover open={openModal} className="bg-envelope" />
+        <Cover open={openModal} />
         <AnimatePresence>
             {open && (
                 <Overlay close={closeModal} >
