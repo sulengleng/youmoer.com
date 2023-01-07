@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowCircleRight, ArrowSquareOut, Pause, Play } from "phosphor-react";
-import { motion } from 'framer-motion'
+import {motion, useMotionValue, useTransform} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { StrictMode } from "react";
@@ -31,6 +31,19 @@ export default function Home() {
             description: '约克大学 Bsc Interactive Media'
         },
     ]
+
+    const x = useMotionValue(200);
+    const y = useMotionValue(200);
+
+    const rotateX = useTransform(y, [0, 400], [45, -45]);
+    const rotateY = useTransform(x, [0, 400], [-45, 45]);
+
+    function handleMouse(event) {
+        const rect = event.currentTarget.getBoundingClientRect();
+
+        x.set(event.clientX - rect.left);
+        y.set(event.clientY - rect.top);
+    }
 
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -68,7 +81,7 @@ export default function Home() {
         >
             <div className="flex md:flex-row flex-col space-y-4">
                 <div className="basis-2/7">
-                    <div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
+                    <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto" style={{rotateX: rotateX, rotateY: rotateY}}>
                         <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                             <div className="flex flex-row">
                                 <img src="https://files.catbox.moe/5scrti.jpg"
@@ -91,7 +104,7 @@ export default function Home() {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
 
                     <div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
                         <div className="basis-1/2">
