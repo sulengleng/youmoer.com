@@ -69,7 +69,7 @@ export default function Home() {
     }
 
     return (
-    <body className="selection:bg-[#3b818c]">
+    <motion.body className="selection:bg-[#3b818c]">
         <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{
@@ -79,8 +79,8 @@ export default function Home() {
             }}
             className="page"
         >
-            <div className="flex md:flex-row flex-col space-y-4">
-                <div className="basis-2/7">
+            <motion.div className="flex md:flex-row flex-col space-y-4">
+                <motion.div className="basis-2/7">
                     <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                         <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                             <div className="flex flex-row">
@@ -106,12 +106,12 @@ export default function Home() {
                         </div>
                     </motion.div>
 
-                    <div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
+                    <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
                         <div className="basis-1/2">
                             <Letter />
                         </div>
-                        <div className="basis-1/2">
-                            <div className="small-card rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]">
+                        <motion.div className="basis-1/2">
+                            <motion.div className="small-card rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]">
                                 <motion.div style={{
                                     width: 150,
                                     height: 150,
@@ -122,9 +122,9 @@ export default function Home() {
                                 }}>
 
                                 </motion.div>
-                            </div>
-                        </div>
-                    </div>
+                            </motion.div>
+                        </motion.div>
+                    </motion.div>
 
                     <div className="musicPlayer md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                         <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
@@ -203,7 +203,7 @@ export default function Home() {
                             ))}
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
                 <div className="basis-3/7">
                     <div className="card snap-mandatory snap-x mb-4">
@@ -244,8 +244,8 @@ export default function Home() {
                         <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </motion.div>
-    </body>
+    </motion.body>
     );
 }
