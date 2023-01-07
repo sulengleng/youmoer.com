@@ -21,22 +21,13 @@ export default function Cover ({ open }) {
         onClick={open}
     >
         <motion.div
-            style={{
-                width: 400,
-                height: 400,
-                display: "flex",
-                placeItems: "center",
-                placeContent: "center",
-                borderRadius: 30,
-                backgroundColor: "rgba(255, 255, 255, 0.05)",
-                perspective: 400
-            }}
+            className="h-full w-full rounded-lg"
             onMouseMove={handleMouse}
         >
             <motion.div
                 style={{
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                     borderRadius: 30,
                     backgroundColor: "#fff",
                     rotateX: rotateX,
