@@ -235,7 +235,7 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-44 h-[100px] bg-red-400 dark:bg-gray-50 rounded-lg ml-6 mt-9 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                            className="w-44 h-[100px] bg-red-400/80 dark:dark:bg-gray-500/80 rounded-lg ml-6 mt-9 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                         />
                         <motion.div className="flex flex-col">
                             <a className="ml-2 mt-11 text-sm text-gray-600 dark:text-gray-300 font-bold text-center leading-4 font-mono max-w-20">if you like my work</a>
