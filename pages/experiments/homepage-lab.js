@@ -230,7 +230,7 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-60 h-[100px] bg-white ml-24 hover:drop-shadow-2xl justify-center items-center"
+                            className="w-60 h-[100px] bg-white rounded-lg ml-28 mt-10 hover:drop-shadow-xl justify-center items-center"
                         />
                     </motion.div>
                 </div>
