@@ -226,10 +226,11 @@ export default function Home() {
                     <motion.div
                         className="max-w-[90%] mx-auto md:max-w-112 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg drop-shadow-md overflow-hidden"
                         onMouseMove={handleMouse}
+                        height={150}
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-72 h-36 bg-white ml-28 justify-center items-center"
+                            className="w-60 h-[100px] bg-white ml-24 hover:drop-shadow-2xl justify-center items-center"
                         />
                     </motion.div>
                 </div>
