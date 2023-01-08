@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="basis-3/7">
                     <div className="snap-mandatory snap-x mb-4">
                         <div
-                            className="max-w-[90%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
+                            className="max-w-[90%] mx-auto md:max-w-112 mx-4 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
                             <div className="md:flex">
                                 <div className="md:shrink-0">
                                     <img className="h-48 w-full object-cover md:h-48 md:w-auto aspect-square"
@@ -213,7 +213,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="container max-w-[90%] mx-auto md:max-w-112 aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
+                    <div className="container max-w-[90%] mx-4 mx-auto md:max-w-112 aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
