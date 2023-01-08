@@ -56,6 +56,19 @@ export default function Home() {
         }
     }
 
+    const x = useMotionValue(200);
+    const y = useMotionValue(200);
+
+    const rotateX = useTransform(y, [0, 400], [45, -45]);
+    const rotateY = useTransform(x, [0, 400], [-45, 45]);
+
+    function handleMouse(event) {
+        const rect = event.currentTarget.getBoundingClientRect();
+
+        x.set(event.clientX - rect.left);
+        y.set(event.clientY - rect.top);
+    }
+
     return (
     <motion.body className="selection:bg-[#3b818c]">
         <motion.div
@@ -211,7 +224,15 @@ export default function Home() {
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                     </div>
-                    <BankCard />
+                    <motion.div
+                        className="max-w-[90%] mx-auto md:max-w-112 flex bg-grey rounded-lg drop-shadow-md overflow-hidden"
+                        onMouseMove={handleMouse}
+                    >
+                        <motion.div
+                            style={{rotateX: rotateX, rotateY: rotateY}}
+                            className="w-80 h-56 bg-white ml-20 justify-center items-center"
+                        />
+                    </motion.div>
                 </div>
                 <div className="basis-2/7">
                     <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
