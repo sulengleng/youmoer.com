@@ -213,15 +213,15 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="container max-w-[90%] mx-auto md:w-112 aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt="music"></img>
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/4oxz6p.png" alt="music"></img>
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/7zwwqu.png" alt="music"></img>
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
-                        <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
+                    <div className="container max-w-[90%] mx-auto md:w-128 aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt="music"></img>
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/4oxz6p.png" alt="music"></img>
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/7zwwqu.png" alt="music"></img>
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
+                        <img className="rounded-lg max-h-128 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                     </div>
                     <motion.div
                         className="max-w-[90%] mx-auto md:max-w-112 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg drop-shadow-md overflow-hidden"
@@ -229,7 +229,7 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-72 h-44 bg-white ml-20 justify-center items-center"
+                            className="w-72 h-40 bg-white ml-28 justify-center items-center"
                         />
                     </motion.div>
                 </div>
