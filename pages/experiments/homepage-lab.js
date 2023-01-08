@@ -225,12 +225,12 @@ export default function Home() {
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                     </div>
                     <motion.div
-                        className="max-w-[90%] mx-auto md:max-w-112 flex bg-grey rounded-lg drop-shadow-md overflow-hidden"
+                        className="max-w-[90%] mx-auto md:max-w-112 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg drop-shadow-md overflow-hidden"
                         onMouseMove={handleMouse}
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-80 h-56 bg-white ml-20 justify-center items-center"
+                            className="w-72 h-44 bg-white ml-20 justify-center items-center"
                         />
                     </motion.div>
                 </div>
