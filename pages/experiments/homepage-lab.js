@@ -229,7 +229,7 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-72 h-40 bg-white ml-28 justify-center items-center"
+                            className="w-72 h-36 bg-white ml-28 justify-center items-center"
                         />
                     </motion.div>
                 </div>
