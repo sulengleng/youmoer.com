@@ -223,25 +223,25 @@ export default function Home() {
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                     </div>
+                </div>
+                <div className="basis-2/7">
+                    <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto my-4">
+                        <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
+                    </div>
                     <motion.div
-                        className="max-w-[90%] mx-auto md:max-w-112 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg drop-shadow-md overflow-hidden"
+                        className="max-w-[90%] mx-auto md:max-w-full flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg drop-shadow-md overflow-hidden"
                         onMouseMove={handleMouse}
-                        style={{ height:150 }}
+                        style={{ height:160 }}
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-44 h-[100px] bg-white rounded-lg ml-28 mt-10 hover:drop-shadow-xl justify-center items-center"
+                            className="w-44 h-[100px] bg-white rounded-lg ml-10 mt-6 hover:drop-shadow-xl justify-center items-center"
                         />
                     </motion.div>
-                </div>
-                <div className="basis-2/7">
                     <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
                         <StrictMode>
                             <Notebook />
                         </StrictMode>
-                    </div>
-                    <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto my-4">
-                        <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                     </div>
                 </div>
             </motion.div>
