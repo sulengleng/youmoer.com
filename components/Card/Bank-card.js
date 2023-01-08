@@ -17,12 +17,12 @@ export default function BankCard ({ open }) {
 
     return (
         <motion.div
-            className="max-w-[90%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden"
+            className="max-w-[90%] mx-auto md:max-w-112 h-64 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg drop-shadow-md overflow-hidden"
             onMouseMove={handleMouse}
         >
             <motion.div
                 style={{rotateX: rotateX, rotateY: rotateY}}
-                className="w-10 h-10 bg-white justify-center items-center"
+                className="w-80 h-56 bg-white ml-20 justify-center items-center"
             />
         </motion.div>
     )
