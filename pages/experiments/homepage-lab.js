@@ -6,6 +6,7 @@ import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
 import { Letter } from "../../components/Letter/letter";
+import BankCard from "../../components/Card/Bank-card";
 
 export default function Home() {
     const TIMELINE = [
@@ -183,7 +184,7 @@ export default function Home() {
                 </motion.div>
 
                 <div className="basis-3/7">
-                    <div className="card snap-mandatory snap-x mb-4">
+                    <div className="snap-mandatory snap-x mb-4">
                         <div
                             className="max-w-[90%] mx-auto md:max-w-112 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
                             <div className="md:flex">
@@ -210,6 +211,7 @@ export default function Home() {
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                         <img className="rounded-lg max-h-112 snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                     </div>
+                    <BankCard />
                 </div>
                 <div className="basis-2/7">
                     <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
