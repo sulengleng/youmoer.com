@@ -231,14 +231,14 @@ export default function Home() {
                     <motion.div
                         className="max-w-[90%] mx-auto md:max-w-full mb-4 mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                         onMouseMove={handleMouse}
-                        style={{ height:160 }}
+                        style={{ height:176 }}
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-44 h-[100px] bg-gray-900 dark:bg-gray-50 rounded-lg ml-6 mt-7 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                            className="w-44 h-[100px] bg-gray-900 dark:bg-gray-50 rounded-lg ml-6 mt-9 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                         />
                         <motion.div className="flex flex-col">
-                            <a className="ml-2 mt-9 text-sm text-gray-600 dark:text-gray-300 font-bold text-center leading-4 font-mono max-w-20">if you like my work</a>
+                            <a className="ml-2 mt-11 text-sm text-gray-600 dark:text-gray-300 font-bold text-center leading-4 font-mono max-w-20">if you like my work</a>
                             <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                         </motion.div>
                     </motion.div>
