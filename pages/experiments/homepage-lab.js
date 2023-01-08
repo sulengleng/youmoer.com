@@ -237,6 +237,7 @@ export default function Home() {
                             style={{rotateX: rotateX, rotateY: rotateY}}
                             className="w-44 h-[100px] bg-white rounded-lg ml-6 mt-7 hover:drop-shadow-xl justify-center items-center"
                         />
+                        <a className="ml-2 mt-7 text-md text-gray-600 font-bold text-center leading-4 font-mono max-w-20">if you like my work</a>
                         <a className="ml-2 mt-7 text-lg font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                     </motion.div>
                     <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
