@@ -235,8 +235,9 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-44 h-[100px] bg-white rounded-lg ml-10 mt-6 hover:drop-shadow-xl justify-center items-center"
+                            className="w-44 h-[100px] bg-white rounded-lg ml-6 mt-6 hover:drop-shadow-xl justify-center items-center"
                         />
+                        <a className="ml-2 text-md font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                     </motion.div>
                     <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
                         <StrictMode>
