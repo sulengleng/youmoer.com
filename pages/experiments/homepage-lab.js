@@ -111,7 +111,9 @@ export default function Home() {
                             <Letter />
                         </div>
                         <motion.div className="basis-1/2">
-                            <motion.div className="small-card rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]">
+                            <motion.div
+                                className="small-card rounded-lg h-48 md:h-full drop-shadow-md"
+                            >
                             </motion.div>
                         </motion.div>
                     </motion.div>
