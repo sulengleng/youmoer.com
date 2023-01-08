@@ -17,7 +17,7 @@ export default function BankCard ({ open }) {
 
     return (
         <motion.div
-            className="max-w-[90%] mx-auto md:max-w-112 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg drop-shadow-md overflow-hidden"
+            className="max-w-[90%] mx-auto md:max-w-112 flex bg-gray-200 rounded-lg drop-shadow-md overflow-hidden"
             onMouseMove={handleMouse}
         >
             <motion.div
