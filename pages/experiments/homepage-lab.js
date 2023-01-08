@@ -6,7 +6,6 @@ import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
 import { Letter } from "../../components/Letter/letter";
-import BankCard from "../../components/Card/Bank-card";
 
 export default function Home() {
     const TIMELINE = [
