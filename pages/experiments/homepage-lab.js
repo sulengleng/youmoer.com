@@ -6,6 +6,7 @@ import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
 import { Letter } from "../../components/Letter/letter";
+import DoNotDisturb from "https://framer.com/m/Do-Not-Disturb-PZAR.js@Mm2akOG6ODiCpRL61c5S"
 
 export default function Home() {
     const TIMELINE = [
@@ -198,23 +199,7 @@ export default function Home() {
                 </motion.div>
 
                 <div className="basis-3/7">
-                    <div className="snap-mandatory snap-x mb-4">
-                        <div
-                            className="max-w-[90%] mx-auto md:max-w-112 mx-4 flex bg-[#821c20] rounded-lg drop-shadow-md overflow-hidden">
-                            <div className="md:flex">
-                                <div className="md:shrink-0">
-                                    <img className="h-48 w-full object-cover md:h-48 md:w-auto aspect-square"
-                                         src="https://files.catbox.moe/whnmix.png" alt="S.A"></img>
-                                </div>
-                                <div className="p-8">
-                                    <div
-                                        className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">S.A.阿列克谢耶维奇
-                                    </div>
-                                    <p className="mt-2 text-xs text-white">每个人都要做好自己的事。比如我自己的事就是写作，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，应该做好自己的事。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <DoNotDisturb />
                     <div className="container max-w-[90%] mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
