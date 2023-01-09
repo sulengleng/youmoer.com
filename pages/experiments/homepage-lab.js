@@ -59,7 +59,7 @@ export default function Home() {
     const y = useMotionValue(200);
 
     const rotateX = useTransform(y, [0, 400], [30, -15]);
-    const rotateY = useTransform(x, [0, 400], [-45, 45]);
+    const rotateY = useTransform(x, [0, 400], [-30, 30]);
 
     function handleMouse(event) {
         const rect = event.currentTarget.getBoundingClientRect();
