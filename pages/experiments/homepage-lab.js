@@ -240,8 +240,8 @@ export default function Home() {
                             className="w-44 h-[100px] bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                         >
                             <div className="mt-4 ml-2 text-lg drop-shadow-md text-gray-400 dark:text-gray-500">**** **** **** ****</div>
-                            <div className="mt-10 ml-28 border border-white w-8 h-8 rounded-full bg-gray-800 mix-blend-multiply"></div>
-                            <div className="mt-10 ml-32 border border-white w-8 h-8 rounded-full bg-gray-400 mix-blend-multiply"></div>
+                            <div className="mt-7 ml-24 border border-white w-6 h-6 rounded-full bg-gray-800 mix-blend-multiply"></div>
+                            <div className="mt-7 ml-28 border border-white w-6 h-6 rounded-full bg-gray-400 mix-blend-multiply"></div>
                         </motion.div>
                         <motion.div className="flex flex-col">
                             <a className="ml-2 mt-10 text-sm text-gray-600 dark:text-gray-300 font-bold text-center leading-4 font-mono max-w-20">if you like my work</a>
