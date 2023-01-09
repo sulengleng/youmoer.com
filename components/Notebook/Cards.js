@@ -295,7 +295,6 @@ const Card = ({ i, name, length, size, rotateArray, current }) => {
                     style={{
                         fontSize: `${size * 0.3}px`,
                         fontWeight: 700,
-                        color: "hsla(0,0%,0%,0.25)",
                         transform: `translateX(${size * 0.1}px) translateY(${
                             size * 0.1
                         }px)`,
