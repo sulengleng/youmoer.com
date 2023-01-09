@@ -22,7 +22,7 @@ const dataClone = [
     ...mapData(data, "1"),
     // Second one is being displayed on screen
     ...mapData(data, "2"),
-    // Third one is for inital aniamtion
+    // Third one is for initial animation
     ...mapData(data, "3"),
     // Last one is to avoid cards animation
     // from the final position to the initial one
@@ -293,8 +293,8 @@ const Card = ({ i, name, length, size, rotateArray, current }) => {
             >
                 <div
                     style={{
-                        fontSize: `${size * 0.5}px`,
-                        fontWeight: 800,
+                        fontSize: `${size * 0.1}px`,
+                        fontWeight: 500,
                         color: "hsla(0,0%,0%,0.25)",
                         transform: `translateX(${size * 0.1}px) translateY(${
                             size * 0.1
