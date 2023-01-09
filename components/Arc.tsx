@@ -129,14 +129,6 @@ const Arc: React.ComponentType<any> = withCSS(
                             href={`#${id}`}
                             startOffset={props.startOffset}
                             dominantBaseline={alignmentValue}
-                            style={{
-                                fontSize: props.font.fontSize,
-                                fontFamily: props.font.font,
-                                fontWeight: props.font.fontWeight,
-                                wordSpacing: props.font.wordSpacing,
-                                letterSpacing: props.font.letterSpacing,
-                                fill: props.color,
-                            }}
                         >
                             {props.text}
                             {!isCanvas && props.animate && (
