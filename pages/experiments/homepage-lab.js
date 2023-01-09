@@ -6,7 +6,7 @@ import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
 import { Letter } from "../../components/Letter/letter";
-import Arc from "https://framer.com/m/Arc-Osqa.js"
+import Arc from "https://framer.com/m/Arc-Osqa.js@ESmlF2IX1g1caQFP6hCX"
 
 export default function Home() {
     const TIMELINE = [
