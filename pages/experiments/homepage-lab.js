@@ -238,7 +238,9 @@ export default function Home() {
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
                             className="w-44 h-[100px] bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
-                        />
+                        >
+                            <div className="top-2 right-2 w-6 h-2 bg-gray-600 dark:bg-gray-400 rounded-md"></div>
+                        </motion.div>
                         <motion.div className="flex flex-col">
                             <a className="ml-2 mt-10 text-sm text-gray-600 dark:text-gray-300 font-bold text-center leading-4 font-mono max-w-20">if you like my work</a>
                             <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
