@@ -293,7 +293,7 @@ const Card = ({ i, name, length, size, rotateArray, current }) => {
             >
                 <div
                     style={{
-                        fontSize: `${size * 0.3}px`,
+                        fontSize: `${size * 0.25}px`,
                         fontWeight: 700,
                         transform: `translateX(${size * 0.1}px) translateY(${
                             size * 0.1
