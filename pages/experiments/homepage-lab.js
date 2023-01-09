@@ -6,7 +6,7 @@ import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
 import { Letter } from "../../components/Letter/letter";
-import FeatureVideo from "https://framer.com/m/Feature-Video-1cLX.js@AlWzExvOF4lnxiVrf7BI"
+import Arc from "../../components/Arc";
 
 export default function Home() {
     const TIMELINE = [
@@ -199,7 +199,7 @@ export default function Home() {
                 </motion.div>
 
                 <div className="basis-3/7">
-                    <FeatureVideo />
+                    <Arc />
                     <div className="container max-w-[90%] mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
