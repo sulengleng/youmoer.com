@@ -6,7 +6,7 @@ import { useState } from "react";
 //  Create some data where each item
 //  in the array will represent an unique card
 
-const data = ["大吉", "中吉", "小吉", "孤独", "摇滚"];
+const data = ["🎸", "📺", "🎉", "👾", "🛠️"];
 
 // Mapping function to create duplicates with UIDs
 const mapData = (data, prefix) =>
