@@ -6,7 +6,7 @@ import YouTube from "react-youtube";
 import { StrictMode } from "react";
 import { Notebook } from "../../components/Notebook";
 import { Letter } from "../../components/Letter/letter";
-import DoNotDisturb from "https://framer.com/m/Do-Not-Disturb-PZAR.js@Mm2akOG6ODiCpRL61c5S"
+import DoNotDisturb from "https://framer.com/m/Do-Not-Disturb-PZAR.js@BXNO2afHHWatjnUDcHkg"
 
 
 export default function Home() {
