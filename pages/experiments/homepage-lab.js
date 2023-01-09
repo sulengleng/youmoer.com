@@ -239,8 +239,8 @@ export default function Home() {
                             style={{rotateX: rotateX, rotateY: rotateY}}
                             className="w-44 h-[100px] flex bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                         >
-                            <div className="mt-2 text-8xl drop-shadow-md text-gray-400 dark:text-gray-500">₿</div>
-                            <div className="mt-5 ml-28 flex -space-x-3">
+                            <div className="mt-1 overflow-hidden text-9xl drop-shadow-md text-gray-400 dark:text-gray-500">₿</div>
+                            <div className="mt-5 ml-20 flex -space-x-3">
                                 <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
                                 <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                             </div>
