@@ -56,6 +56,10 @@ export default function Home() {
         }}
       />
 
+    <link href='https://cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src='https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
+    </ link>
+
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
         <h2 className="mb-6 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
 
