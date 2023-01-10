@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="script" level="application" />
     <orderEntry type="library" name="soundcite" level="application" />
+    <orderEntry type="library" name="player" level="application" />
   </component>
 </module>
