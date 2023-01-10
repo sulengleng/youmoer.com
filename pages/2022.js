@@ -56,10 +56,6 @@ export default function Home() {
         }}
       />
 
-    <link href={'https://cdn.knightlab.com/libs/soundcite/latest/css/player.css'} rel='stylesheet' type='text/css'>
-    <script type='text/javascript' src={'https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'}></script>
-    </ link>
-
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
         <h2 className="mb-6 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
 
@@ -105,11 +101,6 @@ export default function Home() {
                   ))}
               </div>
           </ContentWrapper>
-
-          <p>这是<span className="soundcite"
-                data-url="https://link.jscdn.cn/dropbox/direct/aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vcy96Yzc4ZWoydGN2MTR1dW8vc2hhbnF1ZS5tcDM_ZGw9MA.mp3"
-                data-start="0" data-end="198000" data-plays="1">listen</span>音频测试
-          </p>
 
           <br/>
 
