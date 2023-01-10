@@ -10,7 +10,8 @@ module.exports = {
       "https://fonts.gstatic.com/",
       "https://ga.jspm.io/",
       "https://jspm.dev/",
-      "https://s2.loli.net/"
+      "https://s2.loli.net/",
+      "https://thumbs.dreamstime.com/b/"
     ]
   }
 }
