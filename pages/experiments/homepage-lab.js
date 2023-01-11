@@ -202,7 +202,7 @@ export default function Home() {
                 <div className="basis-3/7">
                     <div className="bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] md:max-w-fit h-52 mx-auto">
                         <div className="flex flex-col justify-items-center">
-                            <div className="flex flex-row">
+                            <div className="flex flex-row ml-6">
                                 <div className="w-3 h-12 bg-[#c52e1a]"></div>
                                 <div className="w-3 h-12 bg-[#eb9329]"></div>
                                 <div className="w-3 h-12 bg-[#e4b021]"></div>
