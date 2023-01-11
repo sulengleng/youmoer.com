@@ -201,7 +201,7 @@ export default function Home() {
 
                 <div className="basis-3/7">
                     <div className="bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] md:max-w-fit h-52 mx-auto">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col justify-items-center">
                             <div className="flex flex-row">
                                 <div className="w-3 h-12 bg-[#c52e1a]"></div>
                                 <div className="w-3 h-12 bg-[#eb9329]"></div>
@@ -209,7 +209,7 @@ export default function Home() {
                                 <div className="w-3 h-12 bg-[#7ea32c]"></div>
                                 <div className="w-3 h-12 bg-[#4886ae]"></div>
                             </div>
-                            <div className="bg-camera-center rounded-full h-40 w-40 mx-auto"></div>
+                            <div className="bg-camera-center bg-cover rounded-full h-36 w-36 mx-auto"></div>
                         </div>
                     </div>
                     <div className="container max-w-[90%] mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
