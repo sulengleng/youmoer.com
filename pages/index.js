@@ -155,7 +155,7 @@ export default function Home() {
                                                 </div>
                                             )}
                                             <div
-                                                className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                                className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm ml-4 font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
                                             </div>
                                         </div>
                                     </div>
