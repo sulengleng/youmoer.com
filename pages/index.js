@@ -81,7 +81,7 @@ export default function Home() {
             >
                 <motion.div className="flex md:flex-row flex-col space-y-4 max-w-full">
                     <motion.div className="basis-1/3 lg:basis-2/7">
-                        <motion.div className="jike relative md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
+                        <motion.div className="jike relative md:ml-4 mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto">
                             <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                                 <div className="flex flex-row">
                                     <img src="https://files.catbox.moe/5scrti.jpg"
@@ -106,7 +106,7 @@ export default function Home() {
                             </div>
                         </motion.div>
 
-                        <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
+                        <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto h-48 md:h-56">
                             <div className="basis-1/2">
                                 <Letter />
                             </div>
@@ -118,7 +118,7 @@ export default function Home() {
                             </motion.div>
                         </motion.div>
 
-                        <div className="musicPlayer md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
+                        <div className="musicPlayer md:ml-4 mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto">
                             <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                             <div className="player select-none">
                                 <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="timeline relative max-w-[90%] md:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-88"
+                            className="timeline relative max-w-[90%] md:max-w-fit xl:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-88"
                         >
                             <div className="relative md:pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute"></div>
