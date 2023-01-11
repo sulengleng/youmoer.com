@@ -126,7 +126,7 @@ export default function Home() {
                                         <div className="items-center">
                                             <a className="text-white"></a>
                                         </div>
-                                        <div className="relative md:place-items-center">
+                                        <div className="relative md:place-items-center z-0">
                                             <div className="absolute items-center justify-center">
                                                 {isPlaying ? (
                                                     <Pause size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
@@ -137,7 +137,7 @@ export default function Home() {
                                             <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
                                                  src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                         </div>
-                                        <div className="place-self-center -ml-4 py-1 xl:py-6 px-3">
+                                        <div className="place-self-center -ml-4 py-1 xl:py-6 px-3 z-10">
                                             {isPlaying ? (
                                                 <div className="flex">
                                           <span className="flex h-3 w-3">
