@@ -198,24 +198,8 @@ export default function Home() {
                     </motion.div>
 
                     <div className="basis-1/3 lg:basis-3/7">
-                        <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto">
-                            <div className="flex">
-                                <div className="bg-camera-left bg-cover rounded-3xl h-28 w-28 ml-10 mr-8 mt-6"></div>
-                                <div className="flex flex-col justify-items-center">
-                                    <div className="flex flex-row mx-auto z-0">
-                                        <div className="w-3 h-12 bg-[#c52e1a]"></div>
-                                        <div className="w-3 h-12 bg-[#eb9329]"></div>
-                                        <div className="w-3 h-12 bg-[#e4b021]"></div>
-                                        <div className="w-3 h-12 bg-[#7ea32c]"></div>
-                                        <div className="w-3 h-12 bg-[#4886ae]"></div>
-                                    </div>
-                                    <div className="bg-camera-center bg-cover rounded-full h-32 w-32 mx-auto -mt-6 z-10"></div>
-                                </div>
-                                <div className="bg-camera-right bg-cover rounded-3xl h-28 w-28 mr-10 ml-8 mt-6"></div>
-                            </div>
-                            <div className="w-64 h-6 mx-auto my-4 md:w-96 rounded-md drop-shadow-2xl bg-gray-700 border border-gray-800">
-                                <div className="w-[80%] border mx-auto mt-2 mb-4 border-black"></div>
-                            </div>
+                        <div className="rounded-lg aspect-square max-w-[90%] md:max-w-fit mx-auto">
+                            <div className="drop-shadow-md rounded-lg bg-camera-white dark:bg-camera-black max-w-fit bg-cover bg-center"></div>
                         </div>
                         <div className="container w-auto max-w-[90%] mt-4 mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>

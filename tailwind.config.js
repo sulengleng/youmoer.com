@@ -10,6 +10,8 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
+        "camera-white": "url('https://s2.loli.net/2023/01/12/iZfSLYBAb91Ohrw.png')",
+        "camera-black": "url('https://s2.loli.net/2023/01/12/o46bSIy2td1a7R8.png')",
         "camera-center": "url('https://s2.loli.net/2023/01/11/wBtCTWhrd1NxMYn.png')",
         "camera-left": "url('https://s2.loli.net/2023/01/11/ZzRYfjyV3b2OI6L.png')",
         "camera-right": "url('https://s2.loli.net/2023/01/11/xWcdqFLvZPMBD43.png')",

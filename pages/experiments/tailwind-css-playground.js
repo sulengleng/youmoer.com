@@ -1,4 +1,4 @@
-import { useState, react } from "react";
+import React, { useState, react } from "react";
 import Link from "next/link";
 import { ArrowIcon } from "lib/icons";
 import { NextSeo } from "next-seo";
@@ -65,6 +65,25 @@ return (
                         <p className="mt-2 text-white">旋转跳跃，山月风卷，一场空中的狂欢。林鸟鱼花空中相随，像一道万紫千红的风景。云歌鱼跳月星日水，如梦如幻，不真实却又真实。山雪石石自在自由，令人心旷神怡。无限自在花鸟林间，让人快乐欢喜。</p>
                     </div>
                 </div>
+                </div>
+            </div>
+            <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
+                <div className="flex">
+                    <div className="bg-camera-left bg-cover rounded-3xl h-28 w-28 ml-10 mr-8 mt-6"></div>
+                    <div className="flex flex-col justify-items-center">
+                        <div className="flex flex-row mx-auto z-0">
+                            <div className="w-3 h-12 bg-[#c52e1a]"></div>
+                            <div className="w-3 h-12 bg-[#eb9329]"></div>
+                            <div className="w-3 h-12 bg-[#e4b021]"></div>
+                            <div className="w-3 h-12 bg-[#7ea32c]"></div>
+                            <div className="w-3 h-12 bg-[#4886ae]"></div>
+                        </div>
+                        <div className="bg-camera-center bg-cover rounded-full h-32 w-32 mx-auto -mt-6 z-10"></div>
+                    </div>
+                    <div className="bg-camera-right bg-cover rounded-3xl h-28 w-28 mr-10 ml-8 mt-6"></div>
+                </div>
+                <div className="w-64 h-6 mx-auto my-4 md:w-96 rounded-md drop-shadow-2xl bg-gray-700 border border-gray-800">
+                    <div className="w-[80%] border mx-auto mt-2 mb-4 border-black"></div>
                 </div>
             </div>
         </div>
