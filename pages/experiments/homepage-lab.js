@@ -198,7 +198,7 @@ export default function Home() {
                 </motion.div>
 
                 <div className="basis-1/3 lg:basis-3/7">
-                    <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-52 mx-auto rounded-lg">
+                    <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
                         <div className="flex">
                             <div className="bg-camera-left bg-cover rounded-3xl h-28 w-28 ml-10 mr-8 mt-6"></div>
                             <div className="flex flex-col justify-items-center">
