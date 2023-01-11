@@ -201,7 +201,7 @@ export default function Home() {
                         <div className="rounded-lg aspect-square max-w-[90%] md:max-w-fit mx-auto">
                             <div className="drop-shadow-md rounded-lg bg-camera-white dark:bg-camera-black max-w-fit h-fit bg-cover bg-center"></div>
                         </div>
-                        <div className="container w-auto max-w-[90%] mt-4 mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
+                        <div className="container w-auto max-w-[90%] mt-4 md:mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
@@ -217,7 +217,7 @@ export default function Home() {
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
-                            className="max-w-[90%] mx-auto md:max-w-full mb-4 mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            className="max-w-[90%] mx-auto md:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
