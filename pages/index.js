@@ -239,9 +239,9 @@ export default function Home() {
                         >
                             <motion.div
                                 style={{rotateX: rotateX, rotateY: rotateY}}
-                                className="w-44 h-[100px] flex bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                                className="w-36 xl:w-44 h-[100px] flex bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                             >
-                                <div className="-mt-2 -ml-2 text-clip max-h-[100px] overflow-clip text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
+                                <div className="-mt-2 -ml-2 text-clip max-h-[100px] overflow-clip text-8xl xl:text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
                                 <div className="mt-12 ml-10 flex -space-x-3">
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
@@ -253,7 +253,7 @@ export default function Home() {
                             </motion.div>
                         </motion.div>
                         <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-fit xl:max-w-full mx-auto">
-                            <StrictMode className="mx-auto">
+                            <StrictMode>
                                 <Notebook />
                             </StrictMode>
                         </div>
