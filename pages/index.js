@@ -237,7 +237,7 @@ export default function Home() {
                             </motion.div>
                         </motion.div>
                         <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
-                            <StrictMode>
+                            <StrictMode className="mx-auto">
                                 <Notebook />
                             </StrictMode>
                         </div>
