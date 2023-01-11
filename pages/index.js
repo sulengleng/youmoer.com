@@ -1,277 +1,265 @@
-import clsx from "clsx";
 import Link from "next/link";
-import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut, ThumbsUp} from "phosphor-react";
-import { motion } from 'framer-motion'
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-
-const TIMELINE = [
-  {
-    date: 'Nov 23, 2022',
-    title: '个人网站开始上线',
-    description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top'
-  },
-  {
-    date: 'Sep 28, 2022',
-    title: '开始大学学习',
-    description: '约克大学 Bsc Interactive Media'
-  },
-]
-
-const IMAGES = [
-  {
-    src: "/images/pages/Statue-and-Dove.png",
-    place: "Bristol",
-    className: "rotate-[-2deg]",
-  },
-  {
-    src: "/images/pages/Street.png",
-    place: "York",
-    className: "rotate-[2deg]",
-  },
-  {
-    src: "/images/pages/dali.png",
-    place: "Dali",
-    className: "rotate-[-2deg]",
-  },
-  {
-    src: "/images/pages/pine-and-stone.png",
-    place: "Suzhou",
-    className: "rotate-[2deg]",
-  }
-];
-
-const ContentWrapper = ({ children, className, width }) => (
-  <div
-    style={{ maxWidth: `${width || '100%'}`}}
-    className={clsx(
-      "w-full px-5 mx-auto relative",
-      className
-    )}
-  >
-    {children}
-  </div>
-);
+import {ArrowCircleRight, ArrowSquareOut, Pause, Play} from "phosphor-react";
+import {motion, useMotionValue, useTransform} from 'framer-motion'
+import React, {useRef, useState} from "react";
+import YouTube from "react-youtube";
+import { StrictMode } from "react";
+import { Notebook } from "../components/Notebook";
+import { Letter } from "../components/Letter/letter";
 
 export default function Home() {
-  return (
-    <body className="selection:bg-[#3b818c] overflow-x-hidden">
-      <div className="pb-20">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{
-            opacity: 1,
-            y: 0,
-            transition: { duration: 0.35, delay: 0.2 },
-          }}
-        >
-          <ContentWrapper
-            width="700px"
-            className="mx-auto relative grid grid-cols-1 gap-10 mt-10 md:mt-20"
-          >
-            <div className="">
-              <h2 className="mb-6 text-3xl font-black md:text-4xl dark:text-white">
-                <span className="text-gray-400 dark:text-gray-400">
-                  Hi 👋, 我是{" "}
-                </span>
-                <RoughNotation type="highlight" show={true} color="#ffc72e" animationDuration={1500}>夜游船!</RoughNotation>
-              </h2>
-              <div className="">
-                <ul className="" width="700px">
-                  <li>🧠对精心设计的东西情有独钟</li>
-                  <li>🤖克拉克、莱姆、阿西莫夫</li>
-                  <li>🎸独立、另类、经典摇滚</li>
-                  <li>📺喜欢动漫、美英剧</li>
-                  <li>🏸喜欢羽毛球、排球</li>
-                  <li>⌨️IM英本学生</li>
-                  <br />
-                  <p>
-                    在即刻上比较活跃{" "}
-                    <Link
-                      href="https://okjk.co/DNyx7A"
-                      target="_blank"
-                      className=" dark:text-yellow-100 hover:text-[#ffe411] dark:hover:text-[#ffe411]"
-                    >
-                      @夜游船
-                    </Link>
-                  </p>
-                  <br />
-                  <p>
-                    最后要感谢&nbsp;
-                    <Link 
-                      href="https://github.com/rishimohan" 
-                      target="_blank" 
-                      className=" dark:text-blue-100 hover:text-[#5196ec] dark:hover:text-[#5196ec]"
-                    >
-                      @rishimohan
-                    </Link> 
-                    &nbsp;给我提供的模板和一些细节上的帮助
-                  </p>
-                </ul>
-              </div>
-            </div>
-          </ContentWrapper>
-        </motion.div>
+    const TIMELINE = [
+        {
+            date: 'Jan 1, 2023',
+            title: '新的开始',
+            description: '祝所有人新年快乐！',
+        },
+        {
+            date: 'Dec 31, 2022',
+            title: '非常快乐的一年!',
+            description: '今年对我来做是非常有意义的一年，感觉个人的边界比以前提升了10倍',
+        },
+        {
+            date: 'Nov 23, 2022',
+            title: '个人网站开始上线',
+            description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top',
+            link: 'https://yeyouchuan.top'
+        },
+        {
+            date: 'Sep 28, 2022',
+            title: '开始大学学习',
+            description: '约克大学 Bsc Interactive Media'
+        },
+    ]
 
-        <br></br>
+    const [isPlaying, setIsPlaying] = useState(false);
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{
-            opacity: 1,
-            y: 0,
-            transition: { duration: 0.35, delay: 0.3 },
-          }}
-        >
-          <ContentWrapper width="700px" className="ml-auto dark:border-gray-800">
-            <h2 className="font-bold text-lg flex items-center">
-            <Article size={20} className="mr-2 opacity-40" />
-              封面短语
-            </h2>
-          </ContentWrapper>
+    const audioPlayer = useRef();
 
-          <br></br>
-          <motion.div 
-            whileHover={{ 
-                scale: 1.05,
-              }}
-            whileTap={{
-                scale: 0.95,
-            }}
-            drag
-            dragConstraints={{
-              left: 5,
-              right: 5,
-              top: 10,
-              bottom: 10,
-            }}
+    const onPlayerReady = (event) => {
+        audioPlayer.current = event.target
+    }
+
+    const opts = {
+        height: "0",
+        width: "0",
+    }
+
+    const togglePlayPause = () => {
+        const prevValue = isPlaying;
+        setIsPlaying(!prevValue);
+        if (!prevValue) {
+            audioPlayer.current.playVideo();
+        } else {
+            audioPlayer.current.pauseVideo();
+        }
+    }
+
+    const x = useMotionValue(200);
+    const y = useMotionValue(200);
+
+    const rotateX = useTransform(y, [0, 400], [30, -15]);
+    const rotateY = useTransform(x, [0, 400], [-30, 15]);
+
+    function handleMouse(event) {
+        const rect = event.currentTarget.getBoundingClientRect();
+
+        x.set(event.clientX - rect.left);
+        y.set(event.clientY - rect.top);
+    }
+
+    return (
+        <motion.body className="selection:bg-[#3b818c]">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0.35, delay: 0.2 },
+                }}
+                className="page"
             >
-            <div className="snap-mandatory snap-x">
-              <div className="max-w-[80%] mx-auto md:max-w-[70%] flex justify-center bg-[#821c20] rounded-xl shadow-lg overflow-hidden snap-center lg:max-w-[60%]">
-                <div className="md:flex">
-                  <div className="md:shrink-0">
-                    <img className="h-48 w-full object-cover md:h-full md:w-48" src="https://files.catbox.moe/whnmix.png" alt="S.A"></img>
-                  </div>
-                  <div className="p-8">
-                    <div className="uppercase tracking-wide text-sm text-[#166b41] dark:text-green-700 font-semibold">S.A.阿列克谢耶维奇</div>
-                    <p className="mt-2 text-white">每个人都要做好自己的事。比如我自己的事就是写作，那就要写，要写下去，要找到一些答案，要帮助那些今天孤独的人，许多人都很迷茫，知识分子很迷茫，普通人就更迷茫了。所以，<a class="underline decoration-pink-500">应该做好自己的事</a>。</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+                <motion.div className="flex md:flex-row flex-col space-y-4 max-w-full">
+                    <motion.div className="basis-1/3 lg:basis-2/7">
+                        <motion.div className="jike relative md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
+                            <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
+                                <div className="flex flex-row">
+                                    <img src="https://files.catbox.moe/5scrti.jpg"
+                                         className="mt-4 mx-4 rounded-full h-12 w-12" alt="jike header"/>
+                                    <div>
+                                        <a className="mt-5 block text-base font-semibold leading-tight text-black dark:text-white">夜游船</a>
+                                        <Link className="text-gray-600 dark:text-gray-300 text-xs" href="https://jike.city/yeyouchuan/">@yeyouchuan</Link>
+                                    </div>
+                                    <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
+                                         className="w-8 h-8 rounded-full absolute top-2.5 right-2.5" alt="jike logo"/>
+                                </div>
+                                <div className="flex flex-row space-x-2 mb-4 mt-4">
+                                    <button className="shadow-sm text-sm bg-white dark:bg-grey-800 w-10 h-10 rounded-full ml-5"
+                                            type="button"
+                                            onClick="href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
+                                    </button>
+                                    <button className="shadow-sm text-sm text-black font-semibold bg-yellow-300 rounded-full w-60 lg:w-60 md:w-48 h-10 mr-4 pr-4"
+                                            type="button"
+                                            onClick="href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">+关注
+                                    </button>
+                                </div>
+                            </div>
+                        </motion.div>
 
-          <br></br>
-          <br></br>
+                        <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto h-48 md:h-56">
+                            <div className="basis-1/2">
+                                <Letter />
+                            </div>
+                            <motion.div className="basis-1/2">
+                                <motion.div
+                                    className="small-card rounded-lg h-48 md:h-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
+                                >
+                                </motion.div>
+                            </motion.div>
+                        </motion.div>
 
-          <ContentWrapper width="700px" className="ml-auto dark:border-gray-800 sm:text-left">
-            <h2 className="font-bold text-lg flex items-center">
-              <Camera size={20} className="mr-2 opacity-40" />
-              最近一些值得记录的照片
-            </h2>
-          </ContentWrapper>
+                        <div className="musicPlayer md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
+                            <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                            <div className="player select-none">
+                                <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
+                                    <div className="flex">
+                                        <div className="items-center">
+                                            <a className="text-white"></a>
+                                        </div>
+                                        <div className="relative md:place-items-center">
+                                            <div className="absolute items-center justify-center">
+                                                {isPlaying ? (
+                                                    <Pause size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                                ) : (
+                                                    <Play size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                                )}
+                                            </div>
+                                            <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
+                                                 src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
+                                        </div>
+                                        <div className="place-self-center py-6 px-3">
+                                            {isPlaying ? (
+                                                <div className="flex">
+                                      <span className="flex h-3 w-3">
+                                        <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                                        <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                                      </span>
+                                                    <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">now playing</div>
+                                                </div>
+                                            ) : (
+                                                <div className="flex">
+                                      <span className="flex h-3 w-3">
+                                        <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                                      </span>
+                                                    <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">not playing</div>
+                                                </div>
+                                            )}
+                                            <div
+                                                className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-          <ContentWrapper className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[960px]">
-            {IMAGES?.map((item) => (
-              <div
-                key={item.src}
-                className={clsx(
-                  item?.className,
-                  "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
-                )}
-              >
-                <img
-                  src={item?.src}
-                  alt={item?.place}
-                  className="rounded-[9px]"
-                  loading="lazy"
-                />
-                <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                  <MapPin size={14} className="mr-1" />
-                  {item?.place}
-                </div>
-              </div>
-            ))}
-          </ContentWrapper>
-        </motion.div>
+                        <div
+                            className="timeline relative max-w-[90%] md:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-88"
+                        >
+                            <div className="relative pl-8">
+                                <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute"></div>
+                                {TIMELINE?.map((item, index) => (
+                                    <div key={item.title + index} className="mb-10 relative">
+                                        <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px]">
+                                            <ArrowCircleRight
+                                                size={18}
+                                                className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
+                                            />
+                                        </div>
+                                        <p className="opacity-40 text-xs ml-2">{item.date}</p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{
-            opacity: 1,
-            y: 0,
-            transition: { duration: 0.35, delay: 0.4 },
-          }}
-        >
-          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
-            <h2 className="font-bold text-lg flex items-center">
-              <Star size={20} className="mr-2 opacity-40" />
-              最近的一些动向
-            </h2>
-          </ContentWrapper>
+                                        <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
+                                            <span className="ml-2">{item.title}</span>
+                                            {item?.link ? (
+                                                <Link href={item.link} target="_blank">
+                                                <span className="inline-block ml-1 opacity-80">
+                                                  <ArrowSquareOut size={12} />
+                                                </span>
+                                                </Link>
+                                            ) : (
+                                                ""
+                                            )}
+                                        </h3>
+                                        <p className="opacity-60 text-sm ml-2">{item.description}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </motion.div>
 
-          <br></br>
-
-          <ContentWrapper
-            width="700px"
-            className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
-          >
-            <div className="relative pl-8">
-              <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[10px] top-[5px] absolute"></div>
-              {TIMELINE?.map((item, index) => (
-                <div key={item.title + index} className="mb-10 relative">
-                  <div className="w-3 h-3 rounded-full absolute left-[-30px] top-[16px]">
-                    <ArrowCircleRight
-                      size={18}
-                      className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
-                    />
-                  </div>
-                  <p className="opacity-40 text-xs">{item.date}</p>
-                  
-                  <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
-                    <span className="">{item.title}</span>
-                    {item?.link ? (
-                      <Link href={item.link} target="_blank">
-                        <span className="inline-block ml-1 opacity-80">
-                          <ArrowSquareOut size={12} />
-                        </span>
-                      </Link>
-                    ) : (
-                      ""
-                    )}
-                  </h3>
-                  <p className="opacity-60 text-sm">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </ContentWrapper>
-
-          <br></br>
-          <br></br>
-
-          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
-            <h2 className="font-bold text-lg flex items-center">
-              <ThumbsUp size={20} className="mr-2 opacity-40" />
-              你喜欢这个个人网站吗？
-            </h2>
-          </ContentWrapper>
-
-          <br></br>
-
-          <fieldset className="border dark:border-gray-800 mx-auto max-w-[85%] md:max-w-[58%] flex rounded-xl overflow-hidden p-4 bg-gray-50 dark:bg-gray-900">
-            <div class="">
-              <input id="unlike" class="peer/unlike" type="radio" name="status" checked />
-              <label for="unlike" class="peer-checked/unlike:text-sky-500">&nbsp;💔不喜欢&nbsp;</label>
-
-              <input id="like" class="peer/like" type="radio" name="status" />
-              <label for="like" class="peer-checked/like:text-red-500">&nbsp;💓喜欢&nbsp;</label>
-
-              <div class="hidden peer-checked/unlike:block pt-6" width="700px">欢迎下次再来，因为网站还会变得更好</div>
-              <div class="hidden peer-checked/like:block pt-6" width="700px">谢谢喜欢，如果你也喜欢我的文字的话，可以订阅我的&nbsp;<Link href="https://yeyouchuan.zhubai.love" target="_blank" className="hover:text-[#3b818c] dark:hover:text-[#3b818c]">newsletter</Link></div>
-            </div>
-          </fieldset>
-
-        </motion.div>
-      </div>
-    </body>
-  );
+                    <div className="basis-1/3 lg:basis-3/7">
+                        <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
+                            <div className="flex">
+                                <div className="bg-camera-left bg-cover rounded-3xl h-28 w-28 ml-10 mr-8 mt-6"></div>
+                                <div className="flex flex-col justify-items-center">
+                                    <div className="flex flex-row mx-auto z-0">
+                                        <div className="w-3 h-12 bg-[#c52e1a]"></div>
+                                        <div className="w-3 h-12 bg-[#eb9329]"></div>
+                                        <div className="w-3 h-12 bg-[#e4b021]"></div>
+                                        <div className="w-3 h-12 bg-[#7ea32c]"></div>
+                                        <div className="w-3 h-12 bg-[#4886ae]"></div>
+                                    </div>
+                                    <div className="bg-camera-center bg-cover rounded-full h-32 w-32 mx-auto -mt-6 z-10"></div>
+                                </div>
+                                <div className="bg-camera-right bg-cover rounded-3xl h-28 w-28 mr-10 ml-8 mt-6"></div>
+                            </div>
+                            <div className="w-64 h-6 mx-auto my-4 md:w-96 rounded-md drop-shadow-2xl bg-gray-700 border border-gray-800">
+                                <div className="w-[80%] border mx-auto mt-2 mb-4 border-black"></div>
+                            </div>
+                        </div>
+                        <div className="container w-auto max-w-[90%] mt-4 mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/wjnod2.png" alt="music"></img>
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/4oxz6p.png" alt="music"></img>
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/7zwwqu.png" alt="music"></img>
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
+                            <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
+                        </div>
+                    </div>
+                    <div className="basis-1/3 md:basis-2/7">
+                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto mb-4">
+                            <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
+                        </div>
+                        <motion.div
+                            className="max-w-[90%] mx-auto md:max-w-full mb-4 mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            onMouseMove={handleMouse}
+                            style={{ height:168 }}
+                        >
+                            <motion.div
+                                style={{rotateX: rotateX, rotateY: rotateY}}
+                                className="w-44 h-[100px] flex bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                            >
+                                <div className="-mt-2 -ml-2 text-clip max-h-[100px] overflow-clip text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
+                                <div className="mt-12 ml-10 flex -space-x-3">
+                                    <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
+                                    <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
+                                </div>
+                            </motion.div>
+                            <motion.div className="flex flex-col">
+                                <a className="ml-2 mt-10 text-sm text-gray-600 dark:text-gray-300 font-bold text-center leading-4 font-mono max-w-20">if you like my work</a>
+                                <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
+                            </motion.div>
+                        </motion.div>
+                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-full mx-auto">
+                            <StrictMode>
+                                <Notebook />
+                            </StrictMode>
+                        </div>
+                    </div>
+                </motion.div>
+            </motion.div>
+        </motion.body>
+    );
 }
