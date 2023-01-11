@@ -137,7 +137,7 @@ export default function Home() {
                                             <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
                                                  src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                         </div>
-                                        <div className="place-self-center -ml-4 pr-4 py-1 xl:mr-0 xl:-ml-0 xl:py-6 px-3 z-10">
+                                        <div className="place-self-center -ml-4 pr-8 py-1 xl:pr-0 xl:-ml-0 xl:py-6 px-3 z-10">
                                             {isPlaying ? (
                                                 <div className="flex">
                                           <span className="flex h-3 w-3">
@@ -228,7 +228,7 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
                     </div>
-                    <div className="basis-1/3 md:basis-2/7 -mr-4 xl:-mr-0">
+                    <div className="basis-1/3 md:basis-2/7 -pr-4 xl:-pr-0">
                         <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-64 xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
