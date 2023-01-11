@@ -170,14 +170,13 @@ export default function Home() {
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute"></div>
                                 {TIMELINE?.map((item, index) => (
                                     <div key={item.title + index} className="mb-10 relative">
-                                        <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px]">
+                                        <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px] hidden md:visible">
                                             <ArrowCircleRight
                                                 size={18}
                                                 className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
                                             />
                                         </div>
                                         <p className="opacity-40 text-xs ml-2">{item.date}</p>
-
                                         <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
                                             <span className="ml-2">{item.title}</span>
                                             {item?.link ? (
@@ -228,7 +227,7 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
                     </div>
-                    <div className="basis-1/3 md:basis-2/7 -ml-4 xl:ml-0">
+                    <div className="basis-1/3 md:basis-2/7 ml-0 md:-ml-4 xl:ml-0">
                         <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-64 xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
