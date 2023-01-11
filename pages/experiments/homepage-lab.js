@@ -217,7 +217,7 @@ export default function Home() {
                         </div>
                         <marquee className="text-lg font-semibold mt-4 mx-auto w-112">滑动照片查看更多~</marquee>
                     </div>
-                    <div className="container max-w-[90%] mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
+                    <div className="container max-w-[90%] mt-4 mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/aec74LltCOy6PnG.png" alt="music"></img>
