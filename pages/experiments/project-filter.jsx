@@ -132,7 +132,7 @@ export default function Project() {
     return (
         <div className="w-full max-w-md px-2 py-16 pt-6 sm:px-0">
             <Tab.Group>
-                <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1 mx-auto max-w-[80%]">
+                <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1 mx-auto max-w-[90%] md:max-w-[80%]">
                     {Object.keys(categories).map((category) => (
                         <Tab
                             key={category}
