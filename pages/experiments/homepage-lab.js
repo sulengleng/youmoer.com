@@ -32,8 +32,6 @@ export default function Home() {
         },
     ]
 
-    const [active, setActive] = useState(false)
-
     const [isPlaying, setIsPlaying] = useState(false);
 
     const audioPlayer = useRef();
