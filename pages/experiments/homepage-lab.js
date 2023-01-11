@@ -200,15 +200,6 @@ export default function Home() {
                 </motion.div>
 
                 <div className="basis-3/7">
-                    <Button medium onClick={() => setActive(!active)}>Open Drawer</Button>
-                    <Drawer show={active} onDismiss={() => setActive(false)} height={300}>
-                        <Container>
-                            <Spacer />
-                            <Text h1 center noMargin>Drawer</Text>
-                            <Text center noMargin>Drawers should be reserved for small viewports. Use a Modal on large viewports.</Text>
-                            <Spacer />
-                        </Container>
-                    </Drawer>
                     <div className="container max-w-[90%] mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png" alt="music"></img>
