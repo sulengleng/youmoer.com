@@ -79,8 +79,8 @@ export default function Home() {
             }}
             className="page"
         >
-            <motion.div className="flex md:flex-row flex-col space-y-4">
-                <motion.div className="basis-4/12 lg:basis-2/7">
+            <motion.div className="flex md:flex-row flex-col space-y-4 max-w-full">
+                <motion.div className="basis-1/3 lg:basis-2/7">
                     <motion.div className="jike relative md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                         <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                             <div className="flex flex-row">
@@ -197,7 +197,7 @@ export default function Home() {
                     </div>
                 </motion.div>
 
-                <div className="basis-5/12 lg:basis-3/7">
+                <div className="basis-1/3 lg:basis-3/7">
                     <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-fit md:w-max md:max-w-fit h-52 mx-auto rounded-lg">
                         <div className="flex">
                             <div className="bg-camera-left bg-cover rounded-3xl h-28 w-28 ml-10 mr-8 mt-6"></div>
@@ -228,7 +228,7 @@ export default function Home() {
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                     </div>
                 </div>
-                <div className="basis-3/12 md:basis-2/7">
+                <div className="basis-1/3 md:basis-2/7">
                     <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-full mx-auto mb-4">
                         <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                     </div>
