@@ -137,20 +137,20 @@ export default function Home() {
                                             <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
                                                  src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                         </div>
-                                        <div className="place-self-center py-6 px-3">
+                                        <div className="place-self-center py-3 xl:py-6 px-3">
                                             {isPlaying ? (
                                                 <div className="flex">
-                                      <span className="flex h-3 w-3">
-                                        <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
-                                        <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
-                                      </span>
+                                          <span className="flex h-3 w-3">
+                                            <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                                          </span>
                                                     <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">now playing</div>
                                                 </div>
                                             ) : (
                                                 <div className="flex">
-                                      <span className="flex h-3 w-3">
-                                        <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
-                                      </span>
+                                          <span className="flex h-3 w-3">
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                                          </span>
                                                     <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">not playing</div>
                                                 </div>
                                             )}
