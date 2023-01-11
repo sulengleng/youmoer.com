@@ -150,6 +150,8 @@ export default function Project() {
                         </Tab>
                     ))}
                 </Tab.List>
+                <span
+                    className="absolute left-0 -z-10 h-full w-1/5 origin-center scale-x-110 scale-y-125 rounded-full bg-gray-100 transition-all duration-300 peer-focus/about:left-[20%] peer-focus/services:left-[40%] peer-focus/blog:left-[60%] peer-focus/contact:left-[80%]"></span>
                 <Tab.Panels className="mt-2">
                     {Object.values(categories).map((posts, idx) => (
                         <Tab.Panel
