@@ -200,17 +200,20 @@ export default function Home() {
                 </motion.div>
 
                 <div className="basis-3/7">
-                    <div className="flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] md:max-w-fit h-52 mx-auto rounded-lg">
-                        <div className="bg-camera-left bg-cover rounded-3xl h-28 w-28 ml-10 mr-6 mt-6"></div>
-                        <div className="flex flex-col justify-items-center">
-                            <div className="flex flex-row mx-auto z-0">
-                                <div className="w-2 h-12 bg-[#c52e1a]"></div>
-                                <div className="w-2 h-12 bg-[#eb9329]"></div>
-                                <div className="w-2 h-12 bg-[#e4b021]"></div>
-                                <div className="w-2 h-12 bg-[#7ea32c]"></div>
-                                <div className="w-2 h-12 bg-[#4886ae]"></div>
+                    <div className="flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-fit md:max-w-fit h-52 mx-auto rounded-lg">
+                        <div>
+                            <div className="bg-camera-left bg-cover rounded-3xl h-28 w-28 ml-10 mr-6 mt-6"></div>
+                            <div className="flex flex-col justify-items-center">
+                                <div className="flex flex-row mx-auto z-0">
+                                    <div className="w-2 h-12 bg-[#c52e1a]"></div>
+                                    <div className="w-2 h-12 bg-[#eb9329]"></div>
+                                    <div className="w-2 h-12 bg-[#e4b021]"></div>
+                                    <div className="w-2 h-12 bg-[#7ea32c]"></div>
+                                    <div className="w-2 h-12 bg-[#4886ae]"></div>
+                                </div>
+                                <div className="bg-camera-center bg-cover rounded-full h-28 w-28 mx-auto -mt-4 z-10"></div>
                             </div>
-                            <div className="bg-camera-center bg-cover rounded-full h-28 w-28 mx-auto -mt-4 z-10"></div>
+                            <a className="text-lg font-semibold mt-4">滑动照片查看更多~</a>
                         </div>
                         <div className="bg-camera-right bg-cover rounded-3xl h-28 w-28 mr-10 ml-6 mt-6"></div>
                     </div>
