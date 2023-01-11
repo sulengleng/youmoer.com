@@ -10,6 +10,7 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
+        "camera-center": "url('https://s2.loli.net/2023/01/11/wBtCTWhrd1NxMYn.png')",
         "envelope": "url('https://s2.loli.net/2023/01/07/Lg6OxhpZGSjQqMN.png')",
         "letter-cover": "url('https://s2.loli.net/2023/01/07/NDX421Gl8tPBsao.png')",
         "light-map": "url('https://s2.loli.net/2023/01/04/OA1cXWzPdC4hT8J.png')",
