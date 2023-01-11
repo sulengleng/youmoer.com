@@ -170,7 +170,7 @@ export default function Home() {
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute"></div>
                                 {TIMELINE?.map((item, index) => (
                                     <div key={item.title + index} className="mb-10 relative">
-                                        <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px] hidden md:visible">
+                                        <div className="w-3 h-3 rounded-full absolute left-[-20px] top-[16px] invisible md:visible">
                                             <ArrowCircleRight
                                                 size={18}
                                                 className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
