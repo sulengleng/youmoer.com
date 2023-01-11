@@ -81,7 +81,7 @@ export default function Home() {
         >
             <motion.div className="flex md:flex-row flex-col space-y-4">
                 <motion.div className="basis-2/7">
-                    <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
+                    <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-fit mx-auto">
                         <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                             <div className="flex flex-row">
                                 <img src="https://files.catbox.moe/5scrti.jpg"
