@@ -137,7 +137,7 @@ export default function Home() {
                                             <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
                                                  src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                         </div>
-                                        <div className="place-self-center -ml-4 mr-4 py-1 xl:mr-0 xl:-ml-0 xl:py-6 px-3 z-10">
+                                        <div className="place-self-center -ml-4 pr-4 py-1 xl:mr-0 xl:-ml-0 xl:py-6 px-3 z-10">
                                             {isPlaying ? (
                                                 <div className="flex">
                                           <span className="flex h-3 w-3">
