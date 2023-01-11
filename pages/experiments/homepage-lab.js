@@ -209,7 +209,7 @@ export default function Home() {
                                 <div className="w-3 h-12 bg-[#7ea32c]"></div>
                                 <div className="w-3 h-12 bg-[#4886ae]"></div>
                             </div>
-                            <div className="bg-camera-center rounded-full h-20 w-20 mx-auto"></div>
+                            <div className="bg-camera-center rounded-full h-44 w-44 mx-auto"></div>
                         </div>
                     </div>
                     <div className="container max-w-[90%] mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
