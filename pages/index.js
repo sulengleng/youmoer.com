@@ -229,7 +229,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7">
-                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto mb-4">
+                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-64 xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
