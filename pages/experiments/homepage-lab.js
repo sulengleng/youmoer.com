@@ -200,9 +200,10 @@ export default function Home() {
                 </motion.div>
 
                 <div className="basis-3/7">
-                    <div className="bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] md:max-w-fit h-52 mx-auto">
+                    <div className="flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] md:max-w-fit h-52 mx-auto">
+                        <div className="bg-camera-left bg-cover rounded-lg h-36 w-36"></div>
                         <div className="flex flex-col justify-items-center">
-                            <div className="flex flex-row ml-10 z-0">
+                            <div className="flex flex-row mx-auto z-0">
                                 <div className="w-3 h-12 bg-[#c52e1a]"></div>
                                 <div className="w-3 h-12 bg-[#eb9329]"></div>
                                 <div className="w-3 h-12 bg-[#e4b021]"></div>
@@ -211,6 +212,7 @@ export default function Home() {
                             </div>
                             <div className="bg-camera-center bg-cover rounded-full h-36 w-36 mx-auto -mt-4 z-10"></div>
                         </div>
+                        <div className="bg-camera-right bg-cover rounded-lg h-36 w-36"></div>
                     </div>
                     <div className="container max-w-[90%] mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
                         <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png" alt="music"></img>
