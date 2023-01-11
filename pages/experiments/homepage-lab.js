@@ -81,7 +81,7 @@ export default function Home() {
         >
             <motion.div className="flex md:flex-row flex-col space-y-4">
                 <motion.div className="basis-2/7">
-                    <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-max mx-auto">
+                    <motion.div className="jike md:ml-4 mt-4 max-w-[90%] md:max-w-full mx-auto">
                         <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                             <div className="flex flex-row">
                                 <img src="https://files.catbox.moe/5scrti.jpg"
@@ -98,7 +98,7 @@ export default function Home() {
                                         type="button"
                                         onClick="href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
                                 </button>
-                                <button className="shadow-sm text-sm text-black font-semibold bg-yellow-300 rounded-full w-60 lg:w-60 md:w-52 h-10 mr-4"
+                                <button className="shadow-sm text-sm text-black font-semibold bg-yellow-300 rounded-full w-60 lg:w-60 md:w-48 h-10 mr-4"
                                         type="button"
                                         onClick="href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">+关注
                                 </button>
