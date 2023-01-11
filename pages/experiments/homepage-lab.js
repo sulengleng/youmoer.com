@@ -214,7 +214,7 @@ export default function Home() {
                             <div className="bg-camera-right bg-cover rounded-3xl h-28 w-28 mr-10 ml-8 mt-6"></div>
                         </div>
                         <div className="w-64 h-6 mx-auto my-4 md:w-96 rounded-md shadow-lg bg-gray-700 border border-gray-800">
-                            <div className="w-[80%] border mx-auto my-auto"></div>
+                            <div className="w-[80%] border mx-auto my-1"></div>
                         </div>
                     </div>
                     <div className="container max-w-[90%] mt-4 mx-4 mx-auto md:max-w-fit aspect-square overflow-x-scroll overflow-x-hidden scroll-smooth snap-x flex flex-row items-center bg-white dark:bg-black rounded-lg">
