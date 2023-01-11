@@ -98,7 +98,7 @@ export default function Home() {
                                             type="button"
                                             onClick="href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">🎉
                                     </button>
-                                    <button className="shadow-sm text-sm text-black font-semibold bg-yellow-300 rounded-full w-60 lg:w-60 md:w-48 h-10 mr-4 pr-4"
+                                    <button className="shadow-sm text-sm text-black font-semibold bg-yellow-300 rounded-full w-60 lg:w-60 md:w-48 h-10 pr-4"
                                             type="button"
                                             onClick="href='https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E'">+关注
                                     </button>
@@ -137,7 +137,7 @@ export default function Home() {
                                             <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
                                                  src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                         </div>
-                                        <div className="place-self-center -ml-4 py-1 xl:py-6 px-3 z-10">
+                                        <div className="place-self-center -ml-4 mr-4 py-1 xl:mr-0 xl:-ml-0 xl:py-6 px-3 z-10">
                                             {isPlaying ? (
                                                 <div className="flex">
                                           <span className="flex h-3 w-3">
