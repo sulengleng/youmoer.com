@@ -226,10 +226,11 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
-                        <div className="relative flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-36 mx-auto rounded-lg">
-                            <div className="flex flex-row">
-                                <img className="rounded-lg h-28 w-auto mt-4 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
-                                <a className="text-xl font-bold mt-4 ml-12 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-xl font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
+                        <div className="relative flex flex-row bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-36 mx-auto rounded-lg">
+                            <img className="rounded-lg h-28 w-auto mt-4 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
+                            <div className="flex flex-col">
+                                <a className="text-lg font-bold mt-4 ml-8 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-xl font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
+                                <p className="text-xs font-medium mt-2 ml-8">2022年最喜欢的一部动画，看完之后很感动</p>
                             </div>
                         </div>
                     </div>
