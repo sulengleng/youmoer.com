@@ -228,8 +228,10 @@ export default function Home() {
                         </div>
                         <div className="relative flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-44 mx-auto rounded-lg">
                             <p className="text-lg font-semibold top-4 left-4 absolute w-44">最近看什么？</p>
-                            <img className="rounded-lg h-40 mt-10 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
-                            <a className="text-3xl font-bold mt-14 ml-32 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-3xl font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
+                            <div className="flex flex-row">
+                                <img className="rounded-lg h-40 w-auto mt-10 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
+                                <a className="text-3xl font-bold mt-14 ml-32 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-3xl font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
+                            </div>
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7 ml-0 md:-ml-4 xl:ml-0">
