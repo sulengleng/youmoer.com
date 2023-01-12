@@ -226,6 +226,9 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
+                        <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
+
+                        </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7 ml-0 md:-ml-4 xl:ml-0">
                         <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-64 xl:max-w-full mx-auto mb-4">
