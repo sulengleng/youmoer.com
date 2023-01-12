@@ -227,10 +227,10 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
                         <div className="relative flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-36 mx-auto rounded-lg">
-                            <p className="text-xs font-semibold top-4 left-4 absolute w-44">最近看什么？</p>
+                            <p className="text-xs font-semibold top-2 left-2 absolute w-44">最近看什么？</p>
                             <div className="flex flex-row">
                                 <img className="rounded-lg h-24 w-auto mt-10 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
-                                <a className="text-3xl font-bold mt-14 ml-32 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-3xl font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
+                                <a className="text-xl font-bold mt-4 ml-12 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-xl font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
                             </div>
                         </div>
                     </div>
