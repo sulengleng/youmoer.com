@@ -212,7 +212,7 @@ export default function Home() {
                                 </div>
                                 <div className="bg-camera-right bg-cover rounded-3xl h-16 w-16 xl:h-28 xl:w-28 mr-10 ml-8 mt-6"></div>
                             </div>
-                            <div className="w-60 h-6 mx-auto my-4 xl:w-96 rounded-md drop-shadow-2xl bg-gray-700 border border-gray-800">
+                            <div className="w-60 h-6 mx-auto my-3 xl:w-96 rounded-md drop-shadow-2xl bg-gray-600 border border-gray-800">
                                 <div className="w-[80%] border mx-auto mt-2 mb-4 border-black"></div>
                             </div>
                         </div>
