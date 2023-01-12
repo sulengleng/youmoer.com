@@ -212,7 +212,7 @@ export default function Home() {
                                 </div>
                                 <div className="bg-camera-right bg-cover rounded-3xl h-16 w-16 xl:h-28 xl:w-28 mr-10 ml-8 mt-6"></div>
                             </div>
-                            <div className="w-60 h-6 mx-auto my-3 xl:w-96 rounded-md drop-shadow-2xl bg-gray-600 border border-gray-800">
+                            <div className="w-60 h-6 mx-auto mt-4 mb-3 xl:w-96 rounded-md drop-shadow-2xl bg-gray-600 border border-gray-800">
                                 <div className="w-[80%] border mx-auto mt-2 mb-4 border-black"></div>
                             </div>
                         </div>
@@ -229,8 +229,8 @@ export default function Home() {
                         <div className="relative flex flex-row bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-36 mx-auto rounded-lg">
                             <img className="rounded-lg h-28 w-auto mt-4 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
                             <div className="flex flex-col">
-                                <a className="text-lg font-bold mt-4 ml-8 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-xl font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
-                                <p className="text-xs font-medium mt-2 ml-8">2022年最喜欢的一部动画，看完之后很感动</p>
+                                <a className="text-lg font-bold mt-2 ml-4 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-lg font-bold mt-14 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
+                                <p className="text-xs font-medium mt-2 ml-4 mr-6">2022年我的年度动画，看完之后很感动。不仅是故事本身的感动，还有对制作组的感动，厨力那么强的作品已经很难见到了！简直我我第二喜欢的作品《派对浪客诸葛孔明》的升级版本，对所有热爱动画的制作人员致以最高的敬意。</p>
                             </div>
                         </div>
                     </div>
