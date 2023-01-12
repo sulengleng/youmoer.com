@@ -226,8 +226,9 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
-                        <div className="relative flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
+                        <div className="relative flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
                             <p className="text-lg font-semibold top-4 left-4 absolute w-44">最近看什么？</p>
+                            <p className="text-sm bg-gradient-to-r from-red-300 via-sky-300 to-amber-200 bg-clip-text text-transparent">孤独摇滚~</p>
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7 ml-0 md:-ml-4 xl:ml-0">
