@@ -242,7 +242,7 @@ export default function Home() {
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
-                            className="max-w-[90%] mx-auto md:max-w-md xl:max-w-full w-80 mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            className="max-w-[90%] mx-auto md:max-w-md xl:max-w-full w-96 md:w-80 xl:w-96 mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
