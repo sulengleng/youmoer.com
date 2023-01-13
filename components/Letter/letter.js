@@ -41,7 +41,7 @@ export const Letter = () => {
                             <p className="text-gray-500 max-w-sm">
                                 我是夜游船，暂时是国际高中的一名学生
                                 <br/>
-                                专业方向是 Computer Science，立志成为一个不走寻常路的开发者和设计师
+                                专业方向是交互设计
                                 <br/>
                                 喜欢科技，喜欢摆弄各种有趣的产品
                                 <br/>
