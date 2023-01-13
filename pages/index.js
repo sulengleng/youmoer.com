@@ -107,14 +107,14 @@ export default function Home() {
                         <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full xl:max-w-full mx-auto h-48 xl:h-56">
                             <div className="basis-1/2">
                                 <Letter>
-                                    <div className="absolute top-8 left-8 w-28 h-28 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-dash-board bg-cover"></div>
+                                    <div className="absolute top-8 left-8 w-24 h-24 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-dash-board bg-cover"></div>
                                 </Letter>
                             </div>
                             <motion.div className="basis-1/2">
                                 <motion.div
                                     className="small-card relative rounded-lg h-48 md:h-full max-w-full md:max-w-full xl:max-w-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
                                 >
-                                    <div className="absolute top-8 left-8 w-28 h-28 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-braun-dot bg-cover"></div>
+                                    <div className="absolute top-8 left-8 w-24 h-24 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-braun-dot bg-cover"></div>
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -238,11 +238,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7">
-                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-full xl:max-w-full mx-auto mb-4">
+                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-md xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
-                            className="max-w-[90%] mx-auto md:max-w-full xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            className="max-w-[90%] mx-auto md:max-w-md xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
