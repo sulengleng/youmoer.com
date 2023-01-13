@@ -260,7 +260,7 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <div className="bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] md:w-max max-w-[90%] ml-4 md:max-w-full xl:max-w-full mx-auto rounded-lg">
+                        <div className="bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] md:w-max max-w-[90%] md:max-w-full xl:max-w-full mx-auto rounded-lg">
                             <div className="map invert dark:invert-0 rounded-lg ml-0 md:-ml-9 xl:-ml-5 max-w-[90%] md:max-w-[250px] xl:max-w-full mx-auto max-h-64">
                                 <StrictMode>
                                     <Notebook />
