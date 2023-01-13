@@ -237,11 +237,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7">
-                        <div className="rounded-lg aspect-square ml-0 md:-ml-2 xl:ml-0 md:mr-4 max-w-[90%] md:max-w-xs xl:max-w-full mx-auto mb-4">
+                        <div className="rounded-lg aspect-square ml-0 md:ml-0 xl:ml-0 md:mr-4 max-w-[90%] md:max-w-xs xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
-                            className="max-w-[90%] mx-auto ml-0 md:-ml-2 xl:ml-0 md:max-w-xs xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            className="max-w-[90%] mx-auto ml-0 md:ml-0 xl:ml-0 md:max-w-xs xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
@@ -260,7 +260,7 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <div className="bg-[#f2f2f2] dark:bg-[#0d0d0d] ml-0 md:-ml-2 xl:ml-0 md:w-[360px] xl:w-96 max-w-[90%] md:max-w-full xl:max-w-full mx-auto rounded-lg">
+                        <div className="bg-[#f2f2f2] dark:bg-[#0d0d0d] ml-0 md:ml-0 xl:ml-0 md:w-[360px] xl:w-72 max-w-[90%] md:max-w-full xl:max-w-full mx-auto rounded-lg">
                             <div className="map invert dark:invert-0 rounded-lg max-w-[90%] md:max-w-[250px] xl:max-w-full mx-auto max-h-64">
                                 <StrictMode>
                                     <Notebook />
