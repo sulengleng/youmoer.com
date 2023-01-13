@@ -12,6 +12,18 @@
     --f200: clamp(10px, 0.5rem, 14px);
 }
 
+@media only screen and (min-width: 1280px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(var(--cellSize), 1fr));
+        grid-gap: 12px;
+        grid-auto-flow: row dense;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 384px;
+    }
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--cellSize), 1fr));
@@ -19,7 +31,7 @@
     grid-auto-flow: row dense;
     box-sizing: border-box;
     width: 100%;
-    max-width: 384px;
+    max-width: 360px;
 }
 
 .tileWrapper {
