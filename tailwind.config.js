@@ -10,6 +10,7 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
+        "braun-dot": "url('https://s2.loli.net/2023/01/13/sULPAx5trHCcv4O.png')",
         "camera-white": "url('https://s2.loli.net/2023/01/12/iZfSLYBAb91Ohrw.png')",
         "camera-black": "url('https://s2.loli.net/2023/01/12/o46bSIy2td1a7R8.png')",
         "camera-center": "url('https://s2.loli.net/2023/01/11/wBtCTWhrd1NxMYn.png')",
