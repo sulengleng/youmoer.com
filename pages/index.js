@@ -106,13 +106,15 @@ export default function Home() {
 
                         <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full xl:max-w-full mx-auto h-48 xl:h-56">
                             <div className="basis-1/2">
-                                <Letter />
+                                <Letter>
+                                    <div className="absolute top-8 left-8 w-28 h-28 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-dash-board bg-cover"></div>
+                                </Letter>
                             </div>
                             <motion.div className="basis-1/2">
                                 <motion.div
                                     className="small-card relative rounded-lg h-48 md:h-full max-w-full md:max-w-full xl:max-w-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
                                 >
-                                    <div className="absolute top-8 left-8 h-20 w-20 bg-braun-dot bg-cover"></div>
+                                    <div className="absolute top-8 left-8 w-28 h-28 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-braun-dot bg-cover"></div>
                                 </motion.div>
                             </motion.div>
                         </motion.div>
