@@ -59,6 +59,11 @@ export default function Experiments() {
       url: "/experiments/project-filter",
       description: "A project filter page with CSS Grid",
     },
+    {
+      title: "Reset Playgrounds",
+      url: "/experiments/reset",
+      description: "A page to contain all playgrounds",
+    }
     // {
     //   title: "Coming Soon",
     //   url: "/experiments",
