@@ -262,7 +262,7 @@ export default function Home() {
                             </motion.div>
                         </motion.div>
                         <div className="relative bg-[#f2f2f2] dark:bg-[#0d0d0d] md:w-[600px] xl:w-[330] max-w-[90%] md:max-w-full xl:max-w-full mx-auto rounded-lg">
-                            <div className="map absolute top-0 left-0 xl:left-8 invert dark:invert-0 rounded-lg max-w-[90%] md:max-w-[300px] xl:max-w-full mx-auto max-h-64">
+                            <div className="map absolute invert dark:invert-0 rounded-lg max-w-[90%] md:max-w-[300px] xl:max-w-full mx-auto max-h-64">
                                 <StrictMode>
                                     <Notebook />
                                 </StrictMode>
