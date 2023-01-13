@@ -32,6 +32,7 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 360px;
+    max-height: 360px;
 }
 
 .tileWrapper {
