@@ -226,7 +226,7 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
-                        <div className="relative flex flex-row bg-gradient-to-br mt-4 xl:mt-0 mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-40 md:h-64 xl:h-36 mx-auto rounded-lg">
+                        <div className="relative flex flex-row bg-gradient-to-br mt-4 xl:mt-0 mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-40 md:h-56 xl:h-36 mx-auto rounded-lg">
                             <img className="rounded-lg h-32 xl:h-28 w-auto mt-4 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
                             <div className="flex flex-col">
                                 <a className="text-lg font-bold mt-3 ml-4 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
@@ -237,11 +237,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7 ml-0 md:-ml-4 xl:ml-0">
-                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-md xl:max-w-full mx-auto mb-4">
+                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-sm xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
-                            className="max-w-[90%] mx-auto md:max-w-md xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            className="max-w-[90%] mx-auto md:max-w-sm xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
@@ -260,7 +260,7 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-md xl:max-w-full mx-auto">
+                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-sm xl:max-w-full mx-auto">
                             <StrictMode>
                                 <Notebook />
                             </StrictMode>
