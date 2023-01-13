@@ -3,8 +3,6 @@ import {ArrowCircleRight, ArrowSquareOut, Pause, Play} from "phosphor-react";
 import {motion, useMotionValue, useTransform} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
-import { StrictMode } from "react";
-import { Notebook } from "../components/Notebook";
 import { Letter } from "../components/Letter/letter";
 
 export default function Home() {
@@ -238,11 +236,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7">
-                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-xs xl:max-w-sm mx-auto mb-4">
+                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-xs xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
-                            className="max-w-[90%] mx-auto md:max-w-xs xl:max-w-sm mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            className="max-w-[90%] mx-auto md:max-w-xs xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
@@ -261,13 +259,6 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <div className="relative bg-[#f2f2f2] dark:bg-[#0d0d0d] md:w-[600px] xl:w-[330] max-w-[90%] md:max-w-full xl:max-w-full mx-auto rounded-lg">
-                            <div className="map absolute invert dark:invert-0 rounded-lg max-w-[90%] md:max-w-[300px] xl:max-w-full mx-auto max-h-64">
-                                <StrictMode>
-                                    <Notebook />
-                                </StrictMode>
-                            </div>
-                        </div>
                     </div>
                 </motion.div>
             </motion.div>
