@@ -260,7 +260,7 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-[100px] xl:max-w-full mx-auto max-h-64">
+                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-[250px] xl:max-w-full mx-auto max-h-64">
                             <StrictMode>
                                 <Notebook />
                             </StrictMode>
