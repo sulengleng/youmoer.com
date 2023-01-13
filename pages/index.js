@@ -199,7 +199,7 @@ export default function Home() {
                     <div className="basis-1/3 lg:basis-3/7">
                         <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
                             <div className="flex">
-                                <div className="bg-camera-left bg-cover rounded-3xl h-16 w-16 xl:h-28 xl:w-28 ml-10 mr-8 mt-6"></div>
+                                <div className="bg-camera-left bg-cover rounded-3xl h-16 w-16 xl:h-24 xl:w-24 ml-10 mr-8 mt-6"></div>
                                 <div className="flex flex-col justify-items-center">
                                     <div className="flex flex-row mx-auto z-0">
                                         <div className="w-3 h-10 xl:h-12 bg-[#c52e1a]"></div>
@@ -208,9 +208,9 @@ export default function Home() {
                                         <div className="w-3 h-10 xl:h-12 bg-[#7ea32c]"></div>
                                         <div className="w-3 h-10 xl-h-12 bg-[#4886ae]"></div>
                                     </div>
-                                    <div className="bg-camera-center bg-cover rounded-full h-24 w-24 xl:h-32 xl:w-32 mx-auto -mt-6 z-10"></div>
+                                    <div className="bg-camera-center bg-cover rounded-full h-24 w-24 xl:h-28 xl:w-28 mx-auto -mt-6 z-10"></div>
                                 </div>
-                                <div className="bg-camera-right bg-cover rounded-3xl h-16 w-16 xl:h-28 xl:w-28 mr-10 ml-8 mt-6"></div>
+                                <div className="bg-camera-right bg-cover rounded-3xl h-16 w-16 xl:h-24 xl:w-24 mr-10 ml-8 mt-6"></div>
                             </div>
                             <div className="w-60 h-6 mx-auto mt-4 mb-3 xl:w-96 rounded-md drop-shadow-2xl bg-gray-600 border border-gray-800">
                                 <div className="w-[80%] border mx-auto mt-2 mb-4 border-black"></div>
