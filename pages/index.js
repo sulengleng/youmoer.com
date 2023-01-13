@@ -112,7 +112,7 @@ export default function Home() {
                                 <motion.div
                                     className="small-card relative rounded-lg h-48 md:h-full max-w-full md:max-w-full xl:max-w-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
                                 >
-                                    <div className="absolute top-8 left-8 h-14 w-14 bg-braun-dot bg-cover"></div>
+                                    <div className="absolute top-8 left-8 h-20 w-20 bg-braun-dot bg-cover"></div>
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -236,11 +236,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="basis-1/3 md:basis-2/7">
-                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-sm xl:max-w-full mx-auto mb-4">
+                        <div className="rounded-lg aspect-square md:mr-4 max-w-[90%] md:max-w-full xl:max-w-full mx-auto mb-4">
                             <div className="drop-shadow-md rounded-lg bg-light-map dark:bg-dark-map h-80 max-w-full bg-cover bg-center"></div>
                         </div>
                         <motion.div
-                            className="max-w-[90%] mx-auto md:max-w-sm xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
+                            className="max-w-[90%] mx-auto md:max-w-full xl:max-w-full mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
