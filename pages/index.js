@@ -197,7 +197,7 @@ export default function Home() {
                     </motion.div>
 
                     <div className="basis-1/3 lg:basis-3/7">
-                        <div className="flex flex-col bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
+                        <div className="flex flex-col mx-4 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] max-w-[90%] w-auto md:w-max md:max-w-fit h-auto mx-auto rounded-lg">
                             <div className="flex">
                                 <div className="bg-camera-left bg-cover rounded-3xl h-16 w-16 xl:h-28 xl:w-28 ml-10 mr-8 mt-6"></div>
                                 <div className="flex flex-col justify-items-center">
@@ -260,10 +260,12 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-[250px] xl:max-w-full mx-auto max-h-64">
-                            <StrictMode>
-                                <Notebook />
-                            </StrictMode>
+                        <div className="bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] md:w-max max-w-[90%] md:max-w-xs xl:max-w-full mx-auto rounded-lg">
+                            <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-[250px] xl:max-w-full mx-auto max-h-64">
+                                <StrictMode>
+                                    <Notebook />
+                                </StrictMode>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
