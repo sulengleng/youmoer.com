@@ -114,7 +114,7 @@ export default function Home() {
                                 <motion.div
                                     className="small-card relative rounded-lg h-48 md:h-full max-w-full md:max-w-full xl:max-w-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
                                 >
-                                    <div className="absolute top-8 left-8 w-24 h-24 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-braun-dot bg-cover"></div>
+                                    <div className="absolute top-8 left-8 w-24 h-24 md:h-20 md:w-20 xl:w-20 xl:h-20 bg-braun-dot bg-cover"></div>
                                 </motion.div>
                             </motion.div>
                         </motion.div>
@@ -261,7 +261,7 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <diV className="max-w-[90%] h-64 xl:h-[360px] mx-auto md:max-w-md xl:max-w-full w-96 md:w-80 xl:w-96 mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md">
+                        <diV className="max-w-[90%] h-56 xl:h-[360px] mx-auto md:max-w-md xl:max-w-full w-96 md:w-80 xl:w-96 mb-4 md:mr-4 flex bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md">
 
                         </diV>
                     </div>
