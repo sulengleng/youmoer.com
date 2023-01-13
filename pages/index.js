@@ -261,7 +261,7 @@ export default function Home() {
                             </motion.div>
                         </motion.div>
                         <div className="bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:to-[#434343] md:w-max max-w-[90%] md:max-w-full xl:max-w-full mx-auto rounded-lg">
-                            <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-[250px] xl:max-w-full mx-auto max-h-64">
+                            <div className="map invert dark:invert-0 drop-shadow-md rounded-lg -ml-6 max-w-[90%] md:max-w-[250px] xl:max-w-full mx-auto max-h-64">
                                 <StrictMode>
                                     <Notebook />
                                 </StrictMode>
