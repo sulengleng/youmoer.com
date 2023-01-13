@@ -112,7 +112,7 @@ export default function Home() {
                                 <motion.div
                                     className="small-card relative rounded-lg h-48 md:h-full max-w-full md:max-w-full xl:max-w-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
                                 >
-                                    <div className="absolute top-8 left-8 h-8 w-8 bg-braun-dot bg-cover"></div>
+                                    <div className="absolute top-8 left-8 h-14 w-14 bg-braun-dot bg-cover"></div>
                                 </motion.div>
                             </motion.div>
                         </motion.div>
