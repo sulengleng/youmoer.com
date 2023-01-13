@@ -106,7 +106,7 @@ export default function Home() {
                             </div>
                         </motion.div>
 
-                        <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto h-48 md:h-56">
+                        <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto h-48 xl:h-56">
                             <div className="basis-1/2">
                                 <Letter />
                             </div>
@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="timeline relative max-w-[90%] md:max-w-fit xl:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-64 xl:h-88"
+                            className="timeline relative max-w-[90%] md:max-w-fit xl:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-max md:h-64 xl:h-88"
                         >
                             <div className="relative md:pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute invisible md:visible"></div>
@@ -260,7 +260,7 @@ export default function Home() {
                                 <a className="ml-2 mt-4 text-lg text-black dark:text-white font-bold text-center leading-4 uppercase font-mono max-w-20">buy me a coffee</a>
                             </motion.div>
                         </motion.div>
-                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-sm xl:max-w-full mx-auto">
+                        <div className="map invert dark:invert-0 drop-shadow-md rounded-lg max-w-[90%] md:max-w-sm xl:max-w-full mx-auto max-h-64">
                             <StrictMode>
                                 <Notebook />
                             </StrictMode>
