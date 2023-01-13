@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
 
                         <div
-                            className="timeline relative max-w-[90%] md:max-w-fit xl:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-88"
+                            className="timeline relative max-w-[90%] md:max-w-fit xl:max-w-full pt-6 mx-auto bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-lg drop-shadow-md mt-4 md:ml-4 overflow-y-scroll h-72 xl:h-88"
                         >
                             <div className="relative md:pl-8">
                                 <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-400 left-[20px] top-[5px] absolute invisible md:visible"></div>
@@ -226,7 +226,7 @@ export default function Home() {
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/9i0d2g.png" alt="music"></img>
                             <img className="rounded-lg max-h-fit snap-center shadow-md" src="https://files.catbox.moe/ibe9j9.png" alt="music"></img>
                         </div>
-                        <div className="relative flex flex-row bg-gradient-to-br mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-48 md:h-96 xl:h-36 mx-auto rounded-lg">
+                        <div className="relative flex flex-row bg-gradient-to-br mt-4 xl:mt-0 mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-48 md:h-64 xl:h-36 mx-auto rounded-lg">
                             <img className="rounded-lg h-32 xl:h-28 w-auto mt-4 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
                             <div className="flex flex-col">
                                 <a className="text-lg font-bold mt-3 ml-4 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
