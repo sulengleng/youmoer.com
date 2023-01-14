@@ -78,14 +78,14 @@ export default function Home() {
                 className="page"
             >
                 <div className="grid grid-rows-4 grid-flow-col gap-4 mt-4 mx-4">
-                    <div className="w-full h-64 bg-purple-300"></div>
-                    <div className="w-full h-64 bg-purple-300"></div>
-                    <div className="w-full h-64 bg-purple-300"></div>
-                    <div className="w-full h-64 bg-purple-300"></div>
-                    <div className="w-full h-64 bg-purple-300"></div>
-                    <div className="w-full h-64 bg-purple-300"></div>
-                    <div className="w-full h-64 bg-purple-300"></div>
-                    <div className="w-full h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
+                    <div className="w-80 h-64 bg-purple-300"></div>
                 </div>
             </motion.div>
         </motion.body>
