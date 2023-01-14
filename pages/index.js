@@ -77,7 +77,7 @@ export default function Home() {
                 }}
                 className="page"
             >
-                <div className="grid grid-cols-4 gap-4 max-w-full">
+                <div className="grid grid-rows-4 grid-flow-col gap-4 max-w-full">
                     <motion.div className="jike relative mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto">
                         <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
                             <div className="flex flex-row">
@@ -101,17 +101,65 @@ export default function Home() {
                                 </button>
                             </div>
                         </div>
-                        <div className="relative flex flex-row bg-gradient-to-br mt-4 xl:mt-0 mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-40 md:h-40 xl:h-36 mx-auto rounded-lg">
-                            <img className="rounded-lg h-32 xl:h-28 w-auto mt-4 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
-                            <div className="flex flex-col">
-                                <a className="text-lg font-bold mt-3 ml-4 bg-gradient-to-r from-red-300 to-sky-600 bg-clip-text text-transparent">孤独<a className="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent">摇滚</a></a>
-                                <p className="text-[10px] md:text-xs font-medium mt-2 ml-4 mr-6 max-w-[220px] xl:max-w-[360px]">
-                                    2022年我的年度动画，看完之后很感动。不仅是故事本身的感动，还有对制作组的感动，厨力那么强的作品已经很难见到了！简直我我第二喜欢的作品《派对浪客诸葛孔明》的升级版本，对所有热爱动画的制作人员致以最高的敬意。
-                                </p>
+                    </motion.div>
+                    <motion.div className="flex flex-row space-x-4 md:ml-4 mt-4 max-w-[90%] md:max-w-full xl:max-w-full mx-auto h-48 xl:h-56">
+                        <div className="basis-1/2">
+                            <Letter>
+                                <div className="absolute top-8 left-8 w-24 h-24 md:h-20 md:w-20 xl:w-24 xl:h-24 bg-dash-board bg-cover"></div>
+                            </Letter>
+                        </div>
+                        <motion.div className="basis-1/2">
+                            <motion.div
+                                className="small-card relative rounded-lg h-48 md:h-full max-w-full md:max-w-full xl:max-w-full drop-shadow-md bg-gradient-to-br from-[#fdfbfb] to-[#ebedee]"
+                            >
+                                <div className="absolute top-8 left-8 w-24 h-24 md:h-20 md:w-20 xl:w-20 xl:h-20 bg-braun-dot bg-cover"></div>
+                            </motion.div>
+                        </motion.div>
+                    </motion.div>
+                    <div className="musicPlayer md:ml-4 mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto">
+                        <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                        <div className="player select-none">
+                            <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
+                                <div className="flex">
+                                    <div className="items-center">
+                                        <a className="text-white"></a>
+                                    </div>
+                                    <div className="relative md:place-items-center z-0">
+                                        <div className="absolute items-center justify-center">
+                                            {isPlaying ? (
+                                                <Pause size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                            ) : (
+                                                <Play size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                            )}
+                                        </div>
+                                        <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
+                                             src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
+                                    </div>
+                                    <div className="place-self-center -ml-4 pr-8 py-1 xl:pr-0 xl:-ml-0 xl:py-6 px-3 z-10">
+                                        {isPlaying ? (
+                                            <div className="flex">
+                                          <span className="flex h-3 w-3">
+                                            <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                                          </span>
+                                                <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">now playing</div>
+                                            </div>
+                                        ) : (
+                                            <div className="flex">
+                                          <span className="flex h-3 w-3">
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                                          </span>
+                                                <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">not playing</div>
+                                            </div>
+                                        )}
+                                        <div
+                                            className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm xl:ml-0 font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </motion.div>
-
+                    </div>
                 </div>
             </motion.div>
         </motion.body>
