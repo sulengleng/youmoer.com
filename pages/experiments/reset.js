@@ -8,7 +8,7 @@ import { Letter } from "../../components/Letter/letter";
 export default function Home() {
     return (
         <motion.body className="selection:bg-[#3b818c]">
-            <div className="grid grid-cols-4 gap-4 min-w-screen">
+            <div className="flex flex-row md:grid md:grid-cols-4 gap-4 min-w-screen">
                 <div className="relative flex flex-row bg-gradient-to-br mt-4 xl:mt-0 mx-4 from-[#fdfbfb] to-[#ebedee] max-w-[90%] w-auto md:w-max md:max-w-fit h-40 md:h-40 xl:h-36 mx-auto rounded-lg">
                     <img className="rounded-lg h-32 xl:h-28 w-auto mt-4 ml-4" src="https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png" alt="cover" />
                     <div className="flex flex-col">
