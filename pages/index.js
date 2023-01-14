@@ -75,7 +75,6 @@ export default function Home() {
                     y: 0,
                     transition: { duration: 0.35, delay: 0.2 },
                 }}
-                className="page w-full h-screen"
             >
                 <div className="grid grid-cols-4 gap-4 mt-4 mx-4">
                     <div className="w-full h-80 bg-purple-300 row-span-6">01</div>
