@@ -69,10 +69,10 @@ export default function Home() {
     return (
         <motion.body className="selection:bg-[#3b818c]">
             <div className="flex flex-row md:grid md:grid-cols-4 gap-4 min-w-screen mt-4">
-                <div className="w-max h-80 bg-gradient-to-r from-slate-300 to-slate-500"></div>
-                <div className="w-max h-64 bg-gradient-to-r from-slate-300 to-slate-500"></div>
-                <div className="w-max h-64 bg-gradient-to-r from-slate-300 to-slate-500"></div>
-                <div className="w-max h-72 bg-gradient-to-r from-slate-300 to-slate-500"></div>
+                <div className="w-full h-80 bg-gradient-to-r from-slate-300 to-slate-500"></div>
+                <div className="w-full h-64 bg-gradient-to-r from-slate-300 to-slate-500"></div>
+                <div className="w-full h-64 bg-gradient-to-r from-slate-300 to-slate-500"></div>
+                <div className="w-full h-72 bg-gradient-to-r from-slate-300 to-slate-500"></div>
             </div>
         </motion.body>
     );
