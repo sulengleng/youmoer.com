@@ -3,7 +3,7 @@ import {ArrowCircleRight, ArrowSquareOut, Pause, Play} from "phosphor-react";
 import {motion, useMotionValue, useTransform} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
-import { Letter } from "../../components/Letter/letter";
+import { Letter } from "../components/Letter/letter";
 
 export default function Home() {
     const TIMELINE = [
