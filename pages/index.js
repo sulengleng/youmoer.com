@@ -78,9 +78,9 @@ export default function Home() {
             >
                 <div className="grid grid-cols-4 gap-4 mt-4 mx-4">
                     <div className="w-80 h-80 bg-purple-300 row-span-6">01</div>
-                    <div className="w-full h-40 bg-slate-100 row-span-3">02</div>
-                    <div className="w-full h-40 bg-red-100 row-span-3">03</div>
-                    <div className="w-full h-56 bg-orange-200 row-span-4">04</div>
+                    <div className="w-80 h-40 bg-slate-100 row-span-3">02</div>
+                    <div className="w-80 h-40 bg-red-100 row-span-3">03</div>
+                    <div className="w-80 h-56 bg-orange-200 row-span-4">04</div>
                     <div className="w-full h-96 bg-orange-200 row-span-6 col-span-2">05</div>
                     <div className="w-full h-24 bg-orange-200 row-span-2 -mt-4">06</div>
                     <div className="w-full h-40 bg-orange-200 row-span-3 -mt-14">07</div>
