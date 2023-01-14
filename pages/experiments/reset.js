@@ -75,11 +75,11 @@ export default function Home() {
                 <div className="w-full h-56 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
                 <div className="w-full h-40 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
                 <div className="w-full h-128 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg col-span-2 -mt-32"></div>
-                <div className="w-full h-56 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
-                <div className="w-full h-56 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
+                <div className="w-full h-56 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg -mt-12"></div>
+                <div className="w-full h-56 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg -mt-32"></div>
                 <div className="w-full h-40 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
                 <div className="w-full h-40 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
-                <div className="w-full h-56 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
+                <div className="w-full h-56 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg -mt-24"></div>
             </div>
         </motion.body>
     );
