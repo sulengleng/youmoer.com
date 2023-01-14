@@ -75,7 +75,7 @@ export default function Home() {
                 <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
                 <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg col-span-2 -mt-32"></div>
-                <div className="w-full h-112 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-16"></div>
+                <div className="w-full h-96 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-16"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-64"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg col-span-2"></div>
