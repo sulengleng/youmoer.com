@@ -8,7 +8,7 @@ import { Letter } from "../../components/Letter/letter";
 export default function Home() {
     return (
         <motion.body className="selection:bg-[#3b818c]">
-            <div className="grid grid-cols-4 gap-4 mt-4 mx-4 w-screen">
+            <div className="grid grid-cols-4 gap-4 mt-4 mx-auto w-screen">
                 <div className="w-full h-80 bg-purple-300">01</div>
                 <div className="w-full h-40 bg-slate-100">02</div>
                 <div className="w-full h-40 bg-red-100">03</div>
