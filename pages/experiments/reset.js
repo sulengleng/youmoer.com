@@ -68,7 +68,7 @@ export default function Home() {
 
     return (
         <motion.body className="selection:bg-[#3b818c]">
-            <div className="flex flex-row md:grid md:grid-cols-4 gap-4 min-w-screen mt-4">
+            <div className="flex flex-row md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
                 <div className="w-full h-80 bg-gradient-to-r from-slate-300 to-slate-500"></div>
                 <div className="w-full h-64 bg-gradient-to-r from-slate-300 to-slate-500"></div>
                 <div className="w-full h-64 bg-gradient-to-r from-slate-300 to-slate-500"></div>
