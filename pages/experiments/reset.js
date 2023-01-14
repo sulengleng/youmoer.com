@@ -81,6 +81,7 @@ export default function Home() {
                 <div className="w-full h-40 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
                 <div className="w-full h-64 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg -mt-32"></div>
                 <div className="w-full h-40 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg -mt-52"></div>
+                <div className="w-full h-40 bg-gradient-to-r from-neutral-300 to-stone-400 rounded-lg"></div>
             </div>
         </motion.body>
     );
