@@ -119,12 +119,12 @@ export default function Home() {
                             <a className="font-semibold">1125</a>
                             <a className="-mt-1 text-sm text-gray-500">Artists</a>
                         </div>
-                        <Disc size={20} color="#6ed49f" className="ml-5 md:ml-3" />
+                        <Disc size={20} color="#6ed49f" className="ml-7 md:ml-3" />
                         <div className="flex flex-col ml-1">
                             <a className="font-semibold">1942</a>
                             <a className="-mt-1 text-sm text-gray-500">Albums</a>
                         </div>
-                        <MusicNote size={20} color="#548eab" className="ml-5 md:ml-3" />
+                        <MusicNote size={20} color="#548eab" className="ml-7 md:ml-3" />
                         <div className="flex flex-col ml-1">
                             <a className="font-semibold">2851</a>
                             <a className="-mt-1 text-sm text-gray-500">Tracks</a>
