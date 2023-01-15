@@ -69,7 +69,33 @@ export default function Home() {
     return (
         <motion.body className="selection:bg-[#3b818c]">
             <div className="flex flex-col md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
-                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
+                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
+                    <div className="flex flex-row">
+                        <img src="https://files.catbox.moe/5scrti.jpg" className="mx-4 mt-4 h-14 w-14 rounded-full"
+                             alt="jike header"/>
+                        <div>
+                            <a className="mt-6 block text-lg font-semibold leading-tight text-black dark:text-white">夜游船</a>
+                            <a className="text-xs text-gray-600 dark:text-gray-300"
+                               href="https://jike.city/yeyouchuan/">@yeyouchuan</a>
+                        </div>
+                        <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
+                             className="absolute top-3 left-60 h-8 w-8 rounded-full" alt="jike logo"/>
+                    </div>
+                    <div>
+                        <p className="ml-7 mt-2 text-sm leading-5">
+                            04年出生与中国苏州 <br />
+                            喜欢读欧美科幻作品 <br />
+                            喜欢独立、另类摇滚 <br />
+                            喜欢动漫、英美剧 <br />
+                            喜欢羽毛球、排球 <br />
+                            交互媒体英国本科
+                        </p>
+                        <p className="ml-7 mt-2 text-sm leading-5">
+                            不喜欢只是成为技术的享受者 <br />
+                            而是希望能创造一些东西
+                        </p>
+                    </div>
+                </div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
                 <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
