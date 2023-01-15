@@ -105,11 +105,13 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col">
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col relative">
                     <div className="flex flex-col">
                         <a className="mt-4 ml-4 text-2xl font-semibold">10380</a>
                         <a className="-mt-1 ml-5 text-sm text-gray-500">Scrobbles</a>
                     </div>
+                    <img src="https://s2.loli.net/2023/01/16/cAOCi9IwasjXSHB.png"
+                         className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="Last.fm logo"/>
                     <div className="border-t mt-4 border-gray-300 dark:border-gray-600"></div>
                     <div className="flex flex-row mt-4 mx-4">
                         <Star size={20} color="#f8d80d" />
@@ -117,12 +119,12 @@ export default function Home() {
                             <a className="font-semibold">1125</a>
                             <a className="-mt-1 text-sm text-gray-500">Artists</a>
                         </div>
-                        <Disc size={20} color="#6ed49f" className="ml-3" />
+                        <Disc size={20} color="#6ed49f" className="ml-5 md:ml-3" />
                         <div className="flex flex-col ml-1">
                             <a className="font-semibold">1942</a>
                             <a className="-mt-1 text-sm text-gray-500">Albums</a>
                         </div>
-                        <MusicNote size={20} color="#548eab" className="ml-3" />
+                        <MusicNote size={20} color="#548eab" className="ml-5 md:ml-3" />
                         <div className="flex flex-col ml-1">
                             <a className="font-semibold">2851</a>
                             <a className="-mt-1 text-sm text-gray-500">Tracks</a>
