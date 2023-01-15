@@ -153,7 +153,7 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-2 md:ml-0 bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                            className="w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-0 md:ml-0 bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                         >
                             <div className="-mt-1 ml-2 text-clip max-h-[130px] overflow-clip text-8xl xl:text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
                             <div className="-mt-8 ml-[115px] xl:ml-40 flex -space-x-3">
