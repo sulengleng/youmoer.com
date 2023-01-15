@@ -92,7 +92,7 @@ export default function Home() {
                                     <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6 mt-2"
                                          src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                 </div>
-                                <div className="place-self-center -ml-4 pr-8 py-2 px-3 z-10">
+                                <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
                                     {isPlaying ? (
                                         <div className="flex">
                                           <span className="flex h-3 w-3">
