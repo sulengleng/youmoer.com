@@ -69,11 +69,11 @@ export default function Home() {
     return (
         <motion.body className="selection:bg-[#3b818c]">
             <div className="flex flex-row md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
-                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
-                <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
-                <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg">
+                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
+                <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
+                <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl">
                     <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                     <div className="player select-none">
                         <div className="overflow-hidden">
@@ -84,15 +84,15 @@ export default function Home() {
                                 <div className="relative md:place-items-center z-0">
                                     <div className="absolute items-center justify-center">
                                         {isPlaying ? (
-                                            <Pause size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                            <Pause size={32} className="opacity-50 ml-10 mt-12" color="#f6f5f6" onClick={togglePlayPause}/>
                                         ) : (
-                                            <Play size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                            <Play size={32} className="opacity-50 ml-10 mt-12" color="#f6f5f6" onClick={togglePlayPause}/>
                                         )}
                                     </div>
-                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
+                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6 mt-2"
                                          src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                 </div>
-                                <div className="place-self-center -ml-4 pr-8 py-1 px-3 z-10">
+                                <div className="place-self-center -ml-4 pr-8 py-2 px-3 z-10">
                                     {isPlaying ? (
                                         <div className="flex">
                                           <span className="flex h-3 w-3">
@@ -111,21 +111,21 @@ export default function Home() {
                                     )}
                                     <div className="flex flex-col">
                                         <div
-                                            className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮
+                                            className="block text-lg font-semibold leading-tight dark:text-white">十万嬉皮
                                         </div>
-                                        <a className="mt-1 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                        <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg col-span-2 -mt-32"></div>
-                <div className="w-full h-108 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-16"></div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-64"></div>
-                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
-                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg col-span-2"></div>
-                <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-68"></div>
+                <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl col-span-2 -mt-32"></div>
+                <div className="w-full h-108 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl -mt-16"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl -mt-64"></div>
+                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
+                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl col-span-2"></div>
+                <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl -mt-68"></div>
             </div>
         </motion.body>
     );
