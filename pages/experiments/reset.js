@@ -69,7 +69,7 @@ export default function Home() {
     return (
         <motion.body className="selection:bg-[#3b818c]">
             <div className="flex flex-col md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
-                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
+                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl relative">
                     <div className="flex flex-row">
                         <img src="https://files.catbox.moe/5scrti.jpg" className="mx-4 mt-4 h-14 w-14 rounded-full"
                              alt="jike header"/>
@@ -79,7 +79,7 @@ export default function Home() {
                                href="https://jike.city/yeyouchuan/">@yeyouchuan</a>
                         </div>
                         <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
-                             className="absolute top-3 left-60 h-8 w-8 rounded-full" alt="jike logo"/>
+                             className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="jike logo"/>
                     </div>
                     <div>
                         <p className="ml-7 mt-2 text-sm leading-5">
