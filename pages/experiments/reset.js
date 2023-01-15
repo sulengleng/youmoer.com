@@ -79,7 +79,7 @@ export default function Home() {
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-64"></div>
                 <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
                 <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg col-span-2"></div>
-                <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-72"></div>
+                <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-68"></div>
             </div>
         </motion.body>
     );
