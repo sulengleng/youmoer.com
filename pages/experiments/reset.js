@@ -88,7 +88,7 @@ export default function Home() {
                                 <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                             </div>
                         </motion.div>
-                        <a className="text-sm md:mt-4 xl:-mt-4 ml-10 uppercase">buy me a coffee</a>
+                        <a className="text-sm mt-4 xl:mt-8 ml-10 xl:ml-16 uppercase">buy me a coffee</a>
                     </motion.div>
                 </div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
