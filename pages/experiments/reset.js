@@ -107,8 +107,8 @@ export default function Home() {
                 </div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col relative">
                     <div className="flex flex-col">
-                        <a className="mt-4 ml-4 text-2xl font-semibold">10380</a>
-                        <a className="-mt-1 ml-5 text-sm text-gray-500">Scrobbles</a>
+                        <a className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10380</a>
+                        <a className="-mt-1 ml-6 md:ml-5 text-sm text-gray-500">Scrobbles</a>
                     </div>
                     <img src="https://s2.loli.net/2023/01/16/cAOCi9IwasjXSHB.png"
                          className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="Last.fm logo"/>
