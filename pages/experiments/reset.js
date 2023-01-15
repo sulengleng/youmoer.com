@@ -131,7 +131,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col">
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col relative">
                     <div className="flex flex-col">
                         <a className="mt-4 ml-4 text-sm text-gray-500">小宇宙</a>
                         <a className="ml-4 text-sm font-semibold">收听时长</a>
