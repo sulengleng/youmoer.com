@@ -142,13 +142,13 @@ export default function Home() {
                                             <Play size={32} className="opacity-50 ml-10 mt-12" color="#f6f5f6" onClick={togglePlayPause}/>
                                         )}
                                     </div>
-                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-5 xl:p-6 mt-2"
+                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6 xl:p-6 mt-2"
                                          src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                 </div>
                                 <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
                                     {isPlaying ? (
                                         <div className="flex">
-                                          <span className="flex h-3 w-3 mt-1">
+                                          <span className="flex h-3 w-3">
                                             <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
                                           </span>
@@ -156,7 +156,7 @@ export default function Home() {
                                         </div>
                                     ) : (
                                         <div className="flex">
-                                          <span className="flex h-3 w-3 mt-1">
+                                          <span className="flex h-3 w-3">
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
                                           </span>
                                             <div className="w-[88px] ml-2 mb-1 text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">not playing</div>
