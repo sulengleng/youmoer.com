@@ -76,7 +76,7 @@ export default function Home() {
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg">
                     <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                     <div className="player select-none">
-                        <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
+                        <div className="overflow-hidden">
                             <div className="flex">
                                 <div className="items-center">
                                     <a className="text-white"></a>
@@ -92,7 +92,7 @@ export default function Home() {
                                     <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
                                          src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                 </div>
-                                <div className="place-self-center -ml-4 pr-8 py-1 xl:pr-0 xl:-ml-0 xl:py-6 px-3 z-10">
+                                <div className="place-self-center -ml-4 pr-8 py-1 px-3 z-10">
                                     {isPlaying ? (
                                         <div className="flex">
                                           <span className="flex h-3 w-3">
@@ -110,7 +110,7 @@ export default function Home() {
                                         </div>
                                     )}
                                     <div
-                                        className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm xl:ml-0 font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                        className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
                                     </div>
                                 </div>
                             </div>
