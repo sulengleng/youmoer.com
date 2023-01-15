@@ -162,7 +162,7 @@ export default function Home() {
                             </div>
                         </motion.div>
                     </motion.div>
-                    <a className="text-sm mt-14 md:-mt-4 xl:mt-2 ml-2 md:ml-14 xl:ml-20 max-w-xs md:max-w-md uppercase font-semibold">buy me a coffee</a>
+                    <a className="text-sm mt-14 md:-mt-4 xl:mt-2 -ml-4 md:ml-14 xl:ml-20 max-w-xs md:max-w-md uppercase font-semibold">buy me a coffee</a>
                 </div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
