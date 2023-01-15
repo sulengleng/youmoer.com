@@ -68,6 +68,15 @@ export default function Home() {
 
     return (
         <motion.body className="selection:bg-[#3b818c]">
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0.35, delay: 0.2 },
+                }}
+                className="page"
+            >
             <div className="flex flex-col md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
                 <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl relative">
                     <div className="flex flex-row">
@@ -171,6 +180,7 @@ export default function Home() {
                 <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl col-span-2"></div>
                 <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl md:-mt-68"></div>
             </div>
+            </motion.div>
         </motion.body>
     );
 }
