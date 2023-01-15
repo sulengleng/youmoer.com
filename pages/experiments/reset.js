@@ -105,7 +105,16 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col">
+                    <div className="flex flex-col">
+                        <a className="mt-4 ml-4 text-2xl font-semibold">10380</a>
+                        <a className="-mt-1 ml-5 text-sm text-gray-500">Scrobbles</a>
+                    </div>
+                    <div className="border-t mt-4 border-gray-300"></div>
+                    <div className="flex flex-row">
+                        <a>1125</a>
+                    </div>
+                </div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
                 <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <motion.div
