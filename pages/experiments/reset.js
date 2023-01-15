@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {ArrowCircleRight, ArrowSquareOut, Pause, Play} from "phosphor-react";
+import {ArrowCircleRight, ArrowSquareOut, Disc, MusicNote, Pause, Play, Star} from "phosphor-react";
 import {motion, useMotionValue, useTransform} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
@@ -110,9 +110,14 @@ export default function Home() {
                         <a className="mt-4 ml-4 text-2xl font-semibold">10380</a>
                         <a className="-mt-1 ml-5 text-sm text-gray-500">Scrobbles</a>
                     </div>
-                    <div className="border-t mt-4 border-gray-300"></div>
+                    <div className="border-t mt-4 border-gray-300 dark:border-gray-600"></div>
                     <div className="flex flex-row">
+                        <Star size={20} color="#f8d80d" />
                         <a>1125</a>
+                        <Disc size={20} color="#6ed49f" />
+                        <a>1942</a>
+                        <MusicNote size={20} color="#548eab" />
+                        <a>2851</a>
                     </div>
                 </div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
