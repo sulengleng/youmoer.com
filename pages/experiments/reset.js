@@ -89,7 +89,7 @@ export default function Home() {
                             </div>
                         </motion.div>
                     </motion.div>
-                    <a className="text-sm mt-0 xl:mt-2 ml-14 xl:ml-20 uppercase font-semibold">buy me a coffee</a>
+                    <a className="text-sm -mt-4 xl:mt-2 ml-14 xl:ml-20 uppercase font-semibold">buy me a coffee</a>
                 </div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
@@ -117,14 +117,14 @@ export default function Home() {
                                             <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
                                           </span>
-                                            <div className="ml-2 mb-2 text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">now playing</div>
+                                            <div className="ml-2 mb-1 text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">now playing</div>
                                         </div>
                                     ) : (
                                         <div className="flex">
                                           <span className="flex h-3 w-3 mt-1">
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
                                           </span>
-                                            <div className="ml-2 mb-2 text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">not playing</div>
+                                            <div className="ml-2 mb-1 text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">not playing</div>
                                         </div>
                                     )}
                                     <div className="flex flex-col">
