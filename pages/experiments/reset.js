@@ -113,16 +113,16 @@ export default function Home() {
                                 <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
                                     {isPlaying ? (
                                         <div className="flex">
-                                          <span className="flex h-3 w-3">
-                                            <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
-                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                                          <span className="flex h-3 w-3 md:h-2 md:w-2 xl:h-3 xl:w-3">
+                                            <span className="absolute inline-flex h-3 w-3 md:h-2 md:w-2 xl:h-3 xl:w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                                            <span className="relative inline-flex h-3 w-3 md:h-2 md:w-2 xl:h-3 xl:w-3 rounded-full bg-green-500"></span>
                                           </span>
                                             <div className="ml-2 mb-2 text-xs xl:text-sm uppercase leading-3 dark:text-white">now playing</div>
                                         </div>
                                     ) : (
                                         <div className="flex">
-                                          <span className="flex h-3 w-3">
-                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                                          <span className="flex h-3 w-3 md:h-2 md:w-2 xl:h-3 xl:w-3">
+                                            <span className="relative inline-flex h-3 w-3 md:h-2 md:w-2 xl:h-3 xl:w-3 rounded-full bg-red-500"></span>
                                           </span>
                                             <div className="ml-2 mb-2 text-xs xl:text-sm uppercase leading-3 dark:text-white">not playing</div>
                                         </div>
