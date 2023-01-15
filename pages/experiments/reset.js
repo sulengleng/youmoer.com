@@ -69,11 +69,28 @@ export default function Home() {
     return (
         <motion.body className="selection:bg-[#3b818c]">
             <div className="flex flex-row md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
-                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
-                <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
-                <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl">
+                <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
+                <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
+                    <motion.div
+                        className="max-w-[90%] mx-auto flex rounded-lg drop-shadow-md overflow-hidden"
+                        onMouseMove={handleMouse}
+                        style={{ height:168 }}
+                    >
+                        <motion.div
+                            style={{rotateX: rotateX, rotateY: rotateY}}
+                            className="w-52 h-[130px] bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                        >
+                            <div className="-mt-2 -ml-2 text-clip max-h-[100px] overflow-clip text-8xl xl:text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
+                            <div className="mt-12 ml-10 flex -space-x-3">
+                                <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
+                                <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
+                            </div>
+                        </motion.div>
+                    </motion.div>
+                </div>
+                <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                     <div className="player select-none">
                         <div className="overflow-hidden">
@@ -120,12 +137,12 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl col-span-2 -mt-32"></div>
-                <div className="w-full h-108 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl -mt-16"></div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl -mt-64"></div>
-                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl"></div>
-                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl col-span-2"></div>
-                <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-xl -mt-68"></div>
+                <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl col-span-2 -mt-32"></div>
+                <div className="w-full h-108 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl -mt-16"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl -mt-64"></div>
+                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
+                <div className="w-full h-44 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl col-span-2"></div>
+                <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl -mt-68"></div>
             </div>
         </motion.body>
     );
