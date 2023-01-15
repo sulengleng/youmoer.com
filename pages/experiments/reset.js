@@ -131,7 +131,20 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
+                <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col">
+                    <div className="flex flex-col">
+                        <a className="mt-4 ml-4 text-sm text-gray-500">小宇宙</a>
+                        <a className="ml-4 text-sm font-semibold">收听时长</a>
+                    </div>
+                    <img src="https://s2.loli.net/2023/01/16/4PhMLmkjT9SQUti.png"
+                         className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="xyzfm logo"/>
+                    <div className="flex flex-row">
+                        <a className="mt-12 ml-4 text-4xl font-semibold">241</a>
+                        <a className="mt-16 ml-1 text-sm text-gray-500">小时</a>
+                        <a className="mt-12 ml-1 text-4xl font-semibold">15</a>
+                        <a className="mt-16 ml-1 text-sm text-gray-500">分钟</a>
+                    </div>
+                </div>
                 <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <motion.div
                         className="max-w-[90%] mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden"
