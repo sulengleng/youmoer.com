@@ -92,7 +92,7 @@ export default function Home() {
                     </div>
                     <div>
                         <p className="ml-7 mt-2 text-sm leading-5">
-                            04年出生与中国苏州 <br />
+                            04年出生于中国苏州 <br />
                             喜欢读欧美科幻作品 <br />
                             喜欢独立、另类摇滚 <br />
                             喜欢动漫、英美剧 <br />
