@@ -145,7 +145,7 @@ export default function Home() {
                         <a className="mt-14 ml-1 text-sm text-gray-500">分钟</a>
                     </div>
                 </div>
-                <div className="w-full h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
+                <div className="w-full h-40 md:h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <motion.div
                         className="max-w-[90%] mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden"
                         onMouseMove={handleMouse}
@@ -153,7 +153,7 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-40 xl:w-52 h-[100px] xl:h-[130px] bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg ml-6 mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                            className="w-40 xl:w-52 h-[100px] xl:h-[130px] bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                         >
                             <div className="-mt-1 ml-2 text-clip max-h-[130px] overflow-clip text-8xl xl:text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
                             <div className="-mt-8 ml-[115px] xl:ml-40 flex -space-x-3">
