@@ -109,8 +109,11 @@ export default function Home() {
                                             <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">not playing</div>
                                         </div>
                                     )}
-                                    <div
-                                        className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                    <div className="flex flex-col">
+                                        <div
+                                            className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮
+                                        </div>
+                                        <a className="mt-1 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
                                     </div>
                                 </div>
                             </div>
