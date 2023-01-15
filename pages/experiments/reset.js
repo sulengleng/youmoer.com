@@ -73,7 +73,50 @@ export default function Home() {
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
                 <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
-                <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg"></div>
+                <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg">
+                    <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                    <div className="player select-none">
+                        <div className="drop-shadow-md mx-auto max-w-full overflow-hidden rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#083517] dark:to-[#065321] md:max-w-sm">
+                            <div className="flex">
+                                <div className="items-center">
+                                    <a className="text-white"></a>
+                                </div>
+                                <div className="relative md:place-items-center z-0">
+                                    <div className="absolute items-center justify-center">
+                                        {isPlaying ? (
+                                            <Pause size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                        ) : (
+                                            <Play size={32} className="opacity-50 ml-10 mt-10" color="#f6f5f6" onClick={togglePlayPause}/>
+                                        )}
+                                    </div>
+                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6"
+                                         src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
+                                </div>
+                                <div className="place-self-center -ml-4 pr-8 py-1 xl:pr-0 xl:-ml-0 xl:py-6 px-3 z-10">
+                                    {isPlaying ? (
+                                        <div className="flex">
+                                          <span className="flex h-3 w-3">
+                                            <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                                          </span>
+                                            <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">now playing</div>
+                                        </div>
+                                    ) : (
+                                        <div className="flex">
+                                          <span className="flex h-3 w-3">
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                                          </span>
+                                            <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">not playing</div>
+                                        </div>
+                                    )}
+                                    <div
+                                        className="mt-1 block text-lg font-semibold leading-tight dark:text-white">十万嬉皮 <a className="text-sm xl:ml-0 font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg col-span-2 -mt-32"></div>
                 <div className="w-full h-108 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-16"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] rounded-lg -mt-64"></div>
