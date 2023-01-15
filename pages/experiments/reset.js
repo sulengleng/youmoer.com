@@ -113,18 +113,18 @@ export default function Home() {
                     <img src="https://s2.loli.net/2023/01/16/cAOCi9IwasjXSHB.png"
                          className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="Last.fm logo"/>
                     <div className="border-t mt-4 border-gray-300 dark:border-gray-600"></div>
-                    <div className="flex flex-row mt-4 mx-4">
+                    <div className="flex flex-row mt-4 mx-5 md:mx-4">
                         <Star size={20} color="#f8d80d" />
                         <div className="flex flex-col ml-1">
                             <a className="font-semibold">1125</a>
                             <a className="-mt-1 text-sm text-gray-500">Artists</a>
                         </div>
-                        <Disc size={20} color="#6ed49f" className="ml-7 md:ml-3" />
+                        <Disc size={20} color="#6ed49f" className="ml-8 md:ml-3" />
                         <div className="flex flex-col ml-1">
                             <a className="font-semibold">1942</a>
                             <a className="-mt-1 text-sm text-gray-500">Albums</a>
                         </div>
-                        <MusicNote size={20} color="#548eab" className="ml-7 md:ml-3" />
+                        <MusicNote size={20} color="#548eab" className="ml-8 md:ml-3" />
                         <div className="flex flex-col ml-1">
                             <a className="font-semibold">2851</a>
                             <a className="-mt-1 text-sm text-gray-500">Tracks</a>
