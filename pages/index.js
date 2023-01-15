@@ -77,7 +77,7 @@ export default function Home() {
                 }}
                 className="page"
             >
-                <motion.div className="flex md:flex-row flex-col space-y-4 max-w-full">
+                <motion.div className="flex md:flex-col flex-col space-y-4 max-w-full">
                     <motion.div className="basis-1/3 lg:basis-2/7">
                         <motion.div className="jike relative md:ml-4 mt-4 max-w-[90%] md:max-w-fit xl:max-w-full mx-auto">
                             <div className="flex flex-col rounded-lg bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#756707] dark:to-[#ffdb01] drop-shadow-md">
