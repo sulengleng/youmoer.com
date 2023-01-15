@@ -148,7 +148,7 @@ export default function Home() {
                                 <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
                                     {isPlaying ? (
                                         <div className="flex">
-                                          <span className="flex h-3 w-3">
+                                          <span className="flex h-3 w-3 mt-0 xl:mt-1">
                                             <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
                                           </span>
@@ -156,7 +156,7 @@ export default function Home() {
                                         </div>
                                     ) : (
                                         <div className="flex">
-                                          <span className="flex h-3 w-3">
+                                          <span className="flex h-3 w-3 mt-0 xl:mt-1">
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
                                           </span>
                                             <div className="w-[86px] xl:w-24 ml-2 mb-1 text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">not playing</div>
