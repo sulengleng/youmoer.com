@@ -107,7 +107,7 @@ export default function Home() {
                 </div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl flex flex-col relative">
                     <div className="flex flex-col">
-                        <a className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10380</a>
+                        <a className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10431</a>
                         <a className="-mt-1 ml-6 md:ml-5 text-sm text-gray-500">Scrobbles</a>
                     </div>
                     <img src="https://s2.loli.net/2023/01/16/cAOCi9IwasjXSHB.png"
@@ -121,12 +121,12 @@ export default function Home() {
                         </div>
                         <Disc size={20} color="#6ed49f" className="ml-8 md:ml-3" />
                         <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                            <a className="font-semibold">1942</a>
+                            <a className="font-semibold">1948</a>
                             <a className="-mt-1 text-sm text-gray-500">Albums</a>
                         </div>
                         <MusicNote size={20} color="#548eab" className="ml-8 md:ml-3" />
                         <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                            <a className="font-semibold">2851</a>
+                            <a className="font-semibold">2862</a>
                             <a className="-mt-1 text-sm text-gray-500">Tracks</a>
                         </div>
                     </div>
