@@ -142,7 +142,7 @@ export default function Home() {
                                             <Play size={32} className="opacity-50 ml-10 mt-12" color="#f6f5f6" onClick={togglePlayPause}/>
                                         )}
                                     </div>
-                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-5 xl:p-6 mt-2"
+                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6 xl:p-6 mt-2"
                                          src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                 </div>
                                 <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
