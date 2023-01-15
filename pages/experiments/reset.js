@@ -68,13 +68,13 @@ export default function Home() {
 
     return (
         <motion.body className="selection:bg-[#3b818c]">
-            <div className="flex flex-row md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
+            <div className="flex flex-col md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
                 <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl"></div>
                 <div className="w-full h-56 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <motion.div
-                        className="max-w-[90%] mx-auto flex rounded-lg drop-shadow-md overflow-hidden"
+                        className="max-w-[90%] mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden"
                         onMouseMove={handleMouse}
                         style={{ height:168 }}
                     >
@@ -88,6 +88,7 @@ export default function Home() {
                                 <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                             </div>
                         </motion.div>
+                        <a className="text-sm mt-4 ml-4 uppercase">buy me a coffee</a>
                     </motion.div>
                 </div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
