@@ -88,8 +88,8 @@ export default function Home() {
                                 <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                             </div>
                         </motion.div>
-                        <a className="text-sm mt-4 xl:mt-2 ml-10 xl:ml-16 uppercase">buy me a coffee</a>
                     </motion.div>
+                    <a className="text-sm mt-4 xl:mt-2 ml-10 xl:ml-16 uppercase">buy me a coffee</a>
                 </div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
@@ -107,7 +107,7 @@ export default function Home() {
                                             <Play size={32} className="opacity-50 ml-10 mt-12" color="#f6f5f6" onClick={togglePlayPause}/>
                                         )}
                                     </div>
-                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6 mt-2"
+                                    <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-4 xl:p-6 mt-2"
                                          src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
                                 </div>
                                 <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
