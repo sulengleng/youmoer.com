@@ -153,7 +153,7 @@ export default function Home() {
                     >
                         <motion.div
                             style={{rotateX: rotateX, rotateY: rotateY}}
-                            className="w-40 xl:w-52 h-[100px] xl:h-[130px] bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg mt-8 drop-shadow-md hover:drop-shadow-xl justify-center items-center"
+                            className="w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-4 md:ml-0 bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                         >
                             <div className="-mt-1 ml-2 text-clip max-h-[130px] overflow-clip text-8xl xl:text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
                             <div className="-mt-8 ml-[115px] xl:ml-40 flex -space-x-3">
@@ -162,7 +162,7 @@ export default function Home() {
                             </div>
                         </motion.div>
                     </motion.div>
-                    <a className="text-sm -mt-4 xl:mt-2 ml-14 xl:ml-20 uppercase font-semibold">buy me a coffee</a>
+                    <a className="text-sm mt-14 md:-mt-4 xl:mt-2 ml-6 md:ml-14 xl:ml-20 uppercase font-semibold">buy me a coffee</a>
                 </div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
