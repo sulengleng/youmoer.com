@@ -88,7 +88,7 @@ export default function Home() {
                                 <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                             </div>
                         </motion.div>
-                        <a className="text-sm mt-4 ml-4 uppercase">buy me a coffee</a>
+                        <a className="text-sm md:mt-4 xl:-mt-4 ml-10 uppercase">buy me a coffee</a>
                     </motion.div>
                 </div>
                 <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
@@ -117,14 +117,14 @@ export default function Home() {
                                             <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
                                           </span>
-                                            <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">now playing</div>
+                                            <div className="ml-2 mb-2 text-xs xl:text-sm uppercase leading-3 dark:text-white">now playing</div>
                                         </div>
                                     ) : (
                                         <div className="flex">
                                           <span className="flex h-3 w-3">
                                             <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
                                           </span>
-                                            <div className="ml-2 mb-2 text-sm uppercase leading-3 dark:text-white">not playing</div>
+                                            <div className="ml-2 mb-2 text-xs xl:text-sm uppercase leading-3 dark:text-white">not playing</div>
                                         </div>
                                     )}
                                     <div className="flex flex-col">
