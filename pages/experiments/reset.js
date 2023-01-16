@@ -138,9 +138,9 @@ export default function Home() {
                     <img src="https://s2.loli.net/2023/01/16/4PhMLmkjT9SQUti.png"
                          className="absolute top-3 right-3 h-8 w-8 rounded-full border" alt="xyzfm logo"/>
                     <div className="flex flex-row">
-                        <a className="mt-10 ml-4 text-4xl font-semibold">241</a>
+                        <a className="mt-10 ml-4 text-4xl font-semibold">244</a>
                         <a className="mt-14 ml-1 text-sm text-gray-500">小时</a>
-                        <a className="mt-10 ml-1 text-4xl font-semibold">15</a>
+                        <a className="mt-10 ml-1 text-4xl font-semibold">22</a>
                         <a className="mt-14 ml-1 text-sm text-gray-500">分钟</a>
                     </div>
                 </div>
