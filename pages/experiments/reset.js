@@ -219,7 +219,7 @@ export default function Home() {
                 </div>
                 <div className="w-full h-44 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <a className="mt-4 ml-6 text-lg font-semibold">Email me</a>
-                    <div className="mt-4 mx-4 flex flex-col bg-white h-24 w-[300px] md:w-56 xl:w-64 rounded-md">
+                    <div className="mt-4 mx-4 flex flex-col bg-white h-24 w-[310px] md:w-52 xl:w-64 rounded-md">
                         <p className="mt-2 ml-2 text-sm font-semibold">To yeyouchuan@gmail.com</p>
                         <div className="border-t mt-1 w-[93%] mx-auto"></div>
                         <a className="mt-1 ml-2 text-sm">Let's Chat</a>
