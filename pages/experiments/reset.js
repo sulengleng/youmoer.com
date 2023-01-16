@@ -3,7 +3,6 @@ import {ArrowCircleRight, ArrowSquareOut, Disc, MusicNote, Pause, Play, Star} fr
 import {motion, useMotionValue, useTransform} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
-import { Letter } from "../../components/Letter/letter";
 
 export default function Home() {
     const TIMELINE = [
