@@ -220,12 +220,12 @@ export default function Home() {
                 </div>
                 <div className="w-full h-44 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
                     <a className="mt-4 ml-6 text-lg font-semibold hover:animate-bounce" href="mailto:yeyouchuan@gmail.com">Email me</a>
-                    <div className="mt-4 mx-4 flex flex-col bg-white h-24 w-[310px] md:w-52 xl:w-64 rounded-md">
+                    <div className="mt-4 mx-4 flex flex-col bg-white dark:bg-black h-24 w-[310px] md:w-52 xl:w-64 rounded-md">
                         <a className="mt-2 ml-2 text-sm font-semibold" href="mailto:yeyouchuan@gmail.com">To yeyouchuan@gmail.com</a>
                         <div className="border-t mt-1 w-[93%] mx-auto"></div>
                         <a className="mt-1 ml-2 text-sm">Let's Chat</a>
                         <div className="border-t mt-1 w-[93%] mx-auto"></div>
-                        <a className="mt-1 ml-2 text-sm text-gray-600">Say hello</a>
+                        <a className="mt-1 ml-2 text-sm text-gray-600 dark:text-gray-400">Say hello</a>
                     </div>
                 </div>
                 <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl md:-mt-68">
