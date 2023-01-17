@@ -214,7 +214,7 @@ export default function Home() {
                 <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl col-span-2 md:-mt-32"></div>
                 <div className="w-full h-72 md:h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl md:-mt-16">
                     <div className="absolute mt-6 place-self-center text-lg font-semibold">我喜欢的产品</div>
-                    <div className="grid grid-cols-3 md:grid-cols-2 place-self-center ml-0 xl:ml-6 mt-20 gap-y-6 gap-10">
+                    <div className="grid grid-cols-3 md:grid-cols-2 place-self-center ml-0 xl:ml-6 mt-20 md:mt-24 gap-y-6 gap-10">
                         <a className="h-20 w-20 ml-6 md:ml-8 -rotate-6 rounded-2xl bg-obsidian-icon bg-cover" href="https://obsidian.md/"></a>
                         <a className="h-20 w-20 ml-3 md:ml-0 rotate-2 rounded-2xl bg-discord-icon bg-cover" href="https://discord.com/"></a>
                         <a className="h-20 w-20 ml-0 md:ml-8 mt-0 md:mt-4 rotate-6 rounded-2xl bg-zotero-icon bg-cover" href="https://www.zotero.org/"></a>
