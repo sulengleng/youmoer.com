@@ -218,7 +218,7 @@ export default function Home() {
                     <div className="w-full md:w-1/3 h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343]"></div>
                 </div>
                 <div className="w-full h-44 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl">
-                    <a className="mt-4 ml-6 text-lg font-semibold">Email me</a>
+                    <a className="mt-4 ml-6 text-lg font-semibold hover:animate-bounce" href="mailto:yeyouchuan@gmail.com">Email me</a>
                     <div className="mt-4 mx-4 flex flex-col bg-white h-24 w-[310px] md:w-52 xl:w-64 rounded-md">
                         <p className="mt-2 ml-2 text-sm font-semibold">To yeyouchuan@gmail.com</p>
                         <div className="border-t mt-1 w-[93%] mx-auto"></div>
