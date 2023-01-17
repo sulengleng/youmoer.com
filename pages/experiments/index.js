@@ -30,9 +30,14 @@ export default function Experiments() {
       description: "A playground for Tailwind CSS",
     },
     {
-      title: "Homepage Lab",
-      url: "/experiments/homepage-lab",
-      description: "A homepage lab for my personal website",
+      title: "Homepage V1",
+      url: "/experiments/homepage-v1",
+      description: "The first version for my personal website",
+    },
+    {
+      title: "Homepage V2",
+      url: "/experiments/homepage-v2",
+      description: "The second version for my personal website",
     },
     {
       title: "Notion import API Test",
@@ -59,11 +64,6 @@ export default function Experiments() {
       url: "/experiments/project-filter",
       description: "A project filter page with CSS Grid",
     },
-    {
-      title: "Reset Playgrounds",
-      url: "/experiments/reset",
-      description: "A page to contain all playgrounds",
-    }
     // {
     //   title: "Coming Soon",
     //   url: "/experiments",
