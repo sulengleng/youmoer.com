@@ -68,7 +68,7 @@ export default function Home() {
                 className="page"
             >
                 <div className="flex flex-col md:grid md:grid-cols-4 gap-4 min-w-screen mt-4 mx-4 ">
-                    <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl relative">
+                    <div className="w-full h-72 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl relative">
                         <div className="flex flex-row">
                             <img src="https://files.catbox.moe/5scrti.jpg" className="mx-4 mt-4 h-14 w-14 rounded-full"
                                  alt="jike header"/>
@@ -96,7 +96,7 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
-                    <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
+                    <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
                         <div className="flex flex-col">
                             <a className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10431</a>
                             <a className="-mt-1 ml-6 md:ml-5 text-sm text-gray-500">Scrobbles</a>
@@ -122,7 +122,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
+                    <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
                         <div className="flex flex-col">
                             <a className="mt-4 ml-4 text-sm text-gray-500">小宇宙</a>
                             <a className="ml-4 text-sm font-semibold">收听时长</a>
@@ -136,7 +136,7 @@ export default function Home() {
                             <a className="mt-14 ml-1 text-sm text-gray-500">分钟</a>
                         </div>
                     </div>
-                    <div className="w-full h-40 md:h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl">
+                    <div className="w-full h-40 md:h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
                         <motion.div
                             className="mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden"
                             onMouseMove={handleMouse}
@@ -155,7 +155,7 @@ export default function Home() {
                         </motion.div>
                         <a className="text-sm mt-14 md:-mt-4 xl:mt-2 mx-auto w-20 md:w-40 uppercase font-semibold">buy me a coffee ~</a>
                     </div>
-                    <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl">
+                    <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
                         <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                         <div className="player select-none">
                             <div className="overflow-hidden">
@@ -203,7 +203,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-80 md:h-128 bg-question bg-cover rounded-xl animate-pulse col-span-2 md:-mt-32"></div>
-                    <div className="w-full h-72 md:h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl md:-mt-16">
+                    <div className="w-full h-72 md:h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-16">
                         <div className="absolute mt-6 place-self-center text-lg font-semibold">我喜欢的产品</div>
                         <div className="grid grid-cols-3 md:grid-cols-2 place-self-center ml-0 xl:ml-6 mt-20 md:mt-24 gap-y-6 gap-10">
                             <a className="h-20 w-20 ml-6 md:ml-8 -rotate-6 rounded-2xl bg-obsidian-icon bg-cover" href="https://obsidian.md/"></a>
@@ -214,9 +214,9 @@ export default function Home() {
                             <a className="h-20 w-20 mt-0 md:mt-4 rotate-6 rounded-lg bg-github-icon bg-cover" href="https://github.com/"></a>
                         </div>
                     </div>
-                    <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl md:-mt-64"></div>
+                    <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-64"></div>
                     <div className="w-full h-44 rounded-xl col-span-2 flex flex-row gap-4">
-                        <div className="w-full md:w-2/3 h-40 md:h-44 relative flex flex-col rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black">
+                        <div className="w-full md:w-2/3 h-40 md:h-44 relative flex flex-col rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black">
 
                             <p className="mt-4 ml-4 xl:ml-6 text-xs md:text-sm max-w-[280px] xl:max-w-xs font-serif font-semibold">后来他说：“会传染。” 我说：“什么会传染？ 他说：“出海病。”
                                 他说：“你望着海。你见有人从海上来，有人从海上行远。你听讲有人再不回头，在一处远得不可思议地方过活。一旦你开始细想那处远得不可思议地方、那种不可思议的远，你就感染出海病。” </p>
@@ -225,11 +225,11 @@ export default function Home() {
                                 <a className="ml-2 text-xs">潮汐图</a>
                             </div>
                         </div>
-                        <div className="w-1/3 h-40 md:h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black">
+                        <div className="w-1/3 h-40 md:h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black">
                             <img className="mx-auto my-auto mt-6 md:mt-4 mt-4 h-auto md:h-[85%] w-[95%] md:w-auto rounded-lg" src="https://s2.loli.net/2023/01/17/7lzrw29VK4SIokB.png" alt="book cover"></img>
                         </div>
                     </div>
-                    <div className="w-full h-44 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl">
+                    <div className="w-full h-44 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
                         <a className="mt-4 place-self-center text-lg font-semibold hover:animate-bounce" href="mailto:yeyouchuan@gmail.com">Email me</a>
                         <div className="mt-4 mx-4 flex flex-col bg-white dark:bg-black h-24 w-[310px] md:w-52 xl:w-64 rounded-md">
                             <a className="mt-2 ml-2 text-sm font-semibold" href="mailto:yeyouchuan@gmail.com">To yeyouchuan@gmail.com</a>
@@ -239,7 +239,7 @@ export default function Home() {
                             <a className="mt-1 ml-2 text-sm text-gray-600 dark:text-gray-400">Say hello</a>
                         </div>
                     </div>
-                    <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-700 dark:via-gray-900 dark:to-black rounded-xl md:-mt-68">
+                    <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-68">
                         <div className="rounded-lg bg-light-map dark:bg-dark-map h-64 max-w-full bg-cover bg-center"></div>
                     </div>
                 </div>
