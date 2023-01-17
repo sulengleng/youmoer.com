@@ -212,7 +212,17 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="w-full h-128 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl col-span-2 md:-mt-32"></div>
-                <div className="w-full h-108 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl md:-mt-16"></div>
+                <div className="w-full h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl md:-mt-16">
+                    <div className="absolute mt-6 place-self-center text-lg font-semibold">我喜欢的产品</div>
+                    <div className="grid grid-cols-2 place-self-center mt-20 gap-10 absolute">
+                        <div className="h-20 w-20 bg-black ml-8 -rotate-6 rounded-lg"></div>
+                        <div className="h-20 w-20 bg-black ml rotate-2 rounded-lg"></div>
+                        <div className="h-20 w-20 bg-black ml-8 rotate-6 rounded-lg"></div>
+                        <div className="h-20 w-20 bg-black ml -rotate-3 rounded-lg"></div>
+                        <div className="h-20 w-20 bg-black ml-8 -rotate-2 rounded-lg"></div>
+                        <div className="h-20 w-20 bg-black ml rotate-6 rounded-lg"></div>
+                    </div>
+                </div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl md:-mt-64"></div>
                 <div className="w-full h-44 rounded-xl col-span-2 flex flex-col md:flex-row gap-4">
                     <div className="w-full md:w-2/3 h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343]"></div>
