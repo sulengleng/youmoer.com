@@ -229,7 +229,8 @@ export default function Home() {
 
                         <p className="mt-4 ml-4 xl:ml-6 text-xs max-w-[280px] xl:max-w-xs">后来他说：“会传染。” 我说：“什么会传染？ 他说：“出海病。”
                             他说：“你望着海。你见有人从海上来，有人从海上行远。你听讲有人再不回头，在一处远得不可思议地方过活。一旦你开始细想那处远得不可思议地方、那种不可思议的远，你就感染出海病。” </p>
-                        <a className="mt-2 ml-4 xl:ml-6 text-am font-semibold">——《潮汐图》</a>
+                        <a className="mt-2 ml-4 xl:ml-6 text-xs font-semibold">林棹</a>
+                        <a className="ml-4 xl:ml-6 text-xs">潮汐图</a>
                     </div>
                     <div className="w-1/3 h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343]">
                         <img className="mx-auto my-auto mt-6 md:mt-0 mt-4 h-auto md:h-[85%] w-[95%] md:w-auto rounded-lg" src="https://s2.loli.net/2023/01/17/7lzrw29VK4SIokB.png" alt="book cover"></img>
