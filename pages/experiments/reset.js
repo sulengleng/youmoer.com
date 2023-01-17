@@ -82,7 +82,8 @@ export default function Home() {
                         <img src="https://files.catbox.moe/5scrti.jpg" className="mx-4 mt-4 h-14 w-14 rounded-full"
                              alt="jike header"/>
                         <div>
-                            <a className="mt-6 block text-lg font-semibold leading-tight text-black dark:text-white">夜游船</a>
+                            <a className="mt-6 block text-lg font-semibold leading-tight text-black dark:text-white"
+                               href="https://jike.city/yeyouchuan/">夜游船</a>
                             <a className="text-xs text-gray-600 dark:text-gray-300"
                                href="https://jike.city/yeyouchuan/">@yeyouchuan</a>
                         </div>
