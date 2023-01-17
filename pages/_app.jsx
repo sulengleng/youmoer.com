@@ -44,6 +44,12 @@ function MyApp({ Component, pageProps }) {
                 height: 600,
                 alt: "yeyouchuan for Jike",
               },
+              {
+                url: "https://files.catbox.moe/5scrti.jpg",
+                width: 100,
+                height: 100,
+                alt: "small icon",
+              },
             ],
           }}
           twitter={{
