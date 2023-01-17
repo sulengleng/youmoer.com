@@ -16,7 +16,7 @@ module.exports = {
         "zotero-icon": "url('https://s2.loli.net/2023/01/17/GupbZ9gQFRkJrEo.png')",
         "readwise-icon": "url('https://s2.loli.net/2023/01/17/rYfeF4aJO8gBAlK.png')",
         "github-icon": "url('https://s2.loli.net/2023/01/17/OJhVlYiXmHksyTr.png')",
-        "question": "url('https://s2.loli.net/2023/01/18/T8LwChisNOJouax.png')",
+        "question": "url('https://s2.loli.net/2023/01/18/2EyOGq6rmaXYRKN.png')",
         "dash-board": "url('https://s2.loli.net/2023/01/13/6tmuThilakOz71D.png')",
         "braun-dot": "url('https://s2.loli.net/2023/01/13/sULPAx5trHCcv4O.png')",
         "camera-white": "url('https://s2.loli.net/2023/01/12/iZfSLYBAb91Ohrw.png')",
