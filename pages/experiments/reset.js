@@ -231,7 +231,7 @@ export default function Home() {
                             他说：“你望着海。你见有人从海上来，有人从海上行远。你听讲有人再不回头，在一处远得不可思议地方过活。一旦你开始细想那处远得不可思议地方、那种不可思议的远，你就感染出海病。” </p>
                         <div className="flex flex-col md:flex-row">
                             <a className="mt-2 ml-4 xl:ml-6 text-xs font-semibold">林棹</a>
-                            <a className="mt-2 ml-4 md:ml-2 text-xs">潮汐图</a>
+                            <a className="md:mt-2 ml-4 md:ml-2 text-xs">潮汐图</a>
                         </div>
                     </div>
                     <div className="w-1/3 h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343]">
