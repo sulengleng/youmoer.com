@@ -224,7 +224,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343] rounded-xl md:-mt-64"></div>
-                <div className="w-full h-44 rounded-xl col-span-2 flex flex-col md:flex-row gap-4">
+                <div className="w-full h-44 rounded-xl col-span-2 flex flex-row gap-4">
                     <div className="w-full md:w-2/3 h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343]"></div>
                     <div className="w-full md:w-1/3 h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-black dark:via-[#2e2e2e] dark:to-[#434343]">
                         <img className="mx-auto my-auto mt-4 h-[85%] w-auto rounded-lg" src="https://s2.loli.net/2023/01/17/7lzrw29VK4SIokB.png" alt="book cover"></img>
