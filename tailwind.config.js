@@ -14,6 +14,8 @@ module.exports = {
         "notion-icon": "url('https://s2.loli.net/2023/01/17/Y2tGjAv8PsxqBeW.png')",
         "discord-icon": "url('https://s2.loli.net/2023/01/17/eQx1i26rJFtSXN4.png')",
         "zotero-icon": "url('https://s2.loli.net/2023/01/17/GupbZ9gQFRkJrEo.png')",
+        "readwise-icon": "url('https://s2.loli.net/2023/01/17/rYfeF4aJO8gBAlK.png')",
+        "github-icon": "url('https://s2.loli.net/2023/01/17/OJhVlYiXmHksyTr.png')",
         "dash-board": "url('https://s2.loli.net/2023/01/13/6tmuThilakOz71D.png')",
         "braun-dot": "url('https://s2.loli.net/2023/01/13/sULPAx5trHCcv4O.png')",
         "camera-white": "url('https://s2.loli.net/2023/01/12/iZfSLYBAb91Ohrw.png')",
