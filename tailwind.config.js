@@ -10,6 +10,7 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
+        "obsidian-icon": "url('https://s2.loli.net/2023/01/17/hkMWg1d5GH48xEb.png')",
         "dash-board": "url('https://s2.loli.net/2023/01/13/6tmuThilakOz71D.png')",
         "braun-dot": "url('https://s2.loli.net/2023/01/13/sULPAx5trHCcv4O.png')",
         "camera-white": "url('https://s2.loli.net/2023/01/12/iZfSLYBAb91Ohrw.png')",
