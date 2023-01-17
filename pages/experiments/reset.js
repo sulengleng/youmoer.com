@@ -222,9 +222,9 @@ export default function Home() {
                     <a className="mt-4 ml-6 text-lg font-semibold hover:animate-bounce" href="mailto:yeyouchuan@gmail.com">Email me</a>
                     <div className="mt-4 mx-4 flex flex-col bg-white dark:bg-black h-24 w-[310px] md:w-52 xl:w-64 rounded-md">
                         <a className="mt-2 ml-2 text-sm font-semibold" href="mailto:yeyouchuan@gmail.com">To yeyouchuan@gmail.com</a>
-                        <div className="border-t mt-1 w-[93%] mx-auto"></div>
+                        <div className="border-t border-[#e5e5e5] dark:border-gray-700 mt-1 w-[93%] mx-auto"></div>
                         <a className="mt-1 ml-2 text-sm">Let's Chat</a>
-                        <div className="border-t mt-1 w-[93%] mx-auto"></div>
+                        <div className="border-t border-[#e5e5e5] dark:border-gray-700 mt-1 w-[93%] mx-auto"></div>
                         <a className="mt-1 ml-2 text-sm text-gray-600 dark:text-gray-400">Say hello</a>
                     </div>
                 </div>
