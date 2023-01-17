@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
               "一名还在路上创造者，喜欢创造有设计感的东西",
             images: [
               {
-                url: "https://s2.loli.net/2022/12/04/qLoTp9HYdbaN4mF.png",
+                url: "https://s2.loli.net/2023/01/18/KxBEVU5PGYzMgfk.png",
                 width: 800,
                 height: 600,
                 alt: "yeyouchuan for Jike",
