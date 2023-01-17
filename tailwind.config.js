@@ -10,7 +10,7 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
-        "obsidian-icon": "url('https://s2.loli.net/2023/01/17/hkMWg1d5GH48xEb.png')",
+        "obsidian-icon": "url('https://s2.loli.net/2023/01/17/gJhfbt5NCFSYLVj.png')",
         "notion-icon": "url('https://s2.loli.net/2023/01/17/Y2tGjAv8PsxqBeW.png')",
         "discord-icon": "url('https://s2.loli.net/2023/01/17/eQx1i26rJFtSXN4.png')",
         "zotero-icon": "url('https://s2.loli.net/2023/01/17/GupbZ9gQFRkJrEo.png')",
