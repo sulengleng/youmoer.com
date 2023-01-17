@@ -137,7 +137,7 @@ export default function Home() {
                         <a className="ml-4 text-sm font-semibold">收听时长</a>
                     </div>
                     <img src="https://s2.loli.net/2023/01/16/4PhMLmkjT9SQUti.png"
-                         className="absolute top-3 right-3 h-8 w-8 rounded-full border" alt="xyzfm logo"/>
+                         className="absolute top-3 right-3 h-8 w-8 rounded-full border-[#34b6de]" alt="xyzfm logo"/>
                     <div className="flex flex-row">
                         <a className="mt-10 ml-4 text-4xl font-semibold">244</a>
                         <a className="mt-14 ml-1 text-sm text-gray-500">小时</a>
