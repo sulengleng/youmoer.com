@@ -153,10 +153,10 @@ export default function Home() {
                                 </div>
                             </motion.div>
                         </motion.div>
-                        <a className="text-sm mt-14 md:-mt-4 xl:mt-2 mx-auto w-20 md:w-40 uppercase font-semibold">buy me a coffee ~</a>
+                        <a className="text-sm mt-14 md:-mt-4 xl:mt-2 mx-auto w-20 md:w-40 uppercase font-semibold" href="https://www.buymeacoffee.com/yeyouchuan">buy me a coffee ~</a>
                     </div>
                     <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
-                        <YouTube videoId="xLu_r5FWAIo" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                        <YouTube videoId="r6cXfBnxHI4" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                         <div className="player select-none">
                             <div className="overflow-hidden">
                                 <div className="flex">
@@ -193,7 +193,7 @@ export default function Home() {
                                         )}
                                         <div className="flex flex-col">
                                             <div
-                                                className="block text-lg font-semibold leading-tight dark:text-white">十万嬉皮
+                                                className="block text-lg font-semibold leading-tight dark:text-white">山雀
                                             </div>
                                             <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
                                         </div>
