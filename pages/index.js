@@ -202,7 +202,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-80 md:h-128 bg-question bg-cover rounded-xl animate-pulse col-span-2 md:-mt-32"></div>
+                    <div className="w-full h-80 md:h-128 bg-question bg-cover rounded-xl animate-pulse dark:invert col-span-2 md:-mt-32"></div>
                     <div className="w-full h-72 md:h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-16">
                         <div className="absolute mt-6 place-self-center text-lg font-semibold">我喜欢的产品</div>
                         <div className="grid grid-cols-3 md:grid-cols-2 place-self-center ml-0 xl:ml-6 mt-20 md:mt-24 gap-y-6 gap-10">
