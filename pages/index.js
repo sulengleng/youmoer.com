@@ -218,7 +218,7 @@ export default function Home() {
                     <div className="w-full h-44 rounded-xl col-span-2 flex flex-row gap-4">
                         <div className="w-full md:w-2/3 h-40 md:h-44 relative flex flex-col rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black">
 
-                            <p className="mt-4 ml-4 xl:ml-6 text-xs md:text-sm max-w-[220px] md:max-w-[280px] xl:max-w-xs font-serif font-semibold text-justify">后来他说：“会传染。” 我说：“什么会传染？ 他说：“出海病。”
+                            <p className="mt-4 ml-4 xl:ml-6 text-xs md:text-sm max-w-[210px] md:max-w-[280px] xl:max-w-xs font-serif font-semibold text-justify">后来他说：“会传染。” 我说：“什么会传染？ 他说：“出海病。”
                                 他说：“你望着海。你见有人从海上来，有人从海上行远。你听讲有人再不回头，在一处远得不可思议地方过活。一旦你开始细想那处远得不可思议地方、那种不可思议的远，你就感染出海病。” </p>
                             <div className="absolute bottom-3 right-3 md:right-4 xl:right-11 flex flex-row">
                                 <a className="text-xs font-semibold">林棹</a>
