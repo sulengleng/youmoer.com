@@ -74,9 +74,15 @@ export default function Home() {
                                  alt="jike header"/>
                             <div>
                                 <a className="mt-6 block text-lg font-semibold leading-tight text-black dark:text-white"
-                                   href="https://jike.city/yeyouchuan/">夜游船</a>
+                                   href="https://jike.city/yeyouchuan/"
+                                   target="_blank"
+                                >
+                                    夜游船</a>
                                 <a className="text-xs text-gray-600 dark:text-gray-300"
-                                   href="https://jike.city/yeyouchuan/">@yeyouchuan</a>
+                                   href="https://jike.city/yeyouchuan/"
+                                   target="_blank"
+                                >
+                                    @yeyouchuan</a>
                             </div>
                             <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
                                  className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="jike logo"/>
@@ -98,8 +104,8 @@ export default function Home() {
                     </div>
                     <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
                         <div className="flex flex-col">
-                            <a className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10431</a>
-                            <a className="-mt-1 ml-6 md:ml-5 text-sm text-gray-500">Scrobbles</a>
+                            <p className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10431</p>
+                            <p className="-mt-1 ml-6 md:ml-5 text-sm text-gray-500">Scrobbles</p>
                         </div>
                         <img src="https://s2.loli.net/2023/01/16/cAOCi9IwasjXSHB.png"
                              className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="Last.fm logo"/>
@@ -107,33 +113,33 @@ export default function Home() {
                         <div className="flex flex-row mt-4 mx-5 md:mx-4">
                             <Star size={20} color="#f8d80d" />
                             <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                                <a className="font-semibold">1125</a>
-                                <a className="-mt-1 text-sm text-gray-500">Artists</a>
+                                <p className="font-semibold">1125</p>
+                                <p className="-mt-1 text-sm text-gray-500">Artists</p>
                             </div>
                             <Disc size={20} color="#6ed49f" className="ml-8 md:ml-3" />
                             <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                                <a className="font-semibold">1948</a>
-                                <a className="-mt-1 text-sm text-gray-500">Albums</a>
+                                <p className="font-semibold">1948</p>
+                                <p className="-mt-1 text-sm text-gray-500">Albums</p>
                             </div>
                             <MusicNote size={20} color="#548eab" className="ml-8 md:ml-3" />
                             <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                                <a className="font-semibold">2862</a>
-                                <a className="-mt-1 text-sm text-gray-500">Tracks</a>
+                                <p className="font-semibold">2862</p>
+                                <p className="-mt-1 text-sm text-gray-500">Tracks</p>
                             </div>
                         </div>
                     </div>
                     <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
                         <div className="flex flex-col">
-                            <a className="mt-4 ml-4 text-sm text-gray-500">小宇宙</a>
-                            <a className="ml-4 text-sm font-semibold">收听时长</a>
+                            <p className="mt-4 ml-4 text-sm text-gray-500">小宇宙</p>
+                            <p className="ml-4 text-sm font-semibold">收听时长</p>
                         </div>
                         <img src="https://s2.loli.net/2023/01/16/4PhMLmkjT9SQUti.png"
                              className="absolute top-3 right-3 h-9 w-9 rounded-full border-[#34b6de]" alt="xyzfm logo"/>
                         <div className="flex flex-row">
-                            <a className="mt-10 ml-4 text-4xl font-semibold">244</a>
-                            <a className="mt-14 ml-1 text-sm text-gray-500">小时</a>
-                            <a className="mt-10 ml-1 text-4xl font-semibold">22</a>
-                            <a className="mt-14 ml-1 text-sm text-gray-500">分钟</a>
+                            <p className="mt-10 ml-4 text-4xl font-semibold">244</p>
+                            <p className="mt-14 ml-1 text-sm text-gray-500">小时</p>
+                            <p className="mt-10 ml-1 text-4xl font-semibold">22</p>
+                            <p className="mt-14 ml-1 text-sm text-gray-500">分钟</p>
                         </div>
                     </div>
                     <div className="w-full h-40 md:h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
@@ -153,7 +159,11 @@ export default function Home() {
                                 </div>
                             </motion.div>
                         </motion.div>
-                        <a className="text-sm mt-14 md:-mt-4 xl:mt-2 mx-auto w-20 md:w-40 uppercase font-semibold" href="https://www.buymeacoffee.com/yeyouchuan">buy me a coffee ~</a>
+                        <a className="text-sm mt-14 md:-mt-4 xl:mt-2 mx-auto w-20 md:w-40 uppercase font-semibold"
+                           href="https://www.buymeacoffee.com/yeyouchuan"
+                           target="_blank"
+                        >
+                            buy me a coffee ~</a>
                     </div>
                     <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
                         <YouTube videoId="r6cXfBnxHI4" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
@@ -206,12 +216,12 @@ export default function Home() {
                     <div className="w-full h-72 md:h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-16">
                         <div className="absolute mt-6 place-self-center text-lg font-semibold">我喜欢的产品</div>
                         <div className="grid grid-cols-3 md:grid-cols-2 place-self-center ml-0 xl:ml-6 mt-20 md:mt-24 gap-y-6 gap-10">
-                            <a className="h-20 w-20 ml-6 md:ml-8 -rotate-6 rounded-2xl bg-obsidian-icon bg-cover" href="https://obsidian.md/"></a>
-                            <a className="h-20 w-20 ml-3 md:ml-0 rotate-2 rounded-2xl bg-github-icon bg-cover" href="https://discord.com/"></a>
-                            <a className="h-20 w-20 ml-0 md:ml-8 mt-0 md:mt-4 rotate-6 rounded-2xl bg-zotero-icon bg-cover" href="https://www.zotero.org/"></a>
-                            <a className="h-20 w-20 ml-6 md:ml-0 mt-0 md:mt-4 -rotate-3 rounded-2xl bg-notion-icon bg-cover" href="https://notion.so/"></a>
-                            <a className="h-20 w-20 ml-3 md:ml-8 mt-0 md:mt-4 -rotate-2 rounded-2xl bg-readwise-icon bg-cover" href="https://readwise.io/read/"></a>
-                            <a className="h-20 w-20 mt-0 md:mt-4 rotate-6 rounded-lg bg-discord-icon bg-cover" href="https://github.com/"></a>
+                            <a className="h-20 w-20 ml-6 md:ml-8 -rotate-6 rounded-2xl bg-obsidian-icon bg-cover" href="https://obsidian.md/" target="_blank"></a>
+                            <a className="h-20 w-20 ml-3 md:ml-0 rotate-2 rounded-2xl bg-github-icon bg-cover" href="https://discord.com/" target="_blank"></a>
+                            <a className="h-20 w-20 ml-0 md:ml-8 mt-0 md:mt-4 rotate-6 rounded-2xl bg-zotero-icon bg-cover" href="https://www.zotero.org/" target="_blank"></a>
+                            <a className="h-20 w-20 ml-6 md:ml-0 mt-0 md:mt-4 -rotate-3 rounded-2xl bg-notion-icon bg-cover" href="https://notion.so/" target="_blank"></a>
+                            <a className="h-20 w-20 ml-3 md:ml-8 mt-0 md:mt-4 -rotate-2 rounded-2xl bg-readwise-icon bg-cover" href="https://readwise.io/read/" target="_blank"></a>
+                            <a className="h-20 w-20 mt-0 md:mt-4 rotate-6 rounded-lg bg-discord-icon bg-cover" href="https://github.com/" target="_blank"></a>
                         </div>
                     </div>
                     <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-64">
@@ -223,8 +233,8 @@ export default function Home() {
                             <p className="mt-4 ml-4 xl:ml-6 text-xs md:text-sm max-w-[210px] md:max-w-[280px] xl:max-w-xs font-serif font-semibold text-justify">后来他说：“会传染。” 我说：“什么会传染？ 他说：“出海病。”
                                 他说：“你望着海。你见有人从海上来，有人从海上行远。你听讲有人再不回头，在一处远得不可思议地方过活。一旦你开始细想那处远得不可思议地方、那种不可思议的远，你就感染出海病。” </p>
                             <div className="absolute bottom-3 right-3 md:right-4 xl:right-11 flex flex-row">
-                                <a className="text-xs font-semibold">林棹</a>
-                                <a className="ml-2 text-xs">潮汐图</a>
+                                <p className="text-xs font-semibold">林棹</p>
+                                <p className="ml-2 text-xs">潮汐图</p>
                             </div>
                         </div>
                         <div className="w-1/3 h-40 md:h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black">
@@ -236,9 +246,9 @@ export default function Home() {
                         <div className="mt-4 mx-4 flex flex-col bg-white dark:bg-black h-24 w-[310px] md:w-52 xl:w-64 rounded-md">
                             <a className="mt-2 ml-2 text-sm font-semibold" href="mailto:yeyouchuan@gmail.com">To yeyouchuan@gmail.com</a>
                             <div className="border-t border-[#e5e5e5] dark:border-gray-700 mt-1 w-[93%] mx-auto"></div>
-                            <a className="mt-1 ml-2 text-sm">Let's Chat</a>
+                            <p className="mt-1 ml-2 text-sm">Let's Chat</p>
                             <div className="border-t border-[#e5e5e5] dark:border-gray-700 mt-1 w-[93%] mx-auto"></div>
-                            <a className="mt-1 ml-2 text-sm text-gray-600 dark:text-gray-400">Say hello</a>
+                            <p className="mt-1 ml-2 text-sm text-gray-600 dark:text-gray-400">Say hello</p>
                         </div>
                     </div>
                     <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-68">
