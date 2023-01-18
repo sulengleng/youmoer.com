@@ -191,7 +191,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   p {
-    @apply text-[1rem] md:text-[1.05rem] mb-8 text-gray-700 dark:text-gray-300 leading-[1.5];
+    @apply text-[1rem] md:text-[1.05rem] mb-8 text-gray-700 dark:text-gray-300 leading-[2];
 
     code {
       @apply font-mono text-sm border border-gray-200 dark:border-gray-800 px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)];
