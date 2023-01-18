@@ -9,6 +9,7 @@ module.exports = {
       "https://framerusercontent.com/",
       "https://ga.jspm.io/",
       "https://jspm.dev/",
+      "https://s2.loli.net/"
     ],
   },
 }
