@@ -3,6 +3,7 @@ import {motion, useMotionValue, useTransform} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import {NextSeo} from "next-seo";
+import Clock from "https://framer.com/m/Clock-DBcU.js@lubZhVioROmbONsozS2g"
 
 export default function Home() {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -215,7 +216,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-64">
-
+                        <Clock hour={true}
+                               minute={true}
+                               second={true} />
                     </div>
                     <div className="w-full h-44 rounded-xl col-span-2 flex flex-row gap-4">
                         <div className="w-full md:w-2/3 h-40 md:h-44 relative flex flex-col rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black">
