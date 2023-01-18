@@ -17,6 +17,7 @@ module.exports = {
         "discord-icon-black": "url('https://s2.loli.net/2023/01/19/R1gdv5A6wO9kozs.png')",
         "zotero-icon": "url('https://s2.loli.net/2023/01/17/GupbZ9gQFRkJrEo.png')",
         "readwise-icon": "url('https://s2.loli.net/2023/01/17/rYfeF4aJO8gBAlK.png')",
+        "readwise-icon-dark": "url('https://s2.loli.net/2023/01/19/JVYUhcwtvEA5mx3.png')",
         "github-icon": "url('https://s2.loli.net/2023/01/17/OJhVlYiXmHksyTr.png')",
         "figma-icon": "url('https://s2.loli.net/2023/01/19/z9vCyOjUK1BTakw.png')",
         "figma-icon-white": "url('https://s2.loli.net/2023/01/19/fh2r4SZUDlvcjIo.png')",
