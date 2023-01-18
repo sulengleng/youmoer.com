@@ -57,7 +57,7 @@ export default function Home() {
       />
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
-        <h2 className="mb-6 mt-8 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
+        <h2 className="mb-6 mt-12 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
