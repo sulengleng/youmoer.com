@@ -3,6 +3,8 @@ import Link from "next/link";
 import { MapPin, ArrowCircleRight, Camera, Star, Article, ArrowSquareOut, ThumbsUp} from "phosphor-react";
 import { motion } from 'framer-motion'
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import classnames from "classnames";
+import {ArrowIcon} from "../../lib/icons";
 
 const TIMELINE = [
     {
@@ -55,6 +57,14 @@ const ContentWrapper = ({ children, className, width }) => (
 export default function Home() {
     return (
         <body className="selection:bg-[#3b818c] overflow-x-hidden">
+        <Link
+            href="/experiments"
+            className={classnames(
+                "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center ml-6 mt-6"
+            )}>
+
+            <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
+        </Link>
         <div className="pb-20">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}

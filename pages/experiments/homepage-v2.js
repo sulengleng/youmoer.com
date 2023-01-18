@@ -4,6 +4,8 @@ import {motion, useMotionValue, useTransform} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import { Letter } from "../../components/Letter/letter";
+import classnames from "classnames";
+import {ArrowIcon} from "../../lib/icons";
 
 export default function Home() {
     const TIMELINE = [
@@ -68,6 +70,14 @@ export default function Home() {
 
     return (
         <motion.body className="selection:bg-[#3b818c]">
+            <Link
+                href="/experiments"
+                className={classnames(
+                    "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center ml-6 mt-6"
+                )}>
+
+                <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
+            </Link>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{
