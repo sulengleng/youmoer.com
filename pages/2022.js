@@ -147,8 +147,6 @@ export default function Home() {
               </h2>
           </ContentWrapper>
 
-          <br/>
-
           <div className="mb-4 sm:text-left w-full mx-auto">
               <div className="grid h-72 w-full mt-6 grid-flow-col grid-rows-3 gap-2">
                   <div className="row-span-3 rounded-lg bg-gray-50 dark:bg-gray-900">
