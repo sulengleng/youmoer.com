@@ -145,8 +145,8 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
-              <div className="grid h-72 w-112 mt-6 grid-flow-col grid-rows-3 gap-2">
-                  <div className="row-span-3 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
+              <div className="grid h-72 mt-6 grid-flow-col grid-rows-3 gap-2">
+                  <div className="w-64 row-span-3 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
                       <p className="ml-4 mt-4 text-lg font-semibold">01 万能青年旅店-万能青年旅店</p>
                   </div>
                   <div className="col-span-2 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
