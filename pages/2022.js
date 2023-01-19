@@ -66,8 +66,6 @@ export default function Home() {
               </h2>
           </ContentWrapper>
 
-          <br></br>
-
           <ContentWrapper
               width="700px"
               className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
@@ -145,6 +143,7 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
+              <div className=""></div>
           </ContentWrapper>
       </article>
     </>
