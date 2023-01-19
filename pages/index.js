@@ -224,8 +224,24 @@ export default function Home() {
                             <a className="h-20 w-20 mt-0 md:mt-4 rotate-6 rounded-lg bg-discord-icon dark:bg-discord-icon-black bg-cover" href="https://discord.com/" target="_blank"></a>
                         </div>
                     </div>
-                    <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-64">
-
+                    <div className="w-full h-40 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-64">
+                        <p className="mt-4 ml-4 font-semibold">Powered by</p>
+                        <p className="mt-4 ml-3 flex flex-col text-lg font-medium">
+                            <span className="inline-flex items-baseline">
+                              <img src="https://s2.loli.net/2023/01/19/ON7aHI2CVqwFGrk.png" alt="" className="h-8 w-9 self-center"/>
+                              <a href="https://www.github.com/">Github</a>
+                            </span>
+                                                    <span className="inline-flex items-baseline">
+                              <img src="https://s2.loli.net/2023/01/19/4T7JjwE2bWXsCmc.png" alt=""
+                                   className="mx-1 mr-2 h-6 w-6 self-center rounded-md"/>
+                              <a href="https://www.Vercel.com/">Vercel</a>
+                            </span>
+                                                    <span className="mt-1 inline-flex items-baseline">
+                              <img src="https://s2.loli.net/2023/01/19/BzxjDT9MdeuZEtQ.png" alt=""
+                                   className="mx-1 mr-2 h-6 w-6 self-center rounded-md"/>
+                              <a href="https://tailwindcss.com/">Tailwind CSS</a>
+                            </span>
+                        </p>
                     </div>
                     <div className="w-full h-44 rounded-xl col-span-2 flex flex-row gap-4">
                         <div className="w-full md:w-2/3 h-40 md:h-44 relative flex flex-col rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black">
