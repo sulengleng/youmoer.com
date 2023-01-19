@@ -227,6 +227,11 @@ export default function Home() {
                     <div className="w-full h-40 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-64">
                         <p className="mt-4 md:mt-2 ml-6 text-lg font-semibold">Powered by</p>
                         <p className="mt-3 ml-5 flex flex-col text-lg font-medium">
+                            <span className="mt-1 inline-flex items-baseline">
+                              <img src="https://s2.loli.net/2023/01/19/BzxjDT9MdeuZEtQ.png" alt=""
+                                   className="mx-1 mr-2 h-6 w-6 self-center rounded-md"/>
+                              <a href="https://tailwindcss.com/">Tailwind CSS</a>
+                            </span>
                             <span className="inline-flex items-baseline">
                               <img src="https://s2.loli.net/2023/01/19/ON7aHI2CVqwFGrk.png" alt="" className="h-8 w-9 self-center"/>
                               <a href="https://www.github.com/">Github</a>
@@ -235,11 +240,6 @@ export default function Home() {
                               <img src="https://s2.loli.net/2023/01/19/4T7JjwE2bWXsCmc.png" alt=""
                                    className="mx-1 mr-2 h-6 w-6 self-center rounded-md"/>
                               <a href="https://www.Vercel.com/">Vercel</a>
-                            </span>
-                            <span className="mt-1 inline-flex items-baseline">
-                              <img src="https://s2.loli.net/2023/01/19/BzxjDT9MdeuZEtQ.png" alt=""
-                                   className="mx-1 mr-2 h-6 w-6 self-center rounded-md"/>
-                              <a href="https://tailwindcss.com/">Tailwind CSS</a>
                             </span>
                         </p>
                     </div>
