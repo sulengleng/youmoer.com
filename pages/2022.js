@@ -149,7 +149,7 @@ export default function Home() {
 
           <br/>
 
-          <ContentWrapper width="1000px" className="mb-4 sm:text-left w-full mx-auto">
+          <div className="mb-4 sm:text-left w-full mx-auto">
               <div className="grid h-72 w-full mt-6 grid-flow-col grid-rows-3 gap-2">
                   <div className="row-span-3 rounded-lg bg-gray-50 dark:bg-gray-900">
                       <p className="ml-4 mt-4 text-lg font-semibold">01 万能青年旅店-万能青年旅店</p>
@@ -161,7 +161,7 @@ export default function Home() {
                       <p className="ml-4 mt-4 text-lg font-semibold">03 丑奴儿-草东没有派对</p>
                   </div>
               </div>
-          </ContentWrapper>
+          </div>
       </article>
     </>
   );
