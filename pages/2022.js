@@ -145,20 +145,23 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
+          </ContentWrapper>
+
+          <br/>
+
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <div className="grid h-72 w-full mt-6 grid-flow-col grid-rows-3 gap-2">
-                  <div className="row-span-3 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
+                  <div className="row-span-3 rounded-lg bg-gray-50 dark:bg-gray-900">
                       <p className="ml-4 mt-4 text-lg font-semibold">01 万能青年旅店-万能青年旅店</p>
                   </div>
-                  <div className="col-span-2 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
+                  <div className="col-span-2 rounded-lg bg-gray-50 dark:bg-gray-900">
                       <p className="ml-4 mt-4 text-lg font-semibold">02 Interstellar-Hans Zimmer</p>
                   </div>
-                  <div className="col-span-2 row-span-2 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
+                  <div className="col-span-2 row-span-2 rounded-lg bg-gray-50 dark:bg-gray-900">
                       <p className="ml-4 mt-4 text-lg font-semibold">03 丑奴儿-草东没有派对</p>
                   </div>
               </div>
-
           </ContentWrapper>
-      </article>
     </>
   );
 }
