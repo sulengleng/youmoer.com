@@ -145,6 +145,29 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
+              <div className="mx-8 grid h-72 grid-flow-col grid-rows-3 gap-2 lg:mx-72">
+                  <div className="row-span-3 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
+                      <p className="ml-4 mt-4 text-lg font-semibold">01 万能青年旅店-万能青年旅店</p>
+                      <ul className="mt-2 space-y-1 text-sm">
+                          <p className="ml-4 text-gray-700">1 狗尿馆</p>
+                          <p className="ml-4 text-gray-700">2 不可能的喜剧</p>
+                          <p className="ml-4 text-gray-700">3 揪心的玩笑与漫长的白日梦</p>
+                          <p className="ml-4 text-gray-700">4 大石碎胸口</p>
+                          <p className="ml-4 text-gray-700">5 洋鸟消夏录</p>
+                          <p className="ml-4 text-gray-700">6 秦皇岛</p>
+                          <p className="ml-4 text-gray-700">7 十万嬉皮</p>
+                          <p className="ml-4 text-gray-700">8 在这颗行星所有的酒馆</p>
+                          <p className="ml-4 text-gray-700">9 杀死那个石家庄人</p>
+                      </ul>
+                  </div>
+                  <div className="col-span-2 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
+                      <p className="ml-4 mt-4 text-lg font-semibold">02 Interstellar-Hans Zimmer</p>
+                  </div>
+                  <div className="col-span-2 row-span-2 rounded-lg bg-gradient-to-br from-slate-100 to-slate-300">
+                      <p className="ml-4 mt-4 text-lg font-semibold">03 丑奴儿-草东没有派对</p>
+                  </div>
+              </div>
+
           </ContentWrapper>
       </article>
     </>
