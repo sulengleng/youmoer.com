@@ -182,7 +182,7 @@ export default function Home() {
                                             )}
                                         </div>
                                         <img className="h-28 w-28 md:h-28 md:w-28 rounded-md object-cover p-6 xl:p-6 mt-2"
-                                             src="https://files.catbox.moe/9i0d2g.png" alt="Music cover"/>
+                                             src="https://s2.loli.net/2023/01/18/i6M1WQJg7PmErbO.png" alt="Music cover"/>
                                     </div>
                                     <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
                                         {isPlaying ? (
