@@ -98,18 +98,6 @@ export default function Sidebar() {
       icon: <TwitterLogo size={16} />,
       external: true,
     },
-    {
-      title: "Figma",
-      url: 'https://figma.com/@AlanWu',
-      icon: <FigmaLogo size={16} />,
-      external: true,
-    },
-    {
-      title: "Gmail",
-      url: `mailto:yeyouchuan@gmail.com`,
-      icon: <At size={16} />,
-      external: false,
-    },
   ];
 
   const RenderLinks = ({ sectionTitle, sectionItems }) => {
