@@ -58,11 +58,6 @@ const IMAGES = [
         className: "rotate-[2deg]",
     },
     {
-        src: "https://s2.loli.net/2023/01/20/bUQ6fHtqjEXkg4B.png",
-        place: "爱死机",
-        className: "rotate-[-2deg]",
-    },
-    {
         src: "https://s2.loli.net/2023/01/20/OVgcfs1tl6XpRCB.png",
         place: "水星的魔女",
         className: "rotate-[2deg]",
@@ -75,6 +70,26 @@ const IMAGES = [
     {
         src: "https://s2.loli.net/2023/01/20/yfLtPTlKz47RNni.png",
         place: "灵能百分百",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/3pRdxgSCW9HLacj.png",
+        place: "死神 千年血战篇",
+        className: "rotate-[-2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/bUQ6fHtqjEXkg4B.png",
+        place: "爱死机",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/VYLC12bASJuyEQ4.png",
+        place: "龙之家族",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/2eKiWduDlNOct5k.png",
+        place: "睡魔",
         className: "rotate-[2deg]",
     },
 ];
