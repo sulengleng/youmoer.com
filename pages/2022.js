@@ -207,11 +207,11 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
-              <div className="py-5 ml-7">
+              <div className="py-5 md:ml-7">
                   <details className="group">
                       <summary className="flex cursor-pointer list-none justify-between font-medium">
                           <span> 年度最喜欢的十个剧集</span>
-                          <span className="transition group-open:rotate-180">
+                          <span className="transition group-open:rotate-180 invisible md:visible">
                             <CaretDown size={24} />
                           </span>
                       </summary>
