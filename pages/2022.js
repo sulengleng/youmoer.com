@@ -56,7 +56,27 @@ const IMAGES = [
         src: "https://s2.loli.net/2023/01/20/9Jm43sRdfQ76NBb.png",
         place: "莉可丽丝",
         className: "rotate-[2deg]",
-    }
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/bUQ6fHtqjEXkg4B.png",
+        place: "爱死机",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/OVgcfs1tl6XpRCB.png",
+        place: "水星的魔女",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/3IhzLW89iERVjCm.png",
+        place: "万神殿",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/yfLtPTlKz47RNni.png",
+        place: "灵能百分百",
+        className: "rotate-[2deg]",
+    },
 ];
 
 const ContentWrapper = ({ children, className, width }) => (
