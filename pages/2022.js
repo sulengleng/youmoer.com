@@ -171,7 +171,9 @@ export default function Home() {
                   <CloudMoon size={20} className="mr-2 opacity-40" />
                   Philosophy
               </h2>
-              <div className=""></div>
+              <div className="mt-4 prose prose-slate mx-auto lg:prose-lg">
+                  <p>2022年居然过去的如此快，今年好像没有什么“一年”的概念，感觉已经做了许多，又感觉才刚刚开始</p>
+              </div>
           </ContentWrapper>
 
           <br/>
