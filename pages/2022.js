@@ -43,18 +43,18 @@ const IMAGES = [
         className: "rotate-[-2deg]",
     },
     {
-        src: "/images/pages/Street.png",
-        place: "York",
+        src: "https://s2.loli.net/2023/01/20/WQdIbuiUFcltMfh.png",
+        place: "赛博朋克：边缘行者",
         className: "rotate-[2deg]",
     },
     {
-        src: "/images/pages/dali.png",
-        place: "Dali",
+        src: "https://s2.loli.net/2023/01/20/6rt1dvfkIJjMaoq.png",
+        place: "派对浪客诸葛孔明",
         className: "rotate-[-2deg]",
     },
     {
-        src: "/images/pages/pine-and-stone.png",
-        place: "Suzhou",
+        src: "https://s2.loli.net/2023/01/20/9Jm43sRdfQ76NBb.png",
+        place: "莉可丽丝",
         className: "rotate-[2deg]",
     }
 ];
