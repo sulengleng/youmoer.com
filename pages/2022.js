@@ -207,7 +207,7 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
-              <div className="py-0 md:py-5 mt-5 md:mt-0 md:ml-7">
+              <div className="py-0 md:py-5 mt-5 md:mt-0">
                   <details className="group">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span> 年度最喜欢的十个剧集</span>
@@ -215,7 +215,7 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[1000px]">
+                      <div className="grid grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[1000px]">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
