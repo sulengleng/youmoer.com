@@ -173,14 +173,32 @@ export default function Home() {
               </h2>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-white mx-auto lg:prose-lg">
                   <p>
-                      2022年居然过去的如此快，今年好像没有什么“一年”的概念，感觉已经做了许多事，又感觉才刚刚开始。
-                      如果用一个成语总结辞旧迎新的感觉，那我觉得是“无精打采”，因为今年已经经历过太多辞旧迎新的时刻，仿佛新年只是其中并不算重要的一个罢了。
+                      2022年居然过去的如此快，今年好像没有什么「一年」的概念，感觉已经做了许多事，又感觉才刚刚开始。
+                      如果用一个成语总结辞旧迎新的感觉，那我觉得是「无精打采」，因为今年已经经历过太多辞旧迎新的时刻，仿佛新年只是其中并不算重要的一个罢了。
                       但是，我不打算用这样悲观的情绪来总结我的2022年，因为这一年对我来说很有意义，新朋友、新环境、新目标。只要这样继续的走下去就行了，不是吗？
                   </p>
                   <figure>
                       <img src="https://s2.loli.net/2023/01/21/fPqhZvTcRwe5NA2.png" alt="" />
                       <figcaption>拿今年画的《群山图》作为文章配图吧~</figcaption>
                   </figure>
+                  <ul>
+                      <li>
+                          <p><strong>也许「正确」的坚持更重要</strong></p>
+                          <p>
+                              书上说，坚持就一定会成功。但是从我的观察来看不总是会这样：时间总是有限，坚持做一件事就意味着放弃坚持做另一件事。
+                              现在我更想把坚持定义为稳定创造的能力，我们更需要的是从整体视角更好的规划我们自己的生活方式；更重要的是，坚持的东西需要是可持续发展的。
+                          </p>
+                          <p>
+                              我们没必要为了一件对自己并不是很有意义的事情扰乱我们原本坚持的整个系统，专注到那些真正必须做的事情上去吧~
+                          </p>
+                      </li>
+                      <li>
+                          <p><strong>Since this is a list, I need at least two items.</strong></p>
+                      </li>
+                      <li>
+                          <p><strong>It's not a bad idea to add a third item either.</strong></p>
+                      </li>
+                  </ul>
               </div>
           </ContentWrapper>
 
