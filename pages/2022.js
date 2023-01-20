@@ -120,7 +120,7 @@ export default function Home() {
         }}
       />
 
-      <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
+      <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] md:max-w-[900px] mx-auto">
         <h2 className="mb-6 mt-12 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
@@ -201,7 +201,7 @@ export default function Home() {
                               慢慢适应这些新的环境对我来说是具有挑战性的，因为开始需要为越来越多的事情负责 —— 这是我在国内，甚至是国际学校，都不太熟悉的事情。
                           </p>
                           <p>
-                              今年和别人的交流比以往的任何时间都多，我也意识到了自己的每一句话对于别人有什么意义，也许这说的有点夸张了，但是对于能接纳其他人观点的人来说，也许会潜移默化收到影响。
+                              今年和别人的交流比以往的任何时间都多，我也意识到了自己的每一句话对于别人有什么意义，也许这么说有点夸张了，但是对于能接纳其他人观点的人来说，也许会潜移默化收到影响。
                               从需要被关照的人到需要做好自己的事并且帮助别人的人，心理上会有不少的转变，希望我新一年能做的更好。
                           </p>
                           <p>
