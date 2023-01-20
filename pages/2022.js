@@ -209,7 +209,7 @@ export default function Home() {
               </h2>
               <div className="py-0 md:py-5 mt-5 md:mt-0">
                   <details className="group">
-                      <summary className="flex cursor-pointer list-none md:justify-between font-medium">
+                      <summary className="flex cursor-pointer list-none md:justify-around font-medium">
                           <span> 年度最喜欢的十个剧集</span>
                           <span className="transition group-open:rotate-180 invisible md:visible">
                             <CaretDown size={24} />
