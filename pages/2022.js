@@ -196,6 +196,10 @@ export default function Home() {
                       </li>
                       <li>
                           <p><strong  className="text-white">成年可能需要开始面对责任了</strong></p>
+                          <p>
+                              今年18岁了，成年的那一刻是在前往异国他乡的飞机上度过的。今年确实面对了不少新环境：大学、职场、社团，越来越多需要和别人合作的场景。
+                              慢慢适应这些新的环境对我来说是具有挑战性的，因为开始需要为越来越多的事情负责 ———— 这是我在国内，甚至是国际学校，都不太熟悉的事情。
+                          </p>
                       </li>
                       <li>
                           <p><strong className="text-white">It's not a bad idea to add a third item either.</strong></p>
@@ -233,7 +237,7 @@ export default function Home() {
 
           <br/>
 
-          <div width="700px" className="ml-auto mb-4 sm:text-left">
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
@@ -270,7 +274,7 @@ export default function Home() {
                       </div>
                   </details>
               </div>
-          </div>
+          </ContentWrapper>
       </article>
     </>
   );
