@@ -63,19 +63,9 @@ const IMAGES = [
         className: "rotate-[2deg]",
     },
     {
-        src: "https://s2.loli.net/2023/01/20/8dqHhySF3UaVkEG.png",
-        place: "异世界归来的舅舅",
-        className: "rotate-[-2deg]"
-    },
-    {
         src: "https://s2.loli.net/2023/01/20/OVgcfs1tl6XpRCB.png",
         place: "水星的魔女",
         className: "rotate-[2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/3IhzLW89iERVjCm.png",
-        place: "万神殿",
-        className: "rotate-[-2deg]",
     },
     {
         src: "https://s2.loli.net/2023/01/20/yfLtPTlKz47RNni.png",
@@ -83,43 +73,8 @@ const IMAGES = [
         className: "rotate-[2deg]",
     },
     {
-        src: "https://s2.loli.net/2023/01/20/jA6gSBlRpZM4uaK.png",
-        place: "JOJO石之海",
-        className: "rotate-[-2deg]"
-    },
-    {
         src: "https://s2.loli.net/2023/01/20/DIxJdGzHOBju7oW.png",
         place: "间谍过家家",
-        className: "rotate-[2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/fvODkloKgaAjqCF.png",
-        place: "来自深渊",
-        className: "rotate-[-2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/ReVfnB2EUsiS7jY.png",
-        place: "相合之物",
-        className:  "rotate-[2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/oNDwQaMGq456Hej.png",
-        place: "契约之吻",
-        className: "rotate-[-2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/hZpVkDTOYuJHrwX.png",
-        place: "夏日重现",
-        className: "rotate-[2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/3pRdxgSCW9HLacj.png",
-        place: "死神 千年血战篇",
-        className: "rotate-[-2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/oV1tvOJNhE2XGBl.png",
-        place: "彻夜之歌",
         className: "rotate-[2deg]"
     },
     {
@@ -131,11 +86,6 @@ const IMAGES = [
         src: "https://s2.loli.net/2023/01/20/VYLC12bASJuyEQ4.png",
         place: "龙之家族",
         className: "rotate-[2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/2eKiWduDlNOct5k.png",
-        place: "睡魔",
-        className: "rotate-[-2deg]",
     },
 ];
 
