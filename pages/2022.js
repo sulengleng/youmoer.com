@@ -14,6 +14,11 @@ import {
 
 const TIMELINE = [
     {
+        data: 'Jan 19, 2023',
+        title: '第三版主页上线',
+        description: '第三版主页上线，网页正式告一段落',
+    },
+    {
         date: 'Nov 23, 2022',
         title: '个人网站开始上线',
         description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top'
@@ -23,6 +28,12 @@ const TIMELINE = [
         title: '开始大学学习',
         description: '约克大学 Bsc Interactive Media'
     },
+    {
+        data: 'Jan 08, 2022',
+        title: '告别2021',
+        description: '去年年度总结~',
+        link: 'https://yeyouchuan.zhubai.love/posts/2091618351985659904'
+    }
 ]
 
 const ContentWrapper = ({ children, className, width }) => (
