@@ -232,12 +232,7 @@ export default function Home() {
                           <p>
                               这是我年末学习到的一点，还有一个相似的经济学理论就是「
                               <a className="dark:text-gray-200" href="https://wiki.mbalib.com/wiki/%E5%90%8E%E5%8F%91%E5%8A%A3%E5%8A%BF">后发劣势</a>
-                              」，简单来说就是后来者对前人技术的模仿会留下不少的隐患，如果要举一个例子的话就是全世界很多企业对
-                                  <div className="items-baseline flex-row h-5">
-                                    <img src="https://s2.loli.net/2023/01/21/xKk8qeyNDlt9UQA.png" alt="" className="self-start w-5 h-5 rounded-full mx-1"/>
-                                    <a>Netflix </a>
-                                  </div>
-                              管理模式模仿的失败。
+                              」，简单来说就是后来者对前人技术的模仿会留下不少的隐患，如果要举一个例子的话就是全世界很多企业对 Netflix 管理模式模仿的失败。
                           </p>
                       </li>
                   </ul>
