@@ -183,7 +183,7 @@ export default function Home() {
                   </figure>
                   <ul>
                       <li>
-                          <p><strong>也许「正确」的坚持更重要</strong></p>
+                          <p className="text-white"><strong>也许「正确」的坚持更重要</strong></p>
                           <p>
                               书上说，坚持就一定会成功。但是从我的观察来看不总是会这样：时间总是有限，坚持做一件事就意味着放弃坚持做另一件事。
                               现在我更想把坚持定义为稳定创造的能力，我们更需要的是从整体视角更好的规划我们自己的生活方式；更重要的是，坚持的东西需要是可持续发展的。
@@ -193,10 +193,10 @@ export default function Home() {
                           </p>
                       </li>
                       <li>
-                          <p><strong>Since this is a list, I need at least two items.</strong></p>
+                          <p className="text-white"><strong>Since this is a list, I need at least two items.</strong></p>
                       </li>
                       <li>
-                          <p><strong>It's not a bad idea to add a third item either.</strong></p>
+                          <p className="text-white"><strong>It's not a bad idea to add a third item either.</strong></p>
                       </li>
                   </ul>
               </div>
