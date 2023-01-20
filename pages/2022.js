@@ -231,7 +231,7 @@ export default function Home() {
                           </p>
                           <p>
                               这是我年末学习到的一点，还有一个相似的经济学理论就是
-                              <a className="underline" href="https://wiki.mbalib.com/wiki/%E5%90%8E%E5%8F%91%E5%8A%A3%E5%8A%BF">「后发劣势」</a>
+                              <a className="underline underline-offset-4 dark:text-gray-200" href="https://wiki.mbalib.com/wiki/%E5%90%8E%E5%8F%91%E5%8A%A3%E5%8A%BF">「后发劣势」</a>
                               ，简单来说就是后来者对前人技术的模仿会留下不少的隐患，如果要举一个例子的话就是全世界很多企业对网飞管理模式模仿的失败。
                           </p>
                       </li>
