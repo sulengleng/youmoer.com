@@ -208,7 +208,7 @@ export default function Home() {
                   What I see and hear
               </h2>
               <div className="py-0 md:py-5 mt-5 md:mt-0">
-                  <details className="group">
+                  <details className="group max-w-md">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span> 年度最喜欢的十个剧集</span>
                           <span className="transition group-open:rotate-180 invisible md:visible">
