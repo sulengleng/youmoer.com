@@ -121,7 +121,7 @@ export default function Home() {
       />
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] md:max-w-[900px] mx-auto">
-        <h2 className="mb-6 mt-12 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
+        <h2 className="mb-6 mt-12 ml-auto text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
@@ -251,7 +251,7 @@ export default function Home() {
                   What I see and hear
               </h2>
               <div className="py-0 md:py-5 mt-5 md:mt-0">
-                  <details className="group max-w-lg mx-auto">
+                  <details className="group max-w-2xl mx-auto">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span> 年度最喜欢的十个剧集</span>
                           <span className="transition group-open:rotate-180 invisible md:visible">
