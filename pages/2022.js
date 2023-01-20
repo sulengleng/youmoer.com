@@ -9,7 +9,7 @@ import {
     Barbell,
     ShareNetwork,
     CloudMoon,
-    SpotifyLogo, MapPin,
+    SpotifyLogo, MapPin, CaretDown,
 } from "phosphor-react";
 
 const TIMELINE = [
@@ -210,11 +210,9 @@ export default function Home() {
               <div className="py-5">
                   <details className="group">
                       <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                          <span> How does the billing work?</span>
+                          <span> 年度最喜欢的十个剧集</span>
                           <span className="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path
-                                d="M6 9l6 6 6-6"></path></svg>
+                            <CaretDown size={24} />
                           </span>
                       </summary>
                       <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[1000px]">
