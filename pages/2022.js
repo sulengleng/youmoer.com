@@ -185,7 +185,7 @@ export default function Home() {
                   </figure>
                   <ul>
                       <li>
-                          <p><strong className="text-white">也许「正确」的坚持更重要</strong></p>
+                          <p><strong className="text-black dark:text-white">也许「正确」的坚持更重要</strong></p>
                           <p>
                               书上说，坚持就一定会成功。但是从我的观察来看不总是会这样：时间总是有限，坚持做一件事就意味着放弃坚持做另一件事。
                               现在我更想把坚持定义为稳定创造的能力，我们更需要的是从整体视角更好的规划我们自己的生活方式；更重要的是，坚持的东西需要是可持续发展的。
@@ -195,7 +195,7 @@ export default function Home() {
                           </p>
                       </li>
                       <li>
-                          <p><strong  className="text-white">成年可能需要开始面对责任了</strong></p>
+                          <p><strong  className="text-black dark:text-white">成年可能需要开始面对责任了</strong></p>
                           <p>
                               今年18岁了，成年的那一刻是在前往异国他乡的飞机上度过的。成年之后确实需要面对不少新环境：大学、职场、社团，越来越多需要和别人合作的场景。
                               慢慢适应这些新的环境对我来说是具有挑战性的，因为开始需要为越来越多的事情负责 —— 这是我在国内，甚至是国际学校，都不太熟悉的事情。
@@ -206,7 +206,7 @@ export default function Home() {
                           </p>
                       </li>
                       <li>
-                          <p><strong className="text-white">阅读很重要，选择阅读更重要</strong></p>
+                          <p><strong className="text-black dark:text-white">阅读很重要，选择阅读更重要</strong></p>
                           <p>
                               当然不只是年岁或者环境的变化。今年的阅读量和信息源相比之前有大幅提升，所以能看到更多的观点，也有思考更多的事情。
                               我不觉得我从前是被困在「信息茧房」里了，因为信息本来就不会自己来找你，有价值的信息是需要通过手段寻找的。
@@ -220,7 +220,7 @@ export default function Home() {
                           </p>
                       </li>
                       <li>
-                          <p><strong className="text-white">不要再视别人的经验为行动的方法了</strong></p>
+                          <p><strong className="text-black dark:text-white">不要再视别人的经验为行动的方法了</strong></p>
                           <p>
                               经验是非常好的老师，它把别人的目标变成了可操作的步骤，仿佛是走在了正确的路上就能到达同样的终点。
                               别人的经验事实上是一个损坏的压缩包，里面有太多的细节是你根本无从得知的，而且你也根本还原不了。
