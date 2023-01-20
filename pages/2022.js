@@ -236,7 +236,7 @@ export default function Home() {
                                   <div className="inline-flex items-baseline h-5">
                                     <img src="https://s2.loli.net/2023/01/21/xKk8qeyNDlt9UQA.png" alt="" className="self-start w-5 h-5 rounded-full mx-1"/>
                                     <a>Netflix </a>
-                                  </>
+                                  </div>
                               管理模式模仿的失败。
                           </p>
                       </li>
