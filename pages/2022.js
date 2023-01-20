@@ -44,7 +44,7 @@ const IMAGES = [
     },
     {
         src: "https://s2.loli.net/2023/01/20/WQdIbuiUFcltMfh.png",
-        place: "赛博朋克：边缘行者",
+        place: "赛博朋克边缘行者",
         className: "rotate-[2deg]",
     },
     {
@@ -73,24 +73,44 @@ const IMAGES = [
         className: "rotate-[2deg]",
     },
     {
+        src: "https://s2.loli.net/2023/01/20/jA6gSBlRpZM4uaK.png",
+        place: "JOJO石之海",
+        className: "rotate-[-2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/DIxJdGzHOBju7oW.png",
+        place: "间谍过家家",
+        className: "rotate-[2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/fvODkloKgaAjqCF.png",
+        place: "来自深渊",
+        className: "rotate-[2deg]"
+    },
+    {
         src: "https://s2.loli.net/2023/01/20/3pRdxgSCW9HLacj.png",
         place: "死神 千年血战篇",
         className: "rotate-[-2deg]"
     },
     {
+        src: "https://s2.loli.net/2023/01/20/oV1tvOJNhE2XGBl.png",
+        place: "彻夜之歌",
+        className: "rotate-[2deg]"
+    },
+    {
         src: "https://s2.loli.net/2023/01/20/bUQ6fHtqjEXkg4B.png",
         place: "爱死机",
-        className: "rotate-[2deg]",
+        className: "rotate-[-2deg]",
     },
     {
         src: "https://s2.loli.net/2023/01/20/VYLC12bASJuyEQ4.png",
         place: "龙之家族",
-        className: "rotate-[-2deg]",
+        className: "rotate-[2deg]",
     },
     {
         src: "https://s2.loli.net/2023/01/20/2eKiWduDlNOct5k.png",
         place: "睡魔",
-        className: "rotate-[2deg]",
+        className: "rotate-[-2deg]",
     },
 ];
 
