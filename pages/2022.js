@@ -257,7 +257,7 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
-              <ContentWrapper className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[960px]">
+              <ContentWrapper className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[1000px]">
                   {IMAGES?.map((item) => (
                       <div
                           key={item.src}
