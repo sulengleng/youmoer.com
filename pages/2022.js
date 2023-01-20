@@ -171,7 +171,7 @@ export default function Home() {
                   <CloudMoon size={20} className="mr-2 opacity-40" />
                   Philosophy
               </h2>
-              <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-white mx-auto lg:prose-lg">
+              <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                   <p>
                       2022年居然过去的如此快，今年好像没有什么「一年」的概念，感觉已经做了许多事，又感觉才刚刚开始。
                       如果用一个成语总结辞旧迎新的感觉，那我觉得是「无精打采」，因为今年已经经历过太多辞旧迎新的时刻，仿佛新年只是其中并不算重要的一个罢了。
@@ -201,6 +201,7 @@ export default function Home() {
                               慢慢适应这些新的环境对我来说是具有挑战性的，因为开始需要为越来越多的事情负责 —— 这是我在国内，甚至是国际学校，都不太熟悉的事情。
                           </p>
                           <p>
+                              今年和别人的交流比以往的任何时间都多，我也意识到了自己的每一句话对于别人有什么意义，
                               当然这不只是年岁增长或者环境变化的问题。今年的阅读量相比之前有大幅提升，所以能看到更多的观点，也有思考更多的事情。
                           </p>
                       </li>
