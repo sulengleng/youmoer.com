@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "仿生人夜游船(2022批次)使用手册"
+title: "写在疫情之后"
 date: 2022-11-23 12:23:00 +0000
 categories: personal
 excerpt: 夜游船2022年年度总结
