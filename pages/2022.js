@@ -53,9 +53,19 @@ const IMAGES = [
         className: "rotate-[-2deg]",
     },
     {
+        src: "https://s2.loli.net/2023/01/20/XfxICHPwAjYGUVe.png",
+        place: "辉夜大小姐想让我告白",
+        className: "rotate-[2deg]"
+    },
+    {
         src: "https://s2.loli.net/2023/01/20/9Jm43sRdfQ76NBb.png",
         place: "莉可丽丝",
         className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/8dqHhySF3UaVkEG.png",
+        place: "异世界归来的舅舅",
+        className: "rotate-[-2deg]"
     },
     {
         src: "https://s2.loli.net/2023/01/20/OVgcfs1tl6XpRCB.png",
@@ -85,6 +95,21 @@ const IMAGES = [
     {
         src: "https://s2.loli.net/2023/01/20/fvODkloKgaAjqCF.png",
         place: "来自深渊",
+        className: "rotate-[-2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/ReVfnB2EUsiS7jY.png",
+        place: "相合之物",
+        className:  "rotate-[2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/oNDwQaMGq456Hej.png",
+        place: "契约之吻",
+        className: "rotate-[-2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/hZpVkDTOYuJHrwX.png",
+        place: "夏日重现",
         className: "rotate-[2deg]"
     },
     {
