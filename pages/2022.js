@@ -202,7 +202,7 @@ export default function Home() {
 
           <br/>
 
-          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
+          <div width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
@@ -212,40 +212,36 @@ export default function Home() {
                       <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                           <span> How does the billing work?</span>
                           <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                     stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path
-                    d="M6 9l6 6 6-6"></path></svg>
-              </span>
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
+                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path
+                                d="M6 9l6 6 6-6"></path></svg>
+                          </span>
                       </summary>
-                      <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Springerdata offers a variety of
-                          billing options, including monthly and annual subscription plans, as well as pay-as-you-go
-                          pricing for certain services. Payment is typically made through a credit card or other secure
-                          online payment method.</p>
+                      <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[1000px]">
+                          {IMAGES?.map((item) => (
+                              <div
+                                  key={item.src}
+                                  className={clsx(
+                                      item?.className,
+                                      "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
+                                  )}
+                              >
+                                  <img
+                                      src={item?.src}
+                                      alt={item?.place}
+                                      className="rounded-[9px]"
+                                      loading="lazy"
+                                  />
+                                  <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                                      <MapPin size={14} className="mr-1" />
+                                      {item?.place}
+                                  </div>
+                              </div>
+                          ))}
+                      </div>
                   </details>
               </div>
-              <ContentWrapper className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[1000px]">
-                  {IMAGES?.map((item) => (
-                      <div
-                          key={item.src}
-                          className={clsx(
-                              item?.className,
-                              "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
-                          )}
-                      >
-                          <img
-                              src={item?.src}
-                              alt={item?.place}
-                              className="rounded-[9px]"
-                              loading="lazy"
-                          />
-                          <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                              <MapPin size={14} className="mr-1" />
-                              {item?.place}
-                          </div>
-                      </div>
-                  ))}
-              </ContentWrapper>
-          </ContentWrapper>
+          </div>
       </article>
     </>
   );
