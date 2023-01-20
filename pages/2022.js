@@ -215,7 +215,7 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[1000px]">
+                      <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[1000px]">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
