@@ -235,7 +235,7 @@ export default function Home() {
                               ，简单来说就是后来者对前人技术的模仿会留下不少的隐患，如果要举一个例子的话就是全世界很多企业对
                               <span className="inline-flex items-baseline">
                                 <img src="https://s2.loli.net/2023/01/21/xKk8qeyNDlt9UQA.png" alt="" className="self-center -mt-2 w-5 h-5 rounded-full mx-1"/>
-                                <span>Netflix</span>
+                                <span>Netflix </span>
                               </span>
                               管理模式模仿的失败。
                           </p>
