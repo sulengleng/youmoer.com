@@ -177,6 +177,10 @@ export default function Home() {
                       如果用一个成语总结辞旧迎新的感觉，那我觉得是“无精打采”，因为今年已经经历过太多辞旧迎新的时刻，仿佛新年只是其中并不算重要的一个罢了。
                       但是，我不打算用这样悲观的情绪来总结我的2022年，因为这一年对我来说很有意义，新朋友、新环境、新目标。只要这样继续的走下去就行了，不是吗？
                   </p>
+                  <figure>
+                      <img src="https://s2.loli.net/2023/01/21/fPqhZvTcRwe5NA2.png" alt="" />
+                      <figcaption>拿今年画的《群山图》作为文章配图吧~</figcaption>
+                  </figure>
               </div>
           </ContentWrapper>
 
