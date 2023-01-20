@@ -171,8 +171,12 @@ export default function Home() {
                   <CloudMoon size={20} className="mr-2 opacity-40" />
                   Philosophy
               </h2>
-              <div className="mt-4 prose prose-slate mx-auto lg:prose-lg">
-                  <p>2022年居然过去的如此快，今年好像没有什么“一年”的概念，感觉已经做了许多，又感觉才刚刚开始</p>
+              <div className="mt-4 prose prose-gray mx-auto lg:prose-lg">
+                  <p>
+                      2022年居然过去的如此快，今年好像没有什么“一年”的概念，感觉已经做了许多事，又感觉才刚刚开始。
+                      如果用一个成语总结辞旧迎新的感觉，那我觉得是“无精打采”，因为今年已经经历过太多辞旧迎新的时刻，仿佛新年只是其中并不算重要的一个罢了。
+                      但是，我不打算用这样悲观的情绪来总结我的2022年，因为这一年对我来说很有意义，新朋友、新环境、新目标。只要这样继续的走下去就行了，不是吗？
+                  </p>
               </div>
           </ContentWrapper>
 
