@@ -9,7 +9,7 @@ import {
     Barbell,
     ShareNetwork,
     CloudMoon,
-    SpotifyLogo,
+    SpotifyLogo, MapPin,
 } from "phosphor-react";
 
 const TIMELINE = [
@@ -35,6 +35,29 @@ const TIMELINE = [
         link: 'https://yeyouchuan.zhubai.love/posts/2091618351985659904'
     }
 ]
+
+const IMAGES = [
+    {
+        src: "https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png",
+        place: "孤独摇滚",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "/images/pages/Street.png",
+        place: "York",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "/images/pages/dali.png",
+        place: "Dali",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "/images/pages/pine-and-stone.png",
+        place: "Suzhou",
+        className: "rotate-[2deg]",
+    }
+];
 
 const ContentWrapper = ({ children, className, width }) => (
     <div
@@ -154,7 +177,28 @@ export default function Home() {
                   <SpotifyLogo size={20} className="mr-2 opacity-40" />
                   What I see and hear
               </h2>
-              <div className=""></div>
+              <ContentWrapper className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[960px]">
+                  {IMAGES?.map((item) => (
+                      <div
+                          key={item.src}
+                          className={clsx(
+                              item?.className,
+                              "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
+                          )}
+                      >
+                          <img
+                              src={item?.src}
+                              alt={item?.place}
+                              className="rounded-[9px]"
+                              loading="lazy"
+                          />
+                          <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                              <MapPin size={14} className="mr-1" />
+                              {item?.place}
+                          </div>
+                      </div>
+                  ))}
+              </ContentWrapper>
           </ContentWrapper>
       </article>
     </>
