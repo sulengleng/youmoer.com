@@ -425,6 +425,60 @@ export default function Home() {
                       如果大家感兴趣的话，非常推荐去看看~
                   </p>
               </div>
+              <div className="py-0 md:py-5 mt-5 md:mt-0">
+                  <details className="group max-w-[625px] mx-auto">
+                      <summary className="flex cursor-pointer list-none md:justify-between font-medium">
+                          <span className="my-4 ml-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
+                              年度最喜欢的十个剧集
+                          </span>
+                          <span className="my-4 mr-4 transition group-open:rotate-180 collapse md:visible">
+                            <CaretDown size={24} />
+                          </span>
+                      </summary>
+                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-0 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] h-0 md:h-fit">
+                          {IMAGES?.map((item) => (
+                              <div
+                                  key={item.src}
+                                  className={clsx(
+                                      item?.className,
+                                      "h-0 md:h-fit relative border-0 p-[4px] max-w-[110px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] md:border md:dark:border-gray-700"
+                                  )}
+                              >
+                                  <img
+                                      src={item?.src}
+                                      alt={item?.place}
+                                      className="rounded-[9px]"
+                                      loading="lazy"
+                                  />
+                                  <div className="h-0 md:h-fit font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
+                                      <MapPin size={14} className="mr-1" />
+                                      {item?.place}
+                                  </div>
+                              </div>
+                          ))}
+                      </div>
+                      <div className="mt-52 md:mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                          <ul className="mx-4 visible md:hidden">
+                              <li>孤独摇滚</li>
+                              <li>赛博朋克：边缘行者</li>
+                              <li>派对浪客诸葛孔明</li>
+                              <li>辉夜大小姐想让我告白：究极浪漫</li>
+                              <li>莉可丽丝</li>
+                              <li>机动战士高达 水星的魔女</li>
+                              <li>灵能百分百 第三季</li>
+                              <li>间谍过家家</li>
+                              <li>爱·死亡与机器人</li>
+                              <li>龙之家族</li>
+                          </ul>
+                      </div>
+                  </details>
+              </div>
+              <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                  <p>
+                      今年的影视作品真的都非常的强，我也是纠结了好久才选出的这10个最带给我感动和欢乐的剧集，
+                      如果大家感兴趣的话，非常推荐去看看~
+                  </p>
+              </div>
           </ContentWrapper>
       </article>
     </>
