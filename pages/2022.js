@@ -246,18 +246,13 @@ export default function Home() {
                   <AndroidLogo size={20} className="mr-2 opacity-40" />
                   Personal System
               </h2>
+              <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                  <p></p>
+              </div>
           </ContentWrapper>
 
           <br/>
 
-          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
-              <h2 className="font-bold text-lg flex items-center">
-                  <Barbell size={20} className="mr-2 opacity-40" />
-                  Work
-              </h2>
-          </ContentWrapper>
-
-          <br/>
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
