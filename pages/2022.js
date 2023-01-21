@@ -387,7 +387,7 @@ export default function Home() {
                                   key={item.src}
                                   className={clsx(
                                       item?.className,
-                                      "relative border p-[4px] max-w-[110px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
+                                      "h-0 md:h-fit relative border p-[4px] max-w-[110px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
                                   )}
                               >
                                   <img
