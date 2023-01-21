@@ -257,7 +257,7 @@ export default function Home() {
               >
                   <div className="flex gap-6">
                       <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-readwise-icon bg-cover dark:bg-readwise-icon-dark z-10" />
-                      <span className="absolute top-6 left-8 bg-[#eceefb] dark:bg-[#263147] rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
+                      <span className="absolute top-6 left-8 bg-[#eceefb] dark:bg-[#191f2f] rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
                       <p className="text-xl font-semibold mt-8 transition-all z-10">Readwise Reader</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
@@ -308,12 +308,13 @@ export default function Home() {
               >
                   <div className="flex gap-6">
                       <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-figma-icon-white bg-cover dark:bg-figma-icon z-10" />
-                      <span className="absolute top-6 left-8 bg-gradient-to-b from-rose-100 to-teal-100 dark:from-green-300 dark:via-blue-500 dark:to-purple-600 rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
+                      <span className="absolute top-6 left-8 bg-gradient-to-b from-rose-100 to-teal-100 dark:from-green-300 dark:via-blue-500 dark:to-purple-600 rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[30]"></span>
                       <p className="text-xl font-semibold mt-8 transition-all z-10">Figma</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
                       <p>
-                            Figma 是我今年最喜欢的设计工具，我用它来做所有的设计，包括网站、App、Logo、海报、PPT、视频封面等等。
+                          我设计这个网站的时候所有的素材都是通过 Figma 来设计的，有的时候也会用 Figma 来做画一些流程图。
+                          是 2022 年使用次数相当多的软件了，不得不说 Software is Art。
                       </p>
                   </div>
               </ContentWrapper>
