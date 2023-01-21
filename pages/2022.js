@@ -281,7 +281,7 @@ export default function Home() {
               >
                   <div className="flex gap-1 md:gap-6 mt-2 md:mt-4">
                       <div className="rounded-xl min-w- -rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-obsidian-icon-white bg-cover dark:bg-obsidian-icon z-10" />
-                      <span className="absolute top-6 md:top-8 left-8 bg-[#eeeeee] dark:bg-[#020127] rounded-xl -rotate-3 h-6 w-6 md:h-14 md:w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
+                      <span className="absolute top-6 md:top-8 left-8 bg-[#eeeeee] dark:bg-[#020127] rounded-xl -rotate-3 h-6 w-6 md:h-14 md:w-14 z-0 transition-all duration-300 group-hover:scale-[70]"></span>
                       <div className="rounded-xl rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-notion-icon bg-cover z-10" />
                       <p className="text-xl font-semibold ml-4 md:ml-0 mt-2 md:mt-8 transition-all z-10">Obsidian + Notion</p>
                   </div>
