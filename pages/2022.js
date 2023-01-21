@@ -374,14 +374,14 @@ export default function Home() {
               <div className="py-0 md:py-5 mt-5 md:mt-0">
                   <details className="group max-w-[625px] mx-auto border dark:border-gray-800 ">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
-                          <span className="mt-2 ml-2 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
+                          <span className="mt-4 ml-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
                               年度最喜欢的十个剧集
                           </span>
                           <span className="mt-2 transition group-open:rotate-180 invisible md:visible">
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-2 grid grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[950px]">
+                      <div className="mx-4 grid grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[950px]">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
