@@ -254,10 +254,11 @@ export default function Home() {
               </div>
               <ContentWrapper
                   width="700px"
-                  className="border group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-white md:rounded-lg dark:bg-gray-900"
+                  className="border relative group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-white md:rounded-lg dark:bg-gray-900"
               >
                   <div className="flex gap-6">
-                      <img className="rounded-xl rotate-3 mt-2 h-20 w-20 z-0 transition-all duration-300 group-hover:scale-[10]" src="https://s2.loli.net/2023/01/19/JVYUhcwtvEA5mx3.png"  alt=""/>
+                      <span className="absolute top-4 left-4 bg-[#263147] rounded-xl rotate-3 h-20 w-20 z-0 transition-all duration-300 group-hover:scale-[10]"></span>
+                      <img className="rounded-xl rotate-3 mt-2 h-20 w-20" src="https://s2.loli.net/2023/01/19/JVYUhcwtvEA5mx3.png"  alt=""/>
                       <p className="text-xl font-semibold mt-8">Readwise Reader</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg relative z-10">
