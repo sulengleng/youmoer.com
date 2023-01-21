@@ -403,7 +403,7 @@ export default function Home() {
                               </div>
                           ))}
                       </div>
-                      <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                      <div className="mt-32 md:mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                           <ul className="mx-4 visible md:hidden">
                               <li>孤独摇滚</li>
                               <li>赛博朋克：边缘行者</li>
