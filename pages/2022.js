@@ -324,12 +324,17 @@ export default function Home() {
               >
                   <div className="flex gap-1 md:gap-6 mt-2 md:mt-4">
                       <div className="rounded-xl min-w- -rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-apple-music bg-cover z-10" />
-                      <span className="absolute top-6 md:top-8 left-8 bg-[#eeeeee] dark:bg-[#020127] rounded-xl -rotate-3 h-6 w-6 md:h-14 md:w-14 z-0 transition-all duration-300 group-hover:scale-[70]"></span>
+                      <span className="absolute top-6 md:top-8 left-8 bg-[#fa4358] dark:bg-[#fa4358] rounded-xl -rotate-3 h-6 w-6 md:h-14 md:w-14 z-0 transition-all duration-300 group-hover:scale-[70]"></span>
                       <div className="rounded-xl rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-last-fm bg-cover z-10" />
                       <p className="text-xl font-semibold ml-4 md:ml-0 mt-2 md:mt-8 transition-all z-10">Apple Music + Last.fm</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
-
+                      <p>
+                      今年用的听音乐软件无疑是口碑非常不错的 Apple Music 美区。
+                      </p>
+                      <p>
+                      因为总是想记录自己听的歌，所以我也会用 Last.fm 来记录一下我听过的专辑，Last.fm 是一个非常老的网站了，可能好多人都惊讶它还活着~
+                      </p>
                   </div>
               </ContentWrapper>
           </ContentWrapper>
