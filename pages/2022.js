@@ -308,7 +308,7 @@ export default function Home() {
               >
                   <div className="flex gap-6">
                       <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-figma-icon-white bg-cover dark:bg-figma-icon z-10" />
-                      <span className="absolute top-6 left-8 bg-gradient-to-b from-rose-100 to-teal-100 dark:from-green-300 dark:via-blue-500 dark:to-purple-600 rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[30]"></span>
+                      <span className="absolute top-6 left-8 bg-gradient-to-b from-rose-100 to-teal-100 dark:from-green-300 dark:via-blue-500 dark:to-purple-600 rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[15]"></span>
                       <p className="text-xl font-semibold mt-8 transition-all z-10">Figma</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
@@ -316,6 +316,20 @@ export default function Home() {
                           我设计这个网站的时候所有的素材都是通过 Figma 来设计的，有的时候也会用 Figma 来做画一些流程图。
                           是 2022 年使用次数相当多的软件了，不得不说 Software is Art。
                       </p>
+                  </div>
+              </ContentWrapper>
+              <ContentWrapper
+                  width="700px"
+                  className="border relative group relative shadow-lg cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+              >
+                  <div className="flex gap-1 md:gap-6 mt-2 md:mt-4">
+                      <div className="rounded-xl min-w- -rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-obsidian-icon-white bg-cover dark:bg-obsidian-icon z-10" />
+                      <span className="absolute top-6 md:top-8 left-8 bg-[#eeeeee] dark:bg-[#020127] rounded-xl -rotate-3 h-6 w-6 md:h-14 md:w-14 z-0 transition-all duration-300 group-hover:scale-[70]"></span>
+                      <div className="rounded-xl rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-notion-icon bg-cover z-10" />
+                      <p className="text-xl font-semibold ml-4 md:ml-0 mt-2 md:mt-8 transition-all z-10">Obsidian + Notion</p>
+                  </div>
+                  <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
+
                   </div>
               </ContentWrapper>
           </ContentWrapper>
