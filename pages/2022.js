@@ -11,6 +11,7 @@ import {
     CloudMoon,
     SpotifyLogo, MapPin, CaretDown,
 } from "phosphor-react";
+import React from "react";
 
 const TIMELINE = [
     {
@@ -247,7 +248,17 @@ export default function Home() {
                   Personal System
               </h2>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
-                  <p></p>
+                  <p>
+                      个人系统
+                  </p>
+              </div>
+              <div className="grid grid-cols-3 md:grid-cols-2 place-self-center ml-0 xl:ml-6 mt-20 md:mt-24 gap-y-6 gap-10">
+                  <a className="h-20 w-20 ml-6 md:ml-8 -rotate-6 rounded-2xl bg-obsidian-icon-white dark:bg-obsidian-icon bg-cover" href="https://obsidian.md/" target="_blank"></a>
+                  <a className="h-20 w-20 ml-3 md:ml-0 rotate-2 rounded-2xl bg-figma-icon-white dark:bg-figma-icon bg-cover" href="https://figma.com/" target="_blank"></a>
+                  <a className="h-20 w-20 ml-0 md:ml-8 mt-0 md:mt-4 rotate-6 rounded-2xl bg-zotero-icon bg-cover" href="https://www.zotero.org/" target="_blank"></a>
+                  <a className="h-20 w-20 ml-6 md:ml-0 mt-0 md:mt-4 -rotate-3 rounded-2xl bg-notion-icon bg-cover" href="https://notion.so/" target="_blank"></a>
+                  <a className="h-20 w-20 ml-3 md:ml-8 mt-0 md:mt-4 -rotate-2 rounded-2xl bg-readwise-icon dark:bg-readwise-icon-dark bg-cover" href="https://readwise.io/read/" target="_blank"></a>
+                  <a className="h-20 w-20 mt-0 md:mt-4 rotate-6 rounded-lg bg-discord-icon dark:bg-discord-icon-black bg-cover" href="https://discord.com/" target="_blank"></a>
               </div>
           </ContentWrapper>
 
