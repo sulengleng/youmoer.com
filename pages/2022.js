@@ -308,7 +308,7 @@ export default function Home() {
               >
                   <div className="flex gap-6">
                       <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-figma-icon-white bg-cover dark:bg-figma-icon z-10" />
-                      <span className="absolute top-6 left-8 bg-gradient-to-b from-rose-100 to-teal-100 dark:from-green-300 dark:via-blue-500 dark:to-purple-600 rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[20]"></span>
+                      <span className="absolute top-6 left-8 bg-gradient-to-b from-rose-100 to-teal-100 dark:from-green-300 dark:via-blue-500 dark:to-purple-600 rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[23]"></span>
                       <p className="text-xl font-semibold mt-8 transition-all z-10">Figma</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
