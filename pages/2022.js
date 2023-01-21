@@ -377,7 +377,7 @@ export default function Home() {
                           <span className="my-4 ml-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
                               年度最喜欢的十个剧集
                           </span>
-                          <span className="my-4 mr-4 transition group-open:rotate-180 invisible md:visible">
+                          <span className="my-4 mr-4 transition group-open:rotate-180 collapse md:visible">
                             <CaretDown size={24} />
                           </span>
                       </summary>
@@ -403,18 +403,20 @@ export default function Home() {
                               </div>
                           ))}
                       </div>
-                      <ul className="mx-4 visible md:invisible">
-                          <li>孤独摇滚</li>
-                          <li>赛博朋克：边缘行者</li>
-                          <li>派对浪客诸葛孔明</li>
-                          <li>辉夜大小姐想让我告白：究极浪漫</li>
-                          <li>莉可丽丝</li>
-                          <li>机动战士高达 水星的魔女</li>
-                          <li>灵能百分百 第三季</li>
-                          <li>间谍过家家</li>
-                          <li>爱·死亡与机器人</li>
-                          <li>龙之家族</li>
-                      </ul>
+                      <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                          <ul className="mx-4 visible md:collapse">
+                              <li>孤独摇滚</li>
+                              <li>赛博朋克：边缘行者</li>
+                              <li>派对浪客诸葛孔明</li>
+                              <li>辉夜大小姐想让我告白：究极浪漫</li>
+                              <li>莉可丽丝</li>
+                              <li>机动战士高达 水星的魔女</li>
+                              <li>灵能百分百 第三季</li>
+                              <li>间谍过家家</li>
+                              <li>爱·死亡与机器人</li>
+                              <li>龙之家族</li>
+                          </ul>
+                      </div>
                   </details>
               </div>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
