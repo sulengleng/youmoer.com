@@ -256,8 +256,9 @@ export default function Home() {
                   width="700px"
                   className="border dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
-                  <div>
+                  <div className="flex gap-6">
                       <img className="rounded-xl rotate-3 mt-4 h-20 w-20" src="https://s2.loli.net/2023/01/19/JVYUhcwtvEA5mx3.png"  alt=""/>
+                      <p className="text-lg font-semibold">Readwise Reader</p>
                   </div>
                   <div className="my-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                       <p>
