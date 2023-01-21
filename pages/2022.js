@@ -372,9 +372,9 @@ export default function Home() {
                   What I see and hear
               </h2>
               <div className="py-0 md:py-5 mt-5 md:mt-0">
-                  <details className="group max-w-[610px] mx-auto border dark:border-gray-800">
+                  <details className="group max-w-[620px] mx-auto border dark:border-gray-800">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
-                          <span> 年度最喜欢的十个剧集</span>
+                          <span className="mt-2 ml-2 text-lg font-semibold"> 年度最喜欢的十个剧集</span>
                           <span className="transition group-open:rotate-180 invisible md:visible">
                             <CaretDown size={24} />
                           </span>
