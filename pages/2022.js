@@ -259,6 +259,9 @@ export default function Home() {
                       创建高亮最多的一篇文章是<a href="https://foresightnews.pro/article/detail/6630">详解 Y Combinator 发家史与投资组合演变：如何创造 6000 亿美元总价值？</a>,
                       一共43个高亮~
                   </p>
+                  <p>
+                      不谈那些最优秀的阅读软件的特点，我觉得最打动我的几点分别是：阅读光标、高亮兼容性、文章分类。
+                  </p>
               </div>
           </ContentWrapper>
 
