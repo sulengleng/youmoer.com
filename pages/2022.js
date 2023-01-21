@@ -231,7 +231,7 @@ export default function Home() {
                           </p>
                           <p>
                               这是我年末学习到的一点，还有一个相似的经济学理论就是「
-                              <a className="dark:text-gray-200" href="https://wiki.mbalib.com/wiki/%E5%90%8E%E5%8F%91%E5%8A%A3%E5%8A%BF">后发劣势</a>
+                              <a className="dark:text-gray-200" href="https://wiki.mbalib.com/wiki/%E5%90%8E%E5%8F%91%E5%8A%A3%E5%8A%BF" target="_blank">后发劣势</a>
                               」，简单来说就是后来者对前人技术的模仿会留下不少的隐患，如果要举一个例子的话就是全世界很多企业对 Netflix 管理模式模仿的失败。
                           </p>
                       </li>
@@ -347,6 +347,19 @@ export default function Home() {
                   <ShareNetwork size={20} className="mr-2 opacity-40" />
                   Social
               </h2>
+              <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                  <p>
+                    今年交到了好多新朋友，也见识了各个领域优秀的长辈和同龄人，真的非常感谢大家在一年里的陪伴。
+                  </p>
+                  <ul>
+                      <li>首先要感谢我的家人们，爸爸、妈妈、妹妹，有了你们我才能勇敢的面对这个美妙的世界</li>
+                      <li>然后我想感谢🔧ℹ️💰💻⚛️🧪的同学们，2022年能和大家交流非常开心</li>
+                      <li>
+                          最后感谢<a href="https://club.q24.io/" target="_blank">灵感买家俱乐部</a>的大家，和大家一起做事的每分每秒我都充满力量，也认识了不少新朋友。
+                          想到 2023 年还能和大家在一起，就觉得这是非常有希望的一年!
+                      </li>
+                  </ul>
+              </div>
           </ContentWrapper>
 
           <br/>
