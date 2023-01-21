@@ -10,6 +10,8 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
+        "last-fm": "url('https://s2.loli.net/2023/01/22/9TJOuQkPseUNY25.png')",
+        "apple-music": "url('https://s2.loli.net/2023/01/22/DHFc5qBmQMILf8t.png')",
         "obsidian-icon": "url('https://s2.loli.net/2023/01/17/gJhfbt5NCFSYLVj.png')",
         "obsidian-icon-white": "url('https://s2.loli.net/2023/01/19/nput4Jh5ProCljH.png')",
         "notion-icon": "url('https://s2.loli.net/2023/01/17/Y2tGjAv8PsxqBeW.png')",
