@@ -279,23 +279,15 @@ export default function Home() {
                   width="700px"
                   className="border relative group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
-                  <div className="flex gap-6">
-                      <div className="rounded-xl -rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-obsidian-icon-white bg-cover dark:bg-obsidian-icon z-10" />
+                  <div className="flex gap-1 md:gap-6">
+                      <div className="rounded-xl -rotate-3 mt-2 h-20 w-20 bg-obsidian-icon-white bg-cover dark:bg-obsidian-icon z-10" />
                       <span className="absolute top-6 left-8 bg-[#eeeeee] dark:bg-[#020127] rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
-                      <div className="rounded-xl rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-notion-icon bg-cover z-10" />
+                      <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-notion-icon bg-cover z-10" />
                       <p className="text-xl font-semibold mt-8 transition-all z-10">Obsidian + Notion</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
                       <p>
-                          今年阅读量的增加其实挺靠 Readwise Reader 的，今年在 Reader 上阅读了超过了 2000 篇文章，创建了 1768 个高亮和笔记。
-                          创建高亮最多的一篇文章是
-                          <a className="dark:text-white transition-all" href="https://foresightnews.pro/article/detail/6630">
-                              详解 Y Combinator 发家史与投资组合演变：如何创造 6000 亿美元总价值？
-                          </a>,
-                          一共43个高亮~
-                      </p>
-                      <p>
-                          不谈那些最优秀的阅读软件的特点，我觉得最打动我的几点分别是：阅读光标、高亮兼容性、文章分类。
+                          Obsidian 和 Notion 是我今年主要用的笔记软件
                       </p>
                   </div>
               </ContentWrapper>
