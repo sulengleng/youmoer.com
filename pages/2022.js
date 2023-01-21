@@ -381,7 +381,7 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px]">
+                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] invisible md:visible">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
@@ -393,7 +393,7 @@ export default function Home() {
                                   <img
                                       src={item?.src}
                                       alt={item?.place}
-                                      className="rounded-[9px] h-[110px]"
+                                      className="rounded-[9px]"
                                       loading="lazy"
                                   />
                                   <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
@@ -403,6 +403,18 @@ export default function Home() {
                               </div>
                           ))}
                       </div>
+                      <ul className="mx-4 visible md:invisible">
+                          <li>孤独摇滚</li>
+                          <li>赛博朋克：边缘行者</li>
+                          <li>派对浪客诸葛孔明</li>
+                          <li>辉夜大小姐想让我告白：究极浪漫</li>
+                          <li>莉可丽丝</li>
+                          <li>机动战士高达 水星的魔女</li>
+                          <li>灵能百分百 第三季</li>
+                          <li>间谍过家家</li>
+                          <li>爱·死亡与机器人</li>
+                          <li>龙之家族</li>
+                      </ul>
                   </details>
               </div>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
