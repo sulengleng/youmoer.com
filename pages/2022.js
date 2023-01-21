@@ -373,9 +373,7 @@ export default function Home() {
               </h2>
               <div className="py-0 md:py-5 mt-5 md:mt-0">
                   <details className="group max-w-[625px] mx-auto ">
-                      <summary className="flex cursor-pointer list-none md:justify-between font-medium">
-                          <span aria-hidden
-                                className="absolute inset-0 z-0 scale-x-[2.0] blur before:absolute before:inset-0 before:top-1/2 before:aspect-square before:animate-disco before:bg-gradient-conic before:from-purple-700 before:via-red-500 before:to-amber-400"/>
+                      <summary className="flex cursor-pointer list-none md:justify-between font-medium h-max">
                           <span className="my-4 ml-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
                               年度最喜欢的十个剧集
                           </span>
