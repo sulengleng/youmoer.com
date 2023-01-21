@@ -254,12 +254,12 @@ export default function Home() {
               </div>
               <ContentWrapper
                   width="700px"
-                  className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+                  className="border dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
                   <div>
-                      <img className="rounded-xl rotate-[2dge] mt-4 h-20 w-20" src="https://s2.loli.net/2023/01/19/JVYUhcwtvEA5mx3.png"  alt=""/>
+                      <img className="rounded-xl rotate-3 mt-4 h-20 w-20" src="https://s2.loli.net/2023/01/19/JVYUhcwtvEA5mx3.png"  alt=""/>
                   </div>
-                  <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                  <div className="my-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                       <p>
                           今年阅读量的增加其实挺靠 Readwise Reader 的，今年在 Reader 上阅读了超过了 2000 篇文章，创建了 1768 个高亮和笔记。
                           创建高亮最多的一篇文章是<a href="https://foresightnews.pro/article/detail/6630">详解 Y Combinator 发家史与投资组合演变：如何创造 6000 亿美元总价值？</a>,
