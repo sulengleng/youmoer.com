@@ -102,7 +102,7 @@ export default function Sidebar() {
 
   const RenderLinks = ({ sectionTitle, sectionItems }) => {
     return (
-      <div className='mb-2'>
+      <div className='mb-2 z-100'>
         {sectionTitle ? (
           <h4 className="px-4 mt-4 mb-2 text-gray-500">{sectionTitle}</h4>
         ) : (
@@ -140,7 +140,7 @@ export default function Sidebar() {
 
   const renderPrefs = () => {
     return (
-      <div>
+      <div className="z-100">
         <h4 className="px-4 mt-4 mb-2 text-gray-500">Theme</h4>
         <div className="mx-4 bg-white dark:bg-[#111] border border-gray-200 rounded-lg cursor-pointer dark:border-gray-800 hover:border-gray-800 dark:hover:border-gray-300">
           <select
@@ -163,20 +163,20 @@ export default function Sidebar() {
       <motion.aside
         initial={{ opacity: 0, x: -200 }}
         animate={{ opacity: 1, x: 0, transition: { duration: .35 }}}
-        className="h-screen sticky top-0 overflow-auto bg-gray-100 dark:bg-gray-900 pt-6 pb-10 md:flex flex-col flex-none hidden text-sm w-full max-w-[220px] px-1 border-r border-gray-200/50 dark:border-gray-800/50"
+        className="z-100 h-screen sticky top-0 overflow-auto bg-gray-100 dark:bg-gray-900 pt-6 pb-10 md:flex flex-col flex-none hidden text-sm w-full max-w-[220px] px-1 border-r border-gray-200/50 dark:border-gray-800/50"
       >
         <RenderLinks sectionItems={LINKS} />
         <RenderLinks sectionItems={SOCIAL} sectionTitle="Elsewhere" />
         {renderPrefs()}
       </motion.aside>
       <div
-        className="py-3 cursor-pointer text-sm fixed bottom-0 left-0 w-full md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
+        className="z-100 py-3 cursor-pointer text-sm fixed bottom-0 left-0 w-full md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
         onClick={() => showMobileNav(!mobileNav)}
       >
         {!mobileNav ? "Menu" : "Close"}
       </div>
       {mobileNav ? (
-        <nav className="fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
+        <nav className="z-100 fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
           {mobileNav ? (
             <div
               className="absolute inset-0 bg-black/20 dark:bg-black/50 w-full h-full"
