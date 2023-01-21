@@ -393,7 +393,7 @@ export default function Home() {
                                   <img
                                       src={item?.src}
                                       alt={item?.place}
-                                      className="rounded-[9px] hidden md:visible"
+                                      className="rounded-[9px]"
                                       loading="lazy"
                                   />
                                   <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
