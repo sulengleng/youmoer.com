@@ -372,7 +372,7 @@ export default function Home() {
                   What I see and hear
               </h2>
               <div className="py-0 md:py-5 mt-5 md:mt-0">
-                  <details className="group max-w-[625px] mx-auto border h-[1000px] md:h-max">
+                  <details className="group max-w-[625px] mx-auto">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span className="my-4 ml-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
                               年度最喜欢的十个剧集
@@ -381,7 +381,7 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px]">
+                      <div className="border h-[1000px] md:h-max mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px]">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
