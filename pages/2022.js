@@ -252,7 +252,7 @@ export default function Home() {
                       个人系统今年与去年相比确实有不少不同，下面我来分别讲讲：
                   </p>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 text-lg">
                   <img className="float-right rounded-xl h-20 w-20 -mt-6" src="https://s2.loli.net/2023/01/19/JVYUhcwtvEA5mx3.png"  alt=""/>
                   <p>
                       今年阅读量的增加其实挺靠 Readwise Reader 的，今年在 Reader 上阅读了超过了 2000 篇文章，创建了 1768 个高亮和笔记。
