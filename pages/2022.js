@@ -279,9 +279,9 @@ export default function Home() {
                   width="700px"
                   className="border relative group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
-                  <div className="flex gap-1 md:gap-6 mt-0 md:mt-4">
+                  <div className="flex gap-1 md:gap-6 mt-2 md:mt-4">
                       <div className="rounded-xl -rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-obsidian-icon-white bg-cover dark:bg-obsidian-icon z-10" />
-                      <span className="absolute top-6 left-8 bg-[#eeeeee] dark:bg-[#020127] rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
+                      <span className="absolute top-6 left-8 bg-[#eeeeee] dark:bg-[#020127] rounded-xl rotate-3 h-6 w-6 md:h-14 md:w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
                       <div className="rounded-xl rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-notion-icon bg-cover z-10" />
                       <p className="text-xl font-semibold mt-0 md:mt-8 transition-all z-10">Obsidian + Notion</p>
                   </div>
@@ -293,7 +293,13 @@ export default function Home() {
                           Obsidian 最大的特点是插件非常丰富，估计超过 1000 个，几乎能覆盖到所有的笔记场景。而且可以自己写插件自定义功能，这点非常棒。
                       </p>
                       <p>
-
+                          得益于插件的丰富，Obsidian 可以连接并收集我任何地方记录的笔记，并且能让我进一步的思考笔记的意义。
+                      </p>
+                      <p>
+                          除此之外，Obsidian 是我用过的写作体验最好的笔记软件，当然前提是需要用插件调试一些细节。
+                      </p>
+                      <p>
+                          Notion 我主要用来做一些协作方面的笔记，例如社团的数据库，我参加的「灵感买家俱乐部」的大部分活动也都会依靠 Notion 来一起玩。
                       </p>
                   </div>
               </ContentWrapper>
