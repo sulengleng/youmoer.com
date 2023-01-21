@@ -372,7 +372,7 @@ export default function Home() {
                   What I see and hear
               </h2>
               <div className="py-0 md:py-5 mt-5 md:mt-0">
-                  <details className="group max-w-[625px] mx-auto border h-[5000px] md:h-max">
+                  <details className="group max-w-[625px] mx-auto border h-[1200px] md:h-max">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span className="my-4 ml-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
                               年度最喜欢的十个剧集
