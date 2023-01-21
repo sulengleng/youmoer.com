@@ -257,9 +257,9 @@ export default function Home() {
                   className="border relative group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
                   <div className="flex gap-6">
-                      <span className="absolute top-6 left-8 bg-[#eceefb] rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
-                      <img className="rounded-xl rotate-3 mt-2 h-20 w-20" src="https://s2.loli.net/2023/01/17/rYfeF4aJO8gBAlK.png"  alt=""/>
-                      <p className="text-xl font-semibold mt-8 transition-all">Readwise Reader</p>
+                      <span className="absolute top-6 left-8 bg-[#eceefb] dark:bg-[#263147] rounded-xl rotate-3 h-14 w-14 z-0 transition-all duration-300 group-hover:scale-[50]"></span>
+                      <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-readwise-icon dark:bg-readwise-icon-dark" />
+                      <p className="text-xl font-semibold mt-8 transition-all z-10">Readwise Reader</p>
                   </div>
                   <div className="mt-2 mb-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg transition-all relative z-10">
                       <p>
