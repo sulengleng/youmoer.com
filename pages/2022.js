@@ -6,7 +6,6 @@ import {
     ArrowSquareOut,
     Star,
     AndroidLogo,
-    Barbell,
     ShareNetwork,
     CloudMoon,
     SpotifyLogo, MapPin, CaretDown,
