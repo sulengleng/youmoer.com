@@ -377,11 +377,11 @@ export default function Home() {
                           <span className="mt-2 ml-2 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
                               年度最喜欢的十个剧集
                           </span>
-                          <span className="transition group-open:rotate-180 invisible md:visible">
+                          <span className="mt-2 transition group-open:rotate-180 invisible md:visible">
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-2 grid grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[1000px]">
+                      <div className="mx-2 grid grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[950px]">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
