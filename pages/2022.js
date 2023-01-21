@@ -381,13 +381,13 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-4 grid grid-cols-5 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px]">
+                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px]">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
                                   className={clsx(
                                       item?.className,
-                                      "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
+                                      "relative border p-[4px] max-w-[80px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
                                   )}
                               >
                                   <img
