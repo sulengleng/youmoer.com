@@ -381,13 +381,13 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] hidden md:visible">
+                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] collapse md:visible">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
                                   className={clsx(
                                       item?.className,
-                                      "relative border p-[4px] max-w-[110px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 hidden md:visible"
+                                      "relative border p-[4px] max-w-[110px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
                                   )}
                               >
                                   <img
@@ -396,7 +396,7 @@ export default function Home() {
                                       className="rounded-[9px] hidden md:visible"
                                       loading="lazy"
                                   />
-                                  <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black hidden md:visible">
+                                  <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
                                       <MapPin size={14} className="mr-1" />
                                       {item?.place}
                                   </div>
