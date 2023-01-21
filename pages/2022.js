@@ -387,13 +387,13 @@ export default function Home() {
                                   key={item.src}
                                   className={clsx(
                                       item?.className,
-                                      "h-0 md:h-fit relative border p-[4px] max-w-[110px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
+                                      "h-0 md:h-fit relative border-0 p-[4px] max-w-[110px] md:max-w-fit shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] md:border dark:border-gray-700"
                                   )}
                               >
                                   <img
                                       src={item?.src}
                                       alt={item?.place}
-                                      className="rounded-[9px] h-0 md:h-fit"
+                                      className="rounded-[9px]"
                                       loading="lazy"
                                   />
                                   <div className="h-0 md:h-fit font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
