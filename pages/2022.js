@@ -405,7 +405,12 @@ export default function Home() {
                       </div>
                   </details>
               </div>
-
+              <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                  <p>
+                      今年的影视作品真的都非常的强，我也是纠结了好久才选出的这10个最带给我感动和欢乐的剧集，
+                      如果大家感兴趣的话，非常推荐去看看~
+                  </p>
+              </div>
           </ContentWrapper>
       </article>
     </>
