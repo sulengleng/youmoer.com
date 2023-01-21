@@ -381,7 +381,7 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] collapse md:visible">
+                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-6 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] hidden md:visible">
                           {IMAGES?.map((item) => (
                               <div
                                   key={item.src}
@@ -404,7 +404,7 @@ export default function Home() {
                           ))}
                       </div>
                       <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
-                          <ul className="mx-4 visible md:collapse">
+                          <ul className="mx-4 visible md:hidden">
                               <li>孤独摇滚</li>
                               <li>赛博朋克：边缘行者</li>
                               <li>派对浪客诸葛孔明</li>
