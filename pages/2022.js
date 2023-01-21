@@ -254,7 +254,7 @@ export default function Home() {
               </div>
               <ContentWrapper
                   width="700px"
-                  className="border relative group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+                  className="border relative group relative shadow-lg cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
                   <div className="flex gap-6">
                       <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-readwise-icon bg-cover dark:bg-readwise-icon-dark z-10" />
@@ -277,7 +277,7 @@ export default function Home() {
               </ContentWrapper>
               <ContentWrapper
                   width="700px"
-                  className="border relative group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+                  className="border relative group relative shadow-lg cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
                   <div className="flex gap-1 md:gap-6 mt-2 md:mt-4">
                       <div className="rounded-xl min-w- -rotate-3 mt-2 h-14 w-14 md:h-20 md:w-20 bg-obsidian-icon-white bg-cover dark:bg-obsidian-icon z-10" />
@@ -305,7 +305,7 @@ export default function Home() {
               </ContentWrapper>
               <ContentWrapper
                   width="700px"
-                  className="border relative group relative cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+                  className="border relative group relative shadow-lg cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
                   <div className="flex gap-6">
                       <div className="rounded-xl rotate-3 mt-2 h-20 w-20 bg-figma-icon-white bg-cover dark:bg-figma-icon z-10" />
