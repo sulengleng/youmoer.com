@@ -528,10 +528,12 @@ export default function Home() {
               </div>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                   <p>
-                      以上是今年最喜欢的 10 张专辑，今年听独立摇滚和 J-pop 比较多，我也会在音乐库里持续更新我喜欢的专辑，
+                      以上是今年最喜欢的 10 张专辑，今年听独立摇滚和 J-pop 比较多，我也会在
+                      <a className="dark:text-white" href="https://yeyouchuan.me/music/" target="_blank">音乐库</a>
+                      里持续更新我喜欢的专辑，
                   </p>
                   <p>
-                      我发现大家现在都不怎么以专辑为单位去听歌了，其实我感觉这样会失去很多体验，因为有些专辑的排布其实是有设计在里面的，
+                      我发现大家现在都不怎么以专辑为单位去听歌了，其实我感觉这样会失去很多体验，因为有些专辑的排布其实是有设计在里面的。
                       意识到这一点，2022 年我会更多的完整听专辑。
                   </p>
                   <p>
