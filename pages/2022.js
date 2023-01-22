@@ -89,6 +89,59 @@ const IMAGES = [
     },
 ];
 
+const  ALBUMS = [
+    {
+        src: "https://s2.loli.net/2023/01/18/i6M1WQJg7PmErbO.png",
+        name: "冀西南林路行",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/9i0d2g.png",
+        name: "万能青年旅店",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/9IaHsRlUGSxWziL.png",
+        name: "Interstellar",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/4oxz6p.png",
+        name: "醜奴兒",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/ic8v2r.png",
+        name: "Back in Black",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/zDFUx9maJ7tehPT.png",
+        name: "The Bends",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/yEL7P5ufF4eV2kM.png",
+        name: "勝訴ストリップ",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/ibe9j9.png",
+        name: "Vox Low",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png",
+        name: "AM",
+        className: "rotate-[2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/RcPoKb5QALgXuCU.png",
+        name: "One Last Kiss",
+        className: "rotate-[-2deg]",
+    },
+];
+
 const ContentWrapper = ({ children, className, width }) => (
     <div
         style={{ maxWidth: `${width || '100%'}`}}
@@ -429,14 +482,14 @@ export default function Home() {
                   <details className="group max-w-[625px] mx-auto">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span className="my-4 ml-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
-                              年度最喜欢的十个剧集
+                              年度最喜欢的十张专辑
                           </span>
                           <span className="my-4 mr-4 transition group-open:rotate-180 collapse md:visible">
                             <CaretDown size={24} />
                           </span>
                       </summary>
                       <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-0 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] h-0 md:h-fit">
-                          {IMAGES?.map((item) => (
+                          {ALBUMS?.map((item) => (
                               <div
                                   key={item.src}
                                   className={clsx(
@@ -446,29 +499,29 @@ export default function Home() {
                               >
                                   <img
                                       src={item?.src}
-                                      alt={item?.place}
+                                      alt={item?.name}
                                       className="rounded-[9px]"
                                       loading="lazy"
                                   />
                                   <div className="h-0 md:h-fit font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
                                       <MapPin size={14} className="mr-1" />
-                                      {item?.place}
+                                      {item?.name}
                                   </div>
                               </div>
                           ))}
                       </div>
                       <div className="mt-52 md:mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                           <ul className="mx-4 visible md:hidden">
-                              <li>万能青年旅店</li>
-                              <li>丑奴儿</li>
-                              <li>派对浪客诸葛孔明</li>
-                              <li>辉夜大小姐想让我告白：究极浪漫</li>
-                              <li>莉可丽丝</li>
-                              <li>机动战士高达 水星的魔女</li>
-                              <li>灵能百分百 第三季</li>
-                              <li>间谍过家家</li>
-                              <li>爱·死亡与机器人</li>
-                              <li>龙之家族</li>
+                              <li>万能青年旅店 - 万青</li>
+                              <li>冀西南林路行 - 万青</li>
+                              <li>Interstellar - Hans Zimmer</li>
+                              <li>醜奴兒 - 草东没有派对</li>
+                              <li>Back in Black - AC/DC</li>
+                              <li>The Bends - Radiohead</li>
+                              <li>勝訴ストリップ - 椎名林檎</li>
+                              <li>Vox Low - Vox Low</li>
+                              <li>AM - Arctic Monkeys</li>
+                              <li>One Last Kiss - 宇多田光</li>
                           </ul>
                       </div>
                   </details>
