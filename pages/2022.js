@@ -474,7 +474,7 @@ export default function Home() {
               </div>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                   <p>
-                      今年的影视作品真的都非常的强，我也是纠结了好久才选出的这10个最带给我感动和欢乐的剧集，
+                      今年的影视作品真的都非常的强，我也是纠结了好久才选出的这 10 个最带给我感动和欢乐的剧集，
                       如果大家感兴趣的话，非常推荐去看看~
                   </p>
               </div>
@@ -528,8 +528,14 @@ export default function Home() {
               </div>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                   <p>
-                      今年的影视作品真的都非常的强，我也是纠结了好久才选出的这10个最带给我感动和欢乐的剧集，
-                      如果大家感兴趣的话，非常推荐去看看~
+                      以上是今年最喜欢的 10 张专辑，今年听独立摇滚和 J-pop 比较多，我也会在音乐库里持续更新我喜欢的专辑，
+                  </p>
+                  <p>
+                      我发现大家现在都不怎么以专辑为单位去听歌了，其实我感觉这样会失去很多体验，因为有些专辑的排布其实是有设计在里面的，
+                      意识到这一点，2022 年我会更多的完整听专辑。
+                  </p>
+                  <p>
+                      这点其实还是个人喜好的问题，如果特别喜欢一首单曲，我其实还是很推荐去把这首歌在的完整专辑去欣赏一遍~
                   </p>
               </div>
           </ContentWrapper>
