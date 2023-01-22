@@ -544,7 +544,7 @@ export default function Home() {
                   <details className="group max-w-[625px] mx-auto">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span className="my-4 text-lg font-semibold bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
-                              年度最喜欢的十张专辑
+                              年度播客总结
                           </span>
                           <span className="my-4 mr-4 transition group-open:rotate-180 collapse md:visible">
                             <CaretDown size={24} />
@@ -555,16 +555,18 @@ export default function Home() {
               </div>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                   <p>
-                      以上是今年最喜欢的 10 张专辑，今年听独立摇滚和 J-pop 比较多，我也会在
-                      <a className="dark:text-white" href="https://yeyouchuan.me/music/" target="_blank">唱片库</a>
-                      里持续更新我喜欢的专辑，
+                      今年开始听播客了，大部分播客都是在小宇宙上听的，所以直接拿小宇宙官方的年度总结来做一个记录吧。
                   </p>
                   <p>
-                      我发现大家现在都不怎么以专辑为单位去听歌了，其实我感觉这样会失去很多体验，因为有些专辑的排布其实是有设计在里面的。
-                      意识到这一点，2022 年我会更多的完整听专辑。
+                      英文播客听的不算多，明年会多听一些优质的英文播客。这里说一下我用来听英文播客的软件 —— Snipd，
+                      做可以把播客精彩的部分切出来做笔记，也方便导入到 Obsidian 之类的软件里。
                   </p>
                   <p>
-                      这点其实还是个人喜好的问题，如果特别喜欢一首单曲，我其实还是很推荐去把这首歌在的完整专辑去欣赏一遍~
+                      今年还参加了 DC 和 灵感买家俱乐部举办的 Pod Jam，让我了解了不少制作播客的流程，也认识了非常专业和耐心的队友~ （这里手动@Lauren.Q、随易还有Jack）
+                      这里要感谢布兰德游记主播 DC 还有鲍勃，这真的是非常完美的体验，期待下一期🙋🏻
+                  </p>
+                  <p>
+                      Pod Jam 让我萌生了自己做播客的想法，现在已经找好的伙伴，希望 2023 年3-4月份能开始录制⛽
                   </p>
               </div>
           </ContentWrapper>
