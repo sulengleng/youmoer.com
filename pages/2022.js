@@ -540,7 +540,7 @@ export default function Home() {
                       这点其实还是个人喜好的问题，如果特别喜欢一首单曲，我其实还是很推荐去把这首歌在的完整专辑去欣赏一遍~
                   </p>
               </div>
-              <span className="my-4 text-lg font-semibold bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
+              <span className="my-10 text-lg font-semibold bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
                   年度最喜欢的十个播客
               </span>
           </ContentWrapper>
