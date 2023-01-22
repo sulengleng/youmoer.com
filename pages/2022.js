@@ -428,7 +428,7 @@ export default function Home() {
                   <details className="group max-w-[625px] mx-auto">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
                           <span className="my-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
-                              年度最喜欢的十个剧集
+                              年度最喜欢的十部剧集
                           </span>
                           <span className="my-4 mr-4 transition group-open:rotate-180 collapse md:visible">
                             <CaretDown size={24} />
@@ -529,7 +529,7 @@ export default function Home() {
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                   <p>
                       以上是今年最喜欢的 10 张专辑，今年听独立摇滚和 J-pop 比较多，我也会在
-                      <a className="dark:text-white" href="https://yeyouchuan.me/music/" target="_blank">音乐库</a>
+                      <a className="dark:text-white" href="https://yeyouchuan.me/music/" target="_blank">唱片库</a>
                       里持续更新我喜欢的专辑，
                   </p>
                   <p>
@@ -540,6 +540,9 @@ export default function Home() {
                       这点其实还是个人喜好的问题，如果特别喜欢一首单曲，我其实还是很推荐去把这首歌在的完整专辑去欣赏一遍~
                   </p>
               </div>
+              <span className="my-4 text-lg font-semibold bg-gradient-to-r from-emerald-500 to-blue-600 bg-clip-text text-transparent">
+                  年度最喜欢的十个播客
+              </span>
           </ContentWrapper>
       </article>
     </>
