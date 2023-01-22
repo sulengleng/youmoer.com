@@ -460,7 +460,7 @@ export default function Home() {
                       <div className="mt-52 md:mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                           <ul className="mx-4 visible md:hidden">
                               <li>万能青年旅店</li>
-                              <li>赛博朋克：边缘行者</li>
+                              <li>丑奴儿</li>
                               <li>派对浪客诸葛孔明</li>
                               <li>辉夜大小姐想让我告白：究极浪漫</li>
                               <li>莉可丽丝</li>
