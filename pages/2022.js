@@ -481,7 +481,7 @@ export default function Home() {
               <div className="py-0 md:py-5 mt-5 md:mt-0">
                   <details className="group max-w-[625px] mx-auto">
                       <summary className="flex cursor-pointer list-none md:justify-between font-medium">
-                          <span className="my-4 text-lg font-semibold bg-gradient-to-r from-orange-500 to-indigo-500 bg-clip-text text-transparent">
+                          <span className="my-4 text-lg font-semibold bg-gradient-to-r from-red-600 to-yellow-400 bg-clip-text text-transparent">
                               年度最喜欢的十张专辑
                           </span>
                           <span className="my-4 mr-4 transition group-open:rotate-180 collapse md:visible">
