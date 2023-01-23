@@ -41,21 +41,25 @@ const IMAGES = [
         src: "/images/pages/Statue-and-Dove.png",
         place: "Bristol",
         className: "rotate-[-2deg]",
+        note: "阿莫西林、罗红霉素、阿奇霉素以及头孢呋辛、氧氟沙星",
     },
     {
         src: "/images/pages/Street.png",
         place: "York",
         className: "rotate-[2deg]",
+        note: "hiuasdhwiadjnwajhdwadw",
     },
     {
         src: "/images/pages/dali.png",
         place: "Dali",
         className: "rotate-[-2deg]",
+        note: "adjcioawjdwoiajdiowajdjawdioawjdoiwaja",
     },
     {
         src: "/images/pages/pine-and-stone.png",
         place: "Suzhou",
         className: "rotate-[2deg]",
+        note: "jianguangruwozhanjinniuzaizhongguo",
     }
 ];
 
@@ -644,17 +648,11 @@ export default function Home() {
                                                         id="modal-title">这些图片代表什么？</h3>
                                                           <div className="mt-2">
                                                               <p>
-                                                                  {item?.place}
+                                                                  {item?.note}
                                                               </p>
                                                           </div>
                                                       </div>
                                                   </div>
-                                              </div>
-                                              <div className="bg-gray-50 dark:bg-gray-900/80 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-                                                  <a href="#photos-year" target="_self"
-                                                  className="mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900/80 px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
-                                                  关闭
-                                                  </a>
                                               </div>
                                           </div>
                                       </div>
