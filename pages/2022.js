@@ -511,7 +511,7 @@ export default function Home() {
                             <CaretDown size={24} />
                           </span>
                       </summary>
-                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-0 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] h-0 md:h-fit">
+                      <div className="mx-4 grid grid-cols-3 lg:grid-cols-5 my-0 md:my-4 md:justify-center gap-5 md:gap-10 !max-w-[260px] md:!max-w-[580px] h-0 md:h-fit xl:gap-24">
                           {ALBUMS?.map((item) => (
                               <div
                                   key={item.src}
