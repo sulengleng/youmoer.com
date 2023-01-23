@@ -616,12 +616,12 @@ export default function Home() {
                               />
                               <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
                                   <MapPin size={14} className="mr-1" />
-                                  {item?.place}
+                                  <a href="#modal"
+                                     target="_self"
+                                  >
+                                      {item?.place}
+                                  </a>
                               </div>
-                              <a href="#modal" target="_self"
-                                 className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                                  Open Modal
-                              </a>
                           </div>
                       ))}
                   </ContentWrapper>
