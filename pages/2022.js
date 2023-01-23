@@ -636,8 +636,8 @@ export default function Home() {
                               className="sr-only">Close Modal</span></a>
 
                           <div
-                              className="relative scale-90 transform overflow-hidden rounded-lg bg-white text-left opacity-0 shadow-xl transition-all duration-300 group-target:scale-100 group-target:opacity-100 sm:my-8 sm:w-full sm:max-w-lg">
-                              <div className="bg-white px-4 mb-16 sm:mb-0 pt-5 pb-4 sm:p-6 sm:pb-4">
+                              className="relative mb-16 sm:mb-0 scale-90 transform overflow-hidden rounded-lg bg-white text-left opacity-0 shadow-xl transition-all duration-300 group-target:scale-100 group-target:opacity-100 sm:my-8 sm:w-full sm:max-w-lg">
+                              <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                                   <div className="sm:flex sm:items-start">
                                       <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                                           <h3 className="text-lg font-medium leading-6 text-gray-900"
