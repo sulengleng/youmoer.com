@@ -8,7 +8,7 @@ import {
     AndroidLogo,
     ShareNetwork,
     CloudMoon,
-    SpotifyLogo, MapPin, CaretDown,
+    SpotifyLogo, MapPin, CaretDown, CalendarCheck, Camera,
 } from "phosphor-react";
 import React from "react";
 
@@ -569,6 +569,18 @@ export default function Home() {
                       Pod Jam 让我萌生了自己做播客的想法，现在已经找好的伙伴，希望 2023 年3-4月份能开始录制⛽
                   </p>
               </div>
+          </ContentWrapper>
+          <ContentWrapper>
+              <h2 className="font-bold text-lg flex items-center">
+                  <Camera size={20} className="mr-2 opacity-40" />
+                  Photos of the Year
+              </h2>
+          </ContentWrapper>
+          <ContentWrapper>
+              <h2 className="font-bold text-lg flex items-center">
+                <CalendarCheck size={20} className="mr-2 opacity-40" />
+                  The overview of the year
+              </h2>
           </ContentWrapper>
       </article>
     </>
