@@ -593,7 +593,7 @@ export default function Home() {
                   </p>
               </div>
           </ContentWrapper>
-          <ContentWrapper className="max-w-[625px]">
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center photos-year">
                   <Camera size={20} className="mr-2 opacity-40" />
                   Photos of the Year
@@ -661,7 +661,7 @@ export default function Home() {
                   </div>
               </div>
           </ContentWrapper>
-          <ContentWrapper className="max-w-[625px]">
+          <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
                 <CalendarCheck size={20} className="mr-2 opacity-40" />
                   The overview of the year
