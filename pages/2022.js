@@ -641,11 +641,20 @@ export default function Home() {
                                   <div className="sm:flex sm:items-start">
                                       <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                                           <h3 className="text-lg font-medium leading-6 text-gray-900"
-                                              id="modal-title">Deactivate account</h3>
+                                              id="modal-title">这些图片代表什么？</h3>
                                           <div className="mt-2">
-                                              <p className="text-sm text-gray-500">Are you sure you want to deactivate
-                                                  your account? All of your data will be permanently removed. This
-                                                  action cannot be undone.</p>
+                                              <p className="text-sm text-gray-500">
+                                                  第一张图片代表
+                                              </p>
+                                              <p className="text-sm text-gray-500">
+                                                  第二张图片代表
+                                              </p>
+                                              <p className="text-sm text-gray-500">
+                                                  第三张图片代表
+                                              </p>
+                                              <p className="text-sm text-gray-500">
+                                                  第四张图片代表
+                                              </p>
                                           </div>
                                       </div>
                                   </div>
@@ -653,7 +662,7 @@ export default function Home() {
                               <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                                   <a href="#photos-year" target="_self"
                                      className="mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
-                                      Cancel
+                                      关闭
                                   </a>
                               </div>
                           </div>
