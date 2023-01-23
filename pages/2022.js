@@ -575,10 +575,12 @@ export default function Home() {
                   <Camera size={20} className="mr-2 opacity-40" />
                   Photos of the Year
               </h2>
-              <div className="relative">
+              <div className="relative flex-col">
+                  <img className="rounded-lg" src="https://files.catbox.moe/f7zteh.png" alt="" />
                   <a href="#modal" target="_self"
-                     className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Open
-                      Modal</a>
+                     className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                      Open Modal
+                  </a>
               </div>
               <div
                   className="group invisible relative z-10 opacity-0 transition-all duration-300 target:visible target:opacity-100"
