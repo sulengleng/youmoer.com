@@ -666,6 +666,11 @@ export default function Home() {
                 <CalendarCheck size={20} className="mr-2 opacity-40" />
                   The overview of the year
               </h2>
+              <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
+                  <p>
+                      回顾完 2022，我有一个很具体的感觉，
+                  </p>
+              </div>
           </ContentWrapper>
       </article>
     </>
