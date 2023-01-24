@@ -680,6 +680,11 @@ export default function Home() {
                   </p>
               </div>
           </ContentWrapper>
+          <ContentWrapper
+              width="700px"
+              className="border dark:border-gray-800 pt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+          >
+          </ContentWrapper>
       </article>
     </>
   );
