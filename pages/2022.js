@@ -38,28 +38,28 @@ const TIMELINE = [
 
 const IMAGES = [
     {
-        src: "/images/pages/Statue-and-Dove.png",
-        place: "Bristol",
+        src: "https://s2.loli.net/2023/01/24/FP3pSYrjun2BIXH.jpg",
+        place: "兔兔",
         className: "rotate-[-2deg]",
-        note: "阿莫西林、罗红霉素、阿奇霉素以及头孢呋辛、氧氟沙星",
+        note: "",
     },
     {
-        src: "/images/pages/Street.png",
-        place: "York",
+        src: "https://s2.loli.net/2023/01/24/8TAKzuDdSvQI2fR.jpg",
+        place: "云彩",
         className: "rotate-[2deg]",
-        note: "hiuasdhwiadjnwajhdwadw",
+        note: "",
     },
     {
-        src: "/images/pages/dali.png",
-        place: "Dali",
+        src: "https://s2.loli.net/2023/01/24/SVCyElv1HqOJzD5.jpg",
+        place: "毕业",
         className: "rotate-[-2deg]",
-        note: "adjcioawjdwoiajdiowajdjawdioawjdoiwaja",
+        note: "",
     },
     {
-        src: "/images/pages/pine-and-stone.png",
-        place: "Suzhou",
+        src: "https://s2.loli.net/2023/01/24/7UYQurck6po32hC.jpg",
+        place: "到达",
         className: "rotate-[2deg]",
-        note: "jianguangruwozhanjinniuzaizhongguo",
+        note: "",
     }
 ];
 
@@ -645,7 +645,7 @@ export default function Home() {
                                                   <div className="sm:flex sm:items-start">
                                                       <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                                                         <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white"
-                                                        id="modal-title">这些图片代表什么？</h3>
+                                                        id="modal-title">一些照片</h3>
                                                           <div className="mt-2">
                                                               <p>
                                                                   {item?.note}
