@@ -8,7 +8,7 @@ import {
     AndroidLogo,
     ShareNetwork,
     CloudMoon,
-    SpotifyLogo, MapPin, CaretDown, CalendarCheck, Camera,
+    SpotifyLogo, CaretDown, CalendarCheck, Camera, Notepad,
 } from "phosphor-react";
 import React from "react";
 
@@ -477,7 +477,6 @@ export default function Home() {
                                       loading="lazy"
                                   />
                                   <div className="h-0 md:h-fit font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                                      <MapPin size={14} className="mr-1" />
                                       {item?.place}
                                   </div>
                               </div>
@@ -531,7 +530,6 @@ export default function Home() {
                                       loading="lazy"
                                   />
                                   <div className="h-0 md:h-fit font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white invisible md:visible bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                                      <MapPin size={14} className="mr-1" />
                                       {item?.name}
                                   </div>
                               </div>
@@ -620,7 +618,7 @@ export default function Home() {
                                       loading="lazy"
                                   />
                                   <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white bg-opacity-50 bg-clip-padding backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                                      <MapPin size={14} className="mr-1" />
+                                      <Notepad size={14} className="mr-1" />
                                       <a href="#modal"
                                          target="_self"
                                       >
