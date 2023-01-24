@@ -668,7 +668,11 @@ export default function Home() {
               </h2>
               <div className="mt-4 prose prose-gray dark:prose-zinc dark:text-gray-200 mx-auto lg:prose-lg">
                   <p>
-                      回顾完 2022，我有一个很具体的感觉，
+                      回顾完 2022，我有一个很具体的感觉，也就是今年我对自己的感受变得更丰富了。往年我根本没有什么对”我“的感受，
+                      今年很多的经历使我更好的审视自己的想法，但是取而代之，很多纯粹的快乐从我的脑中消失了。
+                  </p>
+                  <p>
+                      我觉得这只是长大而不是成长
                   </p>
               </div>
           </ContentWrapper>
