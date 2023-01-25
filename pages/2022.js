@@ -680,7 +680,7 @@ export default function Home() {
                   </p>
               </div>
           </ContentWrapper>
-          <div className="flex min-h-screen flex-col items-center justify-center overflow-hidden bg-black">
+          <ContentWrapper width="700px" className="flex h-96 flex-col items-center justify-center overflow-hidden bg-black">
               <div className="relative flex w-full flex-1 scale-y-125 items-center justify-center">
                   <div className="absolute inset-auto right-1/2 h-56 w-[30rem] bg-gradient-conic from-teal-500 via-black to-transparent text-white [--conic-position:from_70deg_at_center_top]"></div>
                   <div className="absolute inset-auto left-1/2 h-56 w-[30rem] bg-gradient-conic from-transparent via-black to-teal-500 text-white [--conic-position:from_290deg_at_center_top]"></div>
@@ -691,7 +691,7 @@ export default function Home() {
                   <div className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-teal-400 blur-sm"></div>
                   <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-black"></div>
               </div>
-          </div>
+          </ContentWrapper>
       </article>
     </>
   );
