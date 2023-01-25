@@ -695,10 +695,12 @@ export default function Home() {
               </div>
               <div className="absolute top-12 z-50 text-2xl font-bold text-white">夜游船渡口</div>
               <div className="absolute top-24 z-50 text-white">夜游船的 newsletter，欢迎订阅和我交流</div>
-              <span className="absolute top-44 z-50 h-9 w-16 cursor-pointer rounded-xl border bg-white bg-opacity-50 bg-clip-padding pt-1 text-center font-medium text-gray-200 backdrop-blur"
+              <a className="absolute top-44 z-50 h-9 w-16 cursor-pointer rounded-xl border bg-white bg-opacity-50 bg-clip-padding pt-1 text-center font-medium text-gray-200 backdrop-blur"
+                 href="https://yeyochuan.zhubai.love/"
+                 target="_blank"
               >
                   订阅
-              </span>
+              </a>
           </ContentWrapper>
 
       </article>
