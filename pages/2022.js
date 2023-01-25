@@ -697,6 +697,7 @@ export default function Home() {
 
                   <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-black"></div>
               </div>
+          </div>
       </article>
     </>
   );
