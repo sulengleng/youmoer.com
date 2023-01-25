@@ -190,8 +190,15 @@ export default function Home() {
         openGraph={{
           site_name: "仿生人夜游船(2022批次)使用手册",
           title: "仿生人夜游船(2022批次)使用手册",
-          description:
-            "2022年度总结",
+          description: "2022年度总结",
+          images: [
+                {
+                    url: "https://s2.loli.net/2023/01/21/fPqhZvTcRwe5NA2.png",
+                    width: 800,
+                    height: 600,
+                    alt: "群山图",
+                },
+            ]
         }}
         twitter={{
           handle: "@yeyouchuan",
