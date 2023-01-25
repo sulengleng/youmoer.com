@@ -10,6 +10,7 @@ module.exports = {
         gray: colors.neutral,
       },
       backgroundImage: {
+        'gradient-conic': 'conic-gradient(var(--conic-position), var(--tw-gradient-stops))',
         "last-fm": "url('https://s2.loli.net/2023/01/22/9TJOuQkPseUNY25.png')",
         "apple-music": "url('https://s2.loli.net/2023/01/22/DHFc5qBmQMILf8t.png')",
         "obsidian-icon": "url('https://s2.loli.net/2023/01/17/gJhfbt5NCFSYLVj.png')",
