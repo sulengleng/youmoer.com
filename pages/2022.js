@@ -680,7 +680,8 @@ export default function Home() {
                   </p>
               </div>
           </ContentWrapper>
-          <ContentWrapper width="700px" className="flex h-80 rounded-lg flex-col items-center justify-center overflow-hidden bg-black">
+          <div
+              className="flex h-72 w-[700px] flex-col items-center justify-center overflow-hidden rounded-lg bg-black pt-9">
               <div className="relative flex w-full flex-1 scale-y-125 items-center justify-center">
                   <div className="absolute inset-auto right-1/2 h-56 w-[30rem] bg-gradient-conic from-teal-500 via-black to-transparent text-white [--conic-position:from_70deg_at_center_top]"></div>
                   <div className="absolute inset-auto left-1/2 h-56 w-[30rem] bg-gradient-conic from-transparent via-black to-teal-500 text-white [--conic-position:from_290deg_at_center_top]"></div>
@@ -691,7 +692,15 @@ export default function Home() {
                   <div className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-teal-400 blur-sm"></div>
                   <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-black"></div>
               </div>
-          </ContentWrapper>
+              <div className="absolute top-12 z-50 text-2xl font-bold text-white">夜游船渡口</div>
+              <div className="absolute top-24 z-50 text-white">夜游船的 newsletter，欢迎订阅和我交流</div>
+              <span className="absolute top-44 z-50 h-9 w-16 cursor-pointer rounded-xl border bg-white bg-opacity-50 bg-clip-padding pt-1 text-center font-medium text-gray-200 backdrop-blur"
+                    ref="subscribe"
+              >
+                  订阅
+              </span>
+          </div>
+
       </article>
     </>
   );
