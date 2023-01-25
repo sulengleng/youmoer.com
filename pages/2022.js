@@ -680,8 +680,9 @@ export default function Home() {
                   </p>
               </div>
           </ContentWrapper>
-          <div
-              className="flex h-72 w-[700px] flex-col items-center justify-center overflow-hidden rounded-lg bg-black pt-9">
+          <ContentWrapper
+              width="700px"
+              className="flex h-72 flex-col items-center justify-center overflow-hidden rounded-lg bg-black pt-9">
               <div className="relative flex w-full flex-1 scale-y-125 items-center justify-center">
                   <div className="absolute inset-auto right-1/2 h-56 w-[30rem] bg-gradient-conic from-teal-500 via-black to-transparent text-white [--conic-position:from_70deg_at_center_top]"></div>
                   <div className="absolute inset-auto left-1/2 h-56 w-[30rem] bg-gradient-conic from-transparent via-black to-teal-500 text-white [--conic-position:from_290deg_at_center_top]"></div>
@@ -698,7 +699,7 @@ export default function Home() {
               >
                   订阅
               </span>
-          </div>
+          </ContentWrapper>
 
       </article>
     </>
