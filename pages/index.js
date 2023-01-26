@@ -104,7 +104,7 @@ export default function Home() {
                     </div>
                     <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
                         <div className="flex flex-col">
-                            <p className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10750</p>
+                            <p className="mt-4 ml-5 md:ml-4 text-2xl font-semibold">10800</p>
                             <p className="-mt-1 ml-6 md:ml-5 text-sm text-gray-500">Scrobbles</p>
                         </div>
                         <img src="https://s2.loli.net/2023/01/16/cAOCi9IwasjXSHB.png"
@@ -113,17 +113,17 @@ export default function Home() {
                         <div className="flex flex-row mt-4 mx-5 md:mx-4">
                             <Star size={20} color="#f8d80d" />
                             <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                                <p className="font-semibold">1126</p>
+                                <p className="font-semibold">1130</p>
                                 <p className="-mt-1 text-sm text-gray-500">Artists</p>
                             </div>
                             <Disc size={20} color="#6ed49f" className="ml-8 md:ml-3" />
                             <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                                <p className="font-semibold">1959</p>
+                                <p className="font-semibold">1966</p>
                                 <p className="-mt-1 text-sm text-gray-500">Albums</p>
                             </div>
                             <MusicNote size={20} color="#548eab" className="ml-8 md:ml-3" />
                             <div className="flex flex-col ml-1 -mt-1 md:mt-0">
-                                <p className="font-semibold">2878</p>
+                                <p className="font-semibold">2886</p>
                                 <p className="-mt-1 text-sm text-gray-500">Tracks</p>
                             </div>
                         </div>
