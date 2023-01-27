@@ -17,7 +17,7 @@ title: "YC 的项目要求"
 
 另外，你不应该仅仅因为想加入这个名单就开始创业。如果你已经在以下的领域中工作，这篇文章的主要意义是鼓励你申请我们的创业项目。
 
-如果你想知道我们对非营利组织的要求是什么，请阅读这篇[文章](https://www.ycombinator.com/blog/what-y-combinator-looks-for-in-nonprofits/)^[1]^。
+如果你想知道我们对非营利组织的要求是什么，请阅读这篇[文章](https://www.ycombinator.com/blog/what-y-combinator-looks-for-in-nonprofits/)<sup>[1]</sup>。
 
 ## A.I. 人工智能
 
