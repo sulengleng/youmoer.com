@@ -9,8 +9,8 @@ export default function Home({allPosts}) {
         title="Work – 夜游船"
         description="A list of my side-project"
         openGraph={{
-          site_name: "Work – 夜游船",
-          title: "Work – 夜游船",
+          site_name: "项目 – 夜游船",
+          title: "项目 – 夜游船",
           description:
             "A list of all my side-projects",
         }}
