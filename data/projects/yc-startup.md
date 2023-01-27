@@ -17,11 +17,11 @@ title: "YC 的项目要求"
 
 另外，你不应该仅仅因为想加入这个名单就开始创业。如果你已经在以下的领域中工作，这篇文章的主要意义是鼓励你申请我们的创业项目。
 
-如果你想知道我们对非营利组织的要求是什么，请阅读这篇[文章](https://www.ycombinator.com/blog/what-y-combinator-looks-for-in-nonprofits/)^[1]。
+如果你想知道我们对非营利组织的要求是什么，请阅读这篇[文章](https://www.ycombinator.com/blog/what-y-combinator-looks-for-in-nonprofits/)^[1]^。
 
 ## A.I. 人工智能
 
-> 人工智能将会对社会产生[巨大影响](https://blog.samaltman.com/ai)^[2]。
+> 人工智能将会对社会产生[巨大影响](https://blog.samaltman.com/ai)^[2]^。
 
 我们对研究将AI应用于任何狭窄领域（研发药物、编程助理、法律建议、诈骗检测等）的人感兴趣，特别是那些专注于人工智能与机器人（制造、自动驾驶汽车等）交叉领域的人。
 
@@ -55,7 +55,7 @@ title: "YC 的项目要求"
 
 其他能抵消气候变化影响的地球工程也可能具有潜力。
 
-我们在 [carbon.ycombinator.com](https://carbon.ycombinator.com) 上写了很多这方面的东西。
+我们在 [carbon.ycombinator.com](https://carbon.ycombinator.com)^[3]^ 上写了很多这方面的东西。
 
 ## CELLULAR AGRICULTURE AND CLEAN MEAT 细胞农业和纯净肉
 
@@ -151,7 +151,7 @@ title: "YC 的项目要求"
 
 与计算机相比，人类有一个奇怪的记忆系统。我们可以回忆起10年前微妙的情绪和感觉，同时忘记我们的手机在哪里，以及在商店里买了什么。越来越多的信息和想法的轰炸当然不会让我们的记性更好，老年痴呆症和阿尔茨海默氏症这样的老年疾病更不会。
 
-[人类和电脑融合的年代](https://blog.samaltman.com/the-merge)就要来了。一些诸如语音助手和可穿戴设备的解决方案，可能能帮人类提升短期记忆。神经接口的方法更复杂，但会引发新的用户体验问题。我们希望资助那些探索如何利用科技提高人类记忆力的创业公司。理想情况下，我们可以一劳永逸地解决 [Mitch Hedberg 的问题](https://quotecatalog.com/quote/mitch-hedberg-i-write-jokes-f-jpXNBB1)。
+[人类和电脑融合的年代](https://blog.samaltman.com/the-merge)^[4]^就要来了。一些诸如语音助手和可穿戴设备的解决方案，可能能帮人类提升短期记忆。神经接口的方法更复杂，但会引发新的用户体验问题。我们希望资助那些探索如何利用科技提高人类记忆力的创业公司。理想情况下，我们可以一劳永逸地解决 [Mitch Hedberg 的问题](https://quotecatalog.com/quote/mitch-hedberg-i-write-jokes-f-jpXNBB1)^[5]^。
 
 ## LONGEVITY AND ANTI-AGING 长寿与抗衰老
 
@@ -200,3 +200,9 @@ title: "YC 的项目要求"
 但我们感觉到浪潮即将来临，现在正是开始努力的好时机。
 
 ## Reference 参考
+
+1. What Y Combinator Looks for in Nonprofits https://www.ycombinator.com/blog/what-y-combinator-looks-for-in-nonprofits/
+2. AI - Sam Altman https://blog.samaltman.com/ai
+3. Carbon Y Combinator https://carbon.ycombinator.com/
+4. The Merge - Sam Altman https://blog.samaltman.com/the-merge
+5. Mitch Hedberg’s Quote https://quotecatalog.com/quote/mitch-hedberg-i-write-jokes-f-jpXNBB1
