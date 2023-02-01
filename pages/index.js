@@ -166,7 +166,7 @@ export default function Home() {
                                             fill="#CCC"/>
                                     </svg>
                                 </div>
-                                <div className="mt-4 ml-[115px] xl:ml-36 flex -space-x-3">
+                                <div className="mt-3 ml-[115px] xl:ml-36 flex -space-x-3">
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                                 </div>
