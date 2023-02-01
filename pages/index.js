@@ -150,7 +150,7 @@ export default function Home() {
                         >
                             <motion.div
                                 style={{rotateX: rotateX, rotateY: rotateY}}
-                                className="animate-float mask pointer-events-none relative z-10 w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-0 md:ml-0 select-none rounded-3xl bg-[#262f70]/20 p-7 backdrop-blur-2xl after:absolute after:inset-0 after:rounded-3xl after:bg-gradient-to-br after:from-white/80 after:via-white/10 after:to-white/80 after:p-px"
+                                className="mask pointer-events-none relative z-10 w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-0 md:ml-0 select-none rounded-xl bg-[#262f70]/20 p-4 backdrop-blur-2xl after:absolute after:inset-0 after:rounded-xl after:bg-gradient-to-br after:from-white/80 after:via-white/10 after:to-white/80 after:p-px"
                             >
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 opacity-75"
