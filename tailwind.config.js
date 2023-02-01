@@ -38,6 +38,21 @@ module.exports = {
         "dark-map": "url('https://s2.loli.net/2023/01/04/bhlLmytVwx2OJnZ.png')",
         texture: 'url(https://thumbs.dreamstime.com/b/%E6%97%A7%E7%99%BD%E5%A2%99-%E6%97%A7%E7%9A%84%E7%99%BD%E5%A2%99%E3%80%81%E7%99%BD%E5%A2%99%E3%80%81%E8%83%8C%E6%99%AF%E5%92%8C%E7%BA%B9%E7%90%86-183179953.jpg)'
       },
+      animation: {
+        float: 'float 12s infinite linear',
+        'float-fast': 'float 10s infinite linear',
+        'float-fastest': 'float 8s infinite linear',
+      },
+      keyframes: {
+        float: {
+          '0%': {
+            transform: ' rotate(-0.001deg) translate3d(15px, 0, 0) rotate(-0.001deg)',
+          },
+          '100%': {
+            transform: 'rotate(360.001deg) translate3d(15px, 0, 0) rotate(-360.001deg)',
+          },
+        },
+      },
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
       },
@@ -84,5 +99,19 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
+    plugin(({ matchUtilities, theme }) => {
+      matchUtilities(
+          {
+            'animation-delay': (value) => {
+              return {
+                'animation-delay': value,
+              }
+            },
+          },
+          {
+            values: theme('transitionDelay'),
+          }
+      )
+    }),
   ],
 };
