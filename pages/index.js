@@ -150,12 +150,12 @@ export default function Home() {
                         >
                             <div className="">
                                 <div
-                                    className="absolute inset-auto h-24 w-24 -translate-x-8 translate-y-16 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:translate-x-20 sm:translate-y-28 sm:scale-100"></div>
+                                    className="absolute top-2 left-2 h-14 w-14 -translate-x-8 translate-y-16 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:translate-x-20 sm:translate-y-28 sm:scale-100"></div>
                             </div>
 
                             <div className="">
                                 <div
-                                    className="absolute inset-auto h-24 w-24 -translate-x-56 -translate-y-16 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:-translate-x-80 sm:-translate-y-28 sm:scale-100"></div>
+                                    className="absolute top-20 right-2 h-14 w-14 -translate-x-56 -translate-y-16 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:-translate-x-80 sm:-translate-y-28 sm:scale-100"></div>
                             </div>
                             <motion.div
                                 style={{rotateX: rotateX, rotateY: rotateY}}
