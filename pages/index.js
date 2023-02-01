@@ -148,7 +148,7 @@ export default function Home() {
                             onMouseMove={handleMouse}
                             style={{ height:168 }}
                         >
-                            <div className="absolute -top-6 -left-2 h-14 w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
+                            <div className="absolute -top-2 -left-2 h-14 w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
                             <div className="absolute top-20 -right-2 h-14 w-14 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:scale-100"></div>
                             <motion.div
                                 style={{rotateX: rotateX, rotateY: rotateY}}
