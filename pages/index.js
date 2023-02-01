@@ -152,7 +152,20 @@ export default function Home() {
                                 style={{rotateX: rotateX, rotateY: rotateY}}
                                 className="w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-0 md:ml-0 bg-gradient-to-r from-stone-500 to-stone-700 dark:from-neutral-300 dark:to-stone-400 rounded-lg drop-shadow-md hover:drop-shadow-xl justify-center items-center"
                             >
-                                <div className="-mt-1 ml-2 text-clip max-h-[130px] overflow-clip text-8xl xl:text-9xl drop-shadow-md text-gray-400 dark:text-white">₿</div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 opacity-75"
+                                         viewBox="0 0 609.9 609.9">
+                                        <path fill="#fff"
+                                              d="M570.3 542.5H39.5A39.6 39.6 0 0 1 0 503v-396a39.6 39.6 0 0 1 39.5-39.5h530.6c22 0 39.7 17.8 39.7 39.6v395.9c0 21.9-17.7 39.6-39.5 39.6z"/>
+                                        <path fill="#fff"
+                                              d="M570.3 67.4H304.9v475.1h265.4c21.9 0 39.5-17.7 39.5-39.5V107a39.6 39.6 0 0 0-39.5-39.6z"/>
+                                        <path fill="#CCC"
+                                              d="M609.8 313.1v-16.3h-213v-72l55-55h158c0-5.7-.6-11.2-1.5-16.4h-160a8 8 0 0 0-5.7 2.5l-57.4 57.3h-72V67.4h-16.4v145.7h-71.2l-57.3-57.3a8.4 8.4 0 0 0-5.8-2.5H1.7C.7 158.6 0 164 0 169.6h159l54 54v73H0v16.3h213v73l-53.9 54.3H.1c0 5.6.6 11 1.6 16.3h160.9c2.1 0 4.3-1 5.8-2.5l57.3-57.3h71.2v145.7h16.3V396.7h72.1l57.4 57.3a8 8 0 0 0 5.7 2.5h160c1-5.3 1.5-10.8 1.5-16.3H451.6l-55-55v-72zm-229.4 67.3h-151v-151h150.9v151z"/>
+                                        <path
+                                            d="M609.8 313.1v-16.3h-213v-72l55-55h158c0-5.7-.6-11.2-1.5-16.4h-160a8 8 0 0 0-5.7 2.5l-57.4 57.3h-72V67.4h-8.3v162h75.5v151H305v162h8.2V396.7h72l57.5 57.3a8 8 0 0 0 5.7 2.5h160c1-5.3 1.5-10.7 1.5-16.3H451.6l-55-55v-72z"
+                                            fill="#CCC"/>
+                                    </svg>
+                                </div>
                                 <div className="-mt-8 ml-[115px] xl:ml-40 flex -space-x-3">
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
