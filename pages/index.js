@@ -284,7 +284,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-64 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-68">
-                        <div className="rounded-lg bg-light-map dark:invert-[.75] h-64 max-w-full bg-cover bg-center"></div>
+                        <div className="rounded-lg bg-light-map dark:invert-[.90] h-64 max-w-full bg-cover bg-center"></div>
                     </div>
                 </div>
             </motion.div>
