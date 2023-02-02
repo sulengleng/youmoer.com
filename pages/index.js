@@ -148,14 +148,14 @@ export default function Home() {
                             onMouseMove={handleMouse}
                             style={{ height:177 }}
                         >
-                            <div className="absolute top-0 left-2 md:top-4 md:left-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
-                            <div className="absolute top-20 -right-2 md:top-[100px] md:right-6 xl:top-[120px] xl:right-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:scale-100"></div>
+                            <div className="absolute -top-1 -left-2 md:top-4 md:left-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
+                            <div className="absolute top-20 -right-6 md:top-[100px] md:right-6 xl:top-[120px] xl:right-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:scale-100"></div>
                             <motion.div
                                 style={{rotateX: rotateX, rotateY: rotateY}}
                                 className="mask pointer-events-none relative z-10 w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-4 md:ml-8 xl:ml-10 select-none rounded-xl bg-[#262f70]/20 p-4 backdrop-blur-2xl after:absolute after:inset-0 after:rounded-xl after:bg-gradient-to-br after:from-white/80 after:via-white/10 after:to-white/80 after:p-px"
                             >
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 opacity-75 mt-6"
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 xl:h-10 xl:w-10 opacity-75 mt-6"
                                          viewBox="0 0 609.9 609.9">
                                         <path fill="#fff"
                                               d="M570.3 542.5H39.5A39.6 39.6 0 0 1 0 503v-396a39.6 39.6 0 0 1 39.5-39.5h530.6c22 0 39.7 17.8 39.7 39.6v395.9c0 21.9-17.7 39.6-39.5 39.6z"/>
@@ -168,7 +168,7 @@ export default function Home() {
                                             fill="#CCC"/>
                                     </svg>
                                 </div>
-                                <div className="-mt-2 xl:mt-3 ml-[90px] xl:ml-36 flex -space-x-3">
+                                <div className="-mt-3 xl:mt-3 ml-[95px] xl:ml-36 flex -space-x-3">
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                                 </div>
