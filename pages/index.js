@@ -174,7 +174,7 @@ export default function Home() {
                                 </div>
                             </motion.div>
                         </motion.div>
-                        <a className="text-sm mt-8 md:-mt-4 xl:mt-2 -m-4 mx-0 md:mx-auto w-24 md:w-40 uppercase font-semibold"
+                        <a className="text-sm mt-8 md:-mt-4 xl:mt-2 -ml-10 mx-0 md:mx-auto w-24 md:w-40 uppercase font-semibold"
                            href="https://www.buymeacoffee.com/yeyouchuan"
                            target="_blank"
                         >
