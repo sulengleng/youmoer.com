@@ -144,7 +144,7 @@ export default function Home() {
                     </div>
                     <div className="w-full h-40 md:h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
                         <motion.div
-                            className="mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden relative w-sm md:w-full"
+                            className="mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden relative w-full md:w-full"
                             onMouseMove={handleMouse}
                             style={{ height:177 }}
                         >
@@ -168,7 +168,7 @@ export default function Home() {
                                             fill="#CCC"/>
                                     </svg>
                                 </div>
-                                <div className="-mt-3 xl:mt-3 ml-[95px] xl:ml-36 flex -space-x-3">
+                                <div className="mt-0 xl:mt-3 ml-[95px] xl:ml-36 flex -space-x-3">
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-800 z-0"></div>
                                     <div className="border border-white w-6 h-6 rounded-full bg-gray-300 z-10"></div>
                                 </div>
