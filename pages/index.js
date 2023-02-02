@@ -144,15 +144,15 @@ export default function Home() {
                     </div>
                     <div className="w-full h-40 md:h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
                         <motion.div
-                            className="mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden relative w-full"
+                            className="mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden relative md:w-full"
                             onMouseMove={handleMouse}
-                            style={{ height:168 }}
+                            style={{ height:175 }}
                         >
-                            <div className="absolute top-4 left-6 h-14 w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
-                            <div className="absolute top-[120px] right-6 h-14 w-14 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:scale-100"></div>
+                            <div className="absolute top-4 left-6 w-14 h-14 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
+                            <div className="absolute top-[120px] right-6 w-14 h-14 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:scale-100"></div>
                             <motion.div
                                 style={{rotateX: rotateX, rotateY: rotateY}}
-                                className="mask pointer-events-none relative z-10 w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-0 md:ml-0 xl:ml-10 select-none rounded-xl bg-[#262f70]/20 p-4 backdrop-blur-2xl after:absolute after:inset-0 after:rounded-xl after:bg-gradient-to-br after:from-white/80 after:via-white/10 after:to-white/80 after:p-px"
+                                className="mask pointer-events-none relative z-10 w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-4 md:ml-6 xl:ml-10 select-none rounded-xl bg-[#262f70]/20 p-4 backdrop-blur-2xl after:absolute after:inset-0 after:rounded-xl after:bg-gradient-to-br after:from-white/80 after:via-white/10 after:to-white/80 after:p-px"
                             >
                                 <div>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 opacity-75 mt-6"
