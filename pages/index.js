@@ -155,7 +155,7 @@ export default function Home() {
                                 className="mask pointer-events-none relative z-10 w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-4 md:ml-8 xl:ml-10 select-none rounded-xl bg-[#262f70]/20 p-4 backdrop-blur-2xl after:absolute after:inset-0 after:rounded-xl after:bg-gradient-to-br after:from-white/80 after:via-white/10 after:to-white/80 after:p-px"
                             >
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 xl:h-10 xl:w-10 opacity-75 mt-6"
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 xl:h-10 xl:w-10 opacity-75 mt-3 xl:mt-6"
                                          viewBox="0 0 609.9 609.9">
                                         <path fill="#fff"
                                               d="M570.3 542.5H39.5A39.6 39.6 0 0 1 0 503v-396a39.6 39.6 0 0 1 39.5-39.5h530.6c22 0 39.7 17.8 39.7 39.6v395.9c0 21.9-17.7 39.6-39.5 39.6z"/>
