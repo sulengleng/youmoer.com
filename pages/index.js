@@ -148,8 +148,8 @@ export default function Home() {
                             onMouseMove={handleMouse}
                             style={{ height:177 }}
                         >
-                            <div className="absolute md:top-4 md:left-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
-                            <div className="absolute md:top-[120px] md:right-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:scale-100"></div>
+                            <div className="absolute top-3 left-4 md:top-4 md:left-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-br from-red-300 via-pink-400 to-purple-200 sm:scale-100"></div>
+                            <div className="absolute top-20 right-2 md:top-[120px] md:right-6 w-20 h-20 md:h-10 md:w-10 xl:h-14 xl:w-14 scale-50 rounded-full bg-gradient-to-tr from-red-300 via-pink-300 to-orange-100 sm:scale-100"></div>
                             <motion.div
                                 style={{rotateX: rotateX, rotateY: rotateY}}
                                 className="mask pointer-events-none relative z-10 w-40 xl:w-52 h-[100px] xl:h-[130px] mt-6 md:mt-8 ml-4 md:ml-8 xl:ml-10 select-none rounded-xl bg-[#262f70]/20 p-4 backdrop-blur-2xl after:absolute after:inset-0 after:rounded-xl after:bg-gradient-to-br after:from-white/80 after:via-white/10 after:to-white/80 after:p-px"
