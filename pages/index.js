@@ -144,7 +144,7 @@ export default function Home() {
                     </div>
                     <div className="w-full h-40 md:h-56 flex flex-row md:flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
                         <motion.div
-                            className="mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden relative -ml-6 md:ml-0 w-44 md:w-full"
+                            className="mx-auto flex flex-col rounded-lg drop-shadow-md overflow-hidden relative w-full md:w-full"
                             onMouseMove={handleMouse}
                             style={{ height:177 }}
                         >
