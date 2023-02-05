@@ -49,7 +49,7 @@ export async function getStaticProps() {
 
     return {
       props: {
-        reading,
+        data,
       },
       revalidate: 60,
     }
