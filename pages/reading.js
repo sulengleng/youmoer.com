@@ -12,7 +12,7 @@ export default function Reading ({ reading }) {
                         show={true}
                         color="#ffc72e"
                         animationDuration={1500}
-                        className="text-2xl font-bold mx-auto my-6"
+                        className="text-2xl font-bold text-black mx-auto my-6"
                     >
                         阅读文章高亮一览
                     </RoughNotation>
