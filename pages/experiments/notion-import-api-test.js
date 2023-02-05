@@ -43,21 +43,21 @@ export async function getStaticProps() {
   })
 
   const response = await notion.databases.query({
-      database_id: "9b5e911262dd4899b8857992f19b3d99",
+      database_id: "08204d7869154037bd52912de7a6f10d",
       filter: {
         and: [
           {
-            property: "Show",
-            checkbox: {
-              equals: true,
+            property: "Category",
+            select: {
+              equals: "Articles",
             },
           },
         ],
       },
       sorts: [
         {
-          property: "Name",
-          direction: "ascending",
+          property: "Last Highlighted",
+          direction: "descending",
         },
       ],
     })
