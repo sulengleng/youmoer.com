@@ -43,7 +43,7 @@ export async function getStaticProps() {
   })
 
   const response = await notion.databases.query({
-      database_id: "08204d7869154037bd52912de7a6f10d",
+      database_id: "ae0fa2c74937414cbacf4cebf88bff77",
       filter: {
         and: [
           {
