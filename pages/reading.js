@@ -7,7 +7,7 @@ import {data} from "autoprefixer";
 
 export default function Reading ({ reading }) {
     return (
-        <table className="table-auto">
+        <table className="table-auto border-spacing-2 border">
             <thead>
             <tr>
                 <th>文章</th>
