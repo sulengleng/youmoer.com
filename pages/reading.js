@@ -11,9 +11,9 @@ export default function Reading ({ reading }) {
             <div className="max-w-[90%] md:max-w-[75%] mx-auto mt-4">
                 <h1 className="text-2xl font-bold my-6">阅读文章高亮一览</h1>
                 {reading.map((read) => (
-                <div className="mt-1 flex h-12 w-full justify-between rounded-lg bg-gray-200 dark:dark:bg-gray-800/70">
-                    <p className="max-w-1/2 ml-4 place-self-center">{read.title}</p>
-                    <p className="mr-4 place-self-center">{read.author}</p>
+                <div className="mt-1 flex h-12 w-full justify-between rounded-lg bg-gray-200 dark:bg-gray-800">
+                    <p className="max-w-1/2 ml-4 place-self-center text-gray-900 dark:text-gray-50">{read.title}</p>
+                    <p className="mr-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
                 </div>
                 ))}
             </div>
