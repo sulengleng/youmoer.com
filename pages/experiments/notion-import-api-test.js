@@ -16,12 +16,7 @@ export default function NotionImportApiTest() {
         <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
       </Link>
       <ul className="relative">
-        {LIST?.map((item) => (
-              <Link 
-                href={item.url}
-              >
-                </Link>
-            ))}
+
     </ul>
   </body>
   )
