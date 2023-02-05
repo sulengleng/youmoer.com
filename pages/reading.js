@@ -44,7 +44,7 @@ export async function getReadingList () {
 
     return {
         props: {
-            reading
+            reading,
         },
         revalidate: 60,
     }
