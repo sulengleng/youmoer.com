@@ -1,19 +1,11 @@
 import {Client} from "@notionhq/client";
 import Link from "next/link";
 
-export default function readingList ({ reading }) {
+export default function readingList ({ data }) {
     return (
         <div>
             <h1>Reading List</h1>
-            <ul>
-                {reading.map((read) => (
-                    <li key={read.id}>
-                        <Link href={`/reading/${read.id}`}>
-                            <a>{read.title}</a> - {read.author}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
     )
 }
@@ -52,7 +44,7 @@ export async function getReadingList () {
 
     return {
         props: {
-            reading,
+            data,
         },
         revalidate: 60,
     }
