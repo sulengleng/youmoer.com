@@ -13,8 +13,8 @@ export default function Reading ({ reading }) {
                 <table className="table-auto">
                     <thead>
                     <tr>
-                        <th>文章</th>
-                        <th>作者</th>
+                        <th className="text-left">文章</th>
+                        <th className="text-left">作者</th>
                     </tr>
                     </thead>
                     {reading.map((read) => (
