@@ -5,11 +5,11 @@ import classnames from "classnames";
 import { ArrowIcon } from "lib/icons";
 import {data} from "autoprefixer";
 
-export default function Reading ({ data }) {
+export default function Reading ({ reading }) {
   return (
     <div>
       <h1>Notion API Test</h1>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      <pre>{JSON.stringify(reading, null, 2)}</pre>
     </div>
   )
 }
@@ -43,11 +43,12 @@ export async function getStaticProps() {
     const reading = data.results.map(read => ({
         id: read.id,
         title: read.properties.Title.title[0].plain_text,
+        author: read.properties.Author.rich_text[0].plain_text,
     }))
 
     return {
       props: {
-        data,
+        reading,
       },
       revalidate: 60,
     }
