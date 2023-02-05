@@ -20,7 +20,7 @@ export default function Reading ({ reading }) {
                     {reading.map((read) => (
                         <tbody>
                             <tr>
-                                <td>{read.title}</td>
+                                <td className="mr-4">{read.title}</td>
                                 <td>{read.author}</td>
                             </tr>
                         </tbody>
