@@ -9,12 +9,11 @@ export default function Reading ({ reading }) {
     return (
         <body>
             <h1>阅读文章高亮一览</h1>
-            <table className="table-auto border-spacing-2 border">
+            <table className="table-auto">
                 <thead>
                 <tr>
                     <th>文章</th>
                     <th>作者</th>
-                    <th>时间</th>
                 </tr>
                 </thead>
                 {reading.map((read) => (
@@ -22,7 +21,6 @@ export default function Reading ({ reading }) {
                         <tr>
                             <td>{read.title}</td>
                             <td>{read.author}</td>
-                            <td>{read.lastHighlighted}</td>
                         </tr>
                     </tbody>
                 ))}
