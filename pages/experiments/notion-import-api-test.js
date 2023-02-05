@@ -44,6 +44,7 @@ export async function getStaticProps() {
         id: read.id,
         title: read.properties.Title.title[0].plain_text,
         author: read.properties.Author.rich_text[0].plain_text,
+        lastHighlighted: read.properties["Last Highlighted"].date.start,
     }))
 
     return {
