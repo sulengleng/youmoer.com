@@ -16,7 +16,9 @@ export default function NotionImportApiTest() {
 
         <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
       </Link>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      const Reading = ({ data }) => (
+        <pre>{JSON.stringify(data, null, 2)}</pre>
+      )
     </body>
   )
 }
