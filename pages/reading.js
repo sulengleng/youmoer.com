@@ -7,18 +7,25 @@ import {data} from "autoprefixer";
 
 export default function Reading ({ reading }) {
     return (
-        <div>
-            <h1>Reading List</h1>
-            <ul>
-                {reading.map((read) => (
-                    <li key={read.id}>
-                        <Link href={`/reading/${read.id}`}>
-                            <a>{read.title}</a> - {read.author}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
-        </div>
+        <table className="table-auto">
+            <thead>
+            <tr>
+                <th>文章</th>
+                <th>作者</th>
+                <th>时间</th>
+            </tr>
+            </thead>
+            {reading.map((read) => (
+                <tbody>
+                    <tr>
+                        <td>{read.title}</td>
+                        <td>{read.author}</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            ))}
+        </table>
+
     )
 }
 
