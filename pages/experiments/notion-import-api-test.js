@@ -39,7 +39,7 @@ export default function NotionImportApiTest() {
 
 export async function getStaticProps() {
   const notion = new Client({
-      auth: "secret_t2IvXIXBYP9O4fAJ0wHCRChCmW3ADR11Chn9eu99Et7",
+      auth: "secret_5MpN1A6QNemFuwbbbhXafJQOS1lcjvHGvjMNP99VqPa",
   })
 
   const response = await notion.databases.query({
