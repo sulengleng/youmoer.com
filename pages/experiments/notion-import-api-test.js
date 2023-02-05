@@ -5,11 +5,11 @@ import classnames from "classnames";
 import { ArrowIcon } from "lib/icons";
 import {data} from "autoprefixer";
 
-export default function Reading ({ reading }) {
+export default function Reading ({ data }) {
   return (
     <div>
       <h1>Notion API Test</h1>
-      <pre>{JSON.stringify(reading, null, 2)}</pre>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
     </div>
   )
 }
