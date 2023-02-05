@@ -21,11 +21,11 @@ export default function Reading ({ reading }) {
 export async function getReadingList () {
     const { Client } = require("@notionhq/client")
     const notion = new Client({
-        auth: "secret_5MpN1A6QNemFuwbbbhXafJQOS1lcjvHGvjMNP99VqPa",
+        auth: process.env.NOTION_SECRET_KEY,
     })
 
     const data = await notion.databases.query({
-        database_id: "08204d7869154037bd52912de7a6f10d",
+        database_id: process.env.NOTION_DATABASE_ID,
         filter: {
             and: [
                 {
