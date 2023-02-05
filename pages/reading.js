@@ -1,16 +1,28 @@
-import {Client} from "@notionhq/client";
-import Link from "next/link";
+import { List } from "phosphor-react"
+const { Client } = require("@notionhq/client")
+import Link from "next/link"
+import classnames from "classnames";
+import { ArrowIcon } from "lib/icons";
+import {data} from "autoprefixer";
 
-export default function readingList ({ reading }) {
+export default function Reading ({ reading }) {
     return (
         <div>
             <h1>Reading List</h1>
-            <pre>{JSON.stringify(reading, null, 2)}</pre>
+            <ul>
+                {reading.map((read) => (
+                    <li key={read.id}>
+                        <Link href={`/reading/${read.id}`}>
+                            <a>{read.title}</a> - {read.author}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
         </div>
     )
 }
 
-export async function getReadingList () {
+export async function getStaticProps() {
     const { Client } = require("@notionhq/client")
     const notion = new Client({
         auth: "secret_5MpN1A6QNemFuwbbbhXafJQOS1lcjvHGvjMNP99VqPa",
