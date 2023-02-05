@@ -3,6 +3,7 @@ const { Client } = require("@notionhq/client")
 import Link from "next/link"
 import classnames from "classnames";
 import { ArrowIcon } from "lib/icons";
+import {data} from "autoprefixer";
 
 export default function NotionImportApiTest() {
   return (
@@ -15,7 +16,7 @@ export default function NotionImportApiTest() {
 
         <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
       </Link>
-      <pre>{JSON.stringify(response, null, 2)}</pre>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
     </body>
   )
 }
@@ -27,7 +28,7 @@ export async function getStaticProps() {
       auth: "secret_5MpN1A6QNemFuwbbbhXafJQOS1lcjvHGvjMNP99VqPa",
   })
 
-  const response = await notion.databases.query({
+  const data = await notion.databases.query({
       database_id: "08204d7869154037bd52912de7a6f10d",
       filter: {
         and: [
@@ -54,7 +55,7 @@ export async function getStaticProps() {
 
     return {
       props: {
-        list: response.results,
+        data,
       },
       revalidate: 60,
     }
