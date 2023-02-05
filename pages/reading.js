@@ -19,8 +19,8 @@ export default function Reading ({ reading }) {
                 </div>
                 {reading.map((read) => (
                 <div className="mt-1 flex h-auto w-full justify-between rounded-lg bg-gray-200 dark:bg-gray-800">
-                    <p className="p-4 place-self-center text-gray-900 dark:text-gray-50">{read.title}</p>
-                    <p className="p-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
+                    <p className="py-4 pl-4 place-self-center text-gray-900 dark:text-gray-50">{read.title}</p>
+                    <p className="py-4 pr-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
                 </div>
                 ))}
             </div>
