@@ -7,7 +7,7 @@ import {data} from "autoprefixer";
 
 export default function Reading ({ reading }) {
     return (
-        <body>
+        <body className="max-w-[90%] md:max-w-[75%]">
             <h1>阅读文章高亮一览</h1>
             <table className="table-auto">
                 <thead>
