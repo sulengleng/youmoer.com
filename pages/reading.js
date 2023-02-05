@@ -7,25 +7,27 @@ import {data} from "autoprefixer";
 
 export default function Reading ({ reading }) {
     return (
-        <table className="table-auto border-spacing-2 border">
-            <thead>
-            <tr>
-                <th>文章</th>
-                <th>作者</th>
-                <th>时间</th>
-            </tr>
-            </thead>
-            {reading.map((read) => (
-                <tbody>
-                    <tr>
-                        <td>{read.title}</td>
-                        <td>{read.author}</td>
-                        <td>2022</td>
-                    </tr>
-                </tbody>
-            ))}
-        </table>
-
+        <body>
+            <h1>阅读文章高亮一览</h1>
+            <table className="table-auto border-spacing-2 border">
+                <thead>
+                <tr>
+                    <th>文章</th>
+                    <th>作者</th>
+                    <th>时间</th>
+                </tr>
+                </thead>
+                {reading.map((read) => (
+                    <tbody>
+                        <tr>
+                            <td>{read.title}</td>
+                            <td>{read.author}</td>
+                            <td>2022</td>
+                        </tr>
+                    </tbody>
+                ))}
+            </table>
+        </body>
     )
 }
 
