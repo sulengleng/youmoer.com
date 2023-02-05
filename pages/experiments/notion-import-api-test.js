@@ -9,16 +9,15 @@ export default function Reading ({ reading }) {
   return (
     <div>
       <h1>Notion API Test</h1>
-      <pre>{JSON.stringify(reading, null, 2)}</pre>
-        <ul>
-            {reading.map((read) => (
-            <li key={read.id}>
-                <Link href={`/reading/${read.id}`}>
-                <a>{read.title}</a>
-                </Link>
-            </li>
-            ))}
-        </ul>
+      <ul>
+        {reading.map((read) => (
+        <li key={read.id}>
+            <Link href={`/reading/${read.id}`}>
+            <a>{read.title}</a> - {read.author}
+            </Link>
+        </li>
+        ))}
+      </ul>
     </div>
   )
 }
