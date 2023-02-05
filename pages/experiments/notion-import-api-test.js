@@ -5,24 +5,14 @@ import classnames from "classnames";
 import { ArrowIcon } from "lib/icons";
 import {data} from "autoprefixer";
 
-export default function NotionImportApiTest() {
+export default function Reading ({ data }) {
   return (
-    <body>
-      <Link
-        href="/experiments"
-        className={classnames(
-        "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center ml-6 mt-6"
-        )}>
-
-        <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
-      </Link>
-      const Reading = ({ data }) => (
-        <pre>{JSON.stringify(data, null, 2)}</pre>
-      )
-    </body>
+    <div>
+      <h1>Notion API Test</h1>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+    </div>
   )
 }
-
 
 export async function getStaticProps() {
   const { Client } = require("@notionhq/client")
