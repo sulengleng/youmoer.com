@@ -1,7 +1,7 @@
 import {Client} from "@notionhq/client";
 import Link from "next/link";
 
-export default function Reading ({ reading }) {
+export default function readingList ({ reading }) {
     return (
         <div>
             <h1>Reading List</h1>
