@@ -5,7 +5,7 @@ const { Client } = require("@notionhq/client")
 export default function Reading ({ reading }) {
     return (
         <body>
-            <div className="max-w-[90%] md:max-w-[75%] mx-auto mt-4">
+            <div className="max-w-[90%] md:max-w-[75%] mx-auto mt-4 md:mt-8">
                 <div className="mx-auto my-6">
                     <RoughNotation
                         type="highlight"
