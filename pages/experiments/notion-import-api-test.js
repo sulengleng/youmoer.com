@@ -5,7 +5,7 @@ import classnames from "classnames";
 import { ArrowIcon } from "lib/icons";
 import {data} from "autoprefixer";
 
-export default function Reading ({ reading }) {
+export default function NotionImportApiTest ({ reading }) {
   return (
     <div>
       <h1>Notion API Test</h1>

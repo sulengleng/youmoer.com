@@ -15,7 +15,7 @@ import {
   TwitterLogo,
   FigmaLogo,
   GithubLogo,
-  CalendarCheck,
+  CalendarCheck, Books,
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
@@ -52,16 +52,22 @@ export default function Sidebar() {
       active: pathname.includes("/projects"),
     },
     {
-      title: "实验室",
-      url: "/experiments",
-      icon: <Flask size={16} />,
-      active: pathname.includes("/experiments"),
+      title: "阅读",
+      url: "/reading",
+      icon: <Books size={16} />,
+      active: pathname.includes("/reading"),
     },
     {
       title: "唱片库",
       url: "/music",
       icon: <MusicNotes size={16} />,
       active: pathname.includes("/music"),
+    },
+    {
+      title: "实验室",
+      url: "/experiments",
+      icon: <Flask size={16} />,
+      active: pathname.includes("/experiments"),
     },
     {
       title: "旅行车",
