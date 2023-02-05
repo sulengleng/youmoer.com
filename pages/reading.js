@@ -18,9 +18,9 @@ export default function Reading ({ reading }) {
                     </tr>
                     </thead>
                     {reading.map((read) => (
-                        <tbody>
+                        <tbody className="space-x-4">
                             <tr>
-                                <td className="mr-4">{read.title}</td>
+                                <td className="">{read.title}</td>
                                 <td>{read.author}</td>
                             </tr>
                         </tbody>
