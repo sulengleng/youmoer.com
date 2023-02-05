@@ -7,24 +7,26 @@ import {data} from "autoprefixer";
 
 export default function Reading ({ reading }) {
     return (
-        <body className="max-w-[90%] md:max-w-[75%] mx-auto">
-            <h1>阅读文章高亮一览</h1>
-            <table className="table-auto">
-                <thead>
-                <tr>
-                    <th>文章</th>
-                    <th>作者</th>
-                </tr>
-                </thead>
-                {reading.map((read) => (
-                    <tbody>
-                        <tr>
-                            <td>{read.title}</td>
-                            <td>{read.author}</td>
-                        </tr>
-                    </tbody>
-                ))}
-            </table>
+        <body>
+            <div className="max-w-[90%] md:max-w-[75%] mx-auto">
+                <h1>阅读文章高亮一览</h1>
+                <table className="table-auto">
+                    <thead>
+                    <tr>
+                        <th>文章</th>
+                        <th>作者</th>
+                    </tr>
+                    </thead>
+                    {reading.map((read) => (
+                        <tbody>
+                            <tr>
+                                <td>{read.title}</td>
+                                <td>{read.author}</td>
+                            </tr>
+                        </tbody>
+                    ))}
+                </table>
+            </div>
         </body>
     )
 }
