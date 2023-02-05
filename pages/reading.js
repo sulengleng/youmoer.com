@@ -8,8 +8,8 @@ import {data} from "autoprefixer";
 export default function Reading ({ reading }) {
     return (
         <body>
-            <div className="max-w-[90%] md:max-w-[75%] mx-auto">
-                <h1>阅读文章高亮一览</h1>
+            <div className="max-w-[90%] md:max-w-[75%] mx-auto mt-8">
+                <h1 className="text-xl font-bold">阅读文章高亮一览</h1>
                 <table className="table-auto">
                     <thead>
                     <tr>
