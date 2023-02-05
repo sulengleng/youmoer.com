@@ -22,7 +22,7 @@ export default function Reading ({ reading }) {
                         <tr>
                             <td>{read.title}</td>
                             <td>{read.author}</td>
-                            <td>2022</td>
+                            <td>{read.lastHighlighted}</td>
                         </tr>
                     </tbody>
                 ))}
@@ -61,6 +61,7 @@ export async function getStaticProps() {
         id: read.id,
         title: read.properties.Title.title[0].plain_text,
         author: read.properties.Author.rich_text[0].plain_text,
+        lastHighlighted: read.properties["Last Highlighted"].date.start,
     }))
 
     return {
