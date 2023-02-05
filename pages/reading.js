@@ -1,11 +1,11 @@
 import {Client} from "@notionhq/client";
 import Link from "next/link";
 
-export default function readingList ({ data }) {
+export default function readingList ({ reading }) {
     return (
         <div>
             <h1>Reading List</h1>
-            <pre>{JSON.stringify(data, null, 2)}</pre>
+            <pre>{JSON.stringify(reading, null, 2)}</pre>
         </div>
     )
 }
@@ -44,7 +44,7 @@ export async function getReadingList () {
 
     return {
         props: {
-            data,
+            reading
         },
         revalidate: 60,
     }
