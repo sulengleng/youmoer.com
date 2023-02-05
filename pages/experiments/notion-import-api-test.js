@@ -4,15 +4,6 @@ import Link from "next/link"
 import classnames from "classnames";
 import { ArrowIcon } from "lib/icons";
 
-
-const LIST = [
-  {
-    title: "properties.Name.title[0].plain_text",
-    url: "properties.URL",
-    tags: "properties.Tags",
-  },
-];
-
 export default function NotionImportApiTest() {
   return (
     <body>
@@ -38,6 +29,7 @@ export default function NotionImportApiTest() {
 
 
 export async function getStaticProps() {
+  const { Client } = require("@notionhq/client")
   const notion = new Client({
       auth: "secret_5MpN1A6QNemFuwbbbhXafJQOS1lcjvHGvjMNP99VqPa",
   })
