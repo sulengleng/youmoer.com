@@ -21,7 +21,7 @@ export default function Reading ({ reading }) {
                         <tbody className="space-x-4">
                             <tr>
                                 <td className="">{read.title}</td>
-                                <td>{read.author}</td>
+                                <td className="ml-4">{read.author}</td>
                             </tr>
                         </tbody>
                     ))}
