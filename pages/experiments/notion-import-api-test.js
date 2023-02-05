@@ -15,10 +15,8 @@ export default function NotionImportApiTest() {
 
         <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
       </Link>
-      <ul className="relative">
-
-    </ul>
-  </body>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+    </body>
   )
 }
 
@@ -48,6 +46,11 @@ export async function getStaticProps() {
         },
       ],
     })
+
+    const reading = data.results.map(read => ({
+        id: read.id,
+        title: read.properties.Title.title[0].plain_text,
+    }))
 
     return {
       props: {
