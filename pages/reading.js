@@ -10,7 +10,7 @@ export default function Reading ({ reading }) {
         <body>
             <div className="max-w-[90%] md:max-w-[75%] mx-auto mt-8">
                 <h1 className="text-xl font-bold">阅读文章高亮一览</h1>
-                <table className="table-auto">
+                <table className="table-auto mt-4">
                     <thead>
                     <tr>
                         <th className="text-left">文章</th>
