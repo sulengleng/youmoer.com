@@ -24,6 +24,9 @@ export default function Reading ({ reading }) {
                 </div>
                 ))}
             </div>
+            <pre>
+                {JSON.stringify(reading, null, 2)}
+            </pre>
         </body>
     )
 }
