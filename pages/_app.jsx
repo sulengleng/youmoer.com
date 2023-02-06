@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
               "一名还在路上创造者，喜欢创造有设计感的东西",
             images: [
               {
-                url: "/public/images/Cover.png",
+                url: "public/images/Cover.png",
                 width: 800,
                 height: 600,
                 alt: "yeyouchuan.me",
@@ -51,6 +51,32 @@ function MyApp({ Component, pageProps }) {
             site: "@yeyouchuan",
             cardType: "summary_large_image",
           }}
+          additionalLinkTags={[
+            {
+              rel: "apple-touch-icon",
+              href: "public/images/pages/cover-152.png",
+            },
+            {
+              rel: "apple-touch-icon",
+              href: "public/images/pages/cover-76.png",
+              sizes: "60x60",
+            },
+            {
+              rel: "apple-touch-icon",
+              href: "public/images/pages/cover-152.png",
+              sizes: "144x144",
+            },
+            {
+              rel: "apple-touch-icon",
+              href: "public/images/pages/cover-60.png",
+              sizes: "60x60",
+            },
+            {
+              rel: "apple-touch-icon",
+              href: "public/images/pages/cover-120.png",
+              sizes: "114x114",
+            },
+          ]}
         />
 
         <Analytics>
