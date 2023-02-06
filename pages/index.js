@@ -228,7 +228,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-80 md:h-128 rounded-xl col-span-2 md:-mt-32">
-                        <img className="w-full h-80 md:h-128 rounded-xl" alt="cover" src="https://s2.loli.net/2023/02/07/I4GSQMziFonVpuK.png"/>
+                        <img className="w-full h-80 md:h-128 rounded-xl" alt="cover" src="https://s2.loli.net/2023/02/07/jg4IZ7bzcUHahV9.png"/>
                     </div>
                     <div className="w-full h-72 md:h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-16">
                         <div className="absolute mt-6 place-self-center text-lg font-semibold">我喜欢的产品</div>
