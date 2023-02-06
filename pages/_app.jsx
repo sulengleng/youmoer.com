@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }) {
                 url: "/public/images/Cover.png",
                 width: 800,
                 height: 600,
-                alt: "yeyouchuan for Jike",
+                alt: "yeyouchuan.me",
               },
             ],
           }}
