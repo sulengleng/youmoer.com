@@ -227,7 +227,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-80 md:h-128 bg-light-cover dark:bg-dark-cover bg-cover rounded-xl col-span-2 md:-mt-32">
+                    <div className="w-full h-80 md:h-128 bg-light-cover dark:bg-dark-cover bg-cover bg-center rounded-xl col-span-2 md:-mt-32">
                     </div>
                     <div className="w-full h-72 md:h-108 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl md:-mt-16">
                         <div className="absolute mt-6 place-self-center text-lg font-semibold">我喜欢的产品</div>
