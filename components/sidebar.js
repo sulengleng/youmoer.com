@@ -98,12 +98,6 @@ export default function Sidebar() {
       icon: <GithubLogo size={16} />,
       external: true,
     },
-    {
-      title: "Twitter",
-      url: `https://twitter.com/yeyouchuan`,
-      icon: <TwitterLogo size={16} />,
-      external: true,
-    },
   ];
 
   const RenderLinks = ({ sectionTitle, sectionItems }) => {
