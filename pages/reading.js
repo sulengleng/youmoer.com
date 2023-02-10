@@ -31,7 +31,7 @@ export default function Reading ({ reading }) {
 export async function getStaticProps() {
     const { Client } = require("@notionhq/client")
     const notion = new Client({
-        auth: "secret_5MpN1A6QNemFuwbbbhXafJQOS1lcjvHGvjMNP99VqPa",
+        auth: "secret_ig3DqLAGXUCS9bSiZZXvIDalhynwwQkmLjUS42udYLo",
     })
 
     const data = await notion.databases.query({
