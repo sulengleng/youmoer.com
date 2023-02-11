@@ -19,7 +19,8 @@ export default function Reading ({ reading }) {
                 </div>
                 <div className="max-auto mt-4 mb-8">
                     <p className="text-gray-900 dark:text-gray-50">
-                        以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取，更新频率为 1 分钟。
+                        以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。
+                        阅读文章的记录由 Readwise 提供。
                     </p>
                 </div>
                 {reading.map((read) => (
