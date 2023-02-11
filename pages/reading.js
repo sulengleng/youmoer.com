@@ -17,9 +17,9 @@ export default function Reading ({ reading }) {
                         阅读文章高亮一览
                     </RoughNotation>
                 </div>
-                <div className="max-auto my-4">
+                <div className="max-auto mt-4 mb-8">
                     <p className="text-gray-900 dark:text-gray-50">
-                        以以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取，更新频率为 1 分钟。
+                        以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取，更新频率为 1 分钟。
                     </p>
                 </div>
                 {reading.map((read) => (
