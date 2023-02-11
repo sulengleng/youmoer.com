@@ -246,7 +246,7 @@ export default function Home() {
                             <span className="inline-flex items-baseline">
                               <img src="https://s2.loli.net/2023/01/19/BzxjDT9MdeuZEtQ.png" alt=""
                                    className="mx-1 mr-2 h-6 w-6 self-center rounded-md"/>
-                              <a href="https://tailwindcss.com/ target="_blank"">Tailwind CSS</a>
+                              <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>
                             </span>
                             <span className="mt-1 -ml-[1px] inline-flex items-baseline">
                               <img src="https://s2.loli.net/2023/01/19/ON7aHI2CVqwFGrk.png" alt=""
