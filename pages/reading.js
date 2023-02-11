@@ -25,9 +25,17 @@ export default function Reading ({ reading }) {
                 </div>
                 {reading.map((read) => (
                 <div className="mt-4 flex h-auto w-full justify-between rounded-lg bg-gray-200 dark:bg-gray-800">
-                    <a className="py-4 pl-4 max-w-[250px] md:max-w-fit place-self-center text-gray-900 dark:text-gray-50" href={read.link} target="_blank">
+                    <RoughNotation
+                        type="underline"
+                        show={true}
+                        color="#ffc72e"
+                        animationDuration={1500}
+                        className="py-4 pl-4 max-w-[250px] md:max-w-fit place-self-center text-gray-900 dark:text-gray-50"
+                        href={read.link}
+                        target="_blank"
+                    >
                         {read.title}
-                    </a>
+                    </RoughNotation>
                     <p className="py-4 pr-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
                 </div>
                 ))}
