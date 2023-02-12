@@ -30,7 +30,7 @@ export default function Reading ({ reading }) {
                         show={true}
                         color="#ffc72e"
                         animationDuration={1500}
-                        className="py-4 pl-4 max-w-[250px] md:max-w-fit place-self-center text-gray-900 dark:text-gray-50"
+                        className="py-4 ml-4 max-w-[250px] md:max-w-fit place-self-center text-gray-900 dark:text-gray-50"
                         href={read.link}
                         target="_blank"
                     >
