@@ -29,6 +29,7 @@ export default function Reading ({ reading }) {
                         type="underline"
                         show={true}
                         color="#ffc72e"
+                        padding="-5 0 0 0"
                         animationDuration={1500}
                         className="py-4 ml-4 max-w-[250px] md:max-w-fit place-self-center text-gray-900 dark:text-gray-50"
                         href={read.link}
