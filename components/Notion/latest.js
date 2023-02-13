@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 
-export default function notionLatest({latest}) {
+export function notionLatest({latest}) {
     return (
         <body>
             <div className="w-full h-64 rounded-lg bg-[#38e8be]">
