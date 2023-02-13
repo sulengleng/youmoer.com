@@ -116,7 +116,6 @@ export async function getStaticProps() {
         id: last.id,
         title: last.properties.Title.title[0].plain_text,
         author: last.properties.Author.rich_text[0].plain_text,
-        link: last.properties.Link.url,
     }))
 
     return {
