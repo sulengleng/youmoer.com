@@ -21,7 +21,7 @@ export default function Reading ({ reading, latest, lighted }) {
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-bold">本周阅读</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold">本周阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
@@ -37,28 +37,28 @@ export default function Reading ({ reading, latest, lighted }) {
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-bold">最多高亮</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold">最多高亮</p>
                         {lighted.map((light) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
+                                <a
+                                    className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
+                                    href={light.link}
+                                    target="_blank"
+                                >
+                                    {light.title}
+                                </a>
                                 <div className="flex flex-row">
-                                    <a
-                                        className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
-                                        href={light.link}
-                                        target="_blank"
-                                    >
-                                        {light.title}
-                                    </a>
+                                    <p className="pl-4 px-1 md:pl-6 text-gray-900">{light.author}</p>
                                     <diV className="h-6 w-6 rounded-full self-center bg-[#e398c6]">
                                         <p className="text-xs font-bold text-[#5200ff] text-center pt-1">{light.highlights}</p>
                                     </diV>
                                 </div>
-                                <p className="pl-4 px-1 md:pl-6 text-gray-900">{light.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8]">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-bold">最爱阅读</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold">最爱阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
@@ -74,17 +74,18 @@ export default function Reading ({ reading, latest, lighted }) {
                         <div className="w-full h-6"></div>
                     </div>
                 </div>
-                <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
+                <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen bg-[#aa9649] dark:bg-black rounded-lg">
+                    <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#ffc72e] font-extrabold">全部高亮</p>
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
-                                className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
+                                className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
                                 href={read.link}
                                 target="_blank"
                             >
                                 {read.title}
                             </a>
-                            <p className="py-4 px-1 md:px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
+                            <p className="pl-4 px-1 md:pl-6 text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
                     ))}
                 </div>
