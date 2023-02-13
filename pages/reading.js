@@ -3,7 +3,7 @@ import notionLatest from "../components/Notion/latest";
 const { Client } = require("@notionhq/client")
 
 
-export default function Reading ({ reading }) {
+export default function Reading ({ reading, latest }) {
     return (
         <body className="selection:bg-[#ffc72e]">
             <div className="max-w-[90%] max-w-[80%] mx-auto mt-4">
