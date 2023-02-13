@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 
-export default function notionLatest ({ latest } = props)  {
+export default function notionLatest ({ latest })  {
     return (
         <div className="w-full h-64 rounded-lg bg-#38e8be">
             {latest && latest.map((last) => (
