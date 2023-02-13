@@ -22,7 +22,7 @@ export default function Reading ({ reading }) {
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
                 {reading.map((read) => (
-                    <div className="my-4 divide-y divide-dotted divide-gray-300 grid grid-cols-3">
+                    <div className="my-4 divide-y divide-dotted divide-gray-300 grid grid-cols-2">
                         <div className="flex flex-col">
                             <RoughNotation
                                 type="underline"
@@ -35,7 +35,7 @@ export default function Reading ({ reading }) {
                             >
                                 {read.title}
                             </RoughNotation>
-                            <p className="py-4 text-gray-900 dark:text-gray-50">{read.author}</p>
+                            <p className="py-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
                     </div>
                 ))}
