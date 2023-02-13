@@ -1,5 +1,4 @@
 import {RoughNotation} from "react-rough-notation";
-import Link from "next/link";
 const { Client } = require("@notionhq/client")
 
 
@@ -26,7 +25,6 @@ export default function Reading ({ reading, latest }) {
                         <div className="flex flex-col w-full h-24">
                             <a
                                 className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:text-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
-                                href={last.link}
                                 target="_blank"
                             >
                                 {last.title}
@@ -132,8 +130,6 @@ export async function getRecentHighlight() {
         id: last.id,
         title: last.properties.Title.title[0].plain_text,
         author: last.properties.Author.rich_text[0].plain_text,
-        lastHighlighted: last.properties["Last Highlighted"].date.start,
-        link: last.properties.URL.url,
     }))
 
     return {
