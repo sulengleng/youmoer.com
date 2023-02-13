@@ -21,7 +21,7 @@ export default function Reading ({ reading, latest, lighted }) {
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-black font-bold">本周阅读</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-bold">本周阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
@@ -37,23 +37,28 @@ export default function Reading ({ reading, latest, lighted }) {
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-black font-bold">最多高亮</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-bold">最多高亮</p>
                         {lighted.map((light) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
-                                <a
-                                    className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
-                                    href={light.link}
-                                    target="_blank"
-                                >
-                                    {light.title}
-                                </a>
+                                <div className="flex flex-row">
+                                    <a
+                                        className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
+                                        href={light.link}
+                                        target="_blank"
+                                    >
+                                        {light.title}
+                                    </a>
+                                    <diV className="h-2 w-2 rounded-full self-center bg-[#e398c6]">
+                                        <p className="text-xs text-[#5200ff]">{light.highlights}</p>
+                                    </diV>
+                                </div>
                                 <p className="pl-4 px-1 md:pl-6 text-gray-900">{light.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8]">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-white font-bold">最爱阅读</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-bold">最爱阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
@@ -150,6 +155,12 @@ export async function getStaticProps() {
                         equals: "Articles",
                     },
                 },
+                {
+                    property: "Highlights",
+                    number: {
+                        greater_than: 5,
+                    },
+                },
             ],
         },
         sorts: [
@@ -178,6 +189,7 @@ export async function getStaticProps() {
         id: light.id,
         title: light.properties.Title.title[0].plain_text,
         author: light.properties.Author.rich_text[0].plain_text,
+        highlights: light.properties.Highlights.number,
     }))
 
     return {
