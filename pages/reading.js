@@ -35,7 +35,7 @@ export default function Reading ({ reading }) {
                             >
                                 {read.title}
                             </RoughNotation>
-                            <p className="py-4 pr-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
+                            <p className="py-4 text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
                     </div>
                 ))}
