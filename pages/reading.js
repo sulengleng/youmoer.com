@@ -25,13 +25,13 @@ export default function Reading ({ reading }) {
                     <div className="my-4 divide-y divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-2 gap-4 min-w-screen">
                         <div className="flex flex-col bg-gray-200 w-full h-24">
                             <a
-                                className="flex-auto px-10 font-bold place-self-center text-gray-900 dark:text-gray-50"
+                                className="px-10 font-bold text-gray-900 dark:text-gray-50"
                                 href={read.link}
                                 target="_blank"
                             >
                                 {read.title}
                             </a>
-                            <p className="py-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
+                            <p className="py-4 text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
                     </div>
                 ))}
