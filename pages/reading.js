@@ -1,7 +1,7 @@
 import {RoughNotation} from "react-rough-notation";
 const { Client } = require("@notionhq/client")
 
-export default function Reading ({ reading, latest }) {
+export default function Reading ({ reading, latest, lighted }) {
     return (
         <body className="selection:bg-[#ffc72e]">
             <div className="max-w-[90%] max-w-[80%] mx-auto mt-4">
@@ -38,7 +38,7 @@ export default function Reading ({ reading, latest }) {
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-black font-bold">最多高亮</p>
-                        {highlighted.map((light) => (
+                        {lighted.map((light) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
                                     className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
@@ -174,7 +174,7 @@ export async function getStaticProps() {
         author: last.properties.Author.rich_text[0].plain_text,
     }))
 
-    const highlighted = highlightData.results.map(light => ({
+    const lighted = highlightData.results.map(light => ({
         id: light.id,
         title: light.properties.Title.title[0].plain_text,
         author: light.properties.Author.rich_text[0].plain_text,
@@ -184,7 +184,7 @@ export async function getStaticProps() {
         props: {
             reading,
             latest,
-            highlighted,
+            lighted,
         },
         revalidate: 60,
     }
