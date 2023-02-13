@@ -257,7 +257,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   table {
-    @apply w-full text-left border-collapse border border-gray-200 dark:border-gray-800 rounded;
+    @apply w-full text-left border-collapse border border-gray-200 dark:border-gray-800 rounded-lg
 
     th {
       @apply bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-bold uppercase text-sm px-6 py-4;
