@@ -25,13 +25,13 @@ export default function Reading ({ reading }) {
                     {reading.map((read) => (
                     <div className="flex flex-col w-full h-24">
                         <a
-                            className="px-10 font-bold text-gray-900 dark:text-gray-50"
+                            className="px-4 md:px-10 font-bold text-gray-900 dark:text-gray-50"
                             href={read.link}
                             target="_blank"
                         >
                             {read.title}
                         </a>
-                        <p className="py-4 px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
+                        <p className="py-4 px-4 md:px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
                     </div>
                     ))}
                 </div>
