@@ -23,13 +23,13 @@ export default function Reading ({ reading, latest }) {
                     {latest.map((last) => (
                         <div className="flex flex-col w-full h-auto max-w-[300px]">
                             <a
-                                className="px-1 pt-4 md:px-10 font-bold text-gray-900 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
+                                className="px-1 pt-4 md:pl-6 font-bold text-gray-900 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
                                 href={last.link}
                                 target="_blank"
                             >
                                 {last.title}
                             </a>
-                            <p className="py-1 px-1 md:px-10 text-gray-900">{last.author}</p>
+                            <p className="py-1 px-1 md:pl-6 text-gray-900">{last.author}</p>
                         </div>
                     ))}
                 </div>
