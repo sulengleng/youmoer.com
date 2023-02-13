@@ -1,7 +1,6 @@
 import {RoughNotation} from "react-rough-notation";
 const { Client } = require("@notionhq/client")
 
-
 export default function Reading ({ reading, latest }) {
     return (
         <body className="selection:bg-[#ffc72e]">
