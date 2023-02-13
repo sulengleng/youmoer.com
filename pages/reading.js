@@ -36,7 +36,7 @@ export default function Reading ({ reading }) {
                         <div className="flex flex-col bg-gray-200 w-full h-24">
                             <a
                                 className="px-10 font-bold text-gray-900 dark:text-gray-50"
-                                href=
+                                href= "https://www.notion.so/ceshi-08204d7869154037bd52912de7a6f10d"
                                 target="_blank"
                             >
                                 ceshi
