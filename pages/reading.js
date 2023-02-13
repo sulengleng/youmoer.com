@@ -24,17 +24,13 @@ export default function Reading ({ reading }) {
                 {reading.map((read) => (
                     <div className="my-4 divide-y divide-dotted divide-gray-300 grid grid-cols-2">
                         <div className="flex flex-col">
-                            <RoughNotation
-                                type="underline"
-                                show={true}
-                                color="#ffc72e"
-                                animationDuration={1500}
+                            <a
                                 className="flex-auto px-10 font-bold place-self-center text-gray-900 dark:text-gray-50"
                                 href={read.link}
                                 target="_blank"
                             >
                                 {read.title}
-                            </RoughNotation>
+                            </a>
                             <p className="py-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
                     </div>
