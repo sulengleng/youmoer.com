@@ -115,7 +115,7 @@ export async function getRecentHighlight() {
                 {
                     property: "Last Highlighted",
                     date: {
-                        after: "yesterday",
+                        this_week: {},
                     },
                 }
             ],
