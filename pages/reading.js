@@ -21,30 +21,20 @@ export default function Reading ({ reading }) {
                 <div className="py-2 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
-                {reading.map((read) => (
-                    <div className="my-4 divide-y divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
-                        <div className="flex flex-col bg-gray-200 w-full h-24">
-                            <a
-                                className="px-10 font-bold text-gray-900 dark:text-gray-50"
-                                href={read.link}
-                                target="_blank"
-                            >
-                                {read.title}
-                            </a>
-                            <p className="py-4 px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
-                        </div>
-                        <div className="flex flex-col bg-gray-200 w-full h-24">
-                            <a
-                                className="px-10 font-bold text-gray-900 dark:text-gray-50"
-                                href= "https://www.notion.so/ceshi-08204d7869154037bd52912de7a6f10d"
-                                target="_blank"
-                            >
-                                ceshi
-                            </a>
-                            <p className="py-4 px-10 text-gray-900 dark:text-gray-50">cesji</p>
-                        </div>
+                <div className="my-4 divide-y divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
+                    {reading.map((read) => (
+                    <div className="flex flex-col bg-gray-200 w-full h-24">
+                        <a
+                            className="px-10 font-bold text-gray-900 dark:text-gray-50"
+                            href={read.link}
+                            target="_blank"
+                        >
+                            {read.title}
+                        </a>
+                        <p className="py-4 px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
                     </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </body>
     )
