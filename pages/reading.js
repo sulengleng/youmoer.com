@@ -78,28 +78,7 @@ export async function getStaticProps() {
         ],
     })
 
-    const reading = data.results.map(read => ({
-        id: read.id,
-        title: read.properties.Title.title[0].plain_text,
-        author: read.properties.Author.rich_text[0].plain_text,
-        lastHighlighted: read.properties["Last Highlighted"].date.start,
-        link: read.properties.URL.url,
-    }))
-
-    return {
-        props: {
-            reading,
-        },
-        revalidate: 60,
-    }
-}
-
-export async function getRecentHighlight() {
-    const notion = new Client({
-        auth: "secret_ig3DqLAGXUCS9bSiZZXvIDalhynwwQkmLjUS42udYLo",
-    })
-
-    const data = await notion.databases.query({
+    const lateestdata = await notion.databases.query({
         database_id: "08204d7869154037bd52912de7a6f10d",
         filter: {
             and: [
@@ -125,7 +104,15 @@ export async function getRecentHighlight() {
         ],
     })
 
-    const latest = data.results.map(last => ({
+    const reading = data.results.map(read => ({
+        id: read.id,
+        title: read.properties.Title.title[0].plain_text,
+        author: read.properties.Author.rich_text[0].plain_text,
+        lastHighlighted: read.properties["Last Highlighted"].date.start,
+        link: read.properties.URL.url,
+    }))
+
+    const latest = lateestdata.results.map(last => ({
         id: last.id,
         title: last.properties.Title.title[0].plain_text,
         author: last.properties.Author.rich_text[0].plain_text,
@@ -134,7 +121,9 @@ export async function getRecentHighlight() {
 
     return {
         props: {
+            reading,
             latest,
         },
+        revalidate: 60,
     }
 }
