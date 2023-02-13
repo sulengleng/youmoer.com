@@ -1,5 +1,5 @@
 import {RoughNotation} from "react-rough-notation";
-import notionLatest from "../components/Notion/latest";
+import notionLatest from "./latest";
 const { Client } = require("@notionhq/client")
 
 

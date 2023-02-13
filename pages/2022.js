@@ -11,7 +11,6 @@ import {
     SpotifyLogo, CaretDown, CalendarCheck, Camera, Notepad,
 } from "phosphor-react";
 import React from "react";
-import notionLatest from "../components/Notion/latest";
 
 const TIMELINE = [
     {
