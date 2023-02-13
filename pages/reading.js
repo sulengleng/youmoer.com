@@ -35,20 +35,6 @@ export default function Reading ({ reading, latest }) {
                         </div>
                     ))}
                 </div>
-                <div className="my-8 md:divide-x divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
-                    {reading.map((read) => (
-                    <div className="flex flex-col w-full h-24">
-                        <a
-                            className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:text-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
-                            href={read.link}
-                            target="_blank"
-                        >
-                            {read.title}
-                        </a>
-                        <p className="py-4 px-1 md:px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
-                    </div>
-                    ))}
-                </div>
             </div>
         </body>
     )
@@ -115,7 +101,7 @@ export async function getRecentHighlight() {
                 {
                     property: "Last Highlighted",
                     date: {
-                        equals: "2023-02-13",
+                        this_week: {},
                     },
                 }
             ],
