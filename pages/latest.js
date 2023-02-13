@@ -1,8 +1,8 @@
 import { Client } from "@notionhq/client";
 
-export default function notionLatest ({latest})  {
+export default function notionLatest ({ latest } = props)  {
     return (
-        <div className="w-full h-64 rounded-lg bg-[#38e8be]">
+        <div className="w-full h-64 rounded-lg bg-#38e8be">
             {latest.map((last) => (
                 <div className="flex flex-col w-full h-24">
                     <a
@@ -19,8 +19,7 @@ export default function notionLatest ({latest})  {
     )
 }
 
-export async function getStaticProps() {
-    const { Client } = require("@notionhq/client")
+export async function getRecentHighlight() {
     const notion = new Client({
         auth: "secret_ig3DqLAGXUCS9bSiZZXvIDalhynwwQkmLjUS42udYLo",
     })
@@ -62,6 +61,5 @@ export async function getStaticProps() {
         props: {
             latest,
         },
-        revalidate: 60,
     }
 }
