@@ -21,7 +21,7 @@ export default function Reading ({ reading, latest }) {
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
-                        <p className="py-6 pl-6 text-2xl text-black">本周阅读文章</p>
+                        <p className="pt-6 pl-6 text-2xl text-black font-bold">本周阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
@@ -37,10 +37,11 @@ export default function Reading ({ reading, latest }) {
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
+                        <p className="pt-6 pl-6 text-2xl text-black font-bold">最多高亮</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
-                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
+                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
                                     target="_blank"
                                 >
@@ -52,10 +53,11 @@ export default function Reading ({ reading, latest }) {
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8]">
+                        <p className="pt-6 pl-6 text-2xl text-white font-bold"></p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
-                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
+                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
                                     target="_blank"
                                 >
@@ -71,7 +73,7 @@ export default function Reading ({ reading, latest }) {
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
-                                className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
+                                className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#3cffd0] hover:underline underline-offset-4 decoration-wavy"
                                 href={read.link}
                                 target="_blank"
                             >
