@@ -19,7 +19,7 @@ export default function Reading ({ reading, latest }) {
                 <div className="py-2 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
-                <div className="w-full h-96 rounded-lg bg-[#38e8be]">
+                <div className="mt-8 w-full h-96 rounded-lg bg-[#38e8be]">
                     {latest.map((last) => (
                         <div className="flex flex-col w-full h-24">
                             <a
