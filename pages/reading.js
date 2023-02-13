@@ -31,7 +31,7 @@ export default function Reading ({ reading }) {
                             >
                                 {read.title}
                             </a>
-                            <p className="py-4 text-gray-900 dark:text-gray-50">{read.author}</p>
+                            <p className="py-4 px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
                     </div>
                 ))}
