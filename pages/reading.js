@@ -1,4 +1,5 @@
 import {RoughNotation} from "react-rough-notation";
+import Link from "next/link";
 const { Client } = require("@notionhq/client")
 
 
@@ -21,20 +22,22 @@ export default function Reading ({ reading }) {
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise 提供，所有文章在 Readwise Reader上阅读。
                 </div>
                 {reading.map((read) => (
-                <div className="mt-4 flex h-auto w-full justify-between rounded-lg bg-gray-200 dark:bg-gray-800">
-                    <RoughNotation
-                        type="underline"
-                        show={true}
-                        color="#ffc72e"
-                        animationDuration={1500}
-                        className="my-4 ml-4 max-w-[250px] md:max-w-fit place-self-center text-gray-900 dark:text-gray-50"
-                        href={read.link}
-                        target="_blank"
-                    >
-                        {read.title}
-                    </RoughNotation>
-                    <p className="py-4 pr-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
-                </div>
+                    <div className="px-4 divide-y divide-dotted divide-gray-300 grid-cols-3">
+                        <div className="flex flex-col">
+                            <RoughNotation
+                                type="underline"
+                                show={true}
+                                color="#ffc72e"
+                                animationDuration={1500}
+                                className="flex-auto px-10 font-bold max-w-[250px] md:max-w-fit place-self-center text-gray-900 dark:text-gray-50"
+                                href={read.link}
+                                target="_blank"
+                            >
+                                {read.title}
+                            </RoughNotation>
+                            <p className="py-4 pr-4 place-self-center text-gray-900 dark:text-gray-50">{read.author}</p>
+                        </div>
+                    </div>
                 ))}
             </div>
         </body>
