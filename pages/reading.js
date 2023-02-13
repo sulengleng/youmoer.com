@@ -19,8 +19,9 @@ export default function Reading ({ reading, latest }) {
                 <div className="py-2 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
-                <div className="flex flex-row gap-x-4">
+                <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
+                        <p className="py-6 pl-6">本周阅读文章</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
@@ -33,7 +34,7 @@ export default function Reading ({ reading, latest }) {
                                 <p className="py-1 px-1 md:pl-6 text-gray-900">{last.author}</p>
                             </div>
                         ))}
-                        <div className="w-full h-10"></div>
+                        <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
                         {latest.map((last) => (
@@ -48,7 +49,7 @@ export default function Reading ({ reading, latest }) {
                                 <p className="py-1 px-1 md:pl-6 text-gray-900">{last.author}</p>
                             </div>
                         ))}
-                        <div className="w-full h-10"></div>
+                        <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8]">
                         {latest.map((last) => (
@@ -63,7 +64,7 @@ export default function Reading ({ reading, latest }) {
                                 <p className="py-1 px-1 md:pl-6 text-gray-50">{last.author}</p>
                             </div>
                         ))}
-                        <div className="w-full h-10"></div>
+                        <div className="w-full h-6"></div>
                     </div>
                 </div>
                 <div className="my-8 md:divide-x divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
