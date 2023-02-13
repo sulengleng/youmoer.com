@@ -19,7 +19,7 @@ export default function notionLatest ({latest})  {
     )
 }
 
-export async function getRecentHighlight() {
+export async function getStaticProps() {
     const { Client } = require("@notionhq/client")
     const notion = new Client({
         auth: "secret_ig3DqLAGXUCS9bSiZZXvIDalhynwwQkmLjUS42udYLo",
