@@ -75,7 +75,7 @@ export default function Reading ({ reading, latest, lighted }) {
                     </div>
                 </div>
                 <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen bg-[#aa9649] dark:bg-black rounded-lg">
-                    <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#2d5287] font-extrabold">全部高亮</p>
+                    <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#2d52b7] font-extrabold">全部高亮</p>
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
