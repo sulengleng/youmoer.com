@@ -21,55 +21,55 @@ export default function Reading ({ reading, latest }) {
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
-                        <p className="pt-6 pl-6 text-2xl text-black font-bold">本周阅读</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-black font-bold">本周阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
-                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
+                                    className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
                                     target="_blank"
                                 >
                                     {last.title}
                                 </a>
-                                <p className="py-1 px-1 md:pl-6 text-gray-900">{last.author}</p>
+                                <p className="pl-4 px-1 md:pl-6 text-gray-900">{last.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
-                        <p className="pt-6 pl-6 text-2xl text-black font-bold">最多高亮</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-black font-bold">最多高亮</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
-                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
+                                    className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
                                     target="_blank"
                                 >
                                     {last.title}
                                 </a>
-                                <p className="py-1 px-1 md:pl-6 text-gray-900">{last.author}</p>
+                                <p className="pl-4 px-1 md:pl-6 text-gray-900">{last.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8]">
-                        <p className="pt-6 pl-6 text-2xl text-white font-bold"></p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-white font-bold">最爱阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
-                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#3cffd0] hover:underline underline-offset-4 decoration-wavy"
+                                    className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#3cffd0] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
                                     target="_blank"
                                 >
                                     {last.title}
                                 </a>
-                                <p className="py-1 px-1 md:pl-6 text-gray-50">{last.author}</p>
+                                <p className="pl-4 px-1 md:pl-6 text-gray-50">{last.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6"></div>
                     </div>
                 </div>
-                <div className="my-8 md:divide-x divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
+                <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
