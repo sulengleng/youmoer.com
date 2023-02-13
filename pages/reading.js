@@ -33,6 +33,7 @@ export default function Reading ({ reading, latest }) {
                                 <p className="py-1 px-1 md:pl-6 text-gray-900">{last.author}</p>
                             </div>
                         ))}
+                        <div className="w-full h-10"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
                         {latest.map((last) => (
@@ -47,6 +48,7 @@ export default function Reading ({ reading, latest }) {
                                 <p className="py-1 px-1 md:pl-6 text-gray-900">{last.author}</p>
                             </div>
                         ))}
+                        <div className="w-full h-10"></div>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8]">
                         {latest.map((last) => (
@@ -61,6 +63,7 @@ export default function Reading ({ reading, latest }) {
                                 <p className="py-1 px-1 md:pl-6 text-gray-50">{last.author}</p>
                             </div>
                         ))}
+                        <div className="w-full h-10"></div>
                     </div>
                 </div>
                 <div className="my-8 md:divide-x divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
