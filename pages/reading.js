@@ -23,7 +23,7 @@ export default function Reading ({ reading }) {
                 </div>
                 <div className="my-4 divide-y divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
                     {reading.map((read) => (
-                    <div className="flex flex-col bg-gray-200 w-full h-24">
+                    <div className="flex flex-col w-full h-24">
                         <a
                             className="px-10 font-bold text-gray-900 dark:text-gray-50"
                             href={read.link}
