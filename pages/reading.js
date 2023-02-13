@@ -33,6 +33,16 @@ export default function Reading ({ reading }) {
                             </a>
                             <p className="py-4 px-10 text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
+                        <div className="flex flex-col bg-gray-200 w-full h-24">
+                            <a
+                                className="px-10 font-bold text-gray-900 dark:text-gray-50"
+                                href=
+                                target="_blank"
+                            >
+                                ceshi
+                            </a>
+                            <p className="py-4 px-10 text-gray-900 dark:text-gray-50">cesji</p>
+                        </div>
                     </div>
                 ))}
             </div>
