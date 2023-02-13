@@ -21,7 +21,7 @@ export default function Reading ({ reading, latest }) {
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
-                        <p className="py-6 pl-6">本周阅读文章</p>
+                        <p className="py-6 pl-6 text-2xl text-black">本周阅读文章</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
