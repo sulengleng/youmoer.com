@@ -23,7 +23,7 @@ export default function Reading ({ reading, latest }) {
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-black font-bold">本周阅读</p>
                         {latest.map((last) => (
-                            <div className="flex flex-col w-full h-auto max-w-[250px]">
+                            <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
                                     className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
@@ -38,16 +38,16 @@ export default function Reading ({ reading, latest }) {
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-black font-bold">最多高亮</p>
-                        {latest.map((last) => (
-                            <div className="flex flex-col w-full h-auto max-w-[250px]">
+                        {highlighted.map((light) => (
+                            <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
                                     className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
-                                    href={last.link}
+                                    href={light.link}
                                     target="_blank"
                                 >
-                                    {last.title}
+                                    {light.title}
                                 </a>
-                                <p className="pl-4 px-1 md:pl-6 text-gray-900">{last.author}</p>
+                                <p className="pl-4 px-1 md:pl-6 text-gray-900">{light.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6"></div>
@@ -55,7 +55,7 @@ export default function Reading ({ reading, latest }) {
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8]">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-white font-bold">最爱阅读</p>
                         {latest.map((last) => (
-                            <div className="flex flex-col w-full h-auto max-w-[250px]">
+                            <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
                                 <a
                                     className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#3cffd0] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
@@ -114,7 +114,7 @@ export async function getStaticProps() {
         ],
     })
 
-    const lateestdata = await notion.databases.query({
+    const latestData = await notion.databases.query({
         database_id: "08204d7869154037bd52912de7a6f10d",
         filter: {
             and: [
@@ -140,6 +140,26 @@ export async function getStaticProps() {
         ],
     })
 
+    const highlightData = await notion.databases.query({
+        database_id: "08204d7869154037bd52912de7a6f10d",
+        filter: {
+            and: [
+                {
+                    property: "Category",
+                    select: {
+                        equals: "Articles",
+                    },
+                },
+            ],
+        },
+        sorts: [
+            {
+                property: "Highlights",
+                direction: "descending",
+            },
+        ],
+    })
+
     const reading = data.results.map(read => ({
         id: read.id,
         title: read.properties.Title.title[0].plain_text,
@@ -148,16 +168,23 @@ export async function getStaticProps() {
         link: read.properties.URL.url,
     }))
 
-    const latest = lateestdata.results.map(last => ({
+    const latest = latestData.results.map(last => ({
         id: last.id,
         title: last.properties.Title.title[0].plain_text,
         author: last.properties.Author.rich_text[0].plain_text,
+    }))
+
+    const highlighted = highlightData.results.map(light => ({
+        id: light.id,
+        title: light.properties.Title.title[0].plain_text,
+        author: light.properties.Author.rich_text[0].plain_text,
     }))
 
     return {
         props: {
             reading,
             latest,
+            highlighted,
         },
         revalidate: 60,
     }
