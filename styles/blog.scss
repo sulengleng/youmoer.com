@@ -259,7 +259,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   table {
     @apply w-full text-left border-collapse border border-gray-200 dark:border-gray-800 table-auto select-none;
     @midia #{$phone} {
-      @apply w-auto text-left border-collapse border border-gray-200 dark:border-gray-800 table-auto select-none;;
+      @apply w-auto max-w-[80%] text-left border-collapse border border-gray-200 dark:border-gray-800 table-auto select-none;;
     }
 
     th {
