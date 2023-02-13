@@ -25,7 +25,7 @@ export default function Reading ({ reading, latest }) {
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
-                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
+                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
                                     target="_blank"
                                 >
@@ -57,7 +57,7 @@ export default function Reading ({ reading, latest }) {
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[250px]">
                                 <a
-                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
+                                    className="px-1 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#3cffd0] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
                                     target="_blank"
                                 >
@@ -73,7 +73,7 @@ export default function Reading ({ reading, latest }) {
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
-                                className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#3cffd0] hover:underline underline-offset-4 decoration-wavy"
+                                className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
                                 href={read.link}
                                 target="_blank"
                             >
