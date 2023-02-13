@@ -12,16 +12,13 @@ export default function Reading ({ reading }) {
                         show={true}
                         color="#ffc72e"
                         animationDuration={1500}
-                        className="text-2xl font-bold text-black mx-auto my-6"
+                        className="text-3xl font-bold text-black mx-auto my-6"
                     >
                         阅读文章高亮一览
                     </RoughNotation>
                 </div>
-                <div className="max-auto mt-4 mb-8">
-                    <p className="text-gray-900 dark:text-gray-50">
-                        以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。
-                        阅读文章的记录由 Readwise 提供。
-                    </p>
+                <div className="px-6 py-2 mx-auto max-w-[90%] justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
+                    以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise 提供。
                 </div>
                 {reading.map((read) => (
                 <div className="mt-4 flex h-auto w-full justify-between rounded-lg bg-gray-200 dark:bg-gray-800">
