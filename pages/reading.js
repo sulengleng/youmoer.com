@@ -19,7 +19,7 @@ export default function Reading ({ reading }) {
                     </RoughNotation>
                 </div>
                 <div className="py-2 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
-                    以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise 提供，所有文章在 Readwise Reader上阅读。
+                    以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
                 {reading.map((read) => (
                     <div className="px-4 divide-y divide-dotted divide-gray-300 grid-cols-3">
