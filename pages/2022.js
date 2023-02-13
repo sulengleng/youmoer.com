@@ -11,6 +11,7 @@ import {
     SpotifyLogo, CaretDown, CalendarCheck, Camera, Notepad,
 } from "phosphor-react";
 import React from "react";
+import notionLatest from "../components/Notion/latest";
 
 const TIMELINE = [
     {
@@ -206,6 +207,10 @@ export default function Home() {
           cardType: "summary_large_image",
         }}
       />
+
+        <div className="mt-8 w-full h-64 rounded-lg">
+            <notionLatest></notionLatest>
+        </div>
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] md:max-w-[900px] mx-auto">
         <h2 className="mb-12 mt-12 md:mx-36 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
