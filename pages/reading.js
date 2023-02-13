@@ -48,8 +48,8 @@ export default function Reading ({ reading, latest, lighted }) {
                                     >
                                         {light.title}
                                     </a>
-                                    <diV className="h-2 w-2 rounded-full self-center bg-[#e398c6]">
-                                        <p className="text-xs text-[#5200ff]">{light.highlights}</p>
+                                    <diV className="h-6 w-6 rounded-full self-center bg-[#e398c6]">
+                                        <p className="text-xs font-bold text-[#5200ff] text-center pt-1">{light.highlights}</p>
                                     </diV>
                                 </div>
                                 <p className="pl-4 px-1 md:pl-6 text-gray-900">{light.author}</p>
