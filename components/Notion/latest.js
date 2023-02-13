@@ -1,9 +1,9 @@
 import { Client } from "@notionhq/client";
 
-export default function notionLatest ({ latest })  {
+export const notionLatest = ({ latest }) =>  {
     return (
         <div className="w-full h-64 rounded-lg bg-#38e8be">
-            {latest && latest.map((last) => (
+            {latest.map((last) => (
                 <div className="flex flex-col w-full h-24">
                     <a
                         className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:text-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
