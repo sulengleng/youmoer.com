@@ -6,7 +6,7 @@ const { Client } = require("@notionhq/client")
 export default function Reading ({ reading }) {
     return (
         <body>
-            <div className="mx-auto mt-4">
+            <div className="max-w-[90%] max-w-[80%] mx-auto mt-4">
                 <div className="mx-auto my-6 md:my-8">
                     <RoughNotation
                         type="highlight"
@@ -22,7 +22,7 @@ export default function Reading ({ reading }) {
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
                 {reading.map((read) => (
-                    <div className="my-4 divide-y divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-2 gap-4 min-w-screen">
+                    <div className="my-4 divide-y divide-dotted divide-gray-300 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen">
                         <div className="flex flex-col bg-gray-200 w-full h-24">
                             <a
                                 className="px-10 font-bold text-gray-900 dark:text-gray-50"
