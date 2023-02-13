@@ -21,7 +21,7 @@ export default function Reading ({ reading, latest }) {
                 </div>
                 <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
                     {latest.map((last) => (
-                        <div className="flex flex-col w-full h-24">
+                        <div className="flex flex-col w-full h-auto">
                             <a
                                 className="px-1 md:px-10 font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
                                 href={last.link}
