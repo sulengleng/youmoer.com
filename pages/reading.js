@@ -13,11 +13,8 @@ export default function Reading ({ reading, latest, lighted }) {
                         animationDuration={1500}
                         className="text-3xl font-sans font-bold text-black mx-auto my-6"
                     >
-                        阅读文章高亮一览
+                        阅读文章一览
                     </RoughNotation>
-                </div>
-                <div className="py-2 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
-                    以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative selection:bg-[#5200ff] selection:text-white">
@@ -57,7 +54,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-10"></div>
-                        <h1 className="absolute z-0 overflow-hidden bottom-64 -right-64 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
+                        <h1 className="absolute z-0 overflow-hidden bottom-64 -right-56 md:-right-64 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8] relative selection:bg-[#3cffd0] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold z-10 font-douyu">最爱阅读</p>
@@ -91,6 +88,9 @@ export default function Reading ({ reading, latest, lighted }) {
                             <p className="pl-4 px-1 md:pl-6 text-gray-900 dark:text-gray-50">{read.author}</p>
                         </div>
                     ))}
+                </div>
+                <div className="py-2 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
+                    以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
             </div>
         </body>
