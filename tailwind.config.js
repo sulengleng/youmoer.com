@@ -44,6 +44,9 @@ module.exports = {
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
       },
+      fontFamily: {
+        'douyu': ['DOUYUFont'],
+      },
       flexBasis: {
         '1/7': '14.2857143%',
         '2/7': '28.5714286%',

@@ -38,7 +38,7 @@ export default function Reading ({ reading, latest, lighted }) {
                         <h1 className="absolute z-0 bottom-32 -right-28 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2] relative selection:bg-[#3d70fa] selection:text-black">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3d70fa] font-extrabold z-10">最多高亮</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3d70fa] font-extrabold z-10 font-douyu">最多高亮</p>
                         {lighted.map((light) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
                                 <a
