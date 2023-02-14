@@ -35,7 +35,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-64 -right-52 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
+                        <h1 className="absolute z-0 bottom-64 -right-32 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2] relative selection:bg-[#3d70fa]">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3d70fa] font-extrabold z-10">最多高亮</p>
