@@ -45,7 +45,7 @@ module.exports = {
         '[auto,auto,1fr]': 'auto auto 1fr',
       },
       fontFamily: {
-        'douyu': ['DOUYUFont'],
+        'douyu': ['DOUYUFont', 'sans-serif'],
       },
       flexBasis: {
         '1/7': '14.2857143%',
