@@ -21,7 +21,7 @@ export default function Reading ({ reading, latest, lighted }) {
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative selection:bg-[#5200ff] selection:text-white">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10">本周阅读</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10 font-douyu">本周阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
                                 <a
@@ -60,7 +60,7 @@ export default function Reading ({ reading, latest, lighted }) {
                         <h1 className="absolute z-0 overflow-hidden bottom-64 -right-64 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8] relative selection:bg-[#3cffd0] selection:text-black">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold z-10">最爱阅读</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold z-10 font-douyu">最爱阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
                                 <a
@@ -74,11 +74,11 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-44 -right-36 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favour</h1>
+                        <h1 className="absolute z-0 bottom-44 -right-32 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favour</h1>
                     </div>
                 </div>
                 <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen bg-white dark:bg-black rounded-lg">
-                    <p className="pt-4 pl-4 md:pl-6 text-2xl text-[#ffc72e] font-extrabold">全部高亮</p>
+                    <p className="pt-4 pl-4 md:pl-6 text-2xl text-[#ffc72e] font-extrabold font-douyu">全部高亮</p>
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
