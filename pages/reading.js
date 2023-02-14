@@ -90,7 +90,7 @@ export default function Reading ({ reading, latest, lighted }) {
                     ))}
                 </div>
                 <div className="py-2 mb-8 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
-                    以上记录了我2023年在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
+                    以上记录了我2023年在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reader 提供。
                 </div>
             </div>
         </body>
