@@ -20,7 +20,7 @@ export default function Reading ({ reading, latest, lighted }) {
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
-                    <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative selection:bg-[#5200ff]">
+                    <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative selection:bg-[#5200ff] selection:text-white">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10">本周阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
@@ -37,7 +37,7 @@ export default function Reading ({ reading, latest, lighted }) {
                         <div className="w-full h-6 z-0"></div>
                         <h1 className="absolute z-0 bottom-32 -right-28 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
                     </div>
-                    <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2] relative selection:bg-[#3d70fa]">
+                    <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2] relative selection:bg-[#3d70fa] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3d70fa] font-extrabold z-10">最多高亮</p>
                         {lighted.map((light) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
@@ -59,7 +59,7 @@ export default function Reading ({ reading, latest, lighted }) {
                         <div className="w-full h-6 z-10"></div>
                         <h1 className="absolute z-0 overflow-hidden bottom-64 -right-64 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
                     </div>
-                    <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8] relative selection:bg-[#3cffd0]">
+                    <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8] relative selection:bg-[#3cffd0] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold z-10">最爱阅读</p>
                         {latest.map((last) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
