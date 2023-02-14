@@ -20,10 +20,10 @@ export default function Reading ({ reading, latest, lighted }) {
                     以下记录了我所有在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reade 提供。
                 </div>
                 <div className="flex md:flex-row flex-col gap-x-4">
-                    <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be]">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold">本周阅读</p>
+                    <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative">
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10">本周阅读</p>
                         {latest.map((last) => (
-                            <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px]">
+                            <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
                                 <a
                                     className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#5200ff] hover:underline underline-offset-4 decoration-wavy"
                                     href={last.link}
@@ -31,10 +31,11 @@ export default function Reading ({ reading, latest, lighted }) {
                                 >
                                     {last.title}
                                 </a>
-                                <p className="pl-4 px-1 md:pl-6 text-gray-900">{last.author}</p>
+                                <p className="pl-4 px-1 md:pl-6 text-gray-900 z-10">{last.author}</p>
                             </div>
                         ))}
-                        <div className="w-full h-6"></div>
+                        <div className="w-full h-6 z-0"></div>
+                        <h1 className="absolute z-0 bottom-4 right-4 text-6xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2]">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold">最多高亮</p>
