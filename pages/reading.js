@@ -38,7 +38,7 @@ export default function Reading ({ reading, latest, lighted }) {
                         <h1 className="absolute z-0 bottom-4 right-4 text-6xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2] relative">
-                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10">最多高亮</p>
+                        <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#2d52b7] font-extrabold z-10">最多高亮</p>
                         {lighted.map((light) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
                                 <a
@@ -78,7 +78,7 @@ export default function Reading ({ reading, latest, lighted }) {
                     </div>
                 </div>
                 <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen bg-[#aa9649] dark:bg-black rounded-lg">
-                    <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#2d52b7] font-extrabold">全部高亮</p>
+                    <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#ffc72e] font-extrabold">全部高亮</p>
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
