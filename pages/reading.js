@@ -5,7 +5,7 @@ export default function Reading ({ reading, latest, lighted }) {
     return (
         <body className="selection:bg-[#ffc72e]">
             <div className="max-w-[90%] max-w-[80%] mx-auto mt-4">
-                <div className="mx-auto my-6 md:my-8">
+                <div className="mx-auto mt-6 md:mt-8 mb-6">
                     <RoughNotation
                         type="highlight"
                         show={true}
