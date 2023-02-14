@@ -82,7 +82,7 @@ export default function Reading ({ reading, latest, lighted }) {
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
                             <a
-                                className="pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
+                                className="pl-4 pt-4 md:pl-6 pr-4 text-lg font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
                                 href={read.link}
                                 target="_blank"
                             >
