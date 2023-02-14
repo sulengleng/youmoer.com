@@ -74,7 +74,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-44 -right-44 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favour</h1>
+                        <h1 className="absolute z-0 bottom-44 -right-36 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favour</h1>
                     </div>
                 </div>
                 <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen bg-[#aa9649] dark:bg-black rounded-lg">
