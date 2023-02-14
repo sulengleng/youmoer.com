@@ -74,10 +74,10 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-44 -right-32 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favour</h1>
+                        <h1 className="absolute z-0 bottom-44 -right-40 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favour</h1>
                     </div>
                 </div>
-                <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen bg-gray-300 dark:bg-black rounded-lg">
+                <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen border-dashed border-2 border-[#ffc72e] bg-gray-200 dark:bg-black rounded-lg">
                     <p className="pt-4 pl-4 md:pl-6 text-2xl text-[#ffc72e] font-extrabold font-douyu">全部高亮</p>
                     {reading.map((read) => (
                         <div className="flex flex-col w-full h-24">
