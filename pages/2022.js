@@ -237,9 +237,9 @@ export default function Home() {
                               <span className="">{item.title}</span>
                               {item?.link ? (
                                   <Link href={item.link} target="_blank">
-                        <span className="inline-block ml-1 opacity-80">
-                          <ArrowSquareOut size={12} />
-                        </span>
+                            <span className="inline-block ml-1 opacity-80">
+                              <ArrowSquareOut size={12} />
+                            </span>
                                   </Link>
                               ) : (
                                   ""

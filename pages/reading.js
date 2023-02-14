@@ -58,20 +58,20 @@ export default function Reading ({ reading, latest, lighted }) {
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8] relative selection:bg-[#3cffd0] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold z-10 font-douyu">最爱阅读</p>
-                        {latest.map((last) => (
+                        {Favorite.map((items) => (
                             <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
                                 <a
                                     className="z-20 pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-50 hover:decoration-[#3cffd0] hover:underline underline-offset-4 decoration-wavy"
-                                    href={last.link}
+                                    href={items.link}
                                     target="_blank"
                                 >
-                                    {last.title}
+                                    {items.title}
                                 </a>
-                                <p className="z-20 pl-4 px-1 md:pl-6 text-gray-50">{last.author}</p>
+                                <p className="z-20 pl-4 px-1 md:pl-6 text-gray-50">{items.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-44 -right-44 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favour</h1>
+                        <h1 className="absolute z-0 bottom-44 -right-44 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favorite</h1>
                     </div>
                 </div>
                 <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen border-dashed border-2 border-[#ffc72e] bg-gray-50 dark:bg-black rounded-lg">
@@ -96,6 +96,54 @@ export default function Reading ({ reading, latest, lighted }) {
         </body>
     )
 }
+
+const Favorite = [
+    {
+        title: "Generative AI 杂记",
+        author: "Platform Thinking +",
+        link: "https://pt.plus/notes-on-generative-ai/",
+    },
+    {
+        title: "产品沉思录 | 2023 Vol.20230113",
+        author: "产品沉思录",
+        link: "https://xiaobot.net/p/pmthinking2023",
+    },
+    {
+        title: "Letter #021 社区的演变",
+        author: "汗青",
+        link: "https://qingchen.zhubai.love/posts/2231819355094728704",
+    },
+    {
+        title: "Shyrism.News #26 文明崛起",
+        author: "Shyrz",
+        link: "https://shyrz.me/news-26-the-rise-of-civilization/",
+    },
+    {
+        title: "The Cup of Coffee Theory of AI",
+        author: "Every",
+        link: "https://every.to/p/the-cup-of-coffee-theory-of-ai",
+    },
+    {
+        title: "协议怎么做才能成呢？",
+        author: "李奇",
+        link: "https://thequibbler.zhubai.love/posts/2233155745766109184",
+    },
+    {
+        title: "",
+        author: "乔尔事务所",
+        link: "https://yzhu1015.zhubai.love/posts/2213937160535986176",
+    },
+    {
+        title: "重返学校 week 3",
+        author: "大憨",
+        link: "https://dahan.zhubai.love/posts/2185816026523394048",
+    },
+    {
+        title: "普通人离“平庸之恶”有多远？",
+        author: "李厚辰",
+        link: "https://mp.weixin.qq.com/s?__biz=MzA3MDM3NjE5NQ==&mid=2650935193&idx=1&sn=5cbd53041e7ee2f17fc62499f9adca73#rd",
+    },
+]
 
 export async function getStaticProps() {
     const { Client } = require("@notionhq/client")
