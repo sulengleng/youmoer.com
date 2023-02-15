@@ -12,175 +12,6 @@ import {
 } from "phosphor-react";
 import React from "react";
 
-const TIMELINE = [
-    {
-        data: 'Jan 19, 2023',
-        title: '第三版主页上线',
-        description: '第三版主页上线，网页正式告一段落',
-    },
-    {
-        date: 'Nov 23, 2022',
-        title: '个人网站开始上线',
-        description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top'
-    },
-    {
-        date: 'Sep 28, 2022',
-        title: '开始大学学习',
-        description: '约克大学 Bsc Interactive Media'
-    },
-    {
-        data: 'Jan 08, 2022',
-        title: '告别2021',
-        description: '去年年度总结~',
-        link: 'https://yeyouchuan.zhubai.love/posts/2091618351985659904'
-    }
-]
-
-const IMAGES = [
-    {
-        src: "https://s2.loli.net/2023/01/24/FP3pSYrjun2BIXH.jpg",
-        place: "兔兔",
-        className: "rotate-[-2deg]",
-        note: "",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/24/8TAKzuDdSvQI2fR.jpg",
-        place: "云彩",
-        className: "rotate-[2deg]",
-        note: "",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/24/SVCyElv1HqOJzD5.jpg",
-        place: "毕业",
-        className: "rotate-[-2deg]",
-        note: "",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/24/7UYQurck6po32hC.jpg",
-        place: "到达",
-        className: "rotate-[2deg]",
-        note: "",
-    }
-];
-
-const SERIES = [
-    {
-        src: "https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png",
-        place: "孤独摇滚",
-        className: "rotate-[-2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/WQdIbuiUFcltMfh.png",
-        place: "赛博朋克边缘行者",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/6rt1dvfkIJjMaoq.png",
-        place: "派对浪客诸葛孔明",
-        className: "rotate-[-2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/XfxICHPwAjYGUVe.png",
-        place: "辉夜大小姐想让我告白",
-        className: "rotate-[2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/9Jm43sRdfQ76NBb.png",
-        place: "莉可丽丝",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/OVgcfs1tl6XpRCB.png",
-        place: "水星的魔女",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/yfLtPTlKz47RNni.png",
-        place: "灵能百分百",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/DIxJdGzHOBju7oW.png",
-        place: "间谍过家家",
-        className: "rotate-[2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/bUQ6fHtqjEXkg4B.png",
-        place: "爱死机",
-        className: "rotate-[-2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/20/VYLC12bASJuyEQ4.png",
-        place: "龙之家族",
-        className: "rotate-[2deg]",
-    },
-];
-
-const  ALBUMS = [
-    {
-        src: "https://s2.loli.net/2023/01/18/i6M1WQJg7PmErbO.png",
-        name: "冀西南林路行",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://files.catbox.moe/9i0d2g.png",
-        name: "万能青年旅店",
-        className: "rotate-[-2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/23/9IaHsRlUGSxWziL.png",
-        name: "Interstellar",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://files.catbox.moe/4oxz6p.png",
-        name: "醜奴兒",
-        className: "rotate-[-2deg]",
-    },
-    {
-        src: "https://files.catbox.moe/ic8v2r.png",
-        name: "Back in Black",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/23/zDFUx9maJ7tehPT.png",
-        name: "The Bends",
-        className: "rotate-[-2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2023/01/23/yEL7P5ufF4eV2kM.png",
-        name: "勝訴ストリップ",
-        className: "rotate-[2deg]",
-    },
-    {
-        src: "https://files.catbox.moe/ibe9j9.png",
-        name: "Vox Low",
-        className: "rotate-[-2deg]",
-    },
-    {
-        src: "https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png",
-        name: "AM",
-        className: "rotate-[2deg]"
-    },
-    {
-        src: "https://s2.loli.net/2023/01/23/RcPoKb5QALgXuCU.png",
-        name: "One Last Kiss",
-        className: "rotate-[-2deg]",
-    },
-];
-
-const ContentWrapper = ({ children, className, width }) => (
-    <div
-        style={{ maxWidth: `${width || '100%'}`}}
-        className={clsx(
-            "w-full px-5 mx-auto relative",
-            className
-        )}
-    >
-        {children}
-    </div>
-);
-
 export default function Home() {
   return (
     <>
@@ -207,7 +38,7 @@ export default function Home() {
         }}
       />
 
-      <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] md:max-w-[900px] mx-auto">
+      <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] md:max-w-[1000px] mx-auto">
         <h2 className="mb-12 mt-12 md:mx-36 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
@@ -713,4 +544,173 @@ export default function Home() {
     </>
   );
 }
+
+const TIMELINE = [
+    {
+        data: 'Jan 19, 2023',
+        title: '第三版主页上线',
+        description: '第三版主页上线，网页正式告一段落',
+    },
+    {
+        date: 'Nov 23, 2022',
+        title: '个人网站开始上线',
+        description: '也欢迎你来我之前的数字花园 https://yeyouchuan.top'
+    },
+    {
+        date: 'Sep 28, 2022',
+        title: '开始大学学习',
+        description: '约克大学 Bsc Interactive Media'
+    },
+    {
+        data: 'Jan 08, 2022',
+        title: '告别2021',
+        description: '去年年度总结~',
+        link: 'https://yeyouchuan.zhubai.love/posts/2091618351985659904'
+    }
+]
+
+const IMAGES = [
+    {
+        src: "https://s2.loli.net/2023/01/24/FP3pSYrjun2BIXH.jpg",
+        place: "兔兔",
+        className: "rotate-[-2deg]",
+        note: "",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/24/8TAKzuDdSvQI2fR.jpg",
+        place: "云彩",
+        className: "rotate-[2deg]",
+        note: "",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/24/SVCyElv1HqOJzD5.jpg",
+        place: "毕业",
+        className: "rotate-[-2deg]",
+        note: "",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/24/7UYQurck6po32hC.jpg",
+        place: "到达",
+        className: "rotate-[2deg]",
+        note: "",
+    }
+];
+
+const SERIES = [
+    {
+        src: "https://s2.loli.net/2023/01/13/aFHc9f2Z7UG8uTd.png",
+        place: "孤独摇滚",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/WQdIbuiUFcltMfh.png",
+        place: "赛博朋克边缘行者",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/6rt1dvfkIJjMaoq.png",
+        place: "派对浪客诸葛孔明",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/XfxICHPwAjYGUVe.png",
+        place: "辉夜大小姐想让我告白",
+        className: "rotate-[2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/9Jm43sRdfQ76NBb.png",
+        place: "莉可丽丝",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/OVgcfs1tl6XpRCB.png",
+        place: "水星的魔女",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/yfLtPTlKz47RNni.png",
+        place: "灵能百分百",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/DIxJdGzHOBju7oW.png",
+        place: "间谍过家家",
+        className: "rotate-[2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/bUQ6fHtqjEXkg4B.png",
+        place: "爱死机",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/20/VYLC12bASJuyEQ4.png",
+        place: "龙之家族",
+        className: "rotate-[2deg]",
+    },
+];
+
+const  ALBUMS = [
+    {
+        src: "https://s2.loli.net/2023/01/18/i6M1WQJg7PmErbO.png",
+        name: "冀西南林路行",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/9i0d2g.png",
+        name: "万能青年旅店",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/9IaHsRlUGSxWziL.png",
+        name: "Interstellar",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/4oxz6p.png",
+        name: "醜奴兒",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/ic8v2r.png",
+        name: "Back in Black",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/zDFUx9maJ7tehPT.png",
+        name: "The Bends",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/yEL7P5ufF4eV2kM.png",
+        name: "勝訴ストリップ",
+        className: "rotate-[2deg]",
+    },
+    {
+        src: "https://files.catbox.moe/ibe9j9.png",
+        name: "Vox Low",
+        className: "rotate-[-2deg]",
+    },
+    {
+        src: "https://s2.loli.net/2022/12/05/WNq6OQ4aeThLnGR.png",
+        name: "AM",
+        className: "rotate-[2deg]"
+    },
+    {
+        src: "https://s2.loli.net/2023/01/23/RcPoKb5QALgXuCU.png",
+        name: "One Last Kiss",
+        className: "rotate-[-2deg]",
+    },
+];
+
+const ContentWrapper = ({ children, className, width }) => (
+    <div
+        style={{ maxWidth: `${width || '100%'}`}}
+        className={clsx(
+            "w-full px-5 mx-auto relative",
+            className
+        )}
+    >
+        {children}
+    </div>
+);
 
