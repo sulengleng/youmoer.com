@@ -14,4 +14,4 @@ excerpt: 我的网站折腾历史是从2021年底开始的，那段时期被我�
 
 我对我个人网站的要求最初就是一个能承接个人写作的平台而已，当时制作一个网站对我来说是一个比较难而且成本过高的事情，于是一开始我就打算把我个人的写作放在 Notion 上，优点是 Notion 的 Block 和 Database 功能非常吸引我，我觉得我能用这些功能向我的读者呈现更多的信息。这部分我当时在少数派的[一篇文章](https://sspai.com/post/70641)有提到。但是慢慢的我发现 Notion 眼花缭乱的功能反而限制了我的写作欲望，而且自建博客事实上阻止了潜在读者的阅读欲望。于是我想寻找一种能更好和读者联系，更轻松的写作平台。
 
-当时正是国内 newsletter 刚刚起步的阶段，现在我们能看到的那些最优秀的 newsletter 创作者刚刚开始尝试各种可能。于是我顺理成章的转到了 newsletter 写作，开设了[夜游船渡口](https://yeyouchuan.zhubai.love)来更好的帮助我分发文章，在写作 newsletter 的过程中，我开始思考写作对我的意义和对读者的意义，我在[Vol.2 夜游船渡口](https://www.yeyouchuan.me/blog/yeyouchuan-duko)中讨论了这一点
+当时正是国内 newsletter 刚刚起步的阶段，现在我们能看到的那些最优秀的 newsletter 创作者刚刚开始尝试各种可能。于是我顺理成章的转到了 newsletter 写作，开设了[夜游船渡口](https://yeyouchuan.zhubai.love)来更好的帮助我分发文章，在写作 newsletter 的过程中，我开始思考写作对我的意义和对读者的意义，我在[Vol.2 夜游船渡口](https://www.yeyouchuan.me/blog/yeyouchuan-duko)中讨论了这一点。
