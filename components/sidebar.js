@@ -117,8 +117,8 @@ export default function Sidebar() {
                 className={clsx(
                   "flex items-center w-full py-[6px] px-3 mb-1 transition-all duration-150 ease-in-out rounded-lg",
                   link?.active
-                    ? "bg-white text-black shadow-[0_1px_3px_rgba(0,0,0,0.12)] dark:shadow-[0_1px_3px_rgba(0,0,0,0.3)] font-semibold dark:bg-gray-800 dark:text-white"
-                    : "text-gray-800 dark:text-gray-400 hover:bg-white hover:shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:hover:shadow-[0_1px_3px_rgba(0,0,0,0.3)] dark:hover:bg-gray-800"
+                    ? "bg-white text-black shadow-[-2px_-2px_10px_rgba(255,255,255,1),3px_3px_10px_rgba(0,0,0,0.2)] dark:shadow-[0_1px_3px_rgba(0,0,0,0.3)] font-semibold dark:bg-gray-800 dark:text-white"
+                    : "text-gray-800 dark:text-gray-400 hover:bg-white hover:shadow-[inset_-2px_-2px_5px_rgba(255,255,255,0.7),inset_3px_3px_5px_rgba(0,0,0,0.1)] dark:hover:shadow-[0_1px_3px_rgba(0,0,0,0.3)] dark:hover:bg-gray-800"
                 )}
               >
                 <span className="min-w-[24px] mr-[2px] opacity-80">{link?.icon}</span>
