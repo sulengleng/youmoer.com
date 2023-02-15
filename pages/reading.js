@@ -235,6 +235,7 @@ export async function getStaticProps() {
         id: last.id,
         title: last.properties.Title.title[0].plain_text,
         author: last.properties.Author.rich_text[0].plain_text,
+        link: last.properties.URL.url,
     }))
 
     const lighted = highlightData.results.map(light => ({
@@ -242,6 +243,7 @@ export async function getStaticProps() {
         title: light.properties.Title.title[0].plain_text,
         author: light.properties.Author.rich_text[0].plain_text,
         highlights: light.properties.Highlights.number,
+        link: light.properties.URL.url,
     }))
 
     return {
