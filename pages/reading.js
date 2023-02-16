@@ -48,7 +48,7 @@ export default function Reading ({ reading, latest, lighted }) {
                                     </a>
                                     <p className="z-20 pl-4 px-1 md:pl-6 text-gray-900">{light.author}</p>
                                 </div>
-                                <diV className="z-20 h-6 w-6 rounded-full self-center bg-[#e398c6] ml-2">
+                                <diV className="z-20 h-6 w-6 rounded-full self-center bg-[#e398c6] mx-6">
                                     <p className="z-30 text-xs font-bold text-[#3d70fa] text-center pt-1">{light.highlights}</p>
                                 </diV>
                             </div>
