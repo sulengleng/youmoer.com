@@ -46,7 +46,7 @@ module.exports = {
       },
       fontFamily: {
         'douyu': ['DOUYUFont', 'sans-serif'],
-        'thunder': ['Thunder-Black', 'sans-serif']
+        'thunder': ['Thunder', 'black', 'sans-serif']
       },
       flexBasis: {
         '1/7': '14.2857143%',
