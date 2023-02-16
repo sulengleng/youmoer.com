@@ -32,7 +32,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-32 -right-28 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
+                        <h1 className="absolute z-0 bottom-32 -right-28 text-8xl font-thunder font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Week</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2] relative selection:bg-[#3d70fa] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3d70fa] font-extrabold z-10 font-douyu">最多高亮</p>
@@ -54,7 +54,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-10"></div>
-                        <h1 className="absolute z-0 overflow-hidden bottom-64 -right-56 md:-right-64 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
+                        <h1 className="absolute z-0 overflow-hidden bottom-64 -right-56 md:-right-64 text-8xl font-thunder font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8] relative selection:bg-[#3cffd0] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold z-10 font-douyu">最爱阅读</p>
@@ -71,7 +71,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-56 -right-52 text-8xl font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favorite</h1>
+                        <h1 className="absolute z-0 bottom-56 -right-52 text-8xl font-thunder font-black uppercase text-white transform -rotate-90 mix-blend-overlay">Favorite</h1>
                     </div>
                 </div>
                 <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen border-dashed border-2 border-[#ffc72e] bg-gray-50 dark:bg-black rounded-lg">
