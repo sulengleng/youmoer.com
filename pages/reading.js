@@ -37,20 +37,20 @@ export default function Reading ({ reading, latest, lighted }) {
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#e8b1d2] relative selection:bg-[#3d70fa] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3d70fa] font-extrabold z-10 font-douyu">最多高亮</p>
                         {lighted.map((light) => (
-                            <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
-                                <a
-                                    className="z-20 pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#3d70fa] hover:underline underline-offset-4 decoration-wavy"
-                                    href={light.link}
-                                    target="_blank"
-                                >
-                                    {light.title}
-                                </a>
-                                <div className="z-10 flex flex-row">
+                            <div className="z-0 flex flex-row justify-between">
+                                <div className="flex flex-col w-full h-auto max-w-[200px] md:max-w-[250px] z-10">
+                                    <a
+                                        className="z-20 pl-4 pt-4 md:pl-6 text-lg font-bold text-gray-900 hover:decoration-[#3d70fa] hover:underline underline-offset-4 decoration-wavy"
+                                        href={light.link}
+                                        target="_blank"
+                                    >
+                                        {light.title}
+                                    </a>
                                     <p className="z-20 pl-4 px-1 md:pl-6 text-gray-900">{light.author}</p>
-                                    <diV className="z-20 h-6 w-6 rounded-full self-center bg-[#e398c6] ml-2">
-                                        <p className="z-30 text-xs font-bold text-[#3d70fa] text-center pt-1">{light.highlights}</p>
-                                    </diV>
                                 </div>
+                                <diV className="z-20 h-6 w-6 rounded-full self-center bg-[#e398c6] ml-2">
+                                    <p className="z-30 text-xs font-bold text-[#3d70fa] text-center pt-1">{light.highlights}</p>
+                                </diV>
                             </div>
                         ))}
                         <div className="w-full h-6 z-10"></div>
