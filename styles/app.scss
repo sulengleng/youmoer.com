@@ -11,6 +11,11 @@ iframe {
   @apply rounded-md;
 }
 
+@font-face {
+    font-family: 'Thunder';
+    src: url('../public/fonts/Thunder-BlackLCItalic.ttf') format('truetype');
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }
