@@ -1,5 +1,5 @@
 import {RoughNotation} from "react-rough-notation";
-const { Client } = require("@notionhq/client")
+import { Client } from "@notionhq/client";
 
 export default function Reading ({ reading, latest, lighted }) {
     return (
