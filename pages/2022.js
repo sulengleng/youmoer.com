@@ -540,7 +540,7 @@ export default function Home() {
                   订阅
               </a>
           </ContentWrapper>
-          <iframe name="footer" src="https://app.notioncomments.com/embed/11e8c53d-ed56-46ca-8382-151b1f501f6d" className="w-[700px] h-96 mx-auto my-8 scale-75"></iframe>
+          <iframe name="footer" src="https://app.notioncomments.com/embed/11e8c53d-ed56-46ca-8382-151b1f501f6d" className="w-[700px] h-96 mx-auto my-8 "></iframe>
       </article>
     </>
   );
