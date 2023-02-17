@@ -54,7 +54,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-10"></div>
-                        <h1 className="absolute z-0 overflow-hidden bottom-40 right-28 md:-right-44 text-9xl font-black font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
+                        <h1 className="absolute z-0 overflow-hidden bottom-40 right-36 md:-right-44 text-9xl font-black font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">Highlight</h1>
                     </div>
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#4c02e8] relative selection:bg-[#3cffd0] selection:text-black">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#3cffd0] font-extrabold z-10 font-douyu">最爱阅读</p>
