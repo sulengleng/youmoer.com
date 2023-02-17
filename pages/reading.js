@@ -32,7 +32,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-32 -right-28 md:bottom-16 md:-right-14 text-8xl md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
+                        <h1 className="absolute z-0 bottom-28 -right-36 md:bottom-16 md:-right-14 text-8xl md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
                             Week
                         </h1>
                     </div>
@@ -56,7 +56,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-10"></div>
-                        <h1 className="absolute z-0 overflow-hidden bottom-64 -right-56 md:bottom-40 md:-right-40 text-8xl md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
+                        <h1 className="absolute z-0 overflow-hidden bottom-56 -right-56 md:bottom-40 md:-right-[152px] text-8xl md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
                             Highlight
                         </h1>
                     </div>
@@ -75,7 +75,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-56 -right-52 text-8xl md:bottom-36 md:-right-32 md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
+                        <h1 className="absolute z-0 bottom-48 -right-64 text-8xl md:bottom-36 md:-right-32 md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
                             Favorite
                         </h1>
                     </div>
