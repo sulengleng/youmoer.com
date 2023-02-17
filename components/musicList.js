@@ -10,13 +10,13 @@ export default function MusicList({ allPosts, activeSlug }) {
   return (
     <div
       className={clsx(
-        "md:max-w-[320px] w-full h-screen p-3 overflow-y-hidden",
+        "md:max-w-[320px] w-full h-screen p-3",
         slug != undefined && "hidden lg:flex flex-col"
       )}
     >
       <div
         className={clsx(
-          "bg-gray-50 dark:bg-gray-900 overflow-auto rounded-lg h-full border border-gray-200/50 dark:border-gray-800/50"
+          "bg-gray-50 dark:bg-gray-900 overflow-y-hidden rounded-lg h-full border border-gray-200/50 dark:border-gray-800/50"
         )}
       >
         <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
@@ -40,7 +40,7 @@ export default function MusicList({ allPosts, activeSlug }) {
                   <img
                     src={post?.icon}
                     alt={post.title}
-                    className="w-6 h-6 rounded-lg shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:border-gray-800"
+                    className="w-6 h-6 rounded-full shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:border-gray-800"
                   />
                 ) : (
                   <div className="flex items-center justify-center w-6 h-6 text-lg font-bold text-white bg-black border border-gray-100 rounded-full dark:border-gray-800">
