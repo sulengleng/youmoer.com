@@ -42,7 +42,7 @@ export default function Home() {
     }
 
     return (
-        <motion.body className="selection:bg-[#3b818c]">
+        <motion.body className="select-none">
             <NextSeo
                 title="你好，我是夜游船！"
                 description="欢迎来到夜游船的个人网站，我是学生、创造者、设计师"
