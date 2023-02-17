@@ -75,7 +75,7 @@ export default function Reading ({ reading, latest, lighted }) {
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
-                        <h1 className="absolute z-0 bottom-52 -right-44 text-8xl md:bottom-36 md:-right-32 md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
+                        <h1 className="absolute z-0 bottom-52 -right-48 text-8xl md:bottom-36 md:-right-32 md:text-9xl font-black md:font-thunder uppercase text-white transform -rotate-90 mix-blend-overlay">
                             Favorite
                         </h1>
                     </div>
