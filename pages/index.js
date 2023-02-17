@@ -197,7 +197,7 @@ export default function Home() {
                                             )}
                                         </div>
                                         <div className="h-28 w-28 p-4">
-                                            <img className="h-24 w-24 rounded-md object-cover"
+                                            <img className="h-20 w-20 rounded-md object-cover"
                                                  src="https://s2.loli.net/2023/01/18/i6M1WQJg7PmErbO.png" alt="Music cover"/>
                                         </div>
                                     </div>
