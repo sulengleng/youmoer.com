@@ -16,7 +16,7 @@ export default function MusicList({ allPosts, activeSlug }) {
     >
       <div
         className={clsx(
-          "bg-gray-50 dark:bg-gray-900 overflow-auto rounded-lg h-full border border-gray-200/50 dark:border-gray-800/50"
+          "bg-gray-50 dark:bg-gray-900 overflow-auto no-scrollbar rounded-lg h-full border border-gray-200/50 dark:border-gray-800/50"
         )}
       >
         <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
