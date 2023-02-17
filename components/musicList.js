@@ -10,7 +10,7 @@ export default function MusicList({ allPosts, activeSlug }) {
   return (
     <div
       className={clsx(
-        "md:max-w-[320px] w-full h-screen p-3",
+        "md:max-w-[320px] w-full h-screen p-3 overflow-y-hidden",
         slug != undefined && "hidden lg:flex flex-col"
       )}
     >
