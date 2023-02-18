@@ -173,7 +173,7 @@ export default function Sidebar() {
         className="z-100 py-3 cursor-pointer text-sm fixed bottom-0 left-0 w-full md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
         onClick={() => showMobileNav(!mobileNav)}
       >
-        {!mobileNav ? "Menu" : "Close"}
+        {!mobileNav ? "目录" : "Close"}
       </div>
       {mobileNav ? (
         <nav className="z-100 fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">

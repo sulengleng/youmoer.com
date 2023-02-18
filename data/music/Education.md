@@ -8,6 +8,6 @@ icon: https://s2.loli.net/2023/02/18/VSRapCOGmIq7WkA.png
 
 ![](https://s2.loli.net/2023/02/18/ty8FmrPx53zdN9S.png)
 
-推荐的東京事変的第二张专辑
+我推荐的東京事変的第二张专辑，也是椎名林檎以东京事变为名发的第一张专辑
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/kyouiku-education/1440763800"></iframe>
