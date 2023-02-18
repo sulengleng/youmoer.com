@@ -4,7 +4,8 @@ title: 阅读页面搭建教程
 date: 2023-02-18 20:27:30 +0000
 categories: 阅读
 image: https://s2.loli.net/2023/02/19/RPNvxofhLYi8m57.png
-excerpt: 我的网站折腾历史是从2021年底开始的，那段时期被我称为我的「文艺复兴时期」
+excerpt: 如何通过 notion 和 readwise reader 来搭建自己的个人网站展示页
 ---
 
-一些数字又名的就啥都库哈斯肯定会
+如何通过 notion 和 readwise reader 来搭建自己的个人网站展示页
+
