@@ -136,7 +136,7 @@ export default function Home() {
                         <img src="https://s2.loli.net/2023/01/16/4PhMLmkjT9SQUti.png"
                              className="absolute top-3 right-3 h-9 w-9 rounded-full border-[#34b6de]" alt="xyzfm logo"/>
                         <div className="flex flex-row">
-                            <p className="mt-10 ml-4 text-4xl font-semibold">291</p>
+                            <p className="mt-10 ml-4 text-4xl font-semibold">301</p>
                             <p className="mt-14 ml-1 text-sm text-gray-500">小时</p>
                             <p className="mt-10 ml-1 text-4xl font-semibold">34</p>
                             <p className="mt-14 ml-1 text-sm text-gray-500">分钟</p>
