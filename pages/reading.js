@@ -4,6 +4,7 @@ import { Client } from "@notionhq/client";
 export default function Reading ({ reading, latest, lighted }) {
     return (
         <body className="selection:bg-[#ffc72e]">
+            <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
             <div className="max-w-[90%] md:max-w-[95%] mx-auto mt-4">
                 <div className="mx-auto mt-6 md:mt-8 mb-2">
                     <RoughNotation
