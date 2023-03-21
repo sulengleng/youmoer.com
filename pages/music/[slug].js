@@ -35,6 +35,7 @@ export default function Post({ allPosts, post }) {
           cardType: "summary_large_image",
         }}
       />
+      <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
       <MusicList allPosts={allPosts} activeSlug={post?.slug} />
       <MusicContent post={post} />
     </div>
