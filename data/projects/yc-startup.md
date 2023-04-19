@@ -2,7 +2,7 @@
 date: 2023-01-26 11:24:00 +0000
 slug: yc-startup
 tech: ["Project", "Y-Combinator"]
-icon: https://s2.loli.net/2023/01/26/edgy3XVn2UrDpCb.png
+icon: https://s2.loli.net/2023/04/20/pDEo8RlFMzaA9HW.png
 web: https://www.ycombinator.com/rfs/
 title: "YC 的项目要求"
 ---

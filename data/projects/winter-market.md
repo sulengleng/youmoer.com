@@ -2,7 +2,7 @@
 date: 2022-12-01 2:11:00 +0000
 slug: winter-market
 tech: ["Market", "灵感卖家俱乐部"]
-icon: https://files.catbox.moe/5scrti.jpg
+icon: https://s2.loli.net/2023/04/20/NYdkoWwIJbn5L6q.png
 web: https://club.q24.io/2022-winter-creator-fair-calling/
 title: "冬聚闲置市集"
 ---

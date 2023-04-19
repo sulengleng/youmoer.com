@@ -2,7 +2,7 @@
 date: 2023-02-13 00:44:00 +0000
 slug: life
 tech: ["日常", "分数"]
-icon: https://s2.loli.net/2023/02/13/96vbHSWcPAe2VO5.png
+icon: https://s2.loli.net/2023/04/20/DV3Mgbno8RmTZde.png
 title: "每日打分表格"
 ---
 
