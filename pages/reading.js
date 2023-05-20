@@ -5,19 +5,8 @@ export default function Reading ({ reading, latest, lighted }) {
     return (
         <body className="selection:bg-[#ffc72e] reading">
             <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
-            <div className="max-w-[90%] md:max-w-[95%] mx-auto mt-4">
-                <div className="mx-auto mt-6 md:mt-8 mb-2">
-                    <RoughNotation
-                        type="highlight"
-                        show={true}
-                        color="#ffc72e"
-                        animationDuration={1500}
-                        className="text-3xl font-sans font-bold text-black mx-auto my-6"
-                    >
-                        阅读文章一览
-                    </RoughNotation>
-                </div>
-                <div className="flex md:flex-row flex-col gap-x-4">
+            <div className="max-w-[90%] md:max-w-[80%] mx-auto my-4">
+                <div className="flex md:flex-row flex-col gap-x-8 mx-auto">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative selection:bg-[#5200ff] selection:text-white">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10 font-douyu">本周阅读</p>
                         {latest.map((last) => (
@@ -80,24 +69,6 @@ export default function Reading ({ reading, latest, lighted }) {
                             Favorite
                         </h1>
                     </div>
-                </div>
-                <div className="my-8 flex flex-col md:grid md:grid-cols-3 gap-4 min-w-screen border-dashed border-2 border-[#ffc72e] bg-gray-50 dark:bg-black rounded-lg">
-                    <p className="pt-4 pl-4 md:pl-6 text-2xl text-[#ffc72e] font-extrabold font-douyu">全部高亮</p>
-                    {reading.map((read) => (
-                        <div className="flex flex-col w-full h-24">
-                            <a
-                                className="pl-4 pt-4 md:pl-6 pr-6 text-lg font-bold text-gray-900 dark:text-gray-50 hover:decoration-[#ffc72e] hover:underline underline-offset-4 decoration-wavy"
-                                href={read.link}
-                                target="_blank"
-                            >
-                                {read.title}
-                            </a>
-                            <p className="pl-4 px-1 md:pl-6 text-gray-900 dark:text-gray-50">{read.author}</p>
-                        </div>
-                    ))}
-                </div>
-                <div className="py-2 mb-8 mx-auto justify-center text-center text-sm text-gray-500 bg-repeat bg-[url('https://s2.loli.net/2022/12/07/3MBKFxyaXtjNrGh.png')] dark:bg-[url('https://s2.loli.net/2022/12/07/9cv1jB2W6ZOVFfk.png')] dark:text-white">
-                    以上记录了我2023年在阅读时 highlight 过的文章，数据通过 Notion Database API 获取。阅读文章的记录由 Readwise Reader 提供。设计风格致敬科技媒体 The Verge。
                 </div>
             </div>
         </body>
@@ -217,7 +188,7 @@ export async function getStaticProps() {
                 {
                     property: "Highlights",
                     number: {
-                        greater_than: 5,
+                        greater_than: 6,
                     },
                 },
             ],
