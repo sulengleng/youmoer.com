@@ -181,7 +181,7 @@ export default function Home() {
                             buy me a coffee ~</a>
                     </div>
                     <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
-                        <YouTube videoId="r6cXfBnxHI4" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                        <YouTube videoId="ovTiSA9T-RU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                         <div className="player select-none">
                             <div className="overflow-hidden">
                                 <div className="flex">
@@ -198,7 +198,7 @@ export default function Home() {
                                         </div>
                                         <div className="h-28 w-28 p-4 mt-2">
                                             <img className="h-20 w-20 rounded-md object-cover"
-                                                 src="https://s2.loli.net/2023/01/18/i6M1WQJg7PmErbO.png" alt="Music cover"/>
+                                                 src="https://s2.loli.net/2023/05/25/UHxPNrOYjSDc5Xn.png" alt="Music cover"/>
                                         </div>
                                     </div>
                                     <div className="place-self-center -ml-4 pr-8 py-2 mt-1 px-3 z-10">
@@ -220,9 +220,9 @@ export default function Home() {
                                         )}
                                         <div className="flex flex-col">
                                             <div
-                                                className="block text-lg font-semibold leading-tight dark:text-white">山雀
+                                                className="block text-lg font-semibold leading-tight dark:text-white">但
                                             </div>
-                                            <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">万能青年旅店</a>
+                                            <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">草东没有派对</a>
                                         </div>
                                     </div>
                                 </div>
