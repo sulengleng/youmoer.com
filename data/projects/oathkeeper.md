@@ -2,7 +2,7 @@
 date: 2023-05-25 19:12:00 +0000
 slug: oathkeeper
 tech: ["App idea", "产品"]
-icon: https://s2.loli.net/2023/04/20/NYdkoWwIJbn5L6q.png
+icon: https://s2.loli.net/2023/04/20/EqtvBnmc2RksulV.png
 title: "OathKeeper - 记录承诺"
 ---
 
