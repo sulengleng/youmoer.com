@@ -50,7 +50,7 @@ export default function MusicList({ allPosts, activeSlug }) {
                     {post?.title?.slice(0, 1)}
                   </div>
                 )}
-                <h2 className={clsx("font-semibold ml-3 md:max-w-[200px]")}>{post.title}</h2>
+                <h2 className={clsx("font-semibold ml-3 max-w-[220px] md:max-w-[200px]")}>{post.title}</h2>
               </article>
             </Link>
           </div>
