@@ -10,7 +10,7 @@ export default function MusicList({ allPosts, activeSlug }) {
   return (
     <div
       className={clsx(
-        "md:max-w-[320px] w-full h-screen p-3",
+        "md:max-w-[360px] w-full h-screen p-3",
         slug != undefined && "hidden lg:flex flex-col"
       )}
     >
@@ -37,17 +37,20 @@ export default function MusicList({ allPosts, activeSlug }) {
                 )}
               >
                 {post?.icon ? (
-                  <img
-                    src={post?.icon}
-                    alt={post.title}
-                    className="w-6 h-6 rounded-full shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:border-gray-800"
-                  />
+                  <div className="flex relative">
+                    <img
+                      src={post?.icon}
+                      alt={post.title}
+                      className="w-16 h-16 rounded-full border-[16px] shadow-2xl border-black"
+                    />
+                    <div className="rounded-full absolute top-7 left-[28px] bg-gray-50 dark:bg-gray-700 border-1 border-black w-2 h-2"></div>
+                  </div>
                 ) : (
                   <div className="flex items-center justify-center w-6 h-6 text-lg font-bold text-white bg-black border border-gray-100 rounded-full dark:border-gray-800">
                     {post?.title?.slice(0, 1)}
                   </div>
                 )}
-                <h2 className={clsx("font-semibold ml-3")}>{post.title}</h2>
+                <h2 className={clsx("font-semibold ml-3 max-w-[200px]")}>{post.title}</h2>
               </article>
             </Link>
           </div>
