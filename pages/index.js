@@ -181,7 +181,7 @@ export default function Home() {
                             buy me a coffee ~</a>
                     </div>
                     <div className="w-full h-32 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
-                        <YouTube videoId="ovTiSA9T-RU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                        <YouTube videoId="SB3_m1jU-BU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                         <div className="player select-none">
                             <div className="overflow-hidden">
                                 <div className="flex">
@@ -220,7 +220,7 @@ export default function Home() {
                                         )}
                                         <div className="flex flex-col">
                                             <div
-                                                className="block text-lg font-semibold leading-tight dark:text-white">但
+                                                className="block text-lg font-semibold leading-tight dark:text-white">缸
                                             </div>
                                             <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">草东没有派对</a>
                                         </div>
