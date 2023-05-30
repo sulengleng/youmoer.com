@@ -19,7 +19,7 @@ export default function MusicList({ allPosts, activeSlug }) {
           "bg-gray-50 dark:bg-gray-900 overflow-auto no-scrollbar rounded-lg h-full border border-gray-200/50 dark:border-gray-800/50"
         )}
       >
-        <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
+        <div className="z-50 px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
           Music List
         </div>
         {allPosts?.map((post) => (
@@ -41,9 +41,11 @@ export default function MusicList({ allPosts, activeSlug }) {
                     <img
                       src={post?.icon}
                       alt={post.title}
-                      className="w-16 h-16 rounded-full border-[16px] shadow-2xl border-black"
+                      className="w-14 h-14 rounded-sm -rotate-6 z-10 mr-8"
                     />
-                    <div className="rounded-full absolute top-7 left-[28px] bg-gray-50 dark:bg-gray-700 border-1 border-black w-2 h-2"></div>
+                    <div className="rounded-full absolute top-2 left-[32px] bg-black border border-black w-14 h-14 flex">
+                      <img src={post?.icon} alt={post.title} className="rounded-full w-6 h-6 mt-4 ml-4 blur-[3px]"/>
+                    </div>
                   </div>
                 ) : (
                   <div className="flex items-center justify-center w-6 h-6 text-lg font-bold text-white bg-black border border-gray-100 rounded-full dark:border-gray-800">
