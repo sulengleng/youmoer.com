@@ -18,4 +18,6 @@ excerpt: Timing is everything
 
 和空间音频一样的还有激光雷达（LiDAR Scanner）功能，当苹果在 2020 年第一次发布这个功能的时候，这个功能的使用场景少之又少，消费者几乎不可能因为这个功能买单。这个功能对于 AR 和 VR 场景来说的意义就完全不一样了，也许 LiDAR Scanner 会为 Vision Pro 的 3D 摄影打下坚实的基础。
 
-说完了以上相对较为隐蔽的功能
+说完了以上相对较为隐蔽的功能，来看看苹果在交互设计界面中用了哪些经过检验的技术。2022 年苹果在 iPad 上引入了笔尖悬停技术，当 Apple Pencil 靠近屏幕时，对应的图标大小会略微增加。而在 Vision Pro 上，你的视线就是你的鼠标，当你的眼睛扫过窗口时，图标们随之产生一个高亮变化，给你实时的反馈。
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWFhMjhiN2UxODZmNDFjZjM5NDczYjI4MDJmYTY5Yjk0NmI5NDFiNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/vQNNzfU36VJwfeh0qr/giphy.gif)

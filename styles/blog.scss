@@ -27,7 +27,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   & > * {
-    @apply max-w-[580px] mx-auto;
+    @apply max-w-[700px] mx-auto;
   }
 
   & > figure:not(.highlight) {
