@@ -32,7 +32,7 @@ excerpt: Timing is everything
 
 正如软件设计师 Andy Matuschak 在 Vision Pro 发布后分享的那样，2013 年最初的 “扁平化设计” iOS —— 最初是为了让整个操作系统具有视差效果以增加深度感。但是之后它被认为 “太复杂” 并从该版本中删除，但十年后，类似的动画填充了 Vision Pro 的操作系统。视差效果可以更自然的和 3D 环境结合，而且 Vision Pro 可以更好的模拟深度。
 
-<img src="https://s2.loli.net/2023/06/10/3uOM5cl9mQYNqis.png" style="zoom:200%;" />
+<img src="https://s2.loli.net/2023/06/10/3uOM5cl9mQYNqis.png" style="zoom:230%;" />
 
 > Apple 并非凭空发明。有时它会尝试一次，然后砍掉它，只是为了在几年后以不同的形式再次将它带回来。 （请参阅今年对 Widgets 的新强调，这是将近 20 年前最初在 Mac 上推出的东西。）有时 Apple 发明了一些东西，看似在一款产品中对其进行了 Beta 测试，但后来却在更有意义的未来产品中采用了它。 （iPod 上的表盘，然后是 Apple Watch，iPad 上的 LiDAR，然后是 Vision Pro。）有时，设计 DNA 会贯穿整个产品线，一个地方的好主意在另一个地方会获得第二次生命（触控板设计到屏幕支架）。
 
