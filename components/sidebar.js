@@ -15,7 +15,9 @@ import {
   TwitterLogo,
   FigmaLogo,
   GithubLogo,
-  CalendarCheck, Books,
+  CalendarCheck, 
+  Books,
+  ApplePodcastsLogo,
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
@@ -74,6 +76,13 @@ export default function Sidebar() {
       url: "/map",
       icon: <Compass size={16} />,
       active: pathname === "/map",
+    },
+    {
+      title: "播客",
+      url: "https://buzhaolu.live",
+      icon: <ApplePodcastsLogo size={16} />,
+      active: false,
+      external: false,
     },
     {
       title: "Newsletter",
