@@ -82,7 +82,7 @@ export default function Sidebar() {
       url: "https://buzhaolu.live",
       icon: <ApplePodcastsLogo size={16} />,
       active: false,
-      external: false,
+      external: true,
     },
     {
       title: "Newsletter",
