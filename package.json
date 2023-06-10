@@ -55,6 +55,7 @@
     "unified": "^10.1.2"
   },
   "devDependencies": {
+    "@types/rss": "^0.0.30",
     "typescript": "^4.9.4"
   }
 }
