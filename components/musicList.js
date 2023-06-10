@@ -44,7 +44,7 @@ export default function MusicList({ allPosts, activeSlug }) {
                       className="w-14 h-14 rounded-sm -rotate-6 z-10 mr-8"
                     />
                     <div className="rounded-full absolute top-2 left-[32px] bg-black border border-black w-14 h-14 flex">
-                      <img src={post?.icon} alt={post.title} className="rounded-full w-6 h-6 mt-4 ml-4 blur-[3px]"/>
+                      <img src={post?.icon} alt={post.title} className="rounded-full w-6 h-6 mt-4 ml-4 blur-[1px]"/>
                     </div>
                   </div>
                 ) : (
