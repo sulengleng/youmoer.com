@@ -1,7 +1,7 @@
-import type { NextApiRequest, NextApiResponse } from "next";
-import EmailTemplate from "../../components/email-template.jsx";
-import { Resend } from "resend";
+import { NextApiRequest, NextApiResponse } from "next";
+import EmailTemplate from "../../components/email-template";
 
+const Resend = require("resend");
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
@@ -11,7 +11,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       to: "yeyouchuan@gmail.com",
       subject: "Hello world",
       html: "<strong>It works!</strong>",
-      react: EmailTemplate({ firstName: "Alan" }),
     });
 
     res.status(200).json(data);
@@ -19,3 +18,4 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     res.status(400).json(error);
   }
 };
+
