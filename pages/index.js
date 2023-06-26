@@ -4,9 +4,6 @@ import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
 import {NextSeo} from "next-seo";
 
-import { Resend } from "resend";
-
-
 export default function Home() {
     const [isPlaying, setIsPlaying] = useState(false);
 
@@ -36,15 +33,6 @@ export default function Home() {
 
     const rotateX = useTransform(y, [0, 400], [30, -15]);
     const rotateY = useTransform(x, [0, 400], [-30, 15]);
-
-    const resend = new Resend("re_123456789");
-
-    const dataPromise = resend.emails.send({
-        from: "hello@yeyouchuan.me",
-        to: "yeyouchuan@gmail.com",
-        subject: "hello world",
-        text: "it works!",
-    });
 
     function handleMouse(event) {
         const rect = event.currentTarget.getBoundingClientRect();
@@ -112,12 +100,6 @@ export default function Home() {
                                 不喜欢只是成为技术的享受者 <br />
                                 而是希望能创造一些东西
                             </p>
-                            <a 
-                               className="ml-7 mt-4 text-sm leading-5"
-                               onClick={dataPromise}
-                            >
-                                订阅我的邮件
-                            </a>
                         </div>
                     </div>
                     <div className="w-full h-40 bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl flex flex-col relative">
