@@ -40,6 +40,11 @@ export default function Experiments() {
       description: "The second version for my personal website",
     },
     {
+      title: "Homepage V3",
+      url: "/experiments/homepage-v3",
+      description: "The third version for my personal website",
+    },
+    {
       title: "Notion import API Test",
       url: "/experiments/notion-import-api-test",
       description: "A test for Notion import API",
