@@ -5,7 +5,6 @@ import YouTube from "react-youtube";
 import {NextSeo} from "next-seo";
 
 export default function Home() {
-
     return (
         <motion.body className="select-none">
             <NextSeo
