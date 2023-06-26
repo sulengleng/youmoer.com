@@ -273,7 +273,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="w-1/3 h-40 md:h-44 rounded-xl bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black">
-                            <img className="mx-auto my-auto mt-6 md:mt-4 mt-4 h-auto md:h-[85%] w-[95%] md:w-auto rounded-lg" src="https://s2.loli.net/2023/01/17/7lzrw29VK4SIokB.png" alt="book cover"></img>
+                            <img className="mx-auto my-auto mt-6 md:mt-4 h-auto md:h-[85%] w-[95%] md:w-auto rounded-lg" src="https://s2.loli.net/2023/01/17/7lzrw29VK4SIokB.png" alt="book cover"></img>
                         </div>
                     </div>
                     <div className="w-full h-44 relative flex flex-col bg-gradient-to-br from-[#fdfbfb] to-[#ebedee] dark:from-gray-800 dark:via-gray-900 dark:to-black rounded-xl">
