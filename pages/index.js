@@ -10,12 +10,12 @@ export default function Home() {
         <motion.body className="select-none">
             <NextSeo
                 title="你好，我是夜游船！"
-                description="欢迎来到夜游船的个人网站，我是学生、创造者、设计师"
+                description="欢迎来到夜游船的个人网站，我是创造者"
                 openGraph={{
                     site_name: "你好，我是夜游船！",
                     title: "你好，我是夜游船！",
                     description:
-                        "欢迎来到夜游船的个人网站，我是学生、创造者、设计师",
+                        "欢迎来到夜游船的个人网站，我是创造者",
                 }}
                 twitter={{
                     handle: "@yeyouchuan",
