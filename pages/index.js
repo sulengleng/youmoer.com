@@ -40,11 +40,19 @@ export default function Home() {
                     <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         <div></div>
                     </div>
-                    <div className="w-full h-44 bg-white dark:bg-gray-900 border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
-                    <div className="w-full h-[460px] bg-white dark:bg-gray-900 border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2"></div>
-                    <div className="w-full h-32 bg-white dark:bg-gray-900 border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 -mt-32"></div>
-                    <div className="w-full h-[320px] bg-white dark:bg-gray-900 border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 -mt-32"></div>
-                    <div className="w-full h-48 bg-white dark:bg-gray-900 border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
+                    <div className="w-full h-44 bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
+                    <div className="w-full h-[460px] bg-white dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2"></div>
+                    <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 -mt-32"></div>
+                    <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 -mt-32">
+                        <p className="text-5xl font-bold max-w-[500px] leading-tight mx-auto my-16 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                            我这只是个测试，你可以试试更多可能，可以随时取消。
+                        </p>
+                    </div>
+                    <div className="w-full h-48 bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
+                        <p className="text-2xl font-bold leading-9 max-w-[220px] mx-auto my-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-orange-900 via-indigo-100 to-teal-700 bg-clip-text text-transparent">
+                            我这只是个测试，你可以试试更多可能，可以随时取消。
+                        </p>
+                    </div>
                 </div>
             </motion.div>
         </motion.body>
@@ -105,7 +113,7 @@ export function BlurIn() {
             <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我平时会看漫画和动漫，也对独立摇滚感兴趣。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">羽毛球、排球每周没事都会打。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">也喜欢科幻小说。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://jike.city/yeyouchuan/" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">Twitter</a> 上找到我。请随时找我，我看到了就会回复 :)</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://jike.city/yeyouchuan/" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">Twitter</a> 上找到我。请随时找我，我看到了就会回复 :）</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:yeyouchuan@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             <diV className="flex items-center space-x-2 pb-4">
                 <img 
@@ -119,3 +127,4 @@ export function BlurIn() {
         </motion.div>
     );
 }
+
