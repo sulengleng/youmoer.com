@@ -39,7 +39,8 @@ module.exports = {
         "dark-map": "url('https://s2.loli.net/2023/01/04/bhlLmytVwx2OJnZ.png')",
         "dark-cover": "url('https://s2.loli.net/2023/02/07/DaV2AxJ178cdjSL.png')",
         "light-cover": "url('https://s2.loli.net/2023/02/07/PylDRiS6h2d8sqX.png')",
-        texture: 'url(https://thumbs.dreamstime.com/b/%E6%97%A7%E7%99%BD%E5%A2%99-%E6%97%A7%E7%9A%84%E7%99%BD%E5%A2%99%E3%80%81%E7%99%BD%E5%A2%99%E3%80%81%E8%83%8C%E6%99%AF%E5%92%8C%E7%BA%B9%E7%90%86-183179953.jpg)'
+        texture: 'url(https://thumbs.dreamstime.com/b/%E6%97%A7%E7%99%BD%E5%A2%99-%E6%97%A7%E7%9A%84%E7%99%BD%E5%A2%99%E3%80%81%E7%99%BD%E5%A2%99%E3%80%81%E8%83%8C%E6%99%AF%E5%92%8C%E7%BA%B9%E7%90%86-183179953.jpg)',
+        "gradient-1":'url(https://s2.loli.net/2023/07/07/UKDQWpaNHbxqSAe.jpg)',
       },
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',

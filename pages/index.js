@@ -91,8 +91,8 @@ export function BlurIn() {
             variants={variants1}
             className="font-display text-md font-normal tracking-[-0.02em] drop-shadow-sm mt-4 md:mt-0 flex flex-col space-y-2"
         >
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 w-fit">我的个人网站还在装修中，你可以随时看看其他页面~</div>
-            <div className="p-2 rounded-xl bg-gray-100 w-fit">我目前在中国苏州，也是英国本科学生。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我的个人网站还在装修中，你可以随时看看其他页面~</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前在中国苏州，也是英国本科学生。</div>
             <diV className="flex items-center space-x-2">
                 <img 
                     src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
@@ -100,7 +100,7 @@ export function BlurIn() {
                     className="w-7 h-7 rounded-full"
                 >
                 </img>
-                <p className="text-[15px] text-gray-500">3m ago</p>
+                <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
             </diV>
         </motion.div>
     );
