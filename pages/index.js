@@ -37,7 +37,7 @@ export default function Home() {
                     <BlurIn/>
                 </div>
                 <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[90%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto mt-8 ">
-                    <div className="w-full h-[330px] bg--[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2"></div>
+                    <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2"></div>
                     <div className="w-full h-44 bg-white dark:bg-[#16171a] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
                     <div className="w-full h-[460px] bg-white dark:bg-[#16171a] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2"></div>
                     <div className="w-full h-32 bg-white dark:bg-[#16171a] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 -mt-32"></div>
