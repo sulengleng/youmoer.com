@@ -102,7 +102,20 @@ export function BlurIn() {
                 </img>
                 <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
             </diV>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我平时会看漫画和动漫，也对独立摇滚感兴趣。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我平时会看漫画和动漫，也对独立摇滚感兴趣。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">羽毛球、排球每周没事都会打。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">也喜欢科幻小说。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://jike.city/yeyouchuan/" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">Twitter</a> 上找到我。请随时找我，我看到了就会回复 :)</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:yeyouchuan@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
+            <diV className="flex items-center space-x-2 pb-4">
+                <img 
+                    src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
+                    alt="头像" 
+                    className="w-7 h-7 rounded-full"
+                >
+                </img>
+                <p className="text-[15px] text-gray-500 dark:text-gray-300">1m ago</p>
+            </diV>
         </motion.div>
     );
 }
