@@ -36,7 +36,7 @@ export default function Home() {
                     <GradualSpacing/>
                     <BlurIn/>
                 </div>
-                <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[90%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto mt-8 ">
+                <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[90%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
                     <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         <div></div>
                     </div>
@@ -102,6 +102,7 @@ export function BlurIn() {
                 </img>
                 <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
             </diV>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前在中国苏州，也是英国本科学生。</div>
         </motion.div>
     );
 }
