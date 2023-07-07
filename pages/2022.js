@@ -714,4 +714,3 @@ const ContentWrapper = ({ children, className, width }) => (
         {children}
     </div>
 );
-

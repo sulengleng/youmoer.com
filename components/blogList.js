@@ -67,15 +67,15 @@ export default function BlogList({ data, activeSlug }) {
                     })}
                   </div>
                   {/* <p
-              className={clsx(
-                activeSlug != post.slug
-                  ? "text-gray-600 dark:text-gray-500"
-                  : "text-gray-400"
-              )}
-            >
-              {post?.excerpt?.slice(0, 30)}
-              {post?.excerpt?.length > 70 ? "..." : ""}
-            </p> */}
+                    className={clsx(
+                      activeSlug != post.slug
+                        ? "text-gray-600 dark:text-gray-500"
+                        : "text-gray-400"
+                    )}
+                  >
+                    {post?.excerpt?.slice(0, 30)}
+                    {post?.excerpt?.length > 70 ? "..." : ""}
+                  </p> */}
                 </article>
               </Link>
             </div>

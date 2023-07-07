@@ -5,7 +5,7 @@ export default function Reading ({ reading, latest, lighted }) {
     return (
         <body className="selection:bg-[#ffc72e] reading">
             <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
-            <div className="max-w-[90%] md:max-w-[80%] mx-auto my-4">
+            <div className="max-w-[90%] md:max-w-[80%] mx-auto py-4">
                 <div className="flex md:flex-row flex-col gap-x-8 mx-auto">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative selection:bg-[#5200ff] selection:text-white">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10 font-douyu">本周阅读</p>

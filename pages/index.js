@@ -32,7 +32,7 @@ export default function Home() {
                 }}
                 className="page"
             >
-                <div className="flex flex-col w-[85%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto mt-8">
+                <div className="flex flex-col w-[85%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto pt-8">
                     <GradualSpacing/>
                     <BlurIn/>
                 </div>
