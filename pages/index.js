@@ -6,6 +6,29 @@ import {NextSeo} from "next-seo";
 
 export default function Home() {
 
+    const [isPlaying, setIsPlaying] = useState(false);
+
+    const audioPlayer = useRef();
+
+    const onPlayerReady = (event) => {
+        audioPlayer.current = event.target
+    }
+
+    const opts = {
+        height: "0",
+        width: "0",
+    }
+
+    const togglePlayPause = () => {
+        const prevValue = isPlaying;
+        setIsPlaying(!prevValue);
+        if (!prevValue) {
+            audioPlayer.current.playVideo();
+        } else {
+            audioPlayer.current.pauseVideo();
+        }
+    }
+
     return (
         <motion.body className="select-none">
             <NextSeo
@@ -38,17 +61,65 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[90%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
                     <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
-                        <div></div>
+                        <p></p>
                     </div>
                     <div className="w-full h-44 bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
                     <div className="w-full h-[460px] bg-white dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2"></div>
-                    <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 mt-0 md:-mt-32"></div>
+                    <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 mt-0 md:-mt-32">
+                        <YouTube videoId="SB3_m1jU-BU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                        <div className="player select-none">
+                            <div className="overflow-hidden">
+                                <div className="flex">
+                                    <div className="items-center">
+                                        <a className="text-white"></a>
+                                    </div>
+                                    <div className="relative md:place-items-center z-0">
+                                        <div className="absolute items-center justify-center ml-2">
+                                            {isPlaying ? (
+                                                <Pause size={32} className="opacity-50 ml-10 mt-12" color="#f6f5f6" onClick={togglePlayPause}/>
+                                            ) : (
+                                                <Play size={32} className="opacity-50 ml-10 mt-12" color="#f6f5f6" onClick={togglePlayPause}/>
+                                            )}
+                                        </div>
+                                        <div className="h-28 w-28 p-4 mt-2 ml-2">
+                                            <img className="h-20 w-20 rounded-md object-cover"
+                                                 src="https://s2.loli.net/2023/05/25/UHxPNrOYjSDc5Xn.png" alt="Music cover"/>
+                                        </div>
+                                    </div>
+                                    <div className="place-self-center -ml-2 pr-8 py-2 mt-1 px-3 z-10">
+                                        {isPlaying ? (
+                                            <div className="flex">
+                                          <span className="flex h-3 w-3 mt-0 xl:mt-1">
+                                            <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-green-600 opacity-75"></span>
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                                          </span>
+                                                <div className="w-32 md:w-[87px] xl:w-28 ml-2 mb-1 text-sm md:text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">now playing</div>
+                                            </div>
+                                        ) : (
+                                            <div className="flex">
+                                          <span className="flex h-3 w-3 mt-0 xl:mt-1">
+                                            <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
+                                          </span>
+                                                <div className="w-32 md:w-[86px] xl:w-24 ml-2 mb-1 text-sm md:text-xs xl:text-sm uppercase leading-3 dark:text-white break-normal">not playing</div>
+                                            </div>
+                                        )}
+                                        <div className="flex flex-col">
+                                            <div
+                                                className="block text-lg font-semibold leading-tight dark:text-white">缸
+                                            </div>
+                                            <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">草东没有派对</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32">
-                        <p className="md:text-5xl text-2xl font-bold max-w-[220px] md:max-w-[500px] leading-tight mx-auto my-16 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                        <p className="md:text-5xl text-2xl font-bold max-w-[220px] md:max-w-[500px] leading-tight mx-auto my-16 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             我这只是个测试，你可以试试更多可能，可以随时取消。
                         </p>
                     </div>
-                    <div className="w-full h-48 bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
+                    <div className="w-full h-48 bg-gradient-to-br from-black to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
                         <p className="text-2xl font-bold leading-9 max-w-[220px] mx-auto my-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-orange-900 via-indigo-100 to-teal-700 bg-clip-text text-transparent">
                             我这只是个测试，你可以试试更多可能，可以随时取消。
                         </p>
