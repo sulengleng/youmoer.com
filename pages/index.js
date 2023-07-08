@@ -1,4 +1,4 @@
-import {Disc, MusicNote, Pause, Play, Star} from "phosphor-react";
+import {Disc, MusicNote, Pause, Play, StarFour} from "phosphor-react";
 import {motion, useMotionValue, useTransform, AnimatePresence} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
@@ -64,8 +64,24 @@ export default function Home() {
                         <p></p>
                     </div>
                     <div className="w-full h-44 bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
-                    <div className="w-full h-[460px] bg-white dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex">
+                    <div className="w-full h-[460px] bg-white dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 mx-auto md:ml-2"></a>
+                        <div className="welcome text-4xl text-black absolute top-80 left-10 font-tiejili invisible dark:visible">不着陆</div>
+                        <div className="text-4xl text-black absolute top-80 left-10 font-tiejili visible dark:invisible">不着陆</div>
+                        <div className="flex">
+                            <a
+                                className="w-8 h-8 border border-white rounded-full mt-28 ml-9"
+                            >
+                                <StarFour size={22} color="#ffb41f" className="mx-auto mt-1" />
+                            </a>
+                            <a 
+                                className="text-md font-semibold after:content-['↗'] border border-black dark:border-white px-3 py-1 ml-4 mt-28 w-fit rounded-full"
+                                href="https://buzhaolu.live/"
+                                target="_blank"
+                            >
+                                点击收听
+                            </a>
+                        </div>
                     </div>
                     <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 mt-0 md:-mt-32">
                         <YouTube videoId="SB3_m1jU-BU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />

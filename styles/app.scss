@@ -36,6 +36,11 @@ iframe {
     src: url('../public/fonts/斗鱼追光体2.0.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'tiejili-regular';
+  src: url('../public/fonts/TiejiliSC-Regular.ttf') format('truetype');
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -67,3 +72,6 @@ iframe {
   pointer-events: none;
 }
 
+.welcome {
+  -webkit-text-stroke: 1px #fff;
+}
