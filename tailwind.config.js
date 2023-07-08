@@ -41,6 +41,8 @@ module.exports = {
         "light-cover": "url('https://s2.loli.net/2023/02/07/PylDRiS6h2d8sqX.png')",
         texture: 'url(https://thumbs.dreamstime.com/b/%E6%97%A7%E7%99%BD%E5%A2%99-%E6%97%A7%E7%9A%84%E7%99%BD%E5%A2%99%E3%80%81%E7%99%BD%E5%A2%99%E3%80%81%E8%83%8C%E6%99%AF%E5%92%8C%E7%BA%B9%E7%90%86-183179953.jpg)',
         "gradient-1":'url(https://s2.loli.net/2023/07/07/UKDQWpaNHbxqSAe.jpg)',
+        "white-star":'url(https://s2.loli.net/2023/07/08/j3qRMCnYUfJGum7.png)',
+        "black-star":'url(https://s2.loli.net/2023/07/08/zNB3VLQaDM7omcp.png)',
       },
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
