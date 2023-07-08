@@ -65,7 +65,7 @@ export default function Home() {
                     </div>
                     <div className="w-full h-44 bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
                     <div className="w-full h-[460px] bg-white dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex">
-                        <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 ml-2"></a>
+                        <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 mx-auto md:ml-2"></a>
                     </div>
                     <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 mt-0 md:-mt-32">
                         <YouTube videoId="SB3_m1jU-BU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
