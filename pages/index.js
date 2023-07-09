@@ -70,12 +70,12 @@ export default function Home() {
                         <div className="text-4xl text-black absolute top-80 left-14 md:left-10 font-tiejili visible dark:invisible">不着陆</div>
                         <div className="flex ml-5 md:ml-0">
                             <a
-                                className="w-8 h-8 border border-black dark:border-white rounded-full mt-28 ml-9"
+                                className="w-9 h-9 border border-gray-900 dark:border-[#86939f] rounded-full mt-28 ml-9"
                             >
-                                <StarFour size={22} color="#ffb41f" className="mx-auto mt-1" />
+                                <StarFour size={22} color="#ffb41f" className="mx-auto mt-1.5" />
                             </a>
                             <a 
-                                className="text-md font-semibold after:content-['↗'] border border-black dark:border-white px-3 py-1 ml-4 mt-28 w-fit rounded-full"
+                                className="text-md font-semibold after:content-['↗'] border border-gray-900 dark:border-[#86939f] px-3 py-1 ml-4 mt-28 w-fit rounded-full"
                                 href="https://buzhaolu.live/"
                                 target="_blank"
                             >
@@ -132,10 +132,24 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32">
+                    <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
                         <p className="text-2xl font-bold max-w-[220px] md:max-w-[250px] leading-tight ml-8 mt-48 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
-                            我这只是个测试，你可以试试更多可能，可以随时取消。
+                            这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </p>
+                        <div className="ml-14 mr-8 relative overflow-hidden w-64">
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-0">
+                                <a></a>
+                            </div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-32 left-0"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-56 left-0"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute -top-4 left-24"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-20 left-24"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-44 left-24"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-[272px] left-24"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-48"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-32 left-48"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-56 left-48"></div>
+                        </div>
                     </div>
                     <div className="w-full h-48 bg-gradient-to-br from-black to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
                         <p className="text-2xl font-bold leading-9 max-w-[220px] mx-auto my-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-orange-900 via-indigo-100 to-teal-700 bg-clip-text text-transparent">
