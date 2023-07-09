@@ -70,7 +70,7 @@ export default function Home() {
                         <div className="text-4xl text-black absolute top-80 left-10 font-tiejili visible dark:invisible">不着陆</div>
                         <div className="flex">
                             <a
-                                className="w-8 h-8 border border-white rounded-full mt-28 ml-9"
+                                className="w-8 h-8 border border-black dark:border-white rounded-full mt-28 ml-9"
                             >
                                 <StarFour size={22} color="#ffb41f" className="mx-auto mt-1" />
                             </a>
