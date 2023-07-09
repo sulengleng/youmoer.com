@@ -138,13 +138,21 @@ export default function Home() {
                         </p>
                         <div className="ml-14 mr-8 relative overflow-hidden w-64">
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-0">
-                                <a></a>
+                                <img src="https://s2.loli.net/2023/07/10/Zosl6NJc4xFS3bd.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
                             </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-32 left-0"></div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-56 left-0"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-32 left-0">
+                                <img src="https://s2.loli.net/2023/07/10/zScX15kGVARLjEt.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
+                            </div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-56 left-0">
+                                <img src="https://s2.loli.net/2023/07/10/hBHCYxm2u4pJ1dE.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
+                            </div>
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute -top-4 left-24"></div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-20 left-24"></div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-44 left-24"></div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-20 left-24">
+                                <img src="https://s2.loli.net/2023/07/10/Qa6cMIokRHxezj2.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
+                            </div>
+                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-44 left-24">
+                                <img src="https://s2.loli.net/2023/07/10/gkacHh4UX5e2VQB.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105 border dark:border-none rounded-full" />
+                            </div>
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-[272px] left-24"></div>
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-48"></div>
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-32 left-48"></div>
