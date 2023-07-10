@@ -133,10 +133,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
-                        <p className="text-2xl font-bold max-w-[220px] md:max-w-[250px] leading-tight ml-10 mt-48 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                        <p className="text-md md:text-2xl font-bold max-w-[220px] md:max-w-[250px] leading-tight ml-10 mt-48 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </p>
-                        <div className="ml-14 mr-8 relative overflow-hidden w-64">
+                        <div className="ml-8 md:ml-14 mr-8 relative overflow-hidden w-64">
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-0">
                                 <img src="https://s2.loli.net/2023/07/10/Frn3AR4HJNXjTIS.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
                             </div>
