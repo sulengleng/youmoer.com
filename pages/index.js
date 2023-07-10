@@ -1,4 +1,4 @@
-import {Disc, MusicNote, Pause, Play, StarFour} from "phosphor-react";
+import {Disc, MusicNote, Pause, Play, StarFour, ArrowUpRight} from "phosphor-react";
 import {motion, useMotionValue, useTransform, AnimatePresence} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
@@ -61,9 +61,13 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[90%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
                     <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
-                        <p></p>
+                        
                     </div>
-                    <div className="w-full h-44 bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"></div>
+                    <div className="w-full h-44 bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
+                        <p className="text-2xl font-bold leading-9 max-w-[220px] mx-auto my-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-orange-900 via-indigo-100 to-teal-700 bg-clip-text text-transparent">
+                            我这只是个测试，你可以试试更多可能，可以随时取消。
+                        </p>
+                    </div>
                     <div className="w-full h-[460px] bg-white dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 mx-auto md:ml-2"></a>
                         <div className="welcome text-4xl text-black absolute top-80 left-14 md:left-10 font-tiejili invisible dark:visible">不着陆</div>
@@ -133,7 +137,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
-                        <p className="text-md md:text-2xl font-bold max-w-[220px] md:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                        <p className="text-md md:text-2xl font-bold max-w-[220px] md:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </p>
                         <div className="ml-6 md:ml-14 mr-8 relative overflow-hidden w-64">
@@ -169,10 +173,11 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-48 bg-gradient-to-br from-black to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
-                        <p className="text-2xl font-bold leading-9 max-w-[220px] mx-auto my-10 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-orange-900 via-indigo-100 to-teal-700 bg-clip-text text-transparent">
-                            我这只是个测试，你可以试试更多可能，可以随时取消。
-                        </p>
+                    <div className="w-full h-48 bg-book-store bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 relative">
+                        <p className="text-3xl font-bold ml-10 mt-8">林中书店</p>
+                        <a href="https://involution-youth.netlify.app/" target="_blank" className="absolute top-6 right-6">
+                            <ArrowUpRight size={32} color="#bfbfbf" className="w-8 h-8 rounded-full hover:drop-shadow-sm hover:bg-gray-900 border border-gray-700 p-2" />
+                        </a>
                     </div>
                 </div>
             </motion.div>

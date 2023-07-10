@@ -43,6 +43,7 @@ module.exports = {
         "gradient-1":'url(https://s2.loli.net/2023/07/07/UKDQWpaNHbxqSAe.jpg)',
         "white-star":'url(https://s2.loli.net/2023/07/08/j3qRMCnYUfJGum7.png)',
         "black-star":'url(https://s2.loli.net/2023/07/08/zNB3VLQaDM7omcp.png)',
+        "book-store":'url(https://s2.loli.net/2023/07/10/5qA2rgZ6WXT3Czc.png)',
       },
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
