@@ -140,7 +140,7 @@ export default function Home() {
                         <p className="text-lg md:text-2xl font-bold max-w-[220px] md:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </p>
-                        <div className="ml-6 md:ml-14 mr-8 relative overflow-hidden w-64">
+                        <div className="ml-4 md:ml-14 mr-8 relative overflow-hidden w-64">
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-0">
                                 <img src="https://s2.loli.net/2023/07/10/MrfwTHyGoQ1DiXW.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
                             </div>
@@ -174,7 +174,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-48 bg-book-store bg-cover drop-shadow rounded-2xl row-span-1 relative">
-                        <p className="text-3xl text-gray-100 font-bold ml-6 md:ml-10 mt-8">林中书店</p>
+                        <p className="text-3xl text-gray-100 font-bold ml-6 md:ml-10 mt-6 md:mt-8">林中书店</p>
                         <a href="https://involution-youth.netlify.app/" target="_blank" className="absolute top-6 right-6">
                             <ArrowUpRight size={32} color="#bfbfbf" className="w-8 h-8 rounded-full hover:drop-shadow-sm hover:bg-gray-900 border border-gray-700 p-2" />
                         </a>
