@@ -68,7 +68,7 @@ export default function Home() {
                             我这只是个测试，你可以试试更多可能，可以随时取消。
                         </p>
                     </div>
-                    <div className="w-full h-[460px] bg-white dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
+                    <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 mx-auto md:ml-2"></a>
                         <div className="welcome text-4xl text-black absolute top-80 left-14 md:left-10 font-tiejili invisible dark:visible">不着陆</div>
                         <div className="text-4xl text-black absolute top-80 left-14 md:left-10 font-tiejili visible dark:invisible">不着陆</div>
