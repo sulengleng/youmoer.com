@@ -174,7 +174,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-48 bg-book-store bg-cover drop-shadow rounded-2xl row-span-1 relative">
-                        <p className="text-3xl text-gray-100 font-bold ml-10 mt-8">林中书店</p>
+                        <p className="text-3xl text-gray-100 font-bold ml-6 md:ml-10 mt-8">林中书店</p>
                         <a href="https://involution-youth.netlify.app/" target="_blank" className="absolute top-6 right-6">
                             <ArrowUpRight size={32} color="#bfbfbf" className="w-8 h-8 rounded-full hover:drop-shadow-sm hover:bg-gray-900 border border-gray-700 p-2" />
                         </a>
