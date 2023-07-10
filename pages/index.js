@@ -1,4 +1,4 @@
-import {Disc, MusicNote, Pause, Play, StarFour, ArrowUpRight} from "phosphor-react";
+import {Pause, Play, StarFour, ArrowUpRight} from "phosphor-react";
 import {motion, useMotionValue, useTransform, AnimatePresence} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";

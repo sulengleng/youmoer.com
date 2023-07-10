@@ -172,13 +172,13 @@ export default function Sidebar() {
         {renderPrefs()}
       </motion.aside>
       <div
-        className="z-100 py-3 cursor-pointer text-sm fixed bottom-0 left-0 w-full md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
+        className="z-100 py-3 cursor-pointer text-sm fixed bottom-0 left-0 w-full md:hidden bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
         onClick={() => showMobileNav(!mobileNav)}
       >
         {!mobileNav ? "目录" : "Close"}
       </div>
       {mobileNav ? (
-        <nav className="z-100 fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
+        <nav className="z-100 fixed bottom-0 left-0 block w-full p-2 md:hidden h-full">
           {mobileNav ? (
             <div
               className="absolute inset-0 bg-black/20 dark:bg-black/50 w-full h-full"
