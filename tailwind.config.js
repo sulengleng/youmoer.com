@@ -44,7 +44,8 @@ module.exports = {
         "white-star":'url(https://s2.loli.net/2023/07/08/j3qRMCnYUfJGum7.png)',
         "black-star":'url(https://s2.loli.net/2023/07/08/zNB3VLQaDM7omcp.png)',
         "book-store":'url(https://s2.loli.net/2023/07/10/5qA2rgZ6WXT3Czc.png)',
-        "dark-board":'url(https://s2.loli.net/2023/07/13/yAVbuhS7CO2oewx.png)',
+        "dark-board":'url(https://s2.loli.net/2023/07/14/iSZqVW5RpFJLIkf.png)',
+        "light-board":'url(https://s2.loli.net/2023/07/14/PI5KnilRQBexWFA.png)',
       },
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
