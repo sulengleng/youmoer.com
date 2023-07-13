@@ -18,7 +18,7 @@ export default function Reading ({ reading, latest, lighted }) {
                                 >
                                     {last.title}
                                 </a>
-                                <p className="z-20 pl-4 px-1 md:pl-6 text-gray-900 z-10">{last.author}</p>
+                                <p className="z-20 pl-4 px-1 md:pl-6 text-gray-900">{last.author}</p>
                             </div>
                         ))}
                         <div className="w-full h-6 z-0"></div>
@@ -188,7 +188,7 @@ export async function getStaticProps() {
                 {
                     property: "Highlights",
                     number: {
-                        greater_than: 6,
+                        greater_than: 7,
                     },
                 },
             ],
