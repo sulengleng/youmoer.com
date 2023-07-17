@@ -232,7 +232,7 @@ export function BlurIn() {
                     className="w-7 h-7 rounded-full"
                 >
                 </img>
-                <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
+                <p className="text-[15px] text-gray-500 dark:text-gray-300">5m ago</p>
             </div>
             <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我平时会看漫画和动漫，也对独立摇滚感兴趣。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">羽毛球、排球每周没事都会打。</div>
@@ -246,7 +246,7 @@ export function BlurIn() {
                     className="w-7 h-7 rounded-full"
                 >
                 </img>
-                <p className="text-[15px] text-gray-500 dark:text-gray-300">1m ago</p>
+                <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
             </diV>
         </motion.div>
     );
