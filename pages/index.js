@@ -64,7 +64,7 @@ export default function Home() {
                         
                     </div>
                     <div className="w-full h-44 flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
-                        <div className="w-[70%] h-28 mx-auto place-self-center bg-white dark:bg-black rounded-lg hover:translate-y-6 hover:rotate-3"></div>
+                        <div className="w-[70%] h-28 mx-auto place-self-center bg-white dark:bg-black rounded-lg hover:translate-y-2 hover:-rotate-3"></div>
                     </div>
                     <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 md:w-40 md:h-40 lg:w-60 lg:h-60 xl:w-72 xl:h-72 mx-auto mt-0 md:mt-4 lg:mt-4 xl:mt-0 md:ml-2"></a>
