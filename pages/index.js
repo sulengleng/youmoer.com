@@ -64,10 +64,10 @@ export default function Home() {
                         
                     </div>
                     <div className="w-full h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
-                        <div className="absolute z-10 w-[70%] h-28 left-6 md:left-7 lg:left-10 xl:left-12 place-self-center bg-yellow-50 dark:shadow-yellow-50 rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
+                        <div className="absolute z-10 w-[70%] h-28 left-14 md:left-7 lg:left-10 xl:left-12 place-self-center bg-yellow-50 dark:shadow-yellow-50 rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
                             <div></div>
                         </div>
-                        <div className="absolute z-0 w-[70%] h-28 left-6 md:left-7 lg:left-10 xl:left-12 place-self-center bg-stone-400 dark:shadow-stone-300 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
+                        <div className="absolute z-0 w-[70%] h-28 left-14 md:left-7 lg:left-10 xl:left-12 place-self-center bg-stone-400 dark:shadow-stone-300 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
                     </div>
                     <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 md:w-40 md:h-40 lg:w-60 lg:h-60 xl:w-72 xl:h-72 mx-auto mt-0 md:mt-4 lg:mt-4 xl:mt-0 md:ml-2"></a>
