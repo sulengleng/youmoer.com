@@ -63,7 +63,7 @@ export default function Home() {
                     <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         
                     </div>
-                    <div className="w-full h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
+                    <div className="w-full h-60 md:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
                         <div className="absolute z-10 w-[70%] h-28 left-14 md:left-7 lg:left-10 xl:left-12 place-self-center bg-white rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
                             <div></div>
                         </div>
