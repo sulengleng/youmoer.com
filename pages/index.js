@@ -64,7 +64,7 @@ export default function Home() {
                         
                     </div>
                     <div className="w-full h-60 md:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
-                        <div className="absolute z-10 w-60 md:w-[70%] h-28 left-[18%] sm:left-[20%] md:left-14 lg:left-10 xl:left-12 place-self-center bg-white rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
+                        <div className="absolute z-10 w-60 md:w-[70%] h-28 left-[16%] sm:left-[20%] md:left-14 lg:left-10 xl:left-12 place-self-center bg-white rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
                             <div></div>
                         </div>
                         <div className="mx-auto z-0 w-60 md:w-[70%] h-28 place-self-center bg-blue-50 dark:shadow-blue-50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
