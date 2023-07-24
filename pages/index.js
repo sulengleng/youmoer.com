@@ -55,16 +55,16 @@ export default function Home() {
                 }}
                 className="page"
             >
-                <div className="flex flex-col w-[400px] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto pt-8">
+                <div className="flex flex-col w-[400px] lg:w-[850px] xl:w-[1000px] mx-auto pt-8">
                     <GradualSpacing/>
                     <BlurIn/>
                 </div>
-                <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[400px] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
+                <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 min-w-screen w-[400px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
                     <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         
                     </div>
                     <div className="w-full h-60 md:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
-                        <div className="absolute z-10 w-60 md:w-[70%] h-28 left-[20%] md:left-7 lg:left-10 xl:left-12 place-self-center bg-white rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
+                        <div className="absolute z-10 w-60 md:w-[70%] h-28 left-[20%] md:left-14 lg:left-10 xl:left-12 place-self-center bg-white rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
                             <div></div>
                         </div>
                         <div className="mx-auto z-0 w-60 md:w-[70%] h-28 place-self-center bg-blue-50 dark:shadow-blue-50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
@@ -138,7 +138,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
-                        <p className="text-lg md:text-xl lg:text-2xl font-bold max-w-[220px] md:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                        <p className="text-lg lg:text-2xl font-bold max-w-[165px] lg:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </p>
                         <div className="ml-4 md:ml-14 mr-8 relative overflow-hidden w-64">
