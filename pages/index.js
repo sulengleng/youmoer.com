@@ -55,19 +55,19 @@ export default function Home() {
                 }}
                 className="page"
             >
-                <div className="flex flex-col w-[85%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto pt-8">
+                <div className="flex flex-col w-[400px] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto pt-8">
                     <GradualSpacing/>
                     <BlurIn/>
                 </div>
-                <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[90%] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
+                <div className="flex flex-col md:grid md:grid-cols-3 gap-6 min-w-screen w-[400px] md:w-[600px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
                     <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         
                     </div>
                     <div className="w-full h-60 md:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
-                        <div className="absolute z-10 w-60 md:w-[70%] h-28 left-14 md:left-7 lg:left-10 xl:left-12 place-self-center bg-white rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
+                        <div className="absolute z-10 w-60 md:w-[70%] h-28 left-[20%] md:left-7 lg:left-10 xl:left-12 place-self-center bg-white rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
                             <div></div>
                         </div>
-                        <div className="absolute z-0 w-60 md:w-[70%] h-28 left-14 md:left-7 lg:left-10 xl:left-12 place-self-center bg-blue-50 dark:shadow-blue-50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
+                        <div className="mx-auto z-0 w-60 md:w-[70%] h-28 place-self-center bg-blue-50 dark:shadow-blue-50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
                     </div>
                     <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 md:w-40 md:h-40 lg:w-60 lg:h-60 xl:w-72 xl:h-72 mx-auto mt-0 md:mt-4 lg:mt-4 xl:mt-0 md:ml-2"></a>
