@@ -1,4 +1,4 @@
-import {Pause, Play, StarFour, ArrowUpRight} from "phosphor-react";
+import {Pause, Play, StarFour, ArrowUpRight, Person, Guitar} from "phosphor-react";
 import {motion, useMotionValue, useTransform, AnimatePresence} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
@@ -64,10 +64,11 @@ export default function Home() {
                         
                     </div>
                     <div className="w-full h-60 md:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1">
-                        <div className="absolute z-10 w-60 md:w-[70%] h-28 left-[16%] sm:left-[20%] md:left-14 lg:left-10 xl:left-12 place-self-center bg-white dark:bg-white/75 rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
-                            <div></div>
+                        <div className="absolute flex z-10 w-52 sm:w-48 lg:w-[65%] h-28 left-[20.5%] sm:left-[26%] md:left-[26%] lg:left-[17.5%] xl:left-14 place-self-center bg-white dark:bg-white/90 rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md">
+                            <Person size={24} color="#000000" className="mt-4 ml-4" />
+                            <Guitar size={24} color="#000000" className="mt-4 ml-4" />
                         </div>
-                        <div className="mx-auto z-0 w-60 md:w-[70%] h-28 place-self-center bg-blue-50 dark:bg-orange-400/50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
+                        <div className="mx-auto z-0 w-52 sm:w-48 lg:w-[65%] h-28 place-self-center bg-blue-50 dark:bg-red-600/50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md"></div>
                     </div>
                     <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 md:w-40 md:h-40 lg:w-60 lg:h-60 xl:w-72 xl:h-72 mx-auto mt-0 md:mt-4 lg:mt-4 xl:mt-0 md:ml-2"></a>
