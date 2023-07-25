@@ -11,13 +11,8 @@ import {
   Flask,
   Compass,
   ArrowSquareOut,
-  At,
-  TwitterLogo,
-  FigmaLogo,
   GithubLogo,
-  CalendarCheck, 
   Books,
-  ApplePodcastsLogo,
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
@@ -34,12 +29,6 @@ export default function Sidebar() {
       url: "/",
       icon: <House size={16} />,
       active: pathname === "/",
-    },
-    {
-      title: "2022",
-      url: "/2022",
-      icon: <CalendarCheck size={16} />,
-      active: pathname === "/2022",
     },
     {
       title: "博客",
