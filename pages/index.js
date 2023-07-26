@@ -231,7 +231,7 @@ export function BlurIn() {
             variants={variants1}
             className="font-display text-md font-normal tracking-[-0.02em] drop-shadow-sm mt-4 md:mt-0 flex flex-col space-y-2"
         >
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我是一名英国本科大一学生，专业是交互方向。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我是英国本科大一学生，专业是交互方向。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前住在中国苏州，如果你在附近，可以联系我一起线下玩儿~</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">如果你离我比较远，我们也可以交个朋友，说不定有一天我会出现在你的城市。</div>
             <div className="flex items-center space-x-2 pb-4">
