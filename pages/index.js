@@ -64,7 +64,7 @@ export default function Home() {
                         
                     </div>
                     <div
-                        className="w-full h-60 md:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"
+                        className="w-full h-60 lg:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"
                     >
                         <a 
                             className="absolute z-10 w-52 sm:w-48 lg:w-[65%] h-28 left-[20.3%] sm:left-[26%] md:left-[26%] lg:left-[17.5%] xl:left-[17.5%] place-self-center bg-line-light dark:bg-line-dark bg-cover rounded-lg group-hover:translate-x-4 group-hover:translate-y-4 group-hover:-rotate-3 duration-300 shadow-lg dark:shadow-md"
@@ -143,10 +143,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
-                        <p className="text-lg lg:text-2xl font-bold max-w-[220px] sm:max-w-[165px] md:w-[175px] lg:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 md:mt-40 lg:mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                        <p className="text-lg lg:text-2xl font-bold max-w-[220px] sm:max-w-[165px] md:max-w-[125px] lg:max-w-[250px] xl:max-w-[270px] leading-tight ml-6 md:ml-10 mt-48 md:mt-40 lg:mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </p>
-                        <div className="ml-4 md:ml-14 mr-8 relative overflow-hidden w-64">
+                        <div className="ml-4 md:ml-10 lg:ml-14 mr-8 relative overflow-hidden w-64">
                             <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-0">
                                 <img src="https://s2.loli.net/2023/07/10/MrfwTHyGoQ1DiXW.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
                             </div>
