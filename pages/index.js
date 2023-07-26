@@ -1,4 +1,4 @@
-import {Pause, Play, StarFour, ArrowUpRight} from "@phosphor-icons/react";
+import {Pause, Play, StarFour, ArrowUpRight, CheckSquareOffset} from "@phosphor-icons/react";
 import {motion, useMotionValue, useTransform, AnimatePresence} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
@@ -60,8 +60,14 @@ export default function Home() {
                     <BlurIn/>
                 </div>
                 <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 min-w-screen w-[350px] sm:w-[400px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
-                    <div className="w-full h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
-                        
+                    <div className="w-full flex flex-col h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
+                        <div className="flex my-6 ml-6 sm:mt-8 sm:mb-6 sm:ml-8 lg:my-6 lg:ml-6">
+                            <CheckSquareOffset size={28} weight="fill" color="#ffffff" className="" />
+                            <p className="text-white font-bold ml-2 text-lg">今年需要完成的三件事</p>
+                        </div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-white h-16 rounded-lg mb-3"></div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-white h-16 rounded-lg mb-3"></div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-white h-16 rounded-lg mb-3"></div>
                     </div>
                     <div
                         className="w-full h-60 lg:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"
