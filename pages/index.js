@@ -75,12 +75,12 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
-                        <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 md:w-40 md:h-40 lg:w-60 lg:h-60 xl:w-72 xl:h-72 mx-auto mt-0 md:mt-4 lg:mt-4 xl:mt-0 md:ml-2"></a>
-                        <div className="welcome text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-48 lg:top-72 xl:top-80 left-14 md:left-7 lg:left-10 font-tiejili invisible dark:visible">不着陆</div>
+                        <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 lg:w-60 lg:h-60 xl:w-72 xl:h-72 mx-auto mt-0 lg:mt-4 xl:mt-0 ml-2 sm:ml-12 md:ml-12 lg:ml-2"></a>
+                        <div className="welcome text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-80 lg:top-72 xl:top-80 left-14 sm:left-14 md:left-16 lg:left-10 font-tiejili invisible dark:visible">不着陆</div>
                         <div className="text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-48 lg:top-72 xl:top-80 left-14 md:left-7 lg:left-10 font-tiejili visible dark:invisible">不着陆</div>
-                        <div className="flex flex-row md:flex-col lg:flex-row ml-5 md:ml-0">
+                        <div className="flex flex-row mt-0 md:mt-24 lg:mt-0 ml-5 md:ml-10 lg:ml-0">
                             <a
-                                className="w-9 h-9 border border-gray-900 dark:border-[#86939f] rounded-full mt-28 md:mt-44 lg:mt-28 ml-9 md:ml-6 lg:ml-9"
+                                className="w-9 h-9 border border-gray-900 dark:border-[#86939f] rounded-full mt-28 sm:mt-28 md:mt-4 lg:mt-28 ml-9 md:ml-6 lg:ml-9"
                             >
                                 <StarFour size={22} color="#ffb41f" className="mx-auto mt-1.5" />
                             </a>
@@ -93,7 +93,7 @@ export default function Home() {
                             </a>
                         </div>
                     </div>
-                    <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 mt-0 md:-mt-32">
+                    <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 mt-0 lg:-mt-32">
                         <YouTube videoId="SB3_m1jU-BU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                         <div className="player select-none">
                             <div className="overflow-hidden">
@@ -143,7 +143,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
-                        <p className="text-lg lg:text-2xl font-bold max-w-[220px] sm:max-w-[165px] lg:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                        <p className="text-lg lg:text-2xl font-bold max-w-[220px] sm:max-w-[165px] md:w-[175px] lg:max-w-[250px] leading-tight ml-6 md:ml-10 mt-48 md:mt-40 lg:mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </p>
                         <div className="ml-4 md:ml-14 mr-8 relative overflow-hidden w-64">
