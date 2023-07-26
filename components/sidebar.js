@@ -13,6 +13,7 @@ import {
   ArrowSquareOut,
   GithubLogo,
   Books,
+  Disc,
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
@@ -51,7 +52,7 @@ export default function Sidebar() {
     {
       title: "唱片库",
       url: "/music",
-      icon: <MusicNotes size={16} />,
+      icon: <Disc size={16} />,
       active: pathname.includes("/music"),
     },
     {
