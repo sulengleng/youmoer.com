@@ -231,8 +231,9 @@ export function BlurIn() {
             variants={variants1}
             className="font-display text-md font-normal tracking-[-0.02em] drop-shadow-sm mt-4 md:mt-0 flex flex-col space-y-2"
         >
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我的个人网站还在装修中，你可以随时看看其他页面~</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前在中国苏州，也是英国本科学生。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我是一名英国本科大一学生，专业是交互方向。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前住在中国苏州，如果你在附近，可以联系我一起玩儿~</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit"></div>
             <div className="flex items-center space-x-2 pb-4">
                 <img 
                     src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
@@ -240,11 +241,11 @@ export function BlurIn() {
                     className="w-7 h-7 rounded-full"
                 >
                 </img>
-                <p className="text-[15px] text-gray-500 dark:text-gray-300">5m ago</p>
+                <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
             </div>
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我平时会看漫画和动漫，也对独立摇滚感兴趣。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">羽毛球、排球每周没事都会打。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">也喜欢科幻小说。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我喜欢看漫画和动漫，对独立摇滚也感兴趣。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">平时主要打羽毛球，排球、网球也偶尔会玩。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">喜欢读科幻小说。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://jike.city/yeyouchuan/" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">Twitter</a> 上找到我。请随时找我，我看到了就会回复 :）</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:yeyouchuan@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             <diV className="flex items-center space-x-2 pb-4">
@@ -254,7 +255,7 @@ export function BlurIn() {
                     className="w-7 h-7 rounded-full"
                 >
                 </img>
-                <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
+                <p className="text-[15px] text-gray-500 dark:text-gray-300">1m ago</p>
             </diV>
         </motion.div>
     );
