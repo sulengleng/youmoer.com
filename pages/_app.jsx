@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps }) {
             rel="stylesheet">
           </link>
           <script defer data-domain="yeyouchuan.me" src="https://plausible.io/js/script.js"></script>
+          <script async src="http://localhost:3000/script.js" data-website-id="c4b57bf6-10c2-49cd-96dd-a344fb44f619"></script>
         </Head>
         <DefaultSeo
           title="你好，我是夜游船!"
@@ -90,7 +91,6 @@ function MyApp({ Component, pageProps }) {
       </>
     </ThemeProvider>
   );
-  <script async src="http://localhost:3000/script.js" data-website-id="c4b57bf6-10c2-49cd-96dd-a344fb44f619"></script>
 }
 
 export default MyApp;
