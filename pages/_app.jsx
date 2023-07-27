@@ -90,6 +90,7 @@ function MyApp({ Component, pageProps }) {
       </>
     </ThemeProvider>
   );
+  <script async src="http://localhost:3000/script.js" data-website-id="c4b57bf6-10c2-49cd-96dd-a344fb44f619"></script>
 }
 
 export default MyApp;
