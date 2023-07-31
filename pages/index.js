@@ -66,7 +66,7 @@ export default function Home() {
                             <p className="text-white font-bold ml-2 text-lg">今年需要完成的三件事</p>
                         </div>
                         <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3">
-                            <a>今年写作</a>
+                            <a></a>
                         </div>
                         <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3"></div>
                         <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3"></div>
