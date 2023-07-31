@@ -65,9 +65,11 @@ export default function Home() {
                             <CheckSquareOffset size={28} weight="fill" color="#ffffff" className="" />
                             <p className="text-white font-bold ml-2 text-lg">今年需要完成的三件事</p>
                         </div>
-                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-white h-16 rounded-lg mb-3"></div>
-                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-white h-16 rounded-lg mb-3"></div>
-                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-white h-16 rounded-lg mb-3"></div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3">
+                            <a>今年写作</a>
+                        </div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3"></div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3"></div>
                     </div>
                     <div
                         className="w-full h-60 lg:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"

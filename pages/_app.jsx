@@ -26,6 +26,11 @@ function MyApp({ Component, pageProps }) {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
             rel="stylesheet">
           </link>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charSet="utf-8"
+          />
           <script defer data-domain="yeyouchuan.me" src="https://plausible.io/js/script.js"></script>
           <script async src="http://localhost:3000/script.js" data-website-id="c4b57bf6-10c2-49cd-96dd-a344fb44f619"></script>
         </Head>
