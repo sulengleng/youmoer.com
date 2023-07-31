@@ -1,4 +1,4 @@
-import {Pause, Play, StarFour, ArrowUpRight, CheckSquareOffset} from "@phosphor-icons/react";
+import {Pause, Play, StarFour, ArrowUpRight, CheckSquareOffset, Spinner} from "@phosphor-icons/react";
 import {motion, useMotionValue, useTransform, AnimatePresence} from 'framer-motion'
 import React, {useRef, useState} from "react";
 import YouTube from "react-youtube";
@@ -60,16 +60,27 @@ export default function Home() {
                     <BlurIn/>
                 </div>
                 <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 min-w-screen w-[350px] sm:w-[400px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
-                    <div className="w-full flex flex-col h-[330px] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#ff7571] via-[#ff89d0] to-[#ff8ad0] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] dark:from-[#367d62] dark:via-[#538c72] dark:to-[#78c9a3] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
+                    <div className="w-full flex flex-col h-[330px] bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         <div className="flex my-6 ml-6 sm:mt-8 sm:mb-6 sm:ml-8 lg:my-6 lg:ml-6">
-                            <CheckSquareOffset size={28} weight="fill" color="#ffffff" className="" />
-                            <p className="text-white font-bold ml-2 text-lg">今年需要完成的三件事</p>
+                            <CheckSquareOffset size={28} weight="fill" className="" />
+                            <p className="font-bold ml-2 text-lg">长期目标</p>
                         </div>
-                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3">
-                            <a></a>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-gray-300 dark:border-gray-700 h-16 rounded-lg mb-3 relative group overflow-hidden transition-all duration-300 hover:-translate-y-1 z-0 flex">
+                            <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-br from-yellow-200 via-pink-200 to-pink-400"></div>
+                            <span className="absolute top-4 left-4 rounded-full bg-gradient-to-br from-yellow-200 via-pink-200 to-pink-400 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
+                            <Spinner size={24} className="absolute top-[20px] left-[20px] z-20 group-hover:text-black" />
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">完成3/10篇博客文章</p>
                         </div>
-                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3"></div>
-                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border h-16 rounded-lg mb-3"></div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-gray-300 dark:border-gray-700 h-16 rounded-lg mb-3 relative group overflow-hidden transition-all duration-300 hover:-translate-y-1 z-0 flex">
+                            <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500"></div>
+                            <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
+                            <Spinner size={24} className="absolute top-[20px] left-[20px] z-20" />
+                        </div>
+                        <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-gray-300 dark:border-gray-700 h-16 rounded-lg mb-3 relative group overflow-hidden transition-all duration-300 hover:-translate-y-1 z-0 flex">
+                            <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400"></div>
+                            <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
+                            <Spinner size={24} className="absolute top-[20px] left-[20px] z-20 group-hover:text-black" />
+                        </div>
                     </div>
                     <div
                         className="w-full h-60 lg:h-44 group relative flex bg-light-board dark:bg-dark-board bg-cover border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1"
@@ -88,12 +99,12 @@ export default function Home() {
                         <div className="text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-48 lg:top-72 xl:top-80 left-14 md:left-7 lg:left-10 font-tiejili visible dark:invisible">不着陆</div>
                         <div className="flex flex-row mt-0 md:mt-24 lg:mt-0 ml-5 md:ml-10 lg:ml-0">
                             <a
-                                className="w-9 h-9 border border-gray-900 dark:border-[#86939f] rounded-full mt-28 sm:mt-28 md:mt-4 lg:mt-28 ml-9 md:ml-6 lg:ml-9"
+                                className="w-9 h-9 border border-gray-300 dark:border-gray-700 rounded-full mt-28 sm:mt-28 md:mt-4 lg:mt-28 ml-9 md:ml-6 lg:ml-9"
                             >
                                 <StarFour size={22} color="#ffb41f" className="mx-auto mt-1.5" />
                             </a>
                             <a 
-                                className="text-md font-semibold after:content-['↗'] border border-gray-900 dark:border-[#86939f] px-3 py-1 ml-4 md:ml-6 lg:ml-4 mt-28 md:mt-4 lg:mt-28 w-fit rounded-full"
+                                className="text-md font-semibold after:content-['↗'] border border-gray-300 dark:border-gray-700 px-3 py-1 ml-4 md:ml-6 lg:ml-4 mt-28 md:mt-4 lg:mt-28 w-fit rounded-full"
                                 href="https://buzhaolu.live/"
                                 target="_blank"
                             >
