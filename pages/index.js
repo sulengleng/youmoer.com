@@ -75,11 +75,13 @@ export default function Home() {
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500"></div>
                             <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
                             <Spinner size={24} className="absolute top-[20px] left-[20px] z-20" />
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">建立一个设计系统</p>
                         </div>
                         <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-gray-300 dark:border-gray-700 h-16 rounded-lg mb-3 relative group overflow-hidden transition-all duration-300 hover:-translate-y-1 z-0 flex">
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400"></div>
                             <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
                             <Spinner size={24} className="absolute top-[20px] left-[20px] z-20 group-hover:text-black" />
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">学习日语</p>
                         </div>
                     </div>
                     <div
