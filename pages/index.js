@@ -81,7 +81,7 @@ export default function Home() {
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400"></div>
                             <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
                             <Spinner size={24} className="absolute top-[20px] left-[20px] z-20 group-hover:text-black" />
-                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">学习日语</p>
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">コースを通じて日本語を学ぶ</p>
                         </div>
                     </div>
                     <div
