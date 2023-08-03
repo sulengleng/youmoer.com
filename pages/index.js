@@ -60,7 +60,7 @@ export default function Home() {
                     <BlurIn/>
                 </div>
                 <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 min-w-screen w-[350px] sm:w-[400px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
-                    <div className="w-full flex flex-col h-[330px] bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
+                    <div className="w-full flex flex-col h-[330px] bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         <div className="flex my-6 ml-6 sm:mt-8 sm:mb-6 sm:ml-8 lg:my-6 lg:ml-6">
                             <CheckSquareOffset size={28} weight="fill" className="" />
                             <p className="font-bold ml-2 text-lg">长期目标</p>
@@ -75,7 +75,7 @@ export default function Home() {
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500"></div>
                             <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
                             <Spinner size={24} className="absolute top-[20px] left-[20px] z-20" />
-                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">建立一个设计系统</p>
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20">建立一个设计系统</p>
                         </div>
                         <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-gray-300 dark:border-gray-700 h-16 rounded-lg mb-3 relative group overflow-hidden transition-all duration-500 hover:-translate-y-1 z-0 flex">
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400"></div>
@@ -253,8 +253,8 @@ export function BlurIn() {
             className="font-display text-md font-normal tracking-[-0.02em] drop-shadow-sm mt-4 md:mt-0 flex flex-col space-y-2"
         >
             <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我是英国本科大一学生，专业是交互方向。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">中文是我的母语，and I can speak English.</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前住在中国苏州，如果你在附近，可以联系我一起线下玩儿~</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">中文是我的母语，and I can speak English too.</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前住在中国苏州，如果你在附近，可以联系我线下一起玩。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">如果你离我比较远，我们也可以交个朋友，说不定有一天我会出现在你的城市。</div>
             <div className="flex items-center space-x-2 pb-4">
                 <img 
@@ -265,9 +265,9 @@ export function BlurIn() {
                 </img>
                 <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
             </div>
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我喜欢看漫画和动漫，对独立摇滚也感兴趣。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">平时主要打羽毛球，排球、网球也偶尔会玩。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">喜欢读科幻小说。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我喜欢看漫画和动漫，对独立摇滚也感兴趣。我的 <a href="https://www.yeyouchuan.me/music" className="hover:underline text-red-600">唱片库</a> 里会有一些我听过的专辑，但是写的比较慢。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">平时打羽毛球的频率大概是一周三次，排球、网球也偶尔会玩。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我也喜欢读科幻小说，不过平时我在互联网阅读的文章你可以在 <a href="https://www.yeyouchuan.me/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://jike.city/yeyouchuan/" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">X (Twitter)</a> 上找到我。请随时找我，我看到了就会回复 :）</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:yeyouchuan@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             <diV className="flex items-center space-x-2 pb-4">
@@ -278,6 +278,19 @@ export function BlurIn() {
                 >
                 </img>
                 <p className="text-[15px] text-gray-500 dark:text-gray-300">1m ago</p>
+            </diV>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">下面是我最新的一篇博客：</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit hover:translate-x-1 duration-300">
+                <a href="https://www.yeyouchuan.me/blog/apple-vision-pro" className="underline">在苹果头显发布后做一些笔记</a>
+            </div>
+            <diV className="flex items-center space-x-2 pb-4">
+                <img 
+                    src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
+                    alt="头像" 
+                    className="w-7 h-7 rounded-full"
+                >
+                </img>
+                <p className="text-[15px] text-gray-500 dark:text-gray-300">now</p>
             </diV>
         </motion.div>
     );
