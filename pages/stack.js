@@ -44,7 +44,7 @@ export default function Stack () {
                           <p className="text-xl font-semibold">{stack.tool}</p>
                           <ArrowUpRight className="w-4 h-4 ml-1 mt-0.5 opacity-0 group-hover:opacity-100 duration-[250ms] ease-in-out" />
                         </span>
-                        <p className="text-sm mt-2 text-gray-600 dark:text-gray-300">{stack.description}</p>
+                        <p className="text-sm mt-2 text-gray-600 dark:text-gray-300 mr-4 mb-4">{stack.description}</p>
                       </div>
                     </div>
                   </Link>
