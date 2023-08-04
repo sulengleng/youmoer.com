@@ -239,7 +239,7 @@ export default function Home() {
               </ContentWrapper>
               <ContentWrapper
                   width="700px"
-                  className="border relative group relative shadow-lg cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
+                  className="border relative group shadow-lg cursor-pointer overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl dark:border-gray-800 mt-6 bg-gray-50 md:rounded-lg dark:bg-gray-900"
               >
                   <div className="flex gap-1 md:gap-6 mt-2 md:mt-4">
                       <div className="rounded-xl min-w- -rotate-3 mt-2 min-w-[56px] h-14 w-14 md:h-20 md:w-20 bg-apple-music bg-cover z-10" />

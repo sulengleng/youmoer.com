@@ -60,7 +60,7 @@ export default function Home() {
                     <BlurIn/>
                 </div>
                 <div className="flex flex-col lg:grid lg:grid-cols-3 gap-6 min-w-screen w-[350px] sm:w-[400px] lg:w-[850px] xl:w-[1000px] mx-auto my-8 ">
-                    <div className="w-full flex flex-col h-[330px] bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
+                    <div className="w-full flex flex-col h-[330px] bg-white dark:bg-gradient-to-tr dark:from-black dark:to-[#0f0f0f] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2">
                         <div className="flex my-6 ml-6 sm:mt-8 sm:mb-6 sm:ml-8 lg:my-6 lg:ml-6">
                             <CheckSquareOffset size={28} weight="fill" className="" />
                             <p className="font-bold ml-2 text-lg">长期目标</p>
