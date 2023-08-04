@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
-                        <a href="https://yeyouchuan.me/stack/" className="text-lg lg:text-2xl font-bold max-w-[220px] sm:max-w-[165px] md:max-w-[125px] lg:max-w-[250px] xl:max-w-[270px] leading-tight ml-6 md:ml-10 mt-48 md:mt-40 lg:mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
+                        <a href="/stack" className="text-lg lg:text-2xl font-bold max-w-[220px] sm:max-w-[165px] md:max-w-[125px] lg:max-w-[250px] xl:max-w-[270px] leading-tight ml-6 md:ml-10 mt-48 md:mt-40 lg:mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
                             这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
                         </a>
                         <div className="ml-4 md:ml-10 lg:ml-14 mr-8 relative overflow-hidden w-64">
@@ -265,9 +265,9 @@ export function BlurIn() {
                 </img>
                 <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
             </div>
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我喜欢看漫画和动漫，对独立摇滚也感兴趣。我的 <a href="https://www.yeyouchuan.me/music" className="hover:underline text-red-600">唱片库</a> 里会有一些我听过的专辑，但是写的比较慢。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我喜欢看漫画和动漫，对独立摇滚也感兴趣。我的 <a href="/music" className="hover:underline text-red-600">唱片库</a> 里会有一些我听过的专辑，但是写的比较慢。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">平时打羽毛球的频率大概是一周三次，排球、网球也偶尔会玩。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我也喜欢读科幻小说，不过平时我在互联网阅读的文章你可以在 <a href="https://www.yeyouchuan.me/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我也喜欢读科幻小说，不过平时我在互联网阅读的文章你可以在 <a href="/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://jike.city/yeyouchuan/" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">X (Twitter)</a> 上找到我。请随时找我，我看到了就会回复 :）</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:yeyouchuan@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             <diV className="flex items-center space-x-2 pb-4">
@@ -281,7 +281,7 @@ export function BlurIn() {
             </diV>
             <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">下面是我最新的一篇博客：</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit hover:translate-x-1 duration-300">
-                <a href="https://www.yeyouchuan.me/blog/apple-vision-pro" className="underline">在苹果头显发布后做一些笔记</a>
+                <a href="/blog/apple-vision-pro" className="underline">在苹果头显发布后做一些笔记</a>
             </div>
             <diV className="flex items-center space-x-2 pb-4">
                 <img 

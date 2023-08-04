@@ -14,6 +14,7 @@ import {
   GithubLogo,
   Books,
   Disc,
+  Stack,
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
@@ -48,6 +49,12 @@ export default function Sidebar() {
       url: "/reading",
       icon: <Books size={16} />,
       active: pathname.includes("/reading"),
+    },
+    {
+      title: "工具",
+      url: "/stack",
+      icon: <Stack size={16} />,
+      active: pathname.includes("/stack"),
     },
     {
       title: "唱片库",
