@@ -6,7 +6,10 @@ export default function Reading ({ reading, latest, lighted }) {
         <body className="selection:bg-[#ffc72e] reading">
             <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
             <div className="max-w-[90%] md:max-w-[80%] mx-auto py-4">
-                <div className="flex md:flex-row flex-col gap-x-8 mx-auto">
+                <div className="font-bold text-3xl mt-8">阅读</div>
+                <p className="mt-8 text-lg text-gray-600 dark:text-gray-300">只要是我在 Readwise Reader 里读过并且高亮的文章都会出现在这里，通过 notion api 自动同步。</p>
+                <div className=" w-full border-t mt-12 dark:border-gray-700"></div>
+                <div className="flex md:flex-row flex-col gap-x-8 mx-auto mt-8">
                     <div className="mt-8 w-full h-auto rounded-lg bg-[#38e8be] relative selection:bg-[#5200ff] selection:text-white">
                         <p className="pt-6 pl-4 md:pl-6 text-2xl text-[#5200ff] font-extrabold z-10 font-douyu">本周阅读</p>
                         {latest.map((last) => (
