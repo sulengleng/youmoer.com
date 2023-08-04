@@ -2,7 +2,7 @@
 date: 2022-12-05 19:49:00 +0000
 slug: OK-computer
 title: OK Computer · Radiohead
-tech: ["英国", "遇事不决另类摇滚"]
+tech: ["英国", "另类摇滚"]
 icon: https://s2.loli.net/2022/12/09/SsfYR78lEVtbQ5N.png
 ---
 
