@@ -5,8 +5,11 @@ export default function Stack () {
             <div className="max-w-[620px] mx-auto">
               <div className="font-bold text-3xl mt-8">工具</div>
               <p className="mt-8 text-lg text-gray-600 dark:text-gray-300">一个人使用的工具一定程度上展现了他解决问题的方式，许多人会在他们的个人网站上建立 uses 页面来告诉参观者他们是如何生活和工作的。</p>
-              <div className=" w-full border-t mt-12 dark:border-gray-700"></div>
+              <div className="w-full border-t mt-12 dark:border-gray-700"></div>
             </div>
+            <diV className="max-w-[620px] mx-auto mt-12">
+              <p className="text-lg text-gray-600 dark:text-gray-300">施工中，你可以通过各种联系方式告诉我你想看到什么。</p>
+            </diV>
         </div>
     </body>
   )

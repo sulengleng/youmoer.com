@@ -95,7 +95,7 @@ export default function Experiments() {
             <p className="mt-8 text-lg text-gray-600 dark:text-gray-300">只要是我在 Readwise Reader 里读过并且高亮的文章都会出现在这里，通过 notion api 自动同步。</p>
             <div className=" w-full border-t mt-12 dark:border-gray-700"></div>
         </div>
-        <div className="relative mt-12 -ml-4">
+        <div className="relative mt-12 md:-ml-6 lg:-ml-4">
           {LIST.map((item) => {
             return (
               (<Link
