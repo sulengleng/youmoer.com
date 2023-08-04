@@ -90,15 +90,12 @@ export default function Experiments() {
     />
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden antialiased">
       <div className="relative p-8 md:p-20 w-full max-w-[800px]">
-        <div className="mb-8">
-          <h2 className="text-4xl font-black text-black dark:text-white md:text-4xl">
-            Experiments
-          </h2>
-          <p className="text-xl text-black/40 drop-shadow-lg dark:text-white/40">
-            UI and Code explorations
-          </p>
+        <div className="max-w-[620px] mx-auto">
+            <div className="font-bold text-3xl mt-8">实验室</div>
+            <p className="mt-8 text-lg text-gray-600 dark:text-gray-300">只要是我在 Readwise Reader 里读过并且高亮的文章都会出现在这里，通过 notion api 自动同步。</p>
+            <div className=" w-full border-t mt-12 dark:border-gray-700"></div>
         </div>
-        <div className="relative">
+        <div className="relative mt-12 -ml-4">
           {LIST.map((item) => {
             return (
               (<Link

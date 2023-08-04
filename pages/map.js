@@ -31,13 +31,13 @@ export default function Home() {
       </div>
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
-        <h2 className="mb-6 text-4xl font-bold md:text-5xl">旅行车</h2>
-        <div className="post-content">
-          <p className="text-lg text-gray-500 pt-6">
+        <div className="">
+          <div className="font-bold text-3xl mt-8">阅读</div>
+          <p className="text-lg text-gray-600 dark:text-gray-300 mt-8">
             欢迎来到我的旅行车，我创建了这个页面来记录我去过的地方。
           </p>
-          <div>
-            你可以点击地图上的点来查看我去过的地方。也可以点击&nbsp;
+          <div className="text-lg text-gray-600 dark:text-gray-300 mt-3">
+            你可以点击地图上的点来看我去过的地方。也可以点击&nbsp;
             <a 
               href="https://felt.com/map/Places-Ive-Traveled-So-Far-iFgSYPGyQgKKsXIqIOKmvA" 
               target="_blank" >
@@ -66,6 +66,7 @@ export default function Home() {
             </a>
             &nbsp;按钮来获得更多的信息。
           </div>
+          <div className=" w-full border-t mt-12 dark:border-gray-700"></div>
         </div>
       </article>
     </>
