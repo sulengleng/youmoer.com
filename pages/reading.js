@@ -5,7 +5,7 @@ export default function Reading ({ reading, latest, lighted }) {
     return (
         <body className="selection:bg-[#ffc72e] reading">
             <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
-            <div className="max-w-[90%] md:max-w-[80%] mx-auto py-4">
+            <div className="max-w-[85%] md:max-w-[80%] mx-auto py-4">
                 <div className="max-w-[620px] mx-auto">
                     <div className="font-bold text-3xl mt-8">阅读</div>
                     <p className="mt-8 text-lg text-gray-600 dark:text-gray-300">只要是我在 Readwise Reader 里读过并且高亮的文章都会出现在这里，通过 notion api 自动同步。</p>
