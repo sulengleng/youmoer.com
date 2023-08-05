@@ -6,6 +6,12 @@ export default function Stack () {
 
   const STACK = [
     {
+      icon: "https://s2.loli.net/2023/08/06/EIlW8ODuJezhM37.png",
+      tool: "Figma",
+      description: "基本上所有的设计工作都会在上面完成，社区也非常不错，可以参考各种优秀的设计。",
+      url: "https://figma.com/",
+    },
+    {
       icon: "https://s2.loli.net/2023/08/04/Wd1nsVljUeS5LFc.png",
       tool: "Linear",
       description: "项目管理软件，目前我来用它管理一些长期项目。",
@@ -22,6 +28,24 @@ export default function Stack () {
       tool: "Obsidian",
       description: "长期维护的第二大脑。卡片笔记法主导，anki记忆法为辅来整理和复习笔记。",
       url: "https://obsidian.md/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/IBLXCqSHYKu4yDl.png",
+      tool: "WebStorm",
+      description: "写前端主要用的 IDE，有一些功能无可替代。",
+      url: "https://www.jetbrains.com/webstorm/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/bQ2z9ek7uiYRBIJ.png",
+      tool: "Visual Studio Code",
+      description: "一部分代码任务用 VS Code 完成也非常方便，有的时候略微有点不跟手，但是依旧是最好的代码编辑器之一",
+      url: "https://code.visualstudio.com/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/viCVfEpQzUZy6MH.png",
+      tool: "哔哩哔哩",
+      description: "国内最好的长视频平台，二创、教学、Vlog 视频的创作氛围都非常好。",
+      url: "https://www.bilibili.com/",
     },
   ]
 
@@ -41,7 +65,7 @@ export default function Stack () {
                       <img src={stack.icon} className="w-16 h-16 my-6 mx-4" />
                       <div className="flex flex-col mt-4 ml-2 sm:mt-6 sm:ml-6">
                         <span className="flex">
-                          <p className="text-xl font-semibold">{stack.tool}</p>
+                          <p className="text-lg font-semibold">{stack.tool}</p>
                           <ArrowUpRight className="w-4 h-4 ml-1 mt-0.5 opacity-0 group-hover:opacity-100 duration-[250ms] ease-in-out" />
                         </span>
                         <p className="text-sm mt-2 text-gray-600 dark:text-gray-300 mr-4 mb-4">{stack.description}</p>
@@ -51,6 +75,7 @@ export default function Stack () {
                 </diV>
               );
             })}
+            <div className="h-20 w-full"></div>
         </div>
     </body>
   )
