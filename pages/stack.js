@@ -61,9 +61,9 @@ export default function Stack () {
               return (
                 <diV className="max-w-[670px] mx-auto flex flex-col">
                   <Link href={stack.url} key={stack.url} target="_blank">
-                    <div className="w-full flex group dark:hover:bg-gray-900 rounded-md">
-                      <img src={stack.icon} className="w-16 h-16 my-6 -ml-2 sm:ml-4 mr-4" />
-                      <div className="flex flex-col mt-4 ml-2 sm:mt-6 sm:ml-6">
+                    <div className="w-full flex group lg:hover:bg-gray-100 lg:dark:hover:bg-gray-900 rounded-md">
+                      <img src={stack.icon} className="w-16 h-16 my-6 -ml-2 lg:ml-4 mr-4" />
+                      <div className="flex flex-col mt-4 ml-2 sm:mt-6 sm:ml-2">
                         <span className="flex">
                           <p className="text-lg font-semibold">{stack.tool}</p>
                           <ArrowUpRight className="w-4 h-4 ml-1 mt-0.5 opacity-0 group-hover:opacity-100 duration-[250ms] ease-in-out" />
