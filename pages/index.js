@@ -268,7 +268,7 @@ export function BlurIn() {
             <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我喜欢看漫画和动漫，对独立摇滚也感兴趣。我的 <a href="/music" className="hover:underline text-red-600">唱片库</a> 里会有一些我听过的专辑，但是写的比较慢。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">平时打羽毛球的频率大概是一周三次，排球、网球也偶尔会玩。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我也喜欢读科幻小说，不过平时我在互联网阅读的文章你可以在 <a href="/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://jike.city/yeyouchuan/" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">X (Twitter)</a> 上找到我。请随时找我，我看到了就会回复 :）</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">X (Twitter)</a> 上找到我。请随时找我，我看到了就会回复 :）</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:yeyouchuan@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             <diV className="flex items-center space-x-2 pb-4">
                 <img 

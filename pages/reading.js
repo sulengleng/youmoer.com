@@ -131,11 +131,11 @@ const Favorite = [
 export async function getStaticProps() {
     const { Client } = require("@notionhq/client")
     const notion = new Client({
-        auth: "secret_ig3DqLAGXUCS9bSiZZXvIDalhynwwQkmLjUS42udYLo",
+        auth: "secret_fEq1NcEWsTBaqwpXimW4qIX3rT9JVRvnCuCytH0VdoO",
     })
 
     const data = await notion.databases.query({
-        database_id: "08204d7869154037bd52912de7a6f10d",
+        database_id: "340d8539d97e48d0baba7e5a304565c9",
         filter: {
             and: [
                 {
@@ -155,7 +155,7 @@ export async function getStaticProps() {
     })
 
     const latestData = await notion.databases.query({
-        database_id: "08204d7869154037bd52912de7a6f10d",
+        database_id: "340d8539d97e48d0baba7e5a304565c9",
         filter: {
             and: [
                 {
@@ -181,7 +181,7 @@ export async function getStaticProps() {
     })
 
     const highlightData = await notion.databases.query({
-        database_id: "08204d7869154037bd52912de7a6f10d",
+        database_id: "340d8539d97e48d0baba7e5a304565c9",
         filter: {
             and: [
                 {
