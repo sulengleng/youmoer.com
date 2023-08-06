@@ -135,7 +135,7 @@ export async function getStaticProps() {
     })
 
     const data = await notion.databases.query({
-        database_id: "340d8539d97e48d0baba7e5a304565c9",
+        database_id: "287ac8a9198840de9fcfa7376189b409",
         filter: {
             and: [
                 {
@@ -155,7 +155,7 @@ export async function getStaticProps() {
     })
 
     const latestData = await notion.databases.query({
-        database_id: "340d8539d97e48d0baba7e5a304565c9",
+        database_id: "287ac8a9198840de9fcfa7376189b409",
         filter: {
             and: [
                 {
@@ -181,7 +181,7 @@ export async function getStaticProps() {
     })
 
     const highlightData = await notion.databases.query({
-        database_id: "340d8539d97e48d0baba7e5a304565c9",
+        database_id: "287ac8a9198840de9fcfa7376189b409",
         filter: {
             and: [
                 {
