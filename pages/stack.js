@@ -6,16 +6,64 @@ export default function Stack () {
 
   const STACK = [
     {
+      icon: "https://s2.loli.net/2023/08/06/xSjakCRVAbd6KqD.png",
+      tool: "Apple Music",
+      description: "音乐软件，曲库齐全、设计简洁，适合苹果用户，Windows 上推荐第三方客户端 Cider。",
+      url: "https://music.apple.com/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/3HpqV8xyCrvbSYz.png",
+      tool: "Last.fm",
+      description: "老牌音乐记录工具，我所有在 Apple Music 里听的音乐都会自动记录到里面，有助于我掌握自己的听歌偏好。",
+      url: "https://last.fm/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/CNuYpZaUwdHBRtQ.png",
+      tool: "ChatGPT",
+      description: "来自 OpenAI 的人工智能助手，我一般通过 GPT-4 api 配合第三方客户端使用，提升的生产力相信用过的朋友们都有目共睹。",
+      url: "https://openai.com/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/5CAoH4gIEQpTXYJ.png",
+      tool: "Gmail",
+      description: "目前的主力邮箱客户端，配合 Gmail 前设计师的拓展插件 Simplify 非常好用！",
+      url: "https://gmail.com/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/Cwq9jOknrsaVuh5.png",
+      tool: "X",
+      description: "我最重要的信息获取来源之一，每天都会浏览一段时间来获取一些即时的信息。",
+      url: "https://x.com/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/PSklsGvOBQaAhbV.png",
+      tool: "Discord",
+      description: "很多国外产品开发者会选择 Discord 作为用户社群，有时和朋友们打游戏也会用到。",
+      url: "https://discord.com/",
+    },
+    {
       icon: "https://s2.loli.net/2023/08/06/EIlW8ODuJezhM37.png",
       tool: "Figma",
       description: "基本上所有的设计工作都会在上面完成，社区也非常不错，可以参考各种优秀的设计。",
       url: "https://figma.com/",
     },
     {
+      icon: "https://s2.loli.net/2023/08/06/aVelBoc1RHPiFYg.png",
+      tool: "Typora",
+      description: "目前网站所有的博客和项目写作全部放在上面，唯一能让我沉下心来专注写作的软件。",
+      url: "https://last.fm/",
+    },
+    {
       icon: "https://s2.loli.net/2023/08/04/Wd1nsVljUeS5LFc.png",
       tool: "Linear",
       description: "项目管理软件，目前我来用它管理一些长期项目。",
       url: "https://linear.app/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/fVy6aJwFXov2c9b.png",
+      tool: "Zotero",
+      description: "学术论文、期刊管理工具，阅读论文特别好用，也可以用于管理阅读。",
+      url: "https://www.zotero.org/",
     },
     {
       icon: "https://s2.loli.net/2023/08/04/JiprvZg56W2dDnc.png",
@@ -40,6 +88,12 @@ export default function Stack () {
       tool: "Visual Studio Code",
       description: "一部分代码任务用 VS Code 完成也非常方便，有的时候略微有点不跟手，但是依旧是最好的代码编辑器之一",
       url: "https://code.visualstudio.com/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/06/DYS5JeH1gxEBqyW.png",
+      tool: "Telegram",
+      description: "Telegram 的机器人非常好用，能做链接收藏或者找书的工作，然后也会在 TG 上订阅一些朋友的频道。",
+      url: "https://web.telegram.org/",
     },
     {
       icon: "https://s2.loli.net/2023/08/06/viCVfEpQzUZy6MH.png",

@@ -4,7 +4,6 @@ import { Client } from "@notionhq/client";
 export default function Reading ({ reading, latest, lighted }) {
     return (
         <body className="selection:bg-[#ffc72e] reading">
-            <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
             <div className="max-w-[85%] md:max-w-[80%] mx-auto py-4">
                 <div className="max-w-[620px] mx-auto">
                     <div className="font-bold text-3xl mt-8">阅读</div>
