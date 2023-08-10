@@ -54,6 +54,12 @@ export default function Stack () {
       url: "https://last.fm/",
     },
     {
+      icon: "https://s2.loli.net/2023/08/11/g5owznDNpeqmfBY.png",
+      tool: "Fabric",
+      description: "设计不错的书签网站，我目前用它来做网站设计资源和灵感的收集。",
+      url: "https://fabric.so/",
+    },
+    {
       icon: "https://s2.loli.net/2023/08/04/Wd1nsVljUeS5LFc.png",
       tool: "Linear",
       description: "项目管理软件，目前我来用它管理一些长期项目。",
@@ -72,6 +78,12 @@ export default function Stack () {
       url: "https://www.notion.so/",
     },
     {
+      icon: "https://s2.loli.net/2023/08/11/pMgYFOs1V2qjJL7.png",
+      tool: "Cron",
+      description: "设计优雅的日历软件，我用来安排每日的详细工作。",
+      url: "https://cron.com/",
+    },
+    {
       icon: "https://s2.loli.net/2023/08/05/q6vYnmxrszXIFKb.png",
       tool: "Obsidian",
       description: "长期维护的第二大脑。卡片笔记法主导，anki记忆法为辅来整理和复习笔记。",
@@ -86,7 +98,7 @@ export default function Stack () {
     {
       icon: "https://s2.loli.net/2023/08/06/bQ2z9ek7uiYRBIJ.png",
       tool: "Visual Studio Code",
-      description: "一部分代码任务用 VS Code 完成也非常方便，有的时候略微有点不跟手，但是依旧是最好的代码编辑器之一",
+      description: "一部分代码任务用 VS Code 完成也非常方便，有的时候略微有点不跟手，但是依旧是最好的代码编辑器之一。",
       url: "https://code.visualstudio.com/",
     },
     {
@@ -94,6 +106,12 @@ export default function Stack () {
       tool: "Telegram",
       description: "Telegram 的机器人非常好用，能做链接收藏或者找书的工作，然后也会在 TG 上订阅一些朋友的频道。",
       url: "https://web.telegram.org/",
+    },
+    {
+      icon: "https://s2.loli.net/2023/08/11/PgTJZajt5lcknsD.png",
+      tool: "1Password",
+      description: "目前用 1Password 来管理所有的密码和密匙。",
+      url: "https://1password.com/",
     },
     {
       icon: "https://s2.loli.net/2023/08/06/viCVfEpQzUZy6MH.png",
