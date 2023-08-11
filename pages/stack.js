@@ -72,6 +72,12 @@ export default function Stack () {
       url: "https://www.zotero.org/",
     },
     {
+      icon: "https://s2.loli.net/2023/08/11/BKo7UYdHAQWMqx8.png",
+      tool: "Readwise & Reader",
+      description: "我最喜欢的软件之一，readwise 团队出品的阅读器大大提高了我阅读文章的效率。",
+      url: "https://www.readwise.io/",
+    },
+    {
       icon: "https://s2.loli.net/2023/08/04/JiprvZg56W2dDnc.png",
       tool: "Notion",
       description: "我现在主要用做播客后台和非常简单的项目管理，notion 官方的 api 也挺好用的。",
