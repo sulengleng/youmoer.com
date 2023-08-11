@@ -54,7 +54,7 @@ export default function Stack () {
       url: "https://last.fm/",
     },
     {
-      icon: "https://s2.loli.net/2023/08/11/g5owznDNpeqmfBY.png",
+      icon: "https://s2.loli.net/2023/08/11/B4WguEJoYZpnSlU.png",
       tool: "Fabric",
       description: "设计不错的书签网站，我目前用它来做网站设计资源和灵感的收集。",
       url: "https://fabric.so/",
