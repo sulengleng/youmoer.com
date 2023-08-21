@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Tsuizen's blog]]></title>
+        <description><![CDATA[随便写东西的地方]]></description>
+        <link>http://github.com/dylang/node-rss</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 21 Aug 2023 08:29:36 GMT</lastBuildDate>
+        <atom:link href="undefined/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 21 Aug 2023 08:29:36 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2023, Tsuizen]]></copyright>
+        <language><![CDATA[cn]]></language>
+        <item>
+            <title><![CDATA[仿生人夜游船(2021批次)使用手册]]></title>
+            <link>undefined/posts/仿生人夜游船(2021批次)使用手册</link>
+            <guid isPermaLink="true">undefined/posts/仿生人夜游船(2021批次)使用手册</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[写在疫情之后]]></title>
+            <link>undefined/posts/写在疫情之后</link>
+            <guid isPermaLink="true">undefined/posts/写在疫情之后</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在苹果头显发布后做一些笔记]]></title>
+            <link>undefined/posts/在苹果头显发布后做一些笔记</link>
+            <guid isPermaLink="true">undefined/posts/在苹果头显发布后做一些笔记</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[我的个人网站折腾历史]]></title>
+            <link>undefined/posts/我的个人网站折腾历史</link>
+            <guid isPermaLink="true">undefined/posts/我的个人网站折腾历史</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[阅读页面搭建教程]]></title>
+            <link>undefined/posts/阅读页面搭建教程</link>
+            <guid isPermaLink="true">undefined/posts/阅读页面搭建教程</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vol.1 人类]]></title>
+            <link>undefined/posts/Vol.1 人类</link>
+            <guid isPermaLink="true">undefined/posts/Vol.1 人类</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新年快乐！]]></title>
+            <link>undefined/posts/新年快乐！</link>
+            <guid isPermaLink="true">undefined/posts/新年快乐！</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[每个人都有自己的时区]]></title>
+            <link>undefined/posts/每个人都有自己的时区</link>
+            <guid isPermaLink="true">undefined/posts/每个人都有自己的时区</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vol.2 夜游船渡口]]></title>
+            <link>undefined/posts/Vol.2 夜游船渡口</link>
+            <guid isPermaLink="true">undefined/posts/Vol.2 夜游船渡口</guid>
+            <pubDate>Invalid Date</pubDate>
+        </item>
+    </channel>
+</rss>

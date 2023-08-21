@@ -212,6 +212,10 @@ export default function Home() {
     );
 }
 
+export async function getStaticProps() {
+    await getRSS();
+}
+
 export function GradualSpacing() {
     const text = "你好，我是夜游船！";
     const gradual = {
