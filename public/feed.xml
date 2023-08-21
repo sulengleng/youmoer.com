@@ -1,58 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title><![CDATA[夜游船渡口]]></title>
-        <description><![CDATA[your description]]></description>
+        <description><![CDATA[夜游船渡口不定期会分发一些文章，这些文章会通过小船送到你的手上。]]></description>
         <link>https://yeyouchuan.me</link>
         <generator>RSS for Node</generator>
         <lastBuildDate>Mon, 21 Aug 2023 10:15:21 GMT</lastBuildDate>
         <atom:link href="https://yeyouchuan.me/feed.xml" rel="self" type="application/rss+xml"/>
         <pubDate>Mon, 21 Aug 2023 10:15:21 GMT</pubDate>
-        <copyright><![CDATA[All rights reserved 2023, Your Name]]></copyright>
-        <language><![CDATA[en]]></language>
+        <copyright><![CDATA[All rights reserved 2023, 夜游船]]></copyright>
+        <language><![CDATA[cn]]></language>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[在苹果头显发布后做一些笔记]]></title>
+            <description>
+                <![CDATA[Timing is everything]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/apple-vision-pro</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/apple-vision-pro</guid>
+            <pubDate>Fri, 09 Jun 2023 16:36:20 GMT+0</pubDate>
+            <enclosure url="https://s2.loli.net/2023/06/10/3uOM5cl9mQYNqis.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[阅读页面搭建教程]]></title>
+            <description>
+                <![CDATA[如何通过 Notion 和 Readwise Reader 来搭建自己的个人文章阅读展示页]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/how-i-design-my-reading-page</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/how-i-design-my-reading-page</guid>
+            <pubDate>Sat, 18 Feb 2023 20:27:30 GMT+0</pubDate>
+            <enclosure url="https://s2.loli.net/2023/02/19/RPNvxofhLYi8m57.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[新年快乐！]]></title>
+            <description>
+                <![CDATA[大家新年快乐！]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/new-year</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/new-year</guid>
+            <pubDate>Sat, 31 Dec 2022 00:00:00 GMT+0</pubDate>
+            <enclosure url="https://s2.loli.net/2023/07/07/UKDQWpaNHbxqSAe.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[我的个人网站折腾历史]]></title>
+            <description>
+                <![CDATA[我的网站折腾历史是从2021年底开始的，那段时期被我称为我的「文艺复兴时期」]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/how-i-design-my-blog</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/how-i-design-my-blog</guid>
+            <pubDate>Thur, 24 Nov 2022 00:54:20 GMT+0</pubDate>
+            <enclosure url="https://s2.loli.net/2023/07/10/5qA2rgZ6WXT3Czc.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[写在疫情之后]]></title>
+            <description>
+                <![CDATA[夜游船2022年年度总结]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/2022-review</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/2022-review</guid>
+            <pubDate>Wed, 23 Nov 2022 12:23:00 GMT+0</pubDate>
+            <enclosure url="https://files.catbox.moe/gsyn6q.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[仿生人夜游船(2021批次)使用手册]]></title>
+            <description>
+                <![CDATA[夜游船2021年年度总结]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/2021-review</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/2021-review</guid>
+            <pubDate>Wed, 01 Dec 2021 23:59:59 GMT+0</pubDate>
+            <enclosure url="https://www.yeyouchuan.me/images/posts/2021-review.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[Vol.2 夜游船渡口]]></title>
+            <description>
+                <![CDATA[我非常高兴这次能够自由写作，只是去谈我认为重要的东西，谢谢所有的读者，你们让我觉得自己对你们有用。]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/yeyouchuan-duko</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/yeyouchuan-duko</guid>
+            <pubDate>Wed, 01 Dec 2021 20:00:00 GMT+0</pubDate>
+            <enclosure url="https://www.yeyouchuan.me/images/posts/yeyouchuanduko.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
-        </item>
-        <item>
-            <title><![CDATA[No title]]></title>
-            <link>https://yeyouchuan.me/blog/undefined</link>
-            <guid isPermaLink="true">https://yeyouchuan.me/blog/undefined</guid>
+            <title><![CDATA[Vol.1 人类]]></title>
+            <description>
+                <![CDATA[The more I love humanity in general, the less I love man in particular]]>
+            </description>
+            <link>https://www.yeyouchuan.me/blog/human</link>
+            <guid isPermaLink="true">https://www.yeyouchuan.me/blog/human</guid>
+            <pubDate>Wed, 01 Dec 2021 12:00:00 GMT+0</pubDate>
+            <enclosure url="https://www.yeyouchuan.me/images/posts/human.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

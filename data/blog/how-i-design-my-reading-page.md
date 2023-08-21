@@ -6,7 +6,7 @@ categories: 阅读
 type: link
 link: https://yeyouchuan.me/reading/
 image: https://s2.loli.net/2023/02/19/RPNvxofhLYi8m57.png
-excerpt: 如何通过 Notion 和 Readwise Reader 来搭建自己的个人网站展示页
+excerpt: 如何通过 Notion 和 Readwise Reader 来搭建自己的个人文章阅读展示页
 ---
 
 ## 对阅读展示页意义的思考
