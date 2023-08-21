@@ -2,6 +2,11 @@
     <channel>
         <title><![CDATA[夜游船渡口]]></title>
         <description><![CDATA[夜游船渡口不定期会分发一些文章，这些文章会通过小船送到你的手上。]]></description>
+        <image>
+            <url>https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png</url>
+            <title>夜游船渡口</title>
+            <link>https://yeyouchuan.me/</link>
+        </image>
         <link>https://yeyouchuan.me</link>
         <generator>RSS for Node</generator>
         <lastBuildDate>Mon, 21 Aug 2023 10:15:21 GMT</lastBuildDate>
