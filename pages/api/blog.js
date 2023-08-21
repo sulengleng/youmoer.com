@@ -4,10 +4,6 @@ import matter from "gray-matter";
 
 const postsDirectory = join(process.cwd(), "data/blog");
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
-}
-
 export function getPostBySlug(slug, fields = []) {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);

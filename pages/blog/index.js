@@ -44,10 +44,6 @@ export async function getStaticProps() {
 
 import RSS from 'rss'
 
-const fs = require('fs')
-
-fs
-
 const getRSS = async () => {
 
   const feed = new RSS({
