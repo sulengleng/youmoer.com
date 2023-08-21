@@ -45,7 +45,6 @@ export async function getStaticProps() {
 import RSS from 'rss'
 
 const getRSS = async () => {
-
   const feed = new RSS({
     title: "夜游船渡口",
     description: '随便写东西的地方',

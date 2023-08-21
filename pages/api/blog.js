@@ -4,7 +4,11 @@ import matter from "gray-matter";
 
 const postsDirectory = join(process.cwd(), "data/blog");
 
-export function getPostBySlug(slug, fields = []) {
+export function getStaticProps () {
+  return fs.readdirSync(postsDirectory);
+}
+
+export function getStaticPaths(slug, fields = []) {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
@@ -29,9 +33,9 @@ export function getPostBySlug(slug, fields = []) {
 }
 
 export function getAllPosts(fields = []) {
-  const slugs = getPostSlugs();
+  const slugs = getStaticProps();
   const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
+    .map((slug) => getStaticPaths(slug, fields))
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
