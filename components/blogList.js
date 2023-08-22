@@ -2,6 +2,8 @@ import Link from "next/link";
 import clsx from "clsx";
 import {
   ArrowSquareOut,
+  Rss,
+  Newspaper,
 } from "phosphor-react";
 
 export default function BlogList({ data, activeSlug }) {
@@ -17,8 +19,18 @@ export default function BlogList({ data, activeSlug }) {
           "bg-gray-50 dark:bg-gray-900 overflow-auto rounded-lg h-full border border-gray-200/50 dark:border-gray-800/50"
         )}
       >
-        <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
-          List
+        <div className="flex justify-between">
+          <div className="px-4 py-2 text-sm text-gray-500 border-b border-gray-200/50 dark:border-gray-800 top-0 sticky bg-gray-50 dark:bg-gray-900">
+            文章
+          </div>
+          <span className="flex">
+            <Link href="https://yeyouchuan.zhubai.love">
+              <Newspaper size={16} className="mr-3 mt-2.5 text-gray-500 border-b border-gray-200/50 dark:border-gray-800 hover:text-black dark:hover:text-white" />
+            </Link>
+            <Link href="/feed.xml">
+              <Rss size={16} className="mr-4 mt-2.5 text-gray-500 border-b border-gray-200/50 dark:border-gray-800 hover:text-black dark:hover:text-white" />
+            </Link>
+          </span>
         </div>
         <div className="h-[calc(100vhh-24px)] overflow-auto">
           {data?.map((post) => (
