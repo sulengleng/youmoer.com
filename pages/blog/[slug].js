@@ -21,7 +21,7 @@ export default function Post({ allPosts, post, morePosts, preview }) {
           description: post.excerpt || post.content.slice(0, 200) || "",
           images: [
             {
-              url: post.ogImage ?? "https://rishimohan.vercel.app/images/site/meta.jpg",
+              url: post.ogImage ?? "https://s2.loli.net/2023/07/10/5qA2rgZ6WXT3Czc.png",
               width: 800,
               height: 600,
               alt: "夜游船 for Twitter",
@@ -34,9 +34,8 @@ export default function Post({ allPosts, post, morePosts, preview }) {
           cardType: "summary_large_image",
         }}
       />
-      <script src="https://js.linkz.ai/?key=641a3c79eaabf454d81c898c"></script>
       <BlogList data={allPosts} activeSlug={post?.slug} />
-      <PostContent post={post} />
+      <PostContent post={post} slug={post?.slug} />
     </div>
   );
 }

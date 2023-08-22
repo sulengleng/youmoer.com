@@ -1,7 +1,8 @@
 import {ExternalLinkIcon} from "lib/icons"
 import { motion } from 'framer-motion'
+import { ReactCusdis } from 'react-cusdis'
 
-export default function PostContent({ post }) {
+export default function PostContent({ post, slug }) {
   return (
     <motion.div
       key={post.title}
@@ -46,6 +47,19 @@ export default function PostContent({ post }) {
       ) : (
         ""
       )}
+      <div className="w-full max-w-[705px] dark:bg-[#111111]">
+        <ReactCusdis
+          lang="zh-cn"
+          attrs={{
+            host: 'https://cusdis.com',
+            appId: '5d04858e-b827-4954-8481-688d0d892101',
+            pageId: {slug},
+            pageTitle: 'PAGE_TITLE',
+            pageUrl: '{post.link}',
+            theme: 'auto',
+          }}
+        />
+      </div>
     </motion.div>
   );
 }
