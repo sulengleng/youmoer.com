@@ -54,7 +54,7 @@ export default function PostContent({ post, slug }) {
             host: 'https://cusdis.com',
             appId: '5d04858e-b827-4954-8481-688d0d892101',
             pageId: {slug},
-            pageTitle: 'PAGE_TITLE',
+            pageTitle: '{post.title}',
             pageUrl: '{post.link}',
             theme: 'auto',
           }}
