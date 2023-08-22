@@ -75,13 +75,6 @@ export default function Sidebar() {
       active: pathname === "/map",
     },
     {
-      title: "Newsletter",
-      url: "https://yeyouchuan.zhubai.love",
-      icon: <Newspaper size={16} />,
-      active: false,
-      external: true,
-    },
-    {
       title: "简历",
       url: "https://qiyue.read.cv",
       icon: <IdentificationCard size={16} />,

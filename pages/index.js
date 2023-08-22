@@ -283,6 +283,9 @@ export function BlurIn() {
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit hover:translate-x-1 duration-300">
                 <a href="/blog/apple-vision-pro" className="underline">在苹果头显发布后做一些笔记</a>
             </div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">
+                你可以通过 <a href="https://yeyouchuan.zhubai.love" className="hover:underline">Newsletter</a> 和 <a href="/feed.xml" className="hover:underline">RSS</a> 两种方式来订阅我的博客。
+            </div>
             <diV className="flex items-center space-x-2 pb-4">
                 <img 
                     src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
