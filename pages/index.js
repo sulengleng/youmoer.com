@@ -32,17 +32,17 @@ export default function Home() {
     return (
         <motion.body className="select-none">
             <NextSeo
-                title="你好，我是夜游船！"
-                description="欢迎来到夜游船的个人网站，我是创造者"
+                title="你好，我是油墨儿！"
+                description="欢迎来到油墨儿的个人网站"
                 openGraph={{
-                    site_name: "你好，我是夜游船！",
-                    title: "你好，我是夜游船！",
+                    site_name: "你好，我是油墨儿！",
+                    title: "你好，我是油墨儿！",
                     description:
-                        "欢迎来到夜游船的个人网站，我是创造者",
+                        "欢迎来到油墨儿的个人网站",
                 }}
                 twitter={{
-                    handle: "@yeyouchuan",
-                    site: "@yeyouchuan",
+                    handle: "@greyfomo",
+                    site: "@greyfomo",
                     cardType: "summary_large_image",
                 }}
             />
@@ -213,7 +213,7 @@ export default function Home() {
 }
 
 export function GradualSpacing() {
-    const text = "你好，我是夜游船！";
+    const text = "你好，我是油墨儿！";
     const gradual = {
         hidden: { opacity: 0, x: -20 },
         visible: { opacity: 1, x: 0 },
@@ -252,10 +252,10 @@ export function BlurIn() {
             variants={variants1}
             className="font-display text-md font-normal tracking-[-0.02em] drop-shadow-sm mt-4 md:mt-0 flex flex-col space-y-2"
         >
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">我是英国本科大一学生，专业是交互方向。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">中文是我的母语，and I can speak English too.</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前住在中国苏州，如果你在附近，可以联系我线下一起玩。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">如果你离我比较远，我们也可以交个朋友，说不定有一天我会出现在你的城市。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">-</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我是一名品牌设计师，</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前住在中国杭州，有机会可以一起认识下；如果你离我比较远，我们也可以交个朋友，说不定有一天我会出现在你的城市。</div>
+            
             <div className="flex items-center space-x-2 pb-4">
                 <img 
                     src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
