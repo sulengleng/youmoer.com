@@ -22,8 +22,8 @@ export default function Post({ allPosts, post }) {
           description: post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, '') || "",
         }}
         twitter={{
-          handle: "@greyfomo",
-          site: "@greyfomo",
+          handle: "@2youmoer",
+          site: "@2youmoer",
           cardType: "summary_large_image",
         }}
       />

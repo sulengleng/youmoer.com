@@ -29,8 +29,8 @@ export default function Post({ allPosts, post, morePosts, preview }) {
           ],
         }}
         twitter={{
-          handle: "@greyfomo",
-          site: "@greyfomo",
+          handle: "@2youmoer",
+          site: "@2youmoer",
           cardType: "summary_large_image",
         }}
       />

@@ -24,7 +24,7 @@ export default function BlogList({ data, activeSlug }) {
             文章
           </div>
           <span className="flex">
-            <Link href="https://哭.还在准备中">
+            <Link href="https://yeyouchuan.zhubai.love">
               <Newspaper size={16} className="mr-3 mt-2.5 text-gray-500 border-b border-gray-200/50 dark:border-gray-800 hover:text-black dark:hover:text-white" />
             </Link>
             <Link href="/feed.xml">

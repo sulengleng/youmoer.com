@@ -13,7 +13,7 @@ import { Analytics } from '@vercel/analytics/react';
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const canonicalUrl = (
-    `https://yeyouchuan.me` + (router.asPath === "/" ? "" : router.asPath)
+    `https://www.youmoer.com` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
 
   return (
@@ -45,16 +45,16 @@ function MyApp({ Component, pageProps }) {
               "一名还在路上创造者，喜欢创造有设计感的东西",
             images: [
               {
-                url: "public/images/Cover.png",
+                url: "public/images/cover.webp",
                 width: 800,
                 height: 600,
-                alt: "yeyouchuan.me",
+                alt: "www.youmoer.com",
               },
             ],
           }}
           twitter={{
-            handle: "@greyfomo",
-            site: "@greyfomo",
+            handle: "@2youmoer",
+            site: "@2youmoer",
             cardType: "summary_large_image",
           }}
           additionalLinkTags={[

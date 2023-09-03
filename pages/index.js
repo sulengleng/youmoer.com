@@ -41,8 +41,8 @@ export default function Home() {
                         "欢迎来到油墨儿的个人网站",
                 }}
                 twitter={{
-                    handle: "@greyfomo",
-                    site: "@greyfomo",
+                    handle: "@2youmoer",
+                    site: "@2youmoer",
                     cardType: "summary_large_image",
                 }}
             />
@@ -69,19 +69,19 @@ export default function Home() {
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-br from-yellow-200 via-pink-200 to-pink-400"></div>
                             <span className="absolute top-4 left-4 rounded-full bg-gradient-to-br from-yellow-200 via-pink-200 to-pink-400 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
                             <Spinner size={24} className="absolute top-[20px] left-[20px] z-20 group-hover:text-black" />
-                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">完成3/10篇博客文章</p>
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">设计《中国传统美学》系列</p>
                         </div>
                         <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-gray-300 dark:border-gray-700 h-16 rounded-lg mb-3 relative group overflow-hidden transition-all duration-500 hover:-translate-y-1 z-0 flex">
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500"></div>
                             <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tl from-rose-400 via-fuchsia-500 to-indigo-500 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
                             <Spinner size={24} className="absolute top-[20px] left-[20px] z-20" />
-                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20">建立一个设计系统</p>
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20">16/40一年读书计划</p>
                         </div>
                         <div className="w-[300px] sm:w-[330px] lg:w-[210px] xl:w-[260px] mx-auto border border-gray-300 dark:border-gray-700 h-16 rounded-lg mb-3 relative group overflow-hidden transition-all duration-500 hover:-translate-y-1 z-0 flex">
                             <div className="rounded-full h-8 w-8 mt-4 ml-4 bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400"></div>
                             <span className="absolute top-4 left-4 rounded-full bg-gradient-to-tr from-emerald-400 via-teal-400 to-cyan-400 h-8 w-8 z-10 transition-all duration-300 group-hover:scale-[20]"></span>
                             <Spinner size={24} className="absolute top-[20px] left-[20px] z-20 group-hover:text-black" />
-                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black">日本語を学ぶ</p>
+                            <p className="mt-[19px] ml-3 lg:ml-1 xl:ml-3 font-medium z-20 group-hover:text-black"> 思考中💭</p>
                         </div>
                     </div>
                     <div
@@ -92,13 +92,13 @@ export default function Home() {
                             href="/2022"
                         ></a>
                         <a href="/2022" className="mx-auto flex z-0 w-52 sm:w-48 lg:w-[65%] h-28 place-self-center bg-blue-200/50 dark:bg-red-600/50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md">
-                            <a className="ml-4 mt-4 font-bold">油墨儿使用手册</a>
+                            <a className="ml-4 mt-4 font-bold">油墨儿</a>
                         </a>
                     </div>
                     <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
                         <a className="bg-black-star dark:bg-white-star bg-cover w-72 h-72 lg:w-60 lg:h-60 xl:w-72 xl:h-72 mx-auto mt-0 lg:mt-4 xl:mt-0 ml-2 sm:ml-12 md:ml-12 lg:ml-2"></a>
-                        <div className="welcome text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-80 lg:top-72 xl:top-80 left-14 sm:left-14 md:left-16 lg:left-10 font-tiejili invisible dark:visible">不着陆</div>
-                        <div className="text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-48 lg:top-72 xl:top-80 left-14 md:left-7 lg:left-10 font-tiejili visible dark:invisible">不着陆</div>
+                        <div className="welcome text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-80 lg:top-72 xl:top-80 left-14 sm:left-14 md:left-16 lg:left-10 font-tiejili invisible dark:visible">我的歌单</div>
+                        <div className="text-4xl md:text-3xl lg:text-4xl text-black absolute top-80 md:top-48 lg:top-72 xl:top-80 left-14 md:left-7 lg:left-10 font-tiejili visible dark:invisible">我的歌单</div>
                         <div className="flex flex-row mt-0 md:mt-24 lg:mt-0 ml-5 md:ml-10 lg:ml-0">
                             <a
                                 className="w-9 h-9 border border-gray-300 dark:border-gray-700 rounded-full mt-28 sm:mt-28 md:mt-4 lg:mt-28 ml-9 md:ml-6 lg:ml-9"
@@ -107,7 +107,7 @@ export default function Home() {
                             </a>
                             <a 
                                 className="text-md font-semibold after:content-['↗'] border border-gray-300 dark:border-gray-700 px-3 py-1 ml-4 md:ml-6 lg:ml-4 mt-28 md:mt-4 lg:mt-28 w-fit rounded-full"
-                                href="https://buzhaolu.live/"
+                                href="https://y.music.163.com/m/user?id=108144524&dlt=0846&app_version=8.10.60"
                                 target="_blank"
                             >
                                 点击收听
@@ -115,7 +115,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full h-32 bg-white dark:bg-gradient-to-bl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 mt-0 lg:-mt-32">
-                        <YouTube videoId="SB3_m1jU-BU" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
+                        <YouTube videoId="IIYmtIQyg54" opts={opts} onReady={onPlayerReady} className="hidden absolute" />
                         <div className="player select-none">
                             <div className="overflow-hidden">
                                 <div className="flex">
@@ -132,7 +132,7 @@ export default function Home() {
                                         </div>
                                         <div className="h-28 w-28 p-4 mt-2 ml-2">
                                             <img className="h-20 w-20 rounded-md object-cover"
-                                                 src="https://s2.loli.net/2023/05/25/UHxPNrOYjSDc5Xn.png" alt="Music cover"/>
+                                                 src="https://s2.loli.net/2023/09/03/2Ip7Dh4tHEKxr3Q.webp" alt="Music cover"/>
                                         </div>
                                     </div>
                                     <div className="place-self-center -ml-2 pr-8 py-2 mt-1 px-3 z-10">
@@ -154,58 +154,17 @@ export default function Home() {
                                         )}
                                         <div className="flex flex-col">
                                             <div
-                                                className="block text-lg font-semibold leading-tight dark:text-white">缸
+                                                className="block text-lg font-semibold leading-tight dark:text-white">Think About You
                                             </div>
-                                            <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">草东没有派对</a>
+                                            <a className="mt-2 text-sm font-medium uppercase leading-3 tracking-wide text-gray-800 dark:text-gray-400">SAFIA</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-[320px] bg-white dark:bg-gradient-to-br dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-1 col-span-2 mt-0 md:-mt-32 flex">
-                        <a href="/stack" className="text-lg lg:text-2xl font-bold max-w-[220px] sm:max-w-[165px] md:max-w-[125px] lg:max-w-[250px] xl:max-w-[270px] leading-tight ml-6 md:ml-10 mt-48 md:mt-40 lg:mt-48 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-fuchsia-100 via-blue-600 to-green-700 dark:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] dark:from-yellow-200 dark:via-violet-100 dark:to-emerald-300 bg-clip-text text-transparent">
-                            这些工具帮我节省了大量的时间和经历，我希望它们也能帮到你。
-                        </a>
-                        <div className="ml-4 md:ml-10 lg:ml-14 mr-8 relative overflow-hidden w-64">
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-0">
-                                <img src="https://s2.loli.net/2023/07/10/MrfwTHyGoQ1DiXW.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-32 left-0">
-                                <img src="https://s2.loli.net/2023/07/10/vbdgaiTsjQLHpcU.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-56 left-0">
-                                <img src="https://s2.loli.net/2023/07/10/oeqLGhnHBCZlXWN.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute -top-4 left-24">
-                                <img src="https://s2.loli.net/2023/07/10/gkacHh4UX5e2VQB.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105 border dark:border-none rounded-full" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-20 left-24">
-                                <img src="https://s2.loli.net/2023/07/10/Qa6cMIokRHxezj2.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-44 left-24">
-                                <img src="https://s2.loli.net/2023/07/10/Zosl6NJc4xFS3bd.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-[272px] left-24">
-                                <img src="https://s2.loli.net/2023/07/10/XVvgAiJMyYhu1QG.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105 border dark:border-none rounded-full" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-8 left-48">
-                                <img src="https://s2.loli.net/2023/07/10/Frn3AR4HJNXjTIS.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-32 left-48">
-                                <img src="https://s2.loli.net/2023/07/10/hBHCYxm2u4pJ1dE.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                            <div className="w-16 h-16 border dark:border-gray-700 rounded-xl absolute top-56 left-48">
-                                <img src="https://s2.loli.net/2023/07/10/zScX15kGVARLjEt.png" className="w-10 h-10 absolute top-3 left-3 hover:scale-105" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-full h-48 bg-book-store bg-cover drop-shadow rounded-2xl row-span-1 relative">
-                        <p className="text-3xl md:text-xl lg:text-3xl text-gray-100 font-bold ml-6 lg:ml-10 mt-6 lg:mt-8">林中书店</p>
-                        <a href="https://involution-youth.netlify.app/" target="_blank" className="absolute top-6 right-6">
-                            <ArrowUpRight size={32} color="#bfbfbf" className="w-8 h-8 rounded-full hover:drop-shadow-sm hover:bg-gray-900 border border-gray-700 p-2" />
-                        </a>
-                    </div>
+                    
+                
                 </div>
             </motion.div>
         </motion.body>
@@ -262,7 +221,7 @@ export function BlurIn() {
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:jiaxinsusu@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             
              <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">
-                你也可以通过 <a href="/feed.xml" className="hover:underline">RSS</a> 方式来订阅我的博客。
+                你也可以通过 <a href="/feed.xml哭，还在准备中" className="hover:underline">RSS</a> 方式来订阅我的博客。
             </div>
             <diV className="flex items-center space-x-2 pb-4">
                

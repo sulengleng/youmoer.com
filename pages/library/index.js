@@ -6,11 +6,11 @@ export default function Home({ allPosts }) {
   return (
     <>
       <NextSeo
-        title="唱片库 - 油墨儿"
+        title="书 - 油墨儿"
         description="欢迎来到油墨儿的个人网站"
         openGraph={{
-          site_name: "唱片库 - 油墨儿",
-          title: "唱片库 - 油墨儿",
+          site_name: "书 - 油墨儿",
+          title: "书 - 油墨儿",
           description:
             "欢迎来到油墨儿的个人网站",
         }}

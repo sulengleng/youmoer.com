@@ -33,8 +33,8 @@ export default function Home() {
             ]
         }}
         twitter={{
-          handle: "@greyfomo",
-          site: "@greyfomo",
+          handle: "@2youmoer",
+          site: "@2youmoer",
           cardType: "summary_large_image",
         }}
       />

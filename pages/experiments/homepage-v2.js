@@ -96,7 +96,7 @@ export default function Home() {
                                          className="mt-4 mx-4 rounded-full h-12 w-12" alt="jike header"/>
                                     <div>
                                         <a className="mt-5 block text-base font-semibold leading-tight text-black dark:text-white">油墨儿</a>
-                                        <Link className="text-gray-600 dark:text-gray-300 text-xs" href="https://jike.city/yeyouchuan/">@greyfomo</Link>
+                                        <Link className="text-gray-600 dark:text-gray-300 text-xs" href="https://jike.city/yeyouchuan/">@2youmoer</Link>
                                     </div>
                                     <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
                                          className="w-8 h-8 rounded-full absolute top-2.5 right-2.5" alt="jike logo"/>

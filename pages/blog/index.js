@@ -7,16 +7,16 @@ export default function Blog({ allPosts }) {
     <>
       <NextSeo
         title="Blog - 油墨儿"
-        description="欢迎来到油墨儿的个人网站，我是学生、创造者、设计师"
+        description="欢迎来到油墨儿的个人网站"
         openGraph={{
           site_name: "Blog - 油墨儿",
           title: "Blog - 油墨儿",
           description:
-            "欢迎来到油墨儿的个人网站，我是学生、创造者、设计师",
+            "欢迎来到油墨儿的个人网站",
         }}
         twitter={{
-          handle: "@greyfomo",
-          site: "@greyfomo",
+          handle: "@2youmoer",
+          site: "@2youmoer",
           cardType: "summary_large_image",
         }}
       />

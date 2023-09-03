@@ -19,6 +19,7 @@ import {
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
+import { TwitterLogo, WechatLogo } from "@phosphor-icons/react";
 
 export default function Sidebar() {
   const { pathname } = useRouter();
@@ -37,6 +38,12 @@ export default function Sidebar() {
       url: "/blog",
       icon: <Note size={16} />,
       active: pathname.includes("/blog"),
+    },
+    {
+      title: "美学",
+      url: "/library",
+      icon: <Note size={16} />,
+      active: pathname.includes("/library"),
     },
     {
       title: "项目",
@@ -69,12 +76,6 @@ export default function Sidebar() {
       active: pathname.includes("/experiments"),
     },
     {
-      title: "旅行地图",
-      url: "/map",
-      icon: <Compass size={16} />,
-      active: pathname === "/map",
-    },
-    {
       title: "简历",
       url: "https://read.cv/youmoer",
       icon: <IdentificationCard size={16} />,
@@ -85,9 +86,15 @@ export default function Sidebar() {
 
   const SOCIAL = [
     {
-      title: "Github",
-      url: `https://github.com/yeyouchuan`,
-      icon: <GithubLogo size={16} />,
+      title: "Twitter",
+      url: `https://twitter.com/2youmoer`,
+      icon: <TwitterLogo size={16} />,
+      external: true,
+    },
+    {
+      title: "Wechat",
+      url: `https://s2.loli.net/2023/09/03/D3O1oP8xYXLGujh.jpg`,
+      icon: <WechatLogo size={16} />,
       external: true,
     },
   ];
