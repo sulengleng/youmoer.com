@@ -6,17 +6,17 @@ export default function Home({allPosts}) {
   return (
     <>
       <NextSeo
-        title="Work – 夜游船"
+        title="Work – 油墨儿"
         description="A list of my side-project"
         openGraph={{
-          site_name: "项目 – 夜游船",
-          title: "项目 – 夜游船",
+          site_name: "项目 – 油墨儿",
+          title: "项目 – 油墨儿",
           description:
             "A list of all my side-projects",
         }}
         twitter={{
-          handle: "@yeyouchuan",
-          site: "@yeyouchuan",
+          handle: "@greyfomo",
+          site: "@greyfomo",
           cardType: "summary_large_image",
         }}
       />

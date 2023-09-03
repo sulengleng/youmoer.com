@@ -14,16 +14,16 @@ export default function Post({ allPosts, post }) {
   return (
     <div className="flex w-full">
       <NextSeo
-        title={`${post.title} - 夜游船`}
+        title={`${post.title} - 油墨儿`}
         description={post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, '') || ""}
         openGraph={{
-          site_name: `${post.title} - 夜游船`,
-          title: `${post.title} - 夜游船`,
+          site_name: `${post.title} - 油墨儿`,
+          title: `${post.title} - 油墨儿`,
           description: post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, '') || "",
         }}
         twitter={{
-          handle: "@yeyouchuan",
-          site: "@yeyouchuan",
+          handle: "@greyfomo",
+          site: "@greyfomo",
           cardType: "summary_large_image",
         }}
       />

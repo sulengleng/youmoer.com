@@ -35,12 +35,12 @@ function MyApp({ Component, pageProps }) {
           <script async src="http://localhost:3000/script.js" data-website-id="c4b57bf6-10c2-49cd-96dd-a344fb44f619"></script>
         </Head>
         <DefaultSeo
-          title="你好，我是夜游船!"
+          title="你好，我是油墨儿!"
           description="一名还在路上创造者，喜欢创造有设计感的东西。"
           canonical={canonicalUrl}
           openGraph={{
-            site_name: "你好，我是夜游船!",
-            title: "你好，我是夜游船!",
+            site_name: "你好，我是油墨儿!",
+            title: "你好，我是油墨儿!",
             description:
               "一名还在路上创造者，喜欢创造有设计感的东西",
             images: [
@@ -53,8 +53,8 @@ function MyApp({ Component, pageProps }) {
             ],
           }}
           twitter={{
-            handle: "@yeyouchuan",
-            site: "@yeyouchuan",
+            handle: "@greyfomo",
+            site: "@greyfomo",
             cardType: "summary_large_image",
           }}
           additionalLinkTags={[

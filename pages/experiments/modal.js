@@ -61,7 +61,7 @@ export default function Modal() {
       title="Modal Component"
       description="An open-source modal component implementation for web apps made in Tailwind CSS and React"
       openGraph={{
-        site_name: "Hi, I'm 夜游船",
+        site_name: "Hi, I'm 油墨儿",
         title: "Modal Component",
         description:
           "An open-source modal component implementation for web apps made in Tailwind CSS and React",

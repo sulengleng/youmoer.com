@@ -17,11 +17,11 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="仿生人夜游船(2022批次)使用手册"
+        title="仿生人油墨儿(2022批次)使用手册"
         description="2022年度总结"
         openGraph={{
-          site_name: "仿生人夜游船(2022批次)使用手册",
-          title: "仿生人夜游船(2022批次)使用手册",
+          site_name: "仿生人油墨儿(2022批次)使用手册",
+          title: "仿生人油墨儿(2022批次)使用手册",
           description: "2022年度总结，新年快乐！",
           images: [
                 {
@@ -33,14 +33,14 @@ export default function Home() {
             ]
         }}
         twitter={{
-          handle: "@yeyouchuan",
-          site: "@yeyouchuan",
+          handle: "@greyfomo",
+          site: "@greyfomo",
           cardType: "summary_large_image",
         }}
       />
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] md:max-w-[1000px] mx-auto">
-        <h2 className="mb-12 mt-12 md:mx-36 text-3xl font-black md:text-4xl dark:text-white">仿生人夜游船(2022批次)使用手册</h2>
+        <h2 className="mb-12 mt-12 md:mx-36 text-3xl font-black md:text-4xl dark:text-white">仿生人油墨儿(2022批次)使用手册</h2>
 
           <ContentWrapper width="700px" className="ml-auto mb-4 sm:text-left">
               <h2 className="font-bold text-lg flex items-center">
@@ -532,8 +532,8 @@ export default function Home() {
                   <div className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-teal-400 blur-sm"></div>
                   <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-[#111111]"></div>
               </div>
-              <div className="absolute top-12 z-50 text-2xl font-bold text-white">夜游船渡口</div>
-              <div className="absolute top-24 z-50 text-white">夜游船的 newsletter，欢迎订阅和我交流</div>
+              <div className="absolute top-12 z-50 text-2xl font-bold text-white">油墨儿渡口</div>
+              <div className="absolute top-24 z-50 text-white">油墨儿的 newsletter，欢迎订阅和我交流</div>
               <a className="absolute top-44 z-50 h-9 w-16 cursor-pointer rounded-xl border bg-white bg-opacity-50 bg-clip-padding pt-1 text-center font-medium text-gray-200 backdrop-blur"
                  href="https://yeyouchuan.zhubai.love/"
                  target="_blank"

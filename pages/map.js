@@ -14,8 +14,8 @@ export default function Home() {
             "I've created this page to visualize all the locations I've been so far.",
         }}
         twitter={{
-          handle: "@yeyouchuan",
-          site: "@yeyouchuan",
+          handle: "@greyfomo",
+          site: "@greyfomo",
           cardType: "summary_large_image",
         }}
       />

@@ -6,17 +6,17 @@ export default function Home({ allPosts }) {
   return (
     <>
       <NextSeo
-        title="唱片库 - 夜游船"
-        description="欢迎来到夜游船的个人网站，我是学生、创造者、设计师"
+        title="唱片库 - 油墨儿"
+        description="欢迎来到油墨儿的个人网站，我是学生、创造者、设计师"
         openGraph={{
-          site_name: "唱片库 - 夜游船",
-          title: "唱片库 - 夜游船",
+          site_name: "唱片库 - 油墨儿",
+          title: "唱片库 - 油墨儿",
           description:
-            "欢迎来到夜游船的个人网站，我是学生、创造者、设计师",
+            "欢迎来到油墨儿的个人网站，我是学生、创造者、设计师",
         }}
         twitter={{
-          handle: "@yeyouchuan",
-          site: "@yeyouchuan",
+          handle: "@greyfomo",
+          site: "@greyfomo",
           cardType: "summary_large_image",
         }}
       />

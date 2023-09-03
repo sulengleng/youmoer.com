@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vol.2 夜游船渡口"
+title: "Vol.2 油墨儿渡口"
 date: 2021-12-01 20:00:00 +0000
 categories: newsletter
 type: link

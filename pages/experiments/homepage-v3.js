@@ -44,17 +44,17 @@ export default function Home() {
     return (
         <motion.body className="select-none">
             <NextSeo
-                title="你好，我是夜游船！"
-                description="欢迎来到夜游船的个人网站，我是学生、创造者、设计师"
+                title="你好，我是油墨儿！"
+                description="欢迎来到油墨儿的个人网站，我是学生、创造者、设计师"
                 openGraph={{
-                    site_name: "你好，我是夜游船！",
-                    title: "你好，我是夜游船！",
+                    site_name: "你好，我是油墨儿！",
+                    title: "你好，我是油墨儿！",
                     description:
-                        "欢迎来到夜游船的个人网站，我是学生、创造者、设计师",
+                        "欢迎来到油墨儿的个人网站，我是学生、创造者、设计师",
                 }}
                 twitter={{
-                    handle: "@yeyouchuan",
-                    site: "@yeyouchuan",
+                    handle: "@greyfomo",
+                    site: "@greyfomo",
                     cardType: "summary_large_image",
                 }}
             />
@@ -77,12 +77,12 @@ export default function Home() {
                                    href="https://jike.city/yeyouchuan/"
                                    target="_blank"
                                 >
-                                    夜游船</a>
+                                    油墨儿</a>
                                 <a className="text-xs text-gray-600 dark:text-gray-300"
                                    href="https://jike.city/yeyouchuan/"
                                    target="_blank"
                                 >
-                                    @yeyouchuan</a>
+                                    @greyfomo</a>
                             </div>
                             <img src="https://s2.loli.net/2023/01/03/uCdbKpVMUs2vw17.png"
                                  className="absolute top-3 right-3 h-8 w-8 rounded-full" alt="jike logo"/>

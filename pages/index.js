@@ -92,7 +92,7 @@ export default function Home() {
                             href="/2022"
                         ></a>
                         <a href="/2022" className="mx-auto flex z-0 w-52 sm:w-48 lg:w-[65%] h-28 place-self-center bg-blue-200/50 dark:bg-red-600/50 rounded-lg group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:rotate-3 duration-300 shadow-lg dark:shadow-md">
-                            <a className="ml-4 mt-4 font-bold">夜游船使用手册</a>
+                            <a className="ml-4 mt-4 font-bold">油墨儿使用手册</a>
                         </a>
                     </div>
                     <div className="w-full h-[460px] dark:bg-gradient-to-tl dark:from-black dark:to-[#131414] border dark:border-none border-gray-100 drop-shadow rounded-2xl row-span-2 flex flex-col relative">
@@ -252,48 +252,20 @@ export function BlurIn() {
             variants={variants1}
             className="font-display text-md font-normal tracking-[-0.02em] drop-shadow-sm mt-4 md:mt-0 flex flex-col space-y-2"
         >
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">-</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我是一名品牌设计师，</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我目前住在中国杭州，有机会可以一起认识下；如果你离我比较远，我们也可以交个朋友，说不定有一天我会出现在你的城市。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">欢迎👏来到油墨儿的博客</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我是一名品牌设计师，来自中国北方的汉子，平时比较喜欢逛博物馆，对于老物件儿，中国文化和艺术品感兴趣。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">目前住在中国杭州，有机会可以一起认识下；如果你离我比较远，我们也可以交个朋友，说不定有一天我会出现在你的城市。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">音乐🎵是万万缺不了的，喜欢的风格比较多，电子/器乐/Pop/。 <a href="/music" className="hover:underline text-red-600">唱片库</a> 里会随缘插入我喜欢或者最近有感触的歌。欢迎收听。</div>
+    
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">有时间就会阅读，把ta当做功利目的工具，或者陶冶自己悦己都可以，你可以在 <a href="/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://okjk.co/bZhgzN" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/2youmoer" target="_blank" className="hover:underline text-blue-500"> X (Twitter) </a> 上找到我。请随时找我，我看到了就会回复 :）</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:jiaxinsusu@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             
-            <div className="flex items-center space-x-2 pb-4">
-                <img 
-                    src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
-                    alt="头像" 
-                    className="w-7 h-7 rounded-full"
-                >
-                </img>
-                <p className="text-[15px] text-gray-500 dark:text-gray-300">3m ago</p>
-            </div>
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我喜欢看漫画和动漫，对独立摇滚也感兴趣。我的 <a href="/music" className="hover:underline text-red-600">唱片库</a> 里会有一些我听过的专辑，但是写的比较慢。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">平时打羽毛球的频率大概是一周三次，排球、网球也偶尔会玩。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">我也喜欢读科幻小说，不过平时我在互联网阅读的文章你可以在 <a href="/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://m.okjike.com/users/E590A8B2-6A76-455D-BCA7-199A5AE43C7E" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/yeyouchuan/" target="_blank" className="hover:underline text-blue-500">X (Twitter)</a> 上找到我。请随时找我，我看到了就会回复 :）</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:yeyouchuan@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
-            <diV className="flex items-center space-x-2 pb-4">
-                <img 
-                    src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
-                    alt="头像" 
-                    className="w-7 h-7 rounded-full"
-                >
-                </img>
-                <p className="text-[15px] text-gray-500 dark:text-gray-300">1m ago</p>
-            </diV>
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">下面是我最新的一篇博客：</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit hover:translate-x-1 duration-300">
-                <a href="/blog/apple-vision-pro" className="underline">在苹果头显发布后做一些笔记</a>
-            </div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">
-                你可以通过 <a href="https://yeyouchuan.zhubai.love" className="hover:underline">Newsletter</a> 和 <a href="/feed.xml" className="hover:underline">RSS</a> 两种方式来订阅我的博客。
+             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">
+                你也可以通过 <a href="/feed.xml" className="hover:underline">RSS</a> 方式来订阅我的博客。
             </div>
             <diV className="flex items-center space-x-2 pb-4">
-                <img 
-                    src="https://s2.loli.net/2023/07/07/Fgcf35yDCpM9vxL.png" 
-                    alt="头像" 
-                    className="w-7 h-7 rounded-full"
-                >
-                </img>
-                <p className="text-[15px] text-gray-500 dark:text-gray-300">now</p>
+               
             </diV>
         </motion.div>
     );

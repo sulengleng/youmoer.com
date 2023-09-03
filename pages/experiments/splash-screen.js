@@ -70,7 +70,7 @@ export default function Splash() {
         title="Splash Screen"
         description="An open-source splash screen implementation for web apps made in Tailwind CSS and React"
         openGraph={{
-          site_name: "Hi, I'm 夜游船",
+          site_name: "Hi, I'm 油墨儿",
           title: "Splash Screen Implementation on Web",
           description: "An open-source splash screen implementation for web apps made in Tailwind CSS and React.",
         }}

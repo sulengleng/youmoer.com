@@ -13,24 +13,24 @@ export default function Post({ allPosts, post, morePosts, preview }) {
   return (
     <div className="flex w-full">
       <NextSeo
-        title={`${post.title} - 夜游船`}
+        title={`${post.title} - 油墨儿`}
         description={post.excerpt || post.content.slice(0, 200) || ""}
         openGraph={{
-          site_name: `${post.title} - 夜游船`,
-          title: `${post.title} - 夜游船`,
+          site_name: `${post.title} - 油墨儿`,
+          title: `${post.title} - 油墨儿`,
           description: post.excerpt || post.content.slice(0, 200) || "",
           images: [
             {
               url: post.ogImage ?? "https://s2.loli.net/2023/07/10/5qA2rgZ6WXT3Czc.png",
               width: 800,
               height: 600,
-              alt: "夜游船 for Twitter",
+              alt: "油墨儿 for Twitter",
             },
           ],
         }}
         twitter={{
-          handle: "@yeyouchuan",
-          site: "@yeyouchuan",
+          handle: "@greyfomo",
+          site: "@greyfomo",
           cardType: "summary_large_image",
         }}
       />

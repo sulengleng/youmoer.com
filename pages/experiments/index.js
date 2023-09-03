@@ -79,11 +79,11 @@ export default function Experiments() {
 
   return <>
     <NextSeo
-      title="设计和代码实验室 - 夜游船"
+      title="设计和代码实验室 - 油墨儿"
       description="A collection of design and code experiments, a college where student are ideas. Would the ideas graduate? Let's find out!"
       openGraph={{
-        site_name: "Hi, 我是夜游船！",
-        title: "设计和代码实验室 - 夜游船",
+        site_name: "Hi, 我是油墨儿！",
+        title: "设计和代码实验室 - 油墨儿",
         description:
           "A collection of design and code experiments, a college where student are ideas. Would the ideas graduate? Let's find out!",
       }}

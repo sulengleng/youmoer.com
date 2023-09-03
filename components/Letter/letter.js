@@ -39,7 +39,7 @@ export const Letter = () => {
                             <p className="text-gray-500 mt-2">见信好， </p>
                             <br/>
                             <p className="text-gray-500 max-w-sm">
-                                我是夜游船，暂时是国际高中的一名学生
+                                我是油墨儿，暂时是国际高中的一名学生
                                 <br/>
                                 专业方向是交互设计
                                 <br/>

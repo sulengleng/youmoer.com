@@ -83,7 +83,7 @@ export default function Home() {
                 <span className="text-gray-400 dark:text-gray-400">
                   Hi 👋, 我是{" "}
                 </span>
-                            <RoughNotation type="highlight" show={true} color="#ffc72e" animationDuration={1500}>夜游船!</RoughNotation>
+                            <RoughNotation type="highlight" show={true} color="#ffc72e" animationDuration={1500}>油墨儿!</RoughNotation>
                         </h2>
                         <div className="">
                             <ul className="" width="700px">
@@ -101,7 +101,7 @@ export default function Home() {
                                         target="_blank"
                                         className=" dark:text-yellow-100 hover:text-[#ffe411] dark:hover:text-[#ffe411]"
                                     >
-                                        @夜游船
+                                        @油墨儿
                                     </Link>
                                 </p>
                                 <br />

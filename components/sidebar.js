@@ -69,14 +69,14 @@ export default function Sidebar() {
       active: pathname.includes("/experiments"),
     },
     {
-      title: "旅行车",
+      title: "旅行地图",
       url: "/map",
       icon: <Compass size={16} />,
       active: pathname === "/map",
     },
     {
       title: "简历",
-      url: "https://qiyue.read.cv",
+      url: "https://read.cv/youmoer",
       icon: <IdentificationCard size={16} />,
       active: false,
       external: true,
