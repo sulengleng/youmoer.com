@@ -52,7 +52,7 @@ export default function PostContent({ post, slug }) {
           lang="zh-cn"
           attrs={{
             host: 'https://cusdis.com',
-            appId: '5d04858e-b827-4954-8481-688d0d892101',
+            appId: '3937f107-405b-468a-8763-c001d7be1939',
             pageId: {slug},
             pageTitle: '{post.title}',
             pageUrl: '{post.link}',
