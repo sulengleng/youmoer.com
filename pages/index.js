@@ -212,12 +212,12 @@ export function BlurIn() {
             className="font-display text-md font-normal tracking-[-0.02em] drop-shadow-sm mt-4 md:mt-0 flex flex-col space-y-2"
         >
             <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit">欢迎👏来到油墨儿的博客</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我是一名品牌设计师，来自中国北方的汉子，平时比较喜欢逛博物馆，对于老物件儿，中国文化和艺术品感兴趣。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">目前住在中国杭州，有机会可以一起认识下；如果你离我比较远，我们也可以交个朋友，说不定有一天我会出现在你的城市。</div>
-            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">音乐🎵是万万缺不了的，喜欢的风格比较多，电子/器乐/Pop/。 <a href="/music" className="hover:underline text-red-600">唱片库</a> 里会随缘插入我喜欢或者最近有感触的歌。欢迎收听。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">我是一名品牌设计师，平时比较喜欢逛博物馆，对于老物件儿，中国文化和艺术品感兴趣。我在 <a href="https://www.xiaohongshu.com/user/profile/5b31d7b4e8ac2b116f227bdc?xhsshare=CopyLink&appuid=5b31d7b4e8ac2b116f227bdc&apptime=1694014842" target="_blank" className="hover:underline text-red-500"> 小红书 </a>做了美学相关的内容，欢迎关注。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">目前住在中国杭州，有机会可以一起认识下。</div>
+            <div className="p-2 rounded-t-xl rounded-bl-md rounded-br-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">音乐 🎵 是万万缺不了的，我喜欢的风格比较多，电子/器乐/Pop/。 <a href="/music" className="hover:underline text-red-600">唱片库</a> 里会随缘插入我喜欢或者最近有感触的歌，欢迎收听。</div>
     
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">有时间就会阅读，把ta当做功利目的工具，或者陶冶自己悦己都可以，你可以在 <a href="/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
-            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://okjk.co/bZhgzN" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/2youmoer" target="_blank" className="hover:underline text-blue-500"> X (Twitter) </a> 上找到我。请随时找我，我看到了就会回复 :）</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit max-w-[565px]">有时间就会阅读，把ta当做工具，或者悦己都可以，你可以在 <a href="/reading" className="hover:underline text-emerald-500">阅读</a> 页面找到。</div>
+            <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">你可以在 <a href="https://okjk.co/bZhgzN" target="_blank" className="hover:underline text-yellow-300">即刻</a> 和 <a href="https://twitter.com/2youmoer" target="_blank" className="hover:underline text-blue-500"> X (Twitter) </a> 上找到我。</div>
             <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">当然，你也可以通过 <a href="mailto:jiaxinsusu@gmail.com" target="_blank" className="hover:underline text-indigo-500">邮件</a> 联系我，我几乎每天都查看收件箱。</div>
             
              <div className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 w-fit">
